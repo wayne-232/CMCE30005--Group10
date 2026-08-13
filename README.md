@@ -1,9 +1,9 @@
 # CMCE30005 Business Analytics Challenge
-## [Your Team Name] - [Your Dataset Name]
+## Group 10 - Business Establishment Melbourne
 
 **Subject:** CMCE30005 Business Analytics Challenge, Semester 2 2026
 **University:** University of Melbourne
-**Team Members:** [Name 1], [Name 2], [Name 3], [Name 4]
+**Team Members:** Angelyne Leang, Wayne Cao, Yixi Wang, Megan Suprapto
 
 ---
 
