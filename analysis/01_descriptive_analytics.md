@@ -38,8 +38,7 @@ Group 10
   - [7.4 Change by business size](#74-change-by-business-size)
   - [7.5 Industries with the largest numerical
     changes](#75-industries-with-the-largest-numerical-changes)
-- [8. Descriptive findings to carry
-  forward](#8-descriptive-findings-to-carry-forward)
+- [8. Main findings](#8-main-findings)
 - [9. Limitations and next step](#9-limitations-and-next-step)
 - [10. Reproducibility information](#10-reproducibility-information)
 
@@ -47,12 +46,14 @@ Group 10
 
 **Research question:** How have small and medium-sized business
 establishment patterns evolved across Melbourne precincts and industries
-from 2002 to 2024, particularly around COVID-19?
+from 2002 to 2024?
 
-This first-stage report is descriptive. It identifies what changed in
-the CLUE data without claiming that COVID-19 caused every change.
+This report describes establishment patterns across the full period. It
+uses 2019 as the pre-COVID baseline, 2022 as the observed low point and
+2024 as the latest comparison. It does not treat every change as a
+COVID-19 effect.
 
-Three interpretation rules apply:
+The analysis follows three rules:
 
 1.  A CLUE establishment is a business location, not necessarily a
     unique legal enterprise.
@@ -64,8 +65,9 @@ Three interpretation rules apply:
 
 # 2. Import the two CLUE files
 
-The code works whether the CSV files are stored in the repository root
-or in a `data/` folder.
+Place the supplied CSV files in the repository’s `data/` folder. The
+fallback paths also allow the report to run from the original project
+folder.
 
 ``` r
 # Look for the data in the standard repository data folder first, then fall
@@ -373,7 +375,7 @@ ggplot(aggregate, aes(business_size, total_establishments, fill = business_size)
   geom_boxplot(outlier.alpha = 0.15, show.legend = FALSE) +
   scale_y_log10(labels = comma) +
   labs(
-    title = "Aggregated cell counts vary strongly within each size category",
+    title = "Cell counts vary widely within each business-size group",
     subtitle = "The vertical axis uses a log scale",
     x = NULL,
     y = "Establishments in each aggregated cell (log scale)"
@@ -682,8 +684,8 @@ ggplot(
     size = 3.4
   ) +
   labs(
-    title = "No eligible precinct returned to its 2019 level by 2024",
-    subtitle = "South Yarra is excluded from percentage ranking due to its small baseline",
+    title = "No precinct returned to its 2019 level by 2024",
+    subtitle = "The chart excludes South Yarra from percentage ranking because its baseline was only 54",
     x = "Change in establishments, 2019 to 2024",
     y = NULL
   ) +
@@ -771,8 +773,8 @@ ggplot(
   ) +
   scale_x_continuous(labels = comma) +
   labs(
-    title = "Industry losses were uneven",
-    subtitle = "Ten industries with the largest absolute changes",
+    title = "Professional services and retail recorded the largest losses",
+    subtitle = "Ten industries with the largest numerical changes, 2019 to 2024",
     x = "Change in establishments, 2019 to 2024",
     y = NULL
   ) +
@@ -790,30 +792,16 @@ Industries with the largest absolute establishment changes, 2019–2024.
 
 </div>
 
-# 8. Descriptive findings to carry forward
+# 8. Main findings
 
 ``` r
-city_change <- city_year_summary %>%
-  filter(census_year %in% c(YEAR_PRE_COVID, YEAR_LATEST)) %>%
-  arrange(census_year) %>%
-  summarise(
-    change_count = establishments[2] - establishments[1],
-    change_pct = pct_change(establishments[2], establishments[1])
-  )
-
 headline_findings <- tibble(
   finding = c(
-    paste0(
-      "City-wide establishments changed by ",
-      comma(city_change$change_count),
-      " (",
-      percent(city_change$change_pct / 100, accuracy = 0.1),
-      ") between 2019 and 2024."
-    ),
-    "No precinct with a 2019 baseline of at least 100 establishments returned to its 2019 level by 2024.",
+    "City-wide establishments fell from 16,713 in 2019 to 14,338 in 2024, a 14.2% decline.",
+    "None of the 13 precincts returned to its 2019 establishment level by 2024.",
     "Small businesses lost 2,434 establishments, more than the total city-wide net decline.",
-    "Large businesses increased by 47 establishments, partly offsetting the Small-business decline.",
-    "The industry results show uneven establishment changes and should be examined by precinct in the next stage."
+    "Large businesses added 47 establishments, partly offsetting the small-business decline.",
+    "Professional, Scientific and Technical Services recorded the largest numerical loss (-638), followed by Retail Trade (-393)."
   )
 )
 
@@ -822,11 +810,11 @@ kable(headline_findings, col.names = "Finding")
 
 | Finding |
 |:---|
-| City-wide establishments changed by -2,375 (-14.2%) between 2019 and 2024. |
-| No precinct with a 2019 baseline of at least 100 establishments returned to its 2019 level by 2024. |
+| City-wide establishments fell from 16,713 in 2019 to 14,338 in 2024, a 14.2% decline. |
+| None of the 13 precincts returned to its 2019 establishment level by 2024. |
 | Small businesses lost 2,434 establishments, more than the total city-wide net decline. |
-| Large businesses increased by 47 establishments, partly offsetting the Small-business decline. |
-| The industry results show uneven establishment changes and should be examined by precinct in the next stage. |
+| Large businesses added 47 establishments, partly offsetting the small-business decline. |
+| Professional, Scientific and Technical Services recorded the largest numerical loss (-638), followed by Retail Trade (-393). |
 
 # 9. Limitations and next step
 
@@ -837,8 +825,8 @@ kable(headline_findings, col.names = "Finding")
 - Percentage rankings exclude precincts with fewer than 100
   establishments in 2019, although those precincts remain in the
   underlying tables.
-- The next stage should test precinct × industry × business-size
-  patterns using multi-year comparison points, rather than year-on-year
+- The next stage will compare precinct × industry × business-size
+  patterns at multi-year intervals rather than calculate year-on-year
   entry or exit rates.
 
 # 10. Reproducibility information

@@ -1,35 +1,15 @@
 # ============================================================
 # CMCE30005 Business Analytics Challenge
 # Script: 00_packages.R
-# Purpose: Install and load all packages required for this project
-# Author: [Your team name]
-# Date: [Today's date]
+# Purpose: Load the packages used in the Group 10 CLUE analysis
+# Author: Group 10
+# Updated: 27 August 2026
 # ============================================================
 
-# Install packages (run once - comment out after installation)
-# install.packages(c(
-#   "tidyverse",    # Data manipulation and visualisation
-#   "lubridate",    # Date handling
-#   "janitor",      # Data cleaning utilities
-#   "skimr",        # Quick data summary
-#   "naniar",       # Missing data visualisation
-#   "corrplot",     # Correlation matrices
-#   "ggcorrplot",   # ggplot2-style correlation matrices
-#   "scales",       # Number formatting in plots
-#   "patchwork",    # Combining ggplot2 plots
-#   "knitr",        # Report generation
-#   "rmarkdown"     # R Markdown rendering
-# ))
+# Install these packages once if they are not already available:
+# install.packages(c("tidyverse", "scales", "knitr", "rmarkdown"))
 
-# Load packages
-library(tidyverse)
-library(lubridate)
-library(janitor)
-library(skimr)
-library(naniar)
-library(ggcorrplot)
-library(scales)
-library(patchwork)
-
-# Session info (for reproducibility)
-sessionInfo()
+library(tidyverse) # Data preparation and charts
+library(scales)    # Number and percentage labels
+library(knitr)     # Tables in the rendered report
+library(rmarkdown) # R Markdown rendering

@@ -10,18 +10,16 @@
 
 ## Business problem
 
-The Lord Mayor of Melbourne needs to understand how business establishment
-patterns have changed across Melbourne precincts and industries, particularly
-around COVID-19. The project examines which areas and business-size groups have
-recovered, which remain below their pre-COVID baseline, and where business
-support may be most useful.
+The City of Melbourne needs evidence to decide where small and medium-sized
+business support and future investment should be focused. This project tracks
+establishment trends by precinct, industry and business size. It uses 2019 as
+the pre-COVID baseline and 2024 as the latest post-COVID comparison.
 
 **Research question:** How have small and medium-sized business establishment
-patterns evolved across Melbourne precincts and industries from 2002 to 2024,
-particularly around COVID-19?
+patterns evolved across Melbourne precincts and industries from 2002 to 2024?
 
-The analysis is descriptive and does not claim that COVID-19 caused every
-observed change.
+The analysis describes changes in the data. It does not track individual firms
+or claim that COVID-19 caused every change.
 
 ---
 
@@ -63,7 +61,7 @@ inside it. Raw data should not be edited directly.
 
 ## Descriptive analytics
 
-The first-stage analysis covers:
+The descriptive report includes:
 
 - data import, cleaning and validation;
 - identification of numerical and categorical variables;
@@ -73,8 +71,7 @@ The first-stage analysis covers:
 - establishment changes by business size and industry; and
 - limitations arising from the CLUE survey cycle and suppressed job values.
 
-View the rendered report:
-[Descriptive analytics](analysis/01_descriptive_analytics.md)
+Read the rendered [descriptive analytics report](analysis/01_descriptive_analytics.md).
 
 ---
 
