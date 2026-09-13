@@ -1,0 +1,224 @@
+precinct,industry,n_pre,n_recovery_start,n_latest,gap_count,gap_pct,recovery_count,recovery_pct,small_pre_base,small_recovery_base,gap_pct_display,recovery_pct_display,recovery_status
+Carlton,Accommodation and Food Services,284,300,322,38,13.380281690140846,22,7.333333333333333,FALSE,FALSE,13.380281690140846,7.333333333333333,At or above 2019
+Carlton,Administrative and Support Services,24,13,9,-15,-62.5,-4,-30.76923076923077,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Carlton,Arts and Recreation Services,45,40,48,3,6.666666666666667,8,20,TRUE,TRUE,NA,NA,At or above 2019
+Carlton,Construction,17,10,10,-7,-41.1764705882353,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+Carlton,Education and Training,87,79,81,-6,-6.896551724137931,2,2.5316455696202533,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+Carlton,"Electricity, Gas, Water and Waste Services",11,14,15,4,36.36363636363637,1,7.142857142857143,TRUE,TRUE,NA,NA,At or above 2019
+Carlton,Financial and Insurance Services,31,17,21,-10,-32.25806451612903,4,23.529411764705884,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+Carlton,Health Care and Social Assistance,111,85,104,-7,-6.306306306306307,19,22.352941176470587,FALSE,TRUE,-6.306306306306307,NA,Below 2019; increasing since 2022
+Carlton,Information Media and Telecommunications,21,11,14,-7,-33.333333333333336,3,27.272727272727273,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+Carlton,Manufacturing,22,20,22,0,0,2,10,TRUE,TRUE,NA,NA,At or above 2019
+Carlton,Other Services,126,110,117,-9,-7.142857142857143,7,6.363636363636363,FALSE,FALSE,-7.142857142857143,6.363636363636363,Below 2019; increasing since 2022
+Carlton,"Professional, Scientific and Technical Services",146,96,100,-46,-31.506849315068493,4,4.166666666666667,FALSE,TRUE,-31.506849315068493,NA,Below 2019; increasing since 2022
+Carlton,Public Administration and Safety,12,6,7,-5,-41.666666666666664,1,16.666666666666668,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+Carlton,"Rental, Hiring and Real Estate Services",29,17,17,-12,-41.37931034482759,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+Carlton,Retail Trade,124,101,109,-15,-12.096774193548388,8,7.920792079207921,FALSE,FALSE,-12.096774193548388,7.920792079207921,Below 2019; increasing since 2022
+Carlton,"Transport, Postal and Warehousing",4,2,3,-1,-25,1,50,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+Carlton,Wholesale Trade,16,11,10,-6,-37.5,-1,-9.090909090909092,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Docklands,Accommodation and Food Services,281,267,249,-32,-11.387900355871887,-18,-6.741573033707865,FALSE,FALSE,-11.387900355871887,-6.741573033707865,Below 2019; decreasing since 2022
+Docklands,Administrative and Support Services,39,20,19,-20,-51.282051282051285,-1,-5,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Docklands,"Agriculture, Forestry and Fishing",2,2,2,0,0,0,0,TRUE,TRUE,NA,NA,At or above 2019
+Docklands,Arts and Recreation Services,54,56,55,1,1.8518518518518519,-1,-1.7857142857142858,TRUE,TRUE,NA,NA,At or above 2019
+Docklands,Construction,22,14,18,-4,-18.181818181818183,4,28.571428571428573,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+Docklands,Education and Training,17,23,28,11,64.70588235294117,5,21.73913043478261,TRUE,TRUE,NA,NA,At or above 2019
+Docklands,"Electricity, Gas, Water and Waste Services",12,11,9,-3,-25,-2,-18.181818181818183,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Docklands,Financial and Insurance Services,46,32,25,-21,-45.65217391304348,-7,-21.875,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Docklands,Health Care and Social Assistance,39,36,40,1,2.5641025641025643,4,11.11111111111111,TRUE,TRUE,NA,NA,At or above 2019
+Docklands,Information Media and Telecommunications,20,21,23,3,15,2,9.523809523809524,TRUE,TRUE,NA,NA,At or above 2019
+Docklands,Manufacturing,18,16,16,-2,-11.11111111111111,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+Docklands,Other Services,89,63,75,-14,-15.730337078651685,12,19.047619047619047,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+Docklands,"Professional, Scientific and Technical Services",172,138,143,-29,-16.86046511627907,5,3.6231884057971016,FALSE,FALSE,-16.86046511627907,3.6231884057971016,Below 2019; increasing since 2022
+Docklands,Public Administration and Safety,19,17,16,-3,-15.789473684210526,-1,-5.882352941176471,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Docklands,"Rental, Hiring and Real Estate Services",66,55,68,2,3.0303030303030303,13,23.636363636363637,TRUE,TRUE,NA,NA,At or above 2019
+Docklands,Retail Trade,199,147,161,-38,-19.09547738693467,14,9.523809523809524,FALSE,FALSE,-19.09547738693467,9.523809523809524,Below 2019; increasing since 2022
+Docklands,"Transport, Postal and Warehousing",38,28,27,-11,-28.94736842105263,-1,-3.5714285714285716,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Docklands,Wholesale Trade,23,14,18,-5,-21.73913043478261,4,28.571428571428573,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+East Melbourne,Accommodation and Food Services,69,57,54,-15,-21.73913043478261,-3,-5.2631578947368425,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+East Melbourne,Administrative and Support Services,14,4,7,-7,-50,3,75,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+East Melbourne,Arts and Recreation Services,39,38,35,-4,-10.256410256410257,-3,-7.894736842105263,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+East Melbourne,Construction,8,5,5,-3,-37.5,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+East Melbourne,Education and Training,10,7,3,-7,-70,-4,-57.142857142857146,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+East Melbourne,"Electricity, Gas, Water and Waste Services",6,7,8,2,33.333333333333336,1,14.285714285714286,TRUE,TRUE,NA,NA,At or above 2019
+East Melbourne,Financial and Insurance Services,14,13,9,-5,-35.714285714285715,-4,-30.76923076923077,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+East Melbourne,Health Care and Social Assistance,237,206,216,-21,-8.860759493670885,10,4.854368932038835,FALSE,FALSE,-8.860759493670885,4.854368932038835,Below 2019; increasing since 2022
+East Melbourne,Information Media and Telecommunications,6,5,4,-2,-33.333333333333336,-1,-20,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+East Melbourne,Manufacturing,3,NA,NA,NA,NA,NA,NA,TRUE,FALSE,NA,NA,Not comparable
+East Melbourne,Mining,1,1,NA,NA,NA,NA,NA,TRUE,TRUE,NA,NA,Not comparable
+East Melbourne,Other Services,51,44,43,-8,-15.686274509803921,-1,-2.272727272727273,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+East Melbourne,"Professional, Scientific and Technical Services",75,40,40,-35,-46.666666666666664,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+East Melbourne,Public Administration and Safety,13,16,15,2,15.384615384615385,-1,-6.25,TRUE,TRUE,NA,NA,At or above 2019
+East Melbourne,"Rental, Hiring and Real Estate Services",7,6,7,0,0,1,16.666666666666668,TRUE,TRUE,NA,NA,At or above 2019
+East Melbourne,Retail Trade,13,12,14,1,7.6923076923076925,2,16.666666666666668,TRUE,TRUE,NA,NA,At or above 2019
+East Melbourne,"Transport, Postal and Warehousing",3,4,4,1,33.333333333333336,0,0,TRUE,TRUE,NA,NA,At or above 2019
+East Melbourne,Wholesale Trade,6,2,2,-4,-66.66666666666667,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+Kensington,Accommodation and Food Services,51,54,56,5,9.803921568627452,2,3.7037037037037037,TRUE,TRUE,NA,NA,At or above 2019
+Kensington,Administrative and Support Services,9,6,7,-2,-22.22222222222222,1,16.666666666666668,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+Kensington,"Agriculture, Forestry and Fishing",2,1,1,-1,-50,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+Kensington,Arts and Recreation Services,89,88,87,-2,-2.247191011235955,-1,-1.1363636363636365,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Kensington,Construction,22,22,27,5,22.727272727272727,5,22.727272727272727,TRUE,TRUE,NA,NA,At or above 2019
+Kensington,Education and Training,9,10,11,2,22.22222222222222,1,10,TRUE,TRUE,NA,NA,At or above 2019
+Kensington,"Electricity, Gas, Water and Waste Services",8,8,8,0,0,0,0,TRUE,TRUE,NA,NA,At or above 2019
+Kensington,Financial and Insurance Services,2,1,2,0,0,1,100,TRUE,TRUE,NA,NA,At or above 2019
+Kensington,Health Care and Social Assistance,25,25,29,4,16,4,16,TRUE,TRUE,NA,NA,At or above 2019
+Kensington,Information Media and Telecommunications,8,7,5,-3,-37.5,-2,-28.571428571428573,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Kensington,Manufacturing,43,33,32,-11,-25.58139534883721,-1,-3.0303030303030303,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Kensington,Other Services,41,42,37,-4,-9.75609756097561,-5,-11.904761904761905,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Kensington,"Professional, Scientific and Technical Services",37,31,36,-1,-2.7027027027027026,5,16.129032258064516,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+Kensington,Public Administration and Safety,5,5,4,-1,-20,-1,-20,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Kensington,"Rental, Hiring and Real Estate Services",14,14,13,-1,-7.142857142857143,-1,-7.142857142857143,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Kensington,Retail Trade,31,28,36,5,16.129032258064516,8,28.571428571428573,TRUE,TRUE,NA,NA,At or above 2019
+Kensington,"Transport, Postal and Warehousing",17,11,8,-9,-52.94117647058823,-3,-27.272727272727273,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Kensington,Wholesale Trade,30,28,27,-3,-10,-1,-3.5714285714285716,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Melbourne (CBD),Accommodation and Food Services,1837,1587,1758,-79,-4.3004899292324446,171,10.775047258979207,FALSE,FALSE,-4.3004899292324446,10.775047258979207,Below 2019; increasing since 2022
+Melbourne (CBD),Administrative and Support Services,381,246,221,-160,-41.99475065616798,-25,-10.16260162601626,FALSE,FALSE,-41.99475065616798,-10.16260162601626,Below 2019; decreasing since 2022
+Melbourne (CBD),"Agriculture, Forestry and Fishing",8,4,3,-5,-62.5,-1,-25,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Melbourne (CBD),Arts and Recreation Services,175,137,155,-20,-11.428571428571429,18,13.138686131386862,FALSE,FALSE,-11.428571428571429,13.138686131386862,Below 2019; increasing since 2022
+Melbourne (CBD),Construction,142,112,97,-45,-31.690140845070424,-15,-13.392857142857142,FALSE,FALSE,-31.690140845070424,-13.392857142857142,Below 2019; decreasing since 2022
+Melbourne (CBD),Education and Training,362,304,352,-10,-2.7624309392265194,48,15.789473684210526,FALSE,FALSE,-2.7624309392265194,15.789473684210526,Below 2019; increasing since 2022
+Melbourne (CBD),"Electricity, Gas, Water and Waste Services",55,64,64,9,16.363636363636363,0,0,TRUE,TRUE,NA,NA,At or above 2019
+Melbourne (CBD),Financial and Insurance Services,719,559,538,-181,-25.17385257301808,-21,-3.7567084078711988,FALSE,FALSE,-25.17385257301808,-3.7567084078711988,Below 2019; decreasing since 2022
+Melbourne (CBD),Health Care and Social Assistance,409,350,345,-64,-15.647921760391197,-5,-1.4285714285714286,FALSE,FALSE,-15.647921760391197,-1.4285714285714286,Below 2019; decreasing since 2022
+Melbourne (CBD),Information Media and Telecommunications,94,77,88,-6,-6.382978723404255,11,14.285714285714286,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+Melbourne (CBD),Manufacturing,226,194,202,-24,-10.619469026548673,8,4.123711340206185,FALSE,FALSE,-10.619469026548673,4.123711340206185,Below 2019; increasing since 2022
+Melbourne (CBD),Mining,29,24,22,-7,-24.137931034482758,-2,-8.333333333333334,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Melbourne (CBD),Other Services,992,809,874,-118,-11.89516129032258,65,8.034610630407911,FALSE,FALSE,-11.89516129032258,8.034610630407911,Below 2019; increasing since 2022
+Melbourne (CBD),"Professional, Scientific and Technical Services",1791,1394,1343,-448,-25.01395868230039,-51,-3.658536585365854,FALSE,FALSE,-25.01395868230039,-3.658536585365854,Below 2019; decreasing since 2022
+Melbourne (CBD),Public Administration and Safety,157,135,127,-30,-19.10828025477707,-8,-5.925925925925926,FALSE,FALSE,-19.10828025477707,-5.925925925925926,Below 2019; decreasing since 2022
+Melbourne (CBD),"Rental, Hiring and Real Estate Services",262,200,199,-63,-24.045801526717558,-1,-0.5,FALSE,FALSE,-24.045801526717558,-0.5,Below 2019; decreasing since 2022
+Melbourne (CBD),Retail Trade,1444,1108,1144,-300,-20.775623268698062,36,3.2490974729241877,FALSE,FALSE,-20.775623268698062,3.2490974729241877,Below 2019; increasing since 2022
+Melbourne (CBD),"Transport, Postal and Warehousing",81,70,62,-19,-23.45679012345679,-8,-11.428571428571429,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Melbourne (CBD),Wholesale Trade,109,91,88,-21,-19.26605504587156,-3,-3.2967032967032965,FALSE,TRUE,-19.26605504587156,NA,Below 2019; decreasing since 2022
+Melbourne (Remainder),Accommodation and Food Services,46,45,44,-2,-4.3478260869565215,-1,-2.2222222222222223,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Melbourne (Remainder),Administrative and Support Services,10,8,7,-3,-30,-1,-12.5,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Melbourne (Remainder),Arts and Recreation Services,43,46,44,1,2.3255813953488373,-2,-4.3478260869565215,TRUE,TRUE,NA,NA,At or above 2019
+Melbourne (Remainder),Construction,10,9,9,-1,-10,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+Melbourne (Remainder),Education and Training,5,4,4,-1,-20,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+Melbourne (Remainder),"Electricity, Gas, Water and Waste Services",3,3,3,0,0,0,0,TRUE,TRUE,NA,NA,At or above 2019
+Melbourne (Remainder),Financial and Insurance Services,20,19,15,-5,-25,-4,-21.05263157894737,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Melbourne (Remainder),Health Care and Social Assistance,68,55,54,-14,-20.58823529411765,-1,-1.8181818181818181,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Melbourne (Remainder),Information Media and Telecommunications,1,1,1,0,0,0,0,TRUE,TRUE,NA,NA,At or above 2019
+Melbourne (Remainder),Manufacturing,4,4,4,0,0,0,0,TRUE,TRUE,NA,NA,At or above 2019
+Melbourne (Remainder),Other Services,21,20,17,-4,-19.047619047619047,-3,-15,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Melbourne (Remainder),"Professional, Scientific and Technical Services",26,17,16,-10,-38.46153846153846,-1,-5.882352941176471,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Melbourne (Remainder),Public Administration and Safety,4,4,3,-1,-25,-1,-25,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Melbourne (Remainder),"Rental, Hiring and Real Estate Services",10,7,9,-1,-10,2,28.571428571428573,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+Melbourne (Remainder),Retail Trade,18,16,15,-3,-16.666666666666668,-1,-6.25,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Melbourne (Remainder),"Transport, Postal and Warehousing",8,7,7,-1,-12.5,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+Melbourne (Remainder),Wholesale Trade,6,4,4,-2,-33.333333333333336,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+North Melbourne,Accommodation and Food Services,137,132,141,4,2.9197080291970803,9,6.818181818181818,FALSE,FALSE,2.9197080291970803,6.818181818181818,At or above 2019
+North Melbourne,Administrative and Support Services,36,30,26,-10,-27.77777777777778,-4,-13.333333333333334,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+North Melbourne,"Agriculture, Forestry and Fishing",1,2,1,0,0,-1,-50,TRUE,TRUE,NA,NA,At or above 2019
+North Melbourne,Arts and Recreation Services,46,48,55,9,19.565217391304348,7,14.583333333333334,TRUE,TRUE,NA,NA,At or above 2019
+North Melbourne,Construction,44,20,31,-13,-29.545454545454547,11,55,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+North Melbourne,Education and Training,38,31,35,-3,-7.894736842105263,4,12.903225806451612,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+North Melbourne,"Electricity, Gas, Water and Waste Services",21,24,24,3,14.285714285714286,0,0,TRUE,TRUE,NA,NA,At or above 2019
+North Melbourne,Financial and Insurance Services,25,12,10,-15,-60,-2,-16.666666666666668,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+North Melbourne,Health Care and Social Assistance,104,83,99,-5,-4.8076923076923075,16,19.27710843373494,FALSE,TRUE,-4.8076923076923075,NA,Below 2019; increasing since 2022
+North Melbourne,Information Media and Telecommunications,18,13,12,-6,-33.333333333333336,-1,-7.6923076923076925,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+North Melbourne,Manufacturing,42,33,35,-7,-16.666666666666668,2,6.0606060606060606,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+North Melbourne,Other Services,134,119,115,-19,-14.17910447761194,-4,-3.361344537815126,FALSE,FALSE,-14.17910447761194,-3.361344537815126,Below 2019; decreasing since 2022
+North Melbourne,"Professional, Scientific and Technical Services",151,117,112,-39,-25.827814569536425,-5,-4.273504273504273,FALSE,FALSE,-25.827814569536425,-4.273504273504273,Below 2019; decreasing since 2022
+North Melbourne,Public Administration and Safety,11,9,10,-1,-9.090909090909092,1,11.11111111111111,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+North Melbourne,"Rental, Hiring and Real Estate Services",20,18,21,1,5,3,16.666666666666668,TRUE,TRUE,NA,NA,At or above 2019
+North Melbourne,Retail Trade,92,77,77,-15,-16.304347826086957,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+North Melbourne,"Transport, Postal and Warehousing",25,14,15,-10,-40,1,7.142857142857143,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+North Melbourne,Wholesale Trade,51,37,39,-12,-23.529411764705884,2,5.405405405405405,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+Parkville,Accommodation and Food Services,89,72,82,-7,-7.865168539325842,10,13.88888888888889,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+Parkville,Administrative and Support Services,7,2,2,-5,-71.42857142857143,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+Parkville,Arts and Recreation Services,42,41,39,-3,-7.142857142857143,-2,-4.878048780487805,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Parkville,Education and Training,61,62,57,-4,-6.557377049180328,-5,-8.064516129032258,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Parkville,"Electricity, Gas, Water and Waste Services",5,7,7,2,40,0,0,TRUE,TRUE,NA,NA,At or above 2019
+Parkville,Financial and Insurance Services,7,5,5,-2,-28.571428571428573,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+Parkville,Health Care and Social Assistance,87,75,79,-8,-9.195402298850574,4,5.333333333333333,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+Parkville,Information Media and Telecommunications,1,2,2,1,100,0,0,TRUE,TRUE,NA,NA,At or above 2019
+Parkville,Manufacturing,2,1,NA,NA,NA,NA,NA,TRUE,TRUE,NA,NA,Not comparable
+Parkville,Other Services,27,18,16,-11,-40.74074074074074,-2,-11.11111111111111,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Parkville,"Professional, Scientific and Technical Services",19,14,17,-2,-10.526315789473685,3,21.428571428571427,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+Parkville,Public Administration and Safety,2,3,2,0,0,-1,-33.333333333333336,TRUE,TRUE,NA,NA,At or above 2019
+Parkville,"Rental, Hiring and Real Estate Services",2,2,2,0,0,0,0,TRUE,TRUE,NA,NA,At or above 2019
+Parkville,Retail Trade,22,14,14,-8,-36.36363636363637,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+Parkville,"Transport, Postal and Warehousing",4,4,4,0,0,0,0,TRUE,TRUE,NA,NA,At or above 2019
+Parkville,Wholesale Trade,1,1,1,0,0,0,0,TRUE,TRUE,NA,NA,At or above 2019
+Port Melbourne,Accommodation and Food Services,21,17,19,-2,-9.523809523809524,2,11.764705882352942,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+Port Melbourne,Administrative and Support Services,27,21,22,-5,-18.51851851851852,1,4.761904761904762,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+Port Melbourne,"Agriculture, Forestry and Fishing",1,1,1,0,0,0,0,TRUE,TRUE,NA,NA,At or above 2019
+Port Melbourne,Arts and Recreation Services,13,12,13,0,0,1,8.333333333333334,TRUE,TRUE,NA,NA,At or above 2019
+Port Melbourne,Construction,68,60,69,1,1.4705882352941178,9,15,TRUE,TRUE,NA,NA,At or above 2019
+Port Melbourne,Education and Training,10,9,6,-4,-40,-3,-33.333333333333336,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Port Melbourne,"Electricity, Gas, Water and Waste Services",10,10,11,1,10,1,10,TRUE,TRUE,NA,NA,At or above 2019
+Port Melbourne,Financial and Insurance Services,7,5,5,-2,-28.571428571428573,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+Port Melbourne,Health Care and Social Assistance,7,6,6,-1,-14.285714285714286,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+Port Melbourne,Information Media and Telecommunications,25,22,23,-2,-8,1,4.545454545454546,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+Port Melbourne,Manufacturing,81,73,86,5,6.172839506172839,13,17.80821917808219,TRUE,TRUE,NA,NA,At or above 2019
+Port Melbourne,Other Services,18,15,19,1,5.555555555555555,4,26.666666666666668,TRUE,TRUE,NA,NA,At or above 2019
+Port Melbourne,"Professional, Scientific and Technical Services",74,63,61,-13,-17.56756756756757,-2,-3.1746031746031744,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Port Melbourne,Public Administration and Safety,17,17,17,0,0,0,0,TRUE,TRUE,NA,NA,At or above 2019
+Port Melbourne,"Rental, Hiring and Real Estate Services",20,18,15,-5,-25,-3,-16.666666666666668,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Port Melbourne,Retail Trade,30,25,30,0,0,5,20,TRUE,TRUE,NA,NA,At or above 2019
+Port Melbourne,"Transport, Postal and Warehousing",32,28,38,6,18.75,10,35.714285714285715,TRUE,TRUE,NA,NA,At or above 2019
+Port Melbourne,Wholesale Trade,62,48,52,-10,-16.129032258064516,4,8.333333333333334,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+South Yarra,Accommodation and Food Services,12,11,11,-1,-8.333333333333334,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+South Yarra,Administrative and Support Services,1,1,1,0,0,0,0,TRUE,TRUE,NA,NA,At or above 2019
+South Yarra,Arts and Recreation Services,6,5,5,-1,-16.666666666666668,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+South Yarra,Education and Training,12,13,13,1,8.333333333333334,0,0,TRUE,TRUE,NA,NA,At or above 2019
+South Yarra,"Electricity, Gas, Water and Waste Services",6,6,6,0,0,0,0,TRUE,TRUE,NA,NA,At or above 2019
+South Yarra,Health Care and Social Assistance,1,1,1,0,0,0,0,TRUE,TRUE,NA,NA,At or above 2019
+South Yarra,Information Media and Telecommunications,2,1,1,-1,-50,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+South Yarra,Manufacturing,1,1,1,0,0,0,0,TRUE,TRUE,NA,NA,At or above 2019
+South Yarra,Other Services,7,7,7,0,0,0,0,TRUE,TRUE,NA,NA,At or above 2019
+South Yarra,Public Administration and Safety,1,1,1,0,0,0,0,TRUE,TRUE,NA,NA,At or above 2019
+South Yarra,Retail Trade,4,4,4,0,0,0,0,TRUE,TRUE,NA,NA,At or above 2019
+Southbank,Accommodation and Food Services,241,217,207,-34,-14.107883817427386,-10,-4.608294930875576,FALSE,FALSE,-14.107883817427386,-4.608294930875576,Below 2019; decreasing since 2022
+Southbank,Administrative and Support Services,32,23,19,-13,-40.625,-4,-17.391304347826086,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Southbank,"Agriculture, Forestry and Fishing",3,2,2,-1,-33.333333333333336,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+Southbank,Arts and Recreation Services,47,50,47,0,0,-3,-6,TRUE,TRUE,NA,NA,At or above 2019
+Southbank,Construction,37,23,21,-16,-43.24324324324324,-2,-8.695652173913043,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Southbank,Education and Training,16,14,14,-2,-12.5,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+Southbank,"Electricity, Gas, Water and Waste Services",24,25,30,6,25,5,20,TRUE,TRUE,NA,NA,At or above 2019
+Southbank,Financial and Insurance Services,32,29,24,-8,-25,-5,-17.24137931034483,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Southbank,Health Care and Social Assistance,31,28,32,1,3.225806451612903,4,14.285714285714286,TRUE,TRUE,NA,NA,At or above 2019
+Southbank,Information Media and Telecommunications,18,14,14,-4,-22.22222222222222,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+Southbank,Manufacturing,10,11,10,0,0,-1,-9.090909090909092,TRUE,TRUE,NA,NA,At or above 2019
+Southbank,Mining,2,NA,NA,NA,NA,NA,NA,TRUE,FALSE,NA,NA,Not comparable
+Southbank,Other Services,35,35,37,2,5.714285714285714,2,5.714285714285714,TRUE,TRUE,NA,NA,At or above 2019
+Southbank,"Professional, Scientific and Technical Services",104,89,91,-13,-12.5,2,2.247191011235955,FALSE,TRUE,-12.5,NA,Below 2019; increasing since 2022
+Southbank,Public Administration and Safety,8,7,8,0,0,1,14.285714285714286,TRUE,TRUE,NA,NA,At or above 2019
+Southbank,"Rental, Hiring and Real Estate Services",33,26,35,2,6.0606060606060606,9,34.61538461538461,TRUE,TRUE,NA,NA,At or above 2019
+Southbank,Retail Trade,235,217,212,-23,-9.787234042553191,-5,-2.304147465437788,FALSE,FALSE,-9.787234042553191,-2.304147465437788,Below 2019; decreasing since 2022
+Southbank,"Transport, Postal and Warehousing",8,9,8,0,0,-1,-11.11111111111111,TRUE,TRUE,NA,NA,At or above 2019
+Southbank,Wholesale Trade,15,12,11,-4,-26.666666666666668,-1,-8.333333333333334,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+West Melbourne (Industrial),Accommodation and Food Services,6,3,4,-2,-33.333333333333336,1,33.333333333333336,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+West Melbourne (Industrial),Arts and Recreation Services,12,9,9,-3,-25,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+West Melbourne (Industrial),Construction,7,8,11,4,57.142857142857146,3,37.5,TRUE,TRUE,NA,NA,At or above 2019
+West Melbourne (Industrial),"Electricity, Gas, Water and Waste Services",9,8,9,0,0,1,12.5,TRUE,TRUE,NA,NA,At or above 2019
+West Melbourne (Industrial),Information Media and Telecommunications,2,3,3,1,50,0,0,TRUE,TRUE,NA,NA,At or above 2019
+West Melbourne (Industrial),Manufacturing,7,5,6,-1,-14.285714285714286,1,20,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+West Melbourne (Industrial),Other Services,5,5,6,1,20,1,20,TRUE,TRUE,NA,NA,At or above 2019
+West Melbourne (Industrial),"Professional, Scientific and Technical Services",6,4,3,-3,-50,-1,-25,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+West Melbourne (Industrial),Public Administration and Safety,1,1,1,0,0,0,0,TRUE,TRUE,NA,NA,At or above 2019
+West Melbourne (Industrial),"Rental, Hiring and Real Estate Services",2,2,2,0,0,0,0,TRUE,TRUE,NA,NA,At or above 2019
+West Melbourne (Industrial),Retail Trade,3,7,6,3,100,-1,-14.285714285714286,TRUE,TRUE,NA,NA,At or above 2019
+West Melbourne (Industrial),"Transport, Postal and Warehousing",57,45,43,-14,-24.56140350877193,-2,-4.444444444444445,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+West Melbourne (Industrial),Wholesale Trade,31,30,28,-3,-9.67741935483871,-2,-6.666666666666667,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+West Melbourne (Residential),Accommodation and Food Services,62,53,67,5,8.064516129032258,14,26.41509433962264,TRUE,TRUE,NA,NA,At or above 2019
+West Melbourne (Residential),Administrative and Support Services,14,7,4,-10,-71.42857142857143,-3,-42.857142857142854,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+West Melbourne (Residential),Arts and Recreation Services,19,22,23,4,21.05263157894737,1,4.545454545454546,TRUE,TRUE,NA,NA,At or above 2019
+West Melbourne (Residential),Construction,13,15,15,2,15.384615384615385,0,0,TRUE,TRUE,NA,NA,At or above 2019
+West Melbourne (Residential),Education and Training,23,17,20,-3,-13.043478260869565,3,17.647058823529413,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+West Melbourne (Residential),"Electricity, Gas, Water and Waste Services",10,8,8,-2,-20,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+West Melbourne (Residential),Financial and Insurance Services,11,6,8,-3,-27.272727272727273,2,33.333333333333336,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+West Melbourne (Residential),Health Care and Social Assistance,25,20,23,-2,-8,3,15,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+West Melbourne (Residential),Information Media and Telecommunications,9,7,7,-2,-22.22222222222222,0,0,TRUE,TRUE,NA,NA,Below 2019; unchanged since 2022
+West Melbourne (Residential),Manufacturing,8,11,12,4,50,1,9.090909090909092,TRUE,TRUE,NA,NA,At or above 2019
+West Melbourne (Residential),Other Services,53,35,50,-3,-5.660377358490566,15,42.857142857142854,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+West Melbourne (Residential),"Professional, Scientific and Technical Services",101,74,81,-20,-19.801980198019802,7,9.45945945945946,FALSE,TRUE,-19.801980198019802,NA,Below 2019; increasing since 2022
+West Melbourne (Residential),Public Administration and Safety,4,4,4,0,0,0,0,TRUE,TRUE,NA,NA,At or above 2019
+West Melbourne (Residential),"Rental, Hiring and Real Estate Services",10,6,9,-1,-10,3,50,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+West Melbourne (Residential),Retail Trade,43,31,39,-4,-9.30232558139535,8,25.806451612903224,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+West Melbourne (Residential),"Transport, Postal and Warehousing",16,7,6,-10,-62.5,-1,-14.285714285714286,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+West Melbourne (Residential),Wholesale Trade,24,15,17,-7,-29.166666666666668,2,13.333333333333334,TRUE,TRUE,NA,NA,Below 2019; increasing since 2022
+West Melbourne (Industrial),Administrative and Support Services,NA,2,1,NA,NA,-1,-50,FALSE,TRUE,NA,NA,Not comparable
+West Melbourne (Residential),Mining,NA,1,1,NA,NA,0,0,FALSE,TRUE,NA,NA,Not comparable
+Parkville,Construction,NA,NA,1,NA,NA,NA,NA,FALSE,FALSE,NA,NA,Not comparable
+West Melbourne (Industrial),Health Care and Social Assistance,NA,NA,1,NA,NA,NA,NA,FALSE,FALSE,NA,NA,Not comparable

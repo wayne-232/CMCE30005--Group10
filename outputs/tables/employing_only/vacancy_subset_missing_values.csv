@@ -1,0 +1,13 @@
+dataset,variable,rows_checked,missing_count,blank_string_count,missing_percent
+Vacant subset only,census_year,68299,0,0,0
+Vacant subset only,block_id,68299,0,0,0
+Vacant subset only,property_id,68299,0,0,0
+Vacant subset only,base_property_id,68299,0,0,0
+Vacant subset only,clue_small_area,68299,0,0,0
+Vacant subset only,trading_name,68299,109,0,0.1595923805619409
+Vacant subset only,business_address,68299,0,0,0
+Vacant subset only,industry_anzsic4_code,68299,0,0,0
+Vacant subset only,industry_anzsic4_description,68299,0,0,0
+Vacant subset only,longitude,68299,1094,0,1.6017804067409478
+Vacant subset only,latitude,68299,1094,0,1.6017804067409478
+Vacant subset only,point,68299,1094,0,1.6017804067409478

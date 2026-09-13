@@ -39,8 +39,7 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-# pkgdown site
-docs/
+# Keep hand-written review and acknowledgement notes in docs/.
 
 # translation temp files
 po/*~
@@ -53,11 +52,15 @@ rsconnect/
 *.xlsx
 *.csv.gz
 
+# Derived aggregate summaries are reviewable; raw CSVs remain excluded.
+!outputs/tables/**/*.csv
+
 # R outputs
 *.RData
 *.rds
 .Rhistory
 .Rapp.history
+Rplots.pdf
 
 # Compiled reports (keep .Rmd source, not rendered HTML if it's auto-generated)
 # Uncomment the line below only if you want to exclude HTML outputs:

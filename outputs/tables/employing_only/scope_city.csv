@@ -1,0 +1,3 @@
+scope,n_pre,n_recovery_start,n_latest,gap_count,gap_pct,recovery_count,recovery_pct,small_pre_base,small_recovery_base,gap_pct_display,recovery_pct_display,recovery_status
+Small + medium only,15506,12571,13054,-2452,-15.813233586998582,483,3.842176437833108,FALSE,FALSE,-15.813233586998582,3.842176437833108,Below 2019; increasing since 2022
+Non-employing + small + medium,16334,13452,13912,-2422,-14.827966205461001,460,3.4195658638120725,FALSE,FALSE,-14.827966205461001,3.4195658638120725,Below 2019; increasing since 2022

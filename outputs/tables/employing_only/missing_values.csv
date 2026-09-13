@@ -1,0 +1,19 @@
+dataset,variable,rows_checked,missing_count,blank_string_count,missing_percent
+Aggregated,Census year,13353,0,0,0
+Aggregated,CLUE small area,13353,0,0,0
+Aggregated,ANZSIC indusrty,13353,0,0,0
+Aggregated,Business size,13353,0,0,0
+Aggregated,Total establishments,13353,0,0,0
+Aggregated,Total jobs,13353,4252,0,31.84303152849547
+Address-level,census_year,413550,0,0,0
+Address-level,block_id,413550,0,0,0
+Address-level,property_id,413550,0,0,0
+Address-level,base_property_id,413550,0,0,0
+Address-level,clue_small_area,413550,0,0,0
+Address-level,trading_name,413550,127,0,0.0307097086204812
+Address-level,business_address,413550,1,0,2.4180872929512756e-4
+Address-level,industry_anzsic4_code,413550,0,0,0
+Address-level,industry_anzsic4_description,413550,0,0,0
+Address-level,longitude,413550,4785,0,1.1570547696771853
+Address-level,latitude,413550,4785,0,1.1570547696771853
+Address-level,point,413550,4785,0,1.1570547696771853

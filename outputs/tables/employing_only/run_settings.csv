@@ -1,0 +1,6 @@
+setting,value
+start_year,2002
+end_year,2024
+comparison_years,"2019, 2022, 2024"
+include_non_employing,FALSE
+small_baseline_display_threshold,100

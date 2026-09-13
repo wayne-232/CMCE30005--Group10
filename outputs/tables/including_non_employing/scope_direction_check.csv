@@ -1,0 +1,33 @@
+level,group,comparable,gap_direction_changes,recent_direction_changes
+Industry,Accommodation and Food Services,TRUE,FALSE,FALSE
+Industry,Administrative and Support Services,TRUE,FALSE,FALSE
+Industry,"Agriculture, Forestry and Fishing",TRUE,FALSE,FALSE
+Industry,Arts and Recreation Services,TRUE,FALSE,FALSE
+Industry,Construction,TRUE,FALSE,FALSE
+Industry,Education and Training,TRUE,FALSE,FALSE
+Industry,"Electricity, Gas, Water and Waste Services",TRUE,FALSE,FALSE
+Industry,Financial and Insurance Services,TRUE,FALSE,FALSE
+Industry,Health Care and Social Assistance,TRUE,FALSE,FALSE
+Industry,Information Media and Telecommunications,TRUE,FALSE,FALSE
+Industry,Manufacturing,TRUE,FALSE,FALSE
+Industry,Mining,TRUE,FALSE,FALSE
+Industry,Other Services,TRUE,FALSE,FALSE
+Industry,"Professional, Scientific and Technical Services",TRUE,FALSE,FALSE
+Industry,Public Administration and Safety,TRUE,FALSE,FALSE
+Industry,"Rental, Hiring and Real Estate Services",TRUE,FALSE,FALSE
+Industry,Retail Trade,TRUE,FALSE,FALSE
+Industry,"Transport, Postal and Warehousing",TRUE,FALSE,TRUE
+Industry,Wholesale Trade,TRUE,FALSE,FALSE
+Precinct,Carlton,TRUE,FALSE,FALSE
+Precinct,Docklands,TRUE,FALSE,FALSE
+Precinct,East Melbourne,TRUE,FALSE,FALSE
+Precinct,Kensington,TRUE,FALSE,FALSE
+Precinct,Melbourne (CBD),TRUE,FALSE,FALSE
+Precinct,Melbourne (Remainder),TRUE,FALSE,FALSE
+Precinct,North Melbourne,TRUE,FALSE,FALSE
+Precinct,Parkville,TRUE,FALSE,FALSE
+Precinct,Port Melbourne,TRUE,FALSE,FALSE
+Precinct,South Yarra,TRUE,FALSE,TRUE
+Precinct,Southbank,TRUE,FALSE,FALSE
+Precinct,West Melbourne (Industrial),TRUE,FALSE,TRUE
+Precinct,West Melbourne (Residential),TRUE,FALSE,FALSE

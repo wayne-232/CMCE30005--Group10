@@ -1,870 +1,992 @@
-Melbourne Business Establishments: Descriptive Analytics
+Melbourne SME Establishments: Trends and Recovery
 ================
 Group 10
-27 August 2026
+13 September 2026
 
-- [1. Research question and scope](#1-research-question-and-scope)
-- [2. Import the two CLUE files](#2-import-the-two-clue-files)
-  - [2.1 File overview](#21-file-overview)
-- [3. Clean and validate the data](#3-clean-and-validate-the-data)
-  - [3.1 Aggregated file](#31-aggregated-file)
-  - [3.2 Location-level file](#32-location-level-file)
-  - [3.3 Reconcile the two files](#33-reconcile-the-two-files)
-- [4. Variables of interest](#4-variables-of-interest)
-  - [4.1 Numerical variables](#41-numerical-variables)
-  - [4.2 Categorical variables](#42-categorical-variables)
-- [5. Summary statistics for key numerical
-  variables](#5-summary-statistics-for-key-numerical-variables)
-  - [5.1 Distribution of establishment counts across aggregated
-    cells](#51-distribution-of-establishment-counts-across-aggregated-cells)
-  - [5.2 Distribution by business
-    size](#52-distribution-by-business-size)
-- [6. Grouped descriptive statistics](#6-grouped-descriptive-statistics)
-  - [6.1 City-wide totals by comparison
-    year](#61-city-wide-totals-by-comparison-year)
-  - [6.2 Precinct summary for 2019 and
-    2024](#62-precinct-summary-for-2019-and-2024)
-  - [6.3 Business-size summary for 2019 and
-    2024](#63-business-size-summary-for-2019-and-2024)
-  - [6.4 Industry summary for 2019 and
-    2024](#64-industry-summary-for-2019-and-2024)
-- [7. Visual analysis](#7-visual-analysis)
-  - [7.1 Long-run city-wide establishment
-    trend](#71-long-run-city-wide-establishment-trend)
-  - [7.2 Precinct baseline before
-    COVID-19](#72-precinct-baseline-before-covid-19)
-  - [7.3 Precinct recovery gap, 2019 to
-    2024](#73-precinct-recovery-gap-2019-to-2024)
-  - [7.4 Change by business size](#74-change-by-business-size)
-  - [7.5 Industries with the largest numerical
-    changes](#75-industries-with-the-largest-numerical-changes)
-- [8. Main findings](#8-main-findings)
-- [9. Limitations and next step](#9-limitations-and-next-step)
-- [10. Reproducibility information](#10-reproducibility-information)
+- [1. What this report answers](#1-what-this-report-answers)
+  - [Reading guide and scope](#reading-guide-and-scope)
+- [2. What is in the two files?](#2-what-is-in-the-two-files)
+  - [2.1 Check missing information before
+    filtering](#21-check-missing-information-before-filtering)
+  - [2.2 Validate the aggregated file](#22-validate-the-aggregated-file)
+  - [2.3 Separate Vacant Space from missing
+    values](#23-separate-vacant-space-from-missing-values)
+  - [2.4 Check counts between files](#24-check-counts-between-files)
+- [3. Define the sample and
+  comparisons](#3-define-the-sample-and-comparisons)
+  - [3.1 Select the population once](#31-select-the-population-once)
+  - [3.2 Separate the remaining gap from recent
+    recovery](#32-separate-the-remaining-gap-from-recent-recovery)
+- [4. How have SME counts changed?](#4-how-have-sme-counts-changed)
+  - [4.1 City-wide trend](#41-city-wide-trend)
+  - [4.2 Small and medium businesses can move
+    differently](#42-small-and-medium-businesses-can-move-differently)
+- [5. Which precincts are
+  recovering?](#5-which-precincts-are-recovering)
+  - [5.1 Long-run precinct patterns](#51-long-run-precinct-patterns)
+  - [5.2 Recent improvement and the remaining
+    gap](#52-recent-improvement-and-the-remaining-gap)
+- [6. Which industries account for the
+  changes?](#6-which-industries-account-for-the-changes)
+  - [6.1 Compare industry counts](#61-compare-industry-counts)
+  - [6.2 Does industry composition
+    change?](#62-does-industry-composition-change)
+  - [6.3 Connect precincts and
+    industries](#63-connect-precincts-and-industries)
+- [7. Does the SME definition affect the
+  results?](#7-does-the-sme-definition-affect-the-results)
+- [8. Findings and next steps](#8-findings-and-next-steps)
+  - [8.1 Findings calculated from the selected
+    sample](#81-findings-calculated-from-the-selected-sample)
+  - [8.2 Use the results to guide further
+    investigation](#82-use-the-results-to-guide-further-investigation)
+  - [8.3 Planned analysis](#83-planned-analysis)
+- [9. Checks, exports and
+  reproducibility](#9-checks-exports-and-reproducibility)
+  - [9.1 Review checklist](#91-review-checklist)
+  - [9.2 Technical details](#92-technical-details)
+- [10. Sources and acknowledgement](#10-sources-and-acknowledgement)
 
-# 1. Research question and scope
+<style>
+table { font-size: 0.9em; }
+td, th { overflow-wrap: anywhere; }
+pre { overflow-x: auto; }
+</style>
+
+# 1. What this report answers
 
 **Research question:** How have small and medium-sized business
 establishment patterns evolved across Melbourne precincts and industries
 from 2002 to 2024?
 
-This report describes establishment patterns across the full period. It
-uses 2019 as the pre-COVID baseline, 2022 as the observed low point and
-2024 as the latest comparison. It does not treat every change as a
-COVID-19 effect.
+**Client:** The Lord Mayor of the City of Melbourne. The results help
+identify where SME support and further investigation may be needed.
 
-The analysis follows three rules:
+This report answers three questions:
 
-1.  A CLUE establishment is a business location, not necessarily a
-    unique legal enterprise.
-2.  CLUE uses a two-year rolling survey cycle. The full annual series is
-    shown for context, but substantive comparisons use years at least
-    two years apart.
-3.  Establishment count is the primary measure. Some job values are
-    suppressed for confidentiality and are not imputed in this report.
+1.  How have SME establishment counts changed over the full period?
+2.  Which precincts and industries increased or decreased between 2022
+    and 2024?
+3.  How far were they above or below their 2019 counts in 2024?
 
-# 2. Import the two CLUE files
+**Population in the main results: Small and medium establishments (1-199
+jobs).**
 
-Place the supplied CSV files in the repository’s `data/` folder. The
-fallback paths also allow the report to run from the original project
-folder.
+The default includes Small business and Medium business. The group still
+needs to confirm whether to include CLUE’s separate Non employing
+category. Section 7 compares both definitions; `include_non_employing`
+controls the main results.
 
-``` r
-# Look for the data in the standard repository data folder first, then fall
-# back to the current or parent folder. This keeps the report portable when it
-# is stored inside analysis/ and avoids computer-specific absolute paths.
-data_candidates <- c("data", "../data", ".", "..")
+CLUE counts **business locations**, not unique legal companies. One
+company can have several establishments. Size is based on jobs at the
+establishment, not necessarily the size of the whole company \[1, 2\].
 
-DATA_DIR <- data_candidates[
-  file.exists(file.path(
-    data_candidates,
-    "business-establishments-and-jobs-data-by-business-size-and-anzsic.csv"
-  ))
-][1]
+## Reading guide and scope
 
-if (is.na(DATA_DIR)) {
-  stop("Data files not found. Place both supplied CSV files in the data/ folder.")
-}
+Sections 2-3 cover data decisions, Sections 4-7 present results, and
+Section 8 sets out next steps. In the HTML report, use **Code** to
+inspect calculations. A dash (`--`) means unavailable or withheld under
+the display rule, never zero.
 
-location_path <- file.path(
-  DATA_DIR,
-  "business-establishments-with-address-and-industry-classification.csv"
-)
+This report does not estimate individual firm survival, openings or
+closures, vacancy rates, total employment growth, or the causal effect
+of COVID-19. A net decline in counts is not a count of closures.
 
-aggregate_path <- file.path(
-  DATA_DIR,
-  "business-establishments-and-jobs-data-by-business-size-and-anzsic.csv"
-)
+# 2. What is in the two files?
 
-# Stop with a clear error if either required dataset is missing.
-stopifnot(file.exists(location_path), file.exists(aggregate_path))
+The **aggregated file** supplies the SME analysis. One row is a census
+year, precinct, industry division and business-size category. We sum
+`total_establishments`, not the number of rows: a row with a value of 15
+represents 15 establishments.
 
-location_raw <- read_csv(location_path, show_col_types = FALSE)
-aggregate_raw <- read_csv(aggregate_path, show_col_types = FALSE)
-```
-
-## 2.1 File overview
+The **address-level file** supports classification and count checks. It
+has no business-size variable, so it cannot identify SMEs. We compare
+yearly totals across the files; joining their raw rows would risk
+duplicating counts.
 
 ``` r
+aggregate_filename <- "business-establishments-and-jobs-data-by-business-size-and-anzsic.csv"
+address_filename <- "business-establishments-with-address-and-industry-classification.csv"
+# A blank data_dir means the repository's data/ folder.
+DATA_DIR <- if (nzchar(params$data_dir)) params$data_dir else file.path(PROJECT_ROOT, "data")
+aggregate_path <- file.path(DATA_DIR, aggregate_filename)
+address_path <- file.path(DATA_DIR, address_filename)
+assert_true(all(file.exists(c(aggregate_path, address_path))),
+            "Place BOTH supplied CSV files in data/, or set the data_dir parameter.")
+
+# Explicit types protect identifiers and expose parsing errors. Zero stays zero.
+aggregate_raw <- read_csv(aggregate_path, na = c("", "NA"),
+  col_types = cols(.default = col_character(), `Census year` = col_integer(),
+                   `Total establishments` = col_double(), `Total jobs` = col_double()))
+location_raw <- read_csv(address_path, na = c("", "NA"),
+  col_types = cols(.default = col_character(), census_year = col_integer(),
+                   industry_anzsic4_code = col_integer(), longitude = col_double(),
+                   latitude = col_double()))
+assert_true(nrow(problems(aggregate_raw)) == 0, "Aggregated CSV has parsing problems.")
+assert_true(nrow(problems(location_raw)) == 0, "Address CSV has parsing problems.")
+require_columns(aggregate_raw, c("Census year", "CLUE small area", "ANZSIC indusrty",
+  "Business size", "Total establishments", "Total jobs"), "Aggregated CSV")
+require_columns(location_raw, c("census_year", "block_id", "property_id",
+  "base_property_id", "clue_small_area", "trading_name", "business_address",
+  "industry_anzsic4_code", "industry_anzsic4_description", "longitude", "latitude",
+  "point"), "Address CSV")
 file_overview <- tibble(
-  dataset = c("Location-level file", "Aggregated file"),
-  rows = c(nrow(location_raw), nrow(aggregate_raw)),
-  columns = c(ncol(location_raw), ncol(aggregate_raw))
-)
-
-kable(file_overview, format.args = list(big.mark = ","))
+  File = c("Aggregated", "Address-level"),
+  Rows = c(nrow(aggregate_raw), nrow(location_raw)),
+  Columns = c(ncol(aggregate_raw), ncol(location_raw)),
+  `First year` = c(min(aggregate_raw$`Census year`), min(location_raw$census_year)),
+  `Last year` = c(max(aggregate_raw$`Census year`), max(location_raw$census_year)))
+report_table(file_overview)
 ```
 
-| dataset             |    rows | columns |
-|:--------------------|--------:|--------:|
-| Location-level file | 413,550 |      12 |
-| Aggregated file     |  13,353 |       6 |
+| File          |    Rows | Columns | First year | Last year |
+|:--------------|--------:|--------:|-----------:|----------:|
+| Aggregated    |  13,353 |       6 |      2,002 |     2,024 |
+| Address-level | 413,550 |      12 |      2,002 |     2,024 |
 
-# 3. Clean and validate the data
+The report uses the supplied snapshot without downloading updates.
+Section 9 records file checksums so other users can verify their copies.
 
-## 3.1 Aggregated file
+## 2.1 Check missing information before filtering
 
-The aggregated file is the main source for establishment trends because
-it contains consistent totals by year, precinct, industry and business
-size.
+Each table checks **all rows in that file** before filtering.
+Percentages use the row count of the respective file as their
+denominator.
+
+``` r
+aggregate_missing <- missing_audit(aggregate_raw, "Aggregated")
+location_missing <- missing_audit(location_raw, "Address-level")
+report_table(select(aggregate_missing, -dataset),
+  col.names = c("Variable", "Rows checked", "Missing", "Blank strings", "Missing (%)"))
+```
+
+| Variable             | Rows checked | Missing | Blank strings | Missing (%) |
+|:---------------------|-------------:|--------:|--------------:|------------:|
+| Census year          |       13,353 |       0 |             0 |         0.0 |
+| CLUE small area      |       13,353 |       0 |             0 |         0.0 |
+| ANZSIC indusrty      |       13,353 |       0 |             0 |         0.0 |
+| Business size        |       13,353 |       0 |             0 |         0.0 |
+| Total establishments |       13,353 |       0 |             0 |         0.0 |
+| Total jobs           |       13,353 |   4,252 |             0 |        31.8 |
+
+``` r
+report_table(select(location_missing, -dataset),
+  col.names = c("Variable", "Rows checked", "Missing", "Blank strings", "Missing (%)"))
+```
+
+| Variable                     | Rows checked | Missing | Blank strings | Missing (%) |
+|:-----------------------------|-------------:|--------:|--------------:|------------:|
+| census_year                  |      413,550 |       0 |             0 |         0.0 |
+| block_id                     |      413,550 |       0 |             0 |         0.0 |
+| property_id                  |      413,550 |       0 |             0 |         0.0 |
+| base_property_id             |      413,550 |       0 |             0 |         0.0 |
+| clue_small_area              |      413,550 |       0 |             0 |         0.0 |
+| trading_name                 |      413,550 |     127 |             0 |         0.0 |
+| business_address             |      413,550 |       1 |             0 |         0.0 |
+| industry_anzsic4_code        |      413,550 |       0 |             0 |         0.0 |
+| industry_anzsic4_description |      413,550 |       0 |             0 |         0.0 |
+| longitude                    |      413,550 |   4,785 |             0 |         1.2 |
+| latitude                     |      413,550 |   4,785 |             0 |         1.2 |
+| point                        |      413,550 |   4,785 |             0 |         1.2 |
+
+Our decisions are:
+
+- **Missing jobs:** retain the row for establishment-count analysis. Do
+  not replace missing jobs with zero or discard a known establishment
+  count.
+- **Missing names, addresses or coordinates:** retain the record for
+  count comparisons with the required year and precinct. Mapping or
+  matching individual locations would need further checks of those
+  fields.
+- **Missing counts or essential grouping information:** stop and
+  investigate.
+- **Vacant Space:** handle as a category in Section 2.3, not as missing
+  data.
+
+## 2.2 Validate the aggregated file
+
+We rename the source’s misspelled `ANZSIC indusrty` heading and check
+size labels, grouping keys and counts before filtering. Unexpected
+values stop the analysis.
 
 ``` r
 aggregate <- aggregate_raw %>%
-  rename(
-    census_year = `Census year`,
-    clue_small_area = `CLUE small area`,
-    anzsic_industry = `ANZSIC indusrty`,
-    business_size = `Business size`,
-    total_establishments = `Total establishments`,
-    total_jobs = `Total jobs`
-  ) %>%
-  mutate(
-    census_year = as.integer(census_year),
-    clue_small_area = as.factor(clue_small_area),
-    anzsic_industry = as.factor(anzsic_industry),
-    business_size = factor(
-      business_size,
-      levels = c(
-        "Non employing",
-        "Small business",
-        "Medium business",
-        "Large business"
-      )
-    ),
-    total_establishments = as.numeric(total_establishments),
-    total_jobs = as.numeric(total_jobs),
-    jobs_suppressed = is.na(total_jobs)
-  )
-
-# These checks detect accidental changes to the supplied dataset or import.
-stopifnot(
-  nrow(aggregate) == 13353,
-  n_distinct(aggregate$census_year) == 23,
-  n_distinct(aggregate$clue_small_area) == 13,
-  sum(is.na(aggregate$total_establishments)) == 0,
-  sum(aggregate$jobs_suppressed) == 4252,
-  sum(duplicated(aggregate)) == 0
-)
+  rename(census_year = `Census year`, precinct = `CLUE small area`,
+         industry = `ANZSIC indusrty`, business_size = `Business size`,
+         total_establishments = `Total establishments`, total_jobs = `Total jobs`)
+expected_sizes <- c("Non employing", "Small business", "Medium business", "Large business")
+assert_true(setequal(unique(aggregate$business_size), expected_sizes),
+            "Unexpected size labels. Check the source before selecting SMEs.")
+check_key(aggregate, c("census_year", "precinct", "industry", "business_size"), "Aggregated file")
+assert_true(!anyNA(aggregate$total_establishments), "Establishment counts contain missing values.")
+assert_true(all(aggregate$total_establishments >= 0 & is.finite(aggregate$total_establishments) &
+                 aggregate$total_establishments == floor(aggregate$total_establishments)),
+            "Establishment counts must be non-negative whole numbers.")
+assert_true(all(is.na(aggregate$total_jobs) | (is.finite(aggregate$total_jobs) &
+                 aggregate$total_jobs >= 0 & aggregate$total_jobs == floor(aggregate$total_jobs))),
+            "Reported job counts must be non-negative whole numbers.")
+assert_true(!any(trimws(aggregate$precinct) == "" | trimws(aggregate$industry) == ""),
+            "A precinct or industry label is blank.")
+assert_true(all(START_YEAR:END_YEAR %in% aggregate$census_year), "Required census years are absent.")
+assert_true(!any(grepl("Vacant Space", aggregate$industry, fixed = TRUE)),
+            "The aggregated source now includes a vacancy category. Review the scope.")
+jobs_check <- aggregate %>% summarise(rows = n(), missing_jobs = sum(is.na(total_jobs)),
+  missing_jobs_pct = 100 * mean(is.na(total_jobs)),
+  missing_jobs_in_cells_above_two = sum(is.na(total_jobs) & total_establishments > 2))
+report_table(jobs_check, col.names = c("Rows", "Missing jobs", "Missing jobs (%)",
+                                    "Missing jobs in cells with >2 establishments"))
 ```
 
-## 3.2 Location-level file
+| Rows | Missing jobs | Missing jobs (%) | Missing jobs in cells with \>2 establishments |
+|---:|---:|---:|---:|
+| 13,353 | 4,252 | 31.8 | 0 |
 
-The location-level file provides addresses, detailed ANZSIC
-classifications and coordinates. It also contains records coded as
-`Vacant Space`. These records are excluded from business counts because
-they represent empty locations rather than operating establishments.
+The publisher withholds job counts in cells with two or fewer businesses
+to protect confidentiality \[1\]. In this snapshot, 4,252 job values are
+blank (31.8%). All are in cells containing at most two establishments,
+consistent with that rule. This percentage describes aggregate rows with
+blank job counts, not the share of businesses or jobs missing.
+
+## 2.3 Separate Vacant Space from missing values
+
+CLUE uses special industry categories for non-economic activities,
+including Vacant Space \[2, section 28\]. A location can have a complete
+address and coordinates while being classified as vacant.
+
+We retain all source records and exclude explicit vacancies only from
+the address-based establishment count check. This cannot correct survey
+lag or identify every closed business. Historical records remain
+unchanged. CLUE distinguishes unoccupied, unused and vacant space \[2,
+sections 41, 44-46\]; we do not infer vacancy rates, whole-building
+vacancy or its causes here.
 
 ``` r
-location <- location_raw %>%
-  mutate(
-    census_year = as.integer(census_year),
-    is_vacant_space =
-      industry_anzsic4_code == 0 &
-      industry_anzsic4_description == "Vacant Space",
-    is_operating = industry_anzsic4_code > 0
-  )
-
-location_operating <- location %>%
-  filter(is_operating)
-
-location_quality_check <- location %>%
-  summarise(
-    all_location_records = n(),
-    vacant_space_records = sum(is_vacant_space),
-    operating_records = sum(is_operating)
-  )
-
-kable(location_quality_check, format.args = list(big.mark = ","))
+assert_true(!anyNA(location_raw$census_year) && !anyNA(location_raw$clue_small_area),
+            "Address records have missing year or precinct. Investigate before counting.")
+assert_true(anyDuplicated(location_raw) == 0,
+            "Exact duplicate address rows found. Investigate before removing anything.")
+location <- classify_locations(location_raw)
+location_categories <- count(location, record_type, name = "records")
+report_table(location_categories, col.names = c("Record category", "Records across all years"))
 ```
 
-| all_location_records | vacant_space_records | operating_records |
-|---------------------:|---------------------:|------------------:|
-|              413,550 |               68,299 |           345,251 |
+| Record category              | Records across all years |
+|:-----------------------------|-------------------------:|
+| Industry-coded establishment |                  345,251 |
+| Vacant Space                 |                   68,299 |
 
 ``` r
-stopifnot(
-  sum(location$is_vacant_space) == 68299,
-  all(location$is_vacant_space == !location$is_operating),
-  sum(duplicated(location)) == 0
-)
+assert_true(!any(location$record_type == "Needs review"),
+            "Some address classifications need review before selecting establishments.")
+location_operating <- filter(location, record_type == "Industry-coded establishment")
+location_vacant <- filter(location, record_type == "Vacant Space")
+assert_true(nrow(location_operating) + nrow(location_vacant) == nrow(location_raw),
+            "Address categories do not reconcile to the source rows.")
 ```
 
-The 68,299 Vacant Space observations are records across all 23 census
-years. They are not 68,299 unique buildings and are not a current
-vacancy count.
+The 68,299 vacancy observations cover the entire supplied time series.
+They are not that many unique buildings or business closures. Multiple
+records at one property may be separate establishments, so we do not
+deduplicate by property ID or address.
 
-## 3.3 Reconcile the two files
+The next table checks missing fields **within the vacant subset only**.
+It does not describe missing values across the full file.
 
 ``` r
-location_yearly <- location %>%
-  group_by(census_year) %>%
-  summarise(
-    operating_location_records = sum(is_operating),
-    .groups = "drop"
-  )
-
-aggregate_yearly <- aggregate %>%
-  group_by(census_year) %>%
-  summarise(
-    official_establishments = sum(total_establishments),
-    .groups = "drop"
-  )
-
-reconciliation <- aggregate_yearly %>%
-  left_join(location_yearly, by = "census_year") %>%
-  mutate(
-    difference = operating_location_records - official_establishments
-  )
-
-kable(
-  reconciliation %>%
-    filter(census_year %in% c(YEAR_PRE_COVID, YEAR_TROUGH, YEAR_LATEST)),
-  format.args = list(big.mark = ",")
-)
+vacancy_missing <- missing_audit(select(location_vacant, all_of(names(location_raw))),
+                                "Vacant subset only")
+report_table(select(vacancy_missing, -dataset),
+  col.names = c("Variable", "Vacant rows checked", "Missing", "Blank strings", "Missing (%)"))
 ```
 
-| census_year | official_establishments | operating_location_records | difference |
-|------------:|------------------------:|---------------------------:|-----------:|
-|       2,019 |                  16,713 |                     16,719 |          6 |
-|       2,022 |                  13,828 |                     13,828 |          0 |
-|       2,024 |                  14,338 |                     14,337 |         -1 |
-
-``` r
-# The two sources closely align after Vacant Space is removed. The small
-# remaining difference never exceeds 25 records in any census year.
-stopifnot(max(abs(reconciliation$difference)) <= 25)
-```
-
-# 4. Variables of interest
-
-## 4.1 Numerical variables
-
-``` r
-numerical_variables <- tribble(
-  ~variable, ~role, ~use_in_this_report,
-  "census_year", "Time variable", "Long-run trend and comparison-year selection",
-  "total_establishments", "Primary outcome", "Business establishment counts",
-  "total_jobs", "Secondary outcome", "Reported only; missing values are not imputed",
-  "longitude / latitude", "Spatial coordinates", "Reserved for later spatial analysis"
-)
-
-kable(numerical_variables)
-```
-
-| variable | role | use_in_this_report |
-|:---|:---|:---|
-| census_year | Time variable | Long-run trend and comparison-year selection |
-| total_establishments | Primary outcome | Business establishment counts |
-| total_jobs | Secondary outcome | Reported only; missing values are not imputed |
-| longitude / latitude | Spatial coordinates | Reserved for later spatial analysis |
-
-## 4.2 Categorical variables
-
-``` r
-categorical_variables <- tribble(
-  ~variable, ~levels, ~use_in_this_report,
-  "clue_small_area", n_distinct(aggregate$clue_small_area), "Precinct comparisons",
-  "anzsic_industry", n_distinct(aggregate$anzsic_industry), "Industry comparisons",
-  "business_size", n_distinct(aggregate$business_size), "Business-size comparisons",
-  "industry_anzsic4_description",
-  n_distinct(location_operating$industry_anzsic4_description),
-  "Detailed industry checks in later analysis"
-)
-
-kable(categorical_variables)
-```
-
-| variable | levels | use_in_this_report |
-|:---|---:|:---|
-| clue_small_area | 13 | Precinct comparisons |
-| anzsic_industry | 19 | Industry comparisons |
-| business_size | 4 | Business-size comparisons |
-| industry_anzsic4_description | 442 | Detailed industry checks in later analysis |
-
-# 5. Summary statistics for key numerical variables
-
-One row in the aggregated file is a year × precinct × industry ×
-business-size cell. The following statistics describe these cells, not
-individual businesses.
-
-``` r
-summary_statistics <- aggregate %>%
-  summarise(
-    cells = n(),
-    establishment_mean = mean(total_establishments),
-    establishment_median = median(total_establishments),
-    establishment_sd = sd(total_establishments),
-    establishment_min = min(total_establishments),
-    establishment_max = max(total_establishments),
-    jobs_reported_cells = sum(!jobs_suppressed),
-    jobs_missing_cells = sum(jobs_suppressed),
-    reported_jobs_mean = mean(total_jobs, na.rm = TRUE),
-    reported_jobs_median = median(total_jobs, na.rm = TRUE)
-  )
-
-kable(
-  summary_statistics,
-  digits = 1,
-  format.args = list(big.mark = ",")
-)
-```
-
-| cells | establishment_mean | establishment_median | establishment_sd | establishment_min | establishment_max | jobs_reported_cells | jobs_missing_cells | reported_jobs_mean | reported_jobs_median |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 13,353 | 25.9 | 5 | 106 | 1 | 1,538 | 9,101 | 4,252 | 979.4 | 167 |
-
-The job summaries describe reported values only. The 4,252 blank job
-cells are confidentiality suppressions associated with cells containing
-one or two establishments; they are retained and not replaced with zero.
-
-## 5.1 Distribution of establishment counts across aggregated cells
-
-``` r
-ggplot(aggregate, aes(total_establishments)) +
-  geom_histogram(
-    bins = 40,
-    fill = COL_BLUE,
-    colour = "white",
-    linewidth = 0.2
-  ) +
-  scale_x_log10(labels = comma) +
-  scale_y_continuous(labels = comma) +
-  labs(
-    title = "Most aggregated cells contain a small number of establishments",
-    subtitle = "The horizontal axis uses a log scale to show the long right tail",
-    x = "Establishments in each aggregated cell (log scale)",
-    y = "Number of cells"
-  ) +
-  theme_minimal(base_size = 12)
-```
-
-<div class="figure" style="text-align: center">
-
-<img src="01_descriptive_analytics_files/figure-gfm/establishment-histogram-1.png" alt="Distribution of establishment counts across aggregated cells." width="95%" />
-<p class="caption">
-
-Distribution of establishment counts across aggregated cells.
-</p>
-
-</div>
-
-## 5.2 Distribution by business size
-
-``` r
-ggplot(aggregate, aes(business_size, total_establishments, fill = business_size)) +
-  geom_boxplot(outlier.alpha = 0.15, show.legend = FALSE) +
-  scale_y_log10(labels = comma) +
-  labs(
-    title = "Cell counts vary widely within each business-size group",
-    subtitle = "The vertical axis uses a log scale",
-    x = NULL,
-    y = "Establishments in each aggregated cell (log scale)"
-  ) +
-  theme_minimal(base_size = 12) +
-  theme(axis.text.x = element_text(angle = 15, hjust = 1))
-```
-
-<div class="figure" style="text-align: center">
-
-<img src="01_descriptive_analytics_files/figure-gfm/establishment-boxplot-1.png" alt="Cell-level establishment counts by business-size category." width="95%" />
-<p class="caption">
-
-Cell-level establishment counts by business-size category.
-</p>
-
-</div>
-
-# 6. Grouped descriptive statistics
-
-## 6.1 City-wide totals by comparison year
-
-``` r
-city_year_summary <- aggregate %>%
-  filter(census_year %in% c(YEAR_PRE_COVID, YEAR_TROUGH, YEAR_LATEST)) %>%
-  group_by(census_year) %>%
-  summarise(
-    establishments = sum(total_establishments),
-    reported_jobs = sum(total_jobs, na.rm = TRUE),
-    suppressed_job_cells = sum(jobs_suppressed),
-    .groups = "drop"
-  )
-
-kable(city_year_summary, format.args = list(big.mark = ","))
-```
-
-| census_year | establishments | reported_jobs | suppressed_job_cells |
-|------------:|---------------:|--------------:|---------------------:|
-|       2,019 |         16,713 |       458,888 |                  180 |
-|       2,022 |         13,828 |       439,918 |                  198 |
-|       2,024 |         14,338 |       485,604 |                  203 |
-
-## 6.2 Precinct summary for 2019 and 2024
-
-``` r
-precinct_summary <- aggregate %>%
-  filter(census_year %in% c(YEAR_PRE_COVID, YEAR_LATEST)) %>%
-  group_by(census_year, clue_small_area) %>%
-  summarise(
-    establishments = sum(total_establishments),
-    .groups = "drop"
-  ) %>%
-  pivot_wider(
-    names_from = census_year,
-    values_from = establishments,
-    names_prefix = "est_"
-  ) %>%
-  mutate(
-    change_count = est_2024 - est_2019,
-    change_pct = pct_change(est_2024, est_2019),
-    eligible_for_pct_ranking = est_2019 >= MIN_BASELINE_FOR_RANKING
-  ) %>%
-  arrange(change_pct)
-
-kable(
-  precinct_summary,
-  digits = 1,
-  format.args = list(big.mark = ",")
-)
-```
-
-| clue_small_area | est_2019 | est_2024 | change_count | change_pct | eligible_for_pct_ranking |
-|:---|---:|---:|---:|---:|:---|
-| East Melbourne | 600 | 490 | -110 | -18.3 | TRUE |
-| Melbourne (CBD) | 9,444 | 7,883 | -1,561 | -16.5 | TRUE |
-| Melbourne (Remainder) | 330 | 281 | -49 | -14.8 | TRUE |
-| North Melbourne | 1,000 | 864 | -136 | -13.6 | TRUE |
-| Docklands | 1,216 | 1,059 | -157 | -12.9 | TRUE |
-| Southbank | 969 | 859 | -110 | -11.4 | TRUE |
-| West Melbourne (Residential) | 447 | 398 | -49 | -11.0 | TRUE |
-| Parkville | 394 | 352 | -42 | -10.7 | TRUE |
-| West Melbourne (Industrial) | 153 | 138 | -15 | -9.8 | TRUE |
-| Carlton | 1,124 | 1,031 | -93 | -8.3 | TRUE |
-| Port Melbourne | 536 | 502 | -34 | -6.3 | TRUE |
-| Kensington | 446 | 429 | -17 | -3.8 | TRUE |
-| South Yarra | 54 | 52 | -2 | -3.7 | FALSE |
-
-## 6.3 Business-size summary for 2019 and 2024
-
-``` r
-size_summary <- aggregate %>%
-  filter(census_year %in% c(YEAR_PRE_COVID, YEAR_LATEST)) %>%
-  group_by(census_year, business_size) %>%
-  summarise(
-    establishments = sum(total_establishments),
-    .groups = "drop"
-  ) %>%
-  pivot_wider(
-    names_from = census_year,
-    values_from = establishments,
-    names_prefix = "est_"
-  ) %>%
-  mutate(
-    change_count = est_2024 - est_2019,
-    change_pct = pct_change(est_2024, est_2019)
-  )
-
-kable(
-  size_summary,
-  digits = 1,
-  format.args = list(big.mark = ",")
-)
-```
-
-| business_size   | est_2019 | est_2024 | change_count | change_pct |
-|:----------------|---------:|---------:|-------------:|-----------:|
-| Non employing   |      828 |      858 |           30 |        3.6 |
-| Small business  |   12,641 |   10,207 |       -2,434 |      -19.3 |
-| Medium business |    2,865 |    2,847 |          -18 |       -0.6 |
-| Large business  |      379 |      426 |           47 |       12.4 |
-
-## 6.4 Industry summary for 2019 and 2024
-
-``` r
-industry_summary <- aggregate %>%
-  filter(census_year %in% c(YEAR_PRE_COVID, YEAR_LATEST)) %>%
-  group_by(census_year, anzsic_industry) %>%
-  summarise(
-    establishments = sum(total_establishments),
-    .groups = "drop"
-  ) %>%
-  pivot_wider(
-    names_from = census_year,
-    values_from = establishments,
-    names_prefix = "est_"
-  ) %>%
-  mutate(
-    change_count = est_2024 - est_2019,
-    change_pct = pct_change(est_2024, est_2019)
-  ) %>%
-  arrange(change_count)
-
-kable(
-  industry_summary,
-  digits = 1,
-  format.args = list(big.mark = ",")
-)
-```
-
-| anzsic_industry | est_2019 | est_2024 | change_count | change_pct |
+| Variable | Vacant rows checked | Missing | Blank strings | Missing (%) |
 |:---|---:|---:|---:|---:|
-| Professional, Scientific and Technical Services | 2,770 | 2,132 | -638 | -23.0 |
-| Retail Trade | 2,263 | 1,870 | -393 | -17.4 |
-| Financial and Insurance Services | 970 | 721 | -249 | -25.7 |
-| Administrative and Support Services | 604 | 357 | -247 | -40.9 |
-| Other Services | 1,603 | 1,419 | -184 | -11.5 |
-| Accommodation and Food Services | 3,153 | 3,033 | -120 | -3.8 |
-| Health Care and Social Assistance | 1,167 | 1,053 | -114 | -9.8 |
-| Wholesale Trade | 381 | 304 | -77 | -20.2 |
-| Rental, Hiring and Real Estate Services | 483 | 408 | -75 | -15.5 |
-| Transport, Postal and Warehousing | 314 | 240 | -74 | -23.6 |
-| Construction | 395 | 323 | -72 | -18.2 |
-| Manufacturing | 481 | 436 | -45 | -9.4 |
-| Information Media and Telecommunications | 252 | 213 | -39 | -15.5 |
-| Public Administration and Safety | 305 | 279 | -26 | -8.5 |
-| Education and Training | 676 | 661 | -15 | -2.2 |
-| Arts and Recreation Services | 650 | 638 | -12 | -1.8 |
-| Mining | 37 | 27 | -10 | -27.0 |
-| Agriculture, Forestry and Fishing | 17 | 10 | -7 | -41.2 |
-| Electricity, Gas, Water and Waste Services | 192 | 214 | 22 | 11.5 |
+| census_year | 68,299 | 0 | 0 | 0.0 |
+| block_id | 68,299 | 0 | 0 | 0.0 |
+| property_id | 68,299 | 0 | 0 | 0.0 |
+| base_property_id | 68,299 | 0 | 0 | 0.0 |
+| clue_small_area | 68,299 | 0 | 0 | 0.0 |
+| trading_name | 68,299 | 109 | 0 | 0.2 |
+| business_address | 68,299 | 0 | 0 | 0.0 |
+| industry_anzsic4_code | 68,299 | 0 | 0 | 0.0 |
+| industry_anzsic4_description | 68,299 | 0 | 0 | 0.0 |
+| longitude | 68,299 | 1,094 | 0 | 1.6 |
+| latitude | 68,299 | 1,094 | 0 | 1.6 |
+| point | 68,299 | 1,094 | 0 | 1.6 |
 
-# 7. Visual analysis
+## 2.4 Check counts between files
 
-## 7.1 Long-run city-wide establishment trend
-
-The annual points show the published series. They are used to describe
-the long-run shape, not to estimate year-on-year entry or exit.
+This check uses **all business sizes**. The address file cannot supply
+an SME-only total. Similar totals do not establish a record-by-record
+match.
 
 ``` r
-city_trend <- aggregate %>%
-  group_by(census_year) %>%
-  summarise(
-    establishments = sum(total_establishments),
-    .groups = "drop"
-  )
+all_size_yearly <- sum_establishments(aggregate)
+address_yearly <- location %>% group_by(census_year) %>%
+  summarise(address_records = n(), vacant_records = sum(record_type == "Vacant Space"),
+    industry_coded_records = sum(record_type == "Industry-coded establishment"), .groups = "drop")
+reconciliation <- full_join(all_size_yearly, address_yearly,
+                            by = "census_year", relationship = "one-to-one") %>%
+  mutate(difference = industry_coded_records - establishments)
+assert_true(!anyNA(reconciliation), "The two sources do not cover the same years.")
+report_table(filter(reconciliation, census_year %in% COMPARISON_YEARS),
+  col.names = c("Year", "Aggregated total", "All address records", "Vacant records",
+                "Industry-coded records", "Difference"))
+```
 
-ggplot(city_trend, aes(census_year, establishments)) +
-  geom_line(linewidth = 1, colour = COL_DARK) +
-  geom_point(size = 2, colour = COL_DARK) +
-  geom_vline(
-    xintercept = 2020,
-    linetype = "dashed",
-    colour = COL_NEGATIVE
-  ) +
-  annotate(
-    "text",
-    x = 2020.3,
-    y = max(city_trend$establishments),
-    label = "COVID-19",
-    hjust = 0,
-    colour = COL_NEGATIVE,
-    size = 3.5
-  ) +
-  scale_x_continuous(breaks = seq(2002, 2024, 2)) +
+| Year | Aggregated total | All address records | Vacant records | Industry-coded records | Difference |
+|---:|---:|---:|---:|---:|---:|
+| 2,019 | 16,713 | 19,730 | 3,011 | 16,719 | 6 |
+| 2,022 | 13,828 | 19,659 | 5,831 | 13,828 | 0 |
+| 2,024 | 14,338 | 19,672 | 5,335 | 14,337 | -1 |
+
+The largest absolute annual difference is 23 records. The cause is
+unresolved, so we retain the differences and use the aggregated source
+for all main results.
+
+# 3. Define the sample and comparisons
+
+## 3.1 Select the population once
+
+CLUE defines Small business as 1-19 jobs, Medium business as 20-199
+jobs, and Non employing as no jobs allocated to the establishment \[1\].
+We select using `business_size`, not the incomplete `total_jobs` column.
+
+``` r
+aggregate_period <- filter(aggregate, between(census_year, START_YEAR, END_YEAR))
+sme <- filter(aggregate_period, business_size %in% SME_CATEGORIES)
+assert_true(nrow(sme) > 0, "The selected SME population is empty.")
+assert_true(all(SME_CATEGORIES %in% sme$business_size), "A selected category is absent.")
+assert_true(setequal(unique(sme$precinct), unique(aggregate_period$precinct)),
+            "A precinct has no selected SME records. Investigate coverage.")
+sample_log <- tibble(
+  Step = c("Raw aggregated file", "Within 2002-2024", "Selected SME categories"),
+  `Aggregated rows` = c(nrow(aggregate), nrow(aggregate_period), nrow(sme)),
+  Action = c("Retain source", "Apply study period", "Apply size definition"))
+report_table(sample_log)
+```
+
+| Step                    | Aggregated rows | Action                |
+|:------------------------|----------------:|:----------------------|
+| Raw aggregated file     |          13,353 | Retain source         |
+| Within 2002-2024        |          13,353 | Apply study period    |
+| Selected SME categories |           8,800 | Apply size definition |
+
+The sample covers 13 precincts and 19 industry divisions. The log counts
+aggregated rows; no row is dropped for missing jobs. Large businesses
+remain available for context.
+
+## 3.2 Separate the remaining gap from recent recovery
+
+- **Gap from 2019:** 2024 count minus 2019 count. The percentage
+  denominator is the 2019 count. Has the area returned to its pre-COVID
+  establishment level?
+- **Change since 2022:** 2024 count minus 2022 count. The percentage
+  denominator is the 2022 count. Have counts recently increased?
+
+An area can remain below 2019 while increasing since 2022. We describe
+this as partial recovery in establishment counts; it says nothing about
+profitability or the cause of the change.
+
+CLUE publishes a constructed annual series based on its survey cycle.
+Its guidance recommends comparison years at least two years apart \[2,
+section 12\]. We use 2019, 2022 and 2024. The common 2022 comparison
+point is **not assumed to be every precinct’s or industry’s lowest
+year**. Annual lines show context; we do not calculate year-on-year
+entry, exit or growth rates.
+
+``` r
+city_yearly <- sum_establishments(sme)
+precinct_yearly <- sum_establishments(sme, "precinct")
+industry_yearly <- sum_establishments(sme, "industry")
+precinct_industry_yearly <- sum_establishments(sme, c("precinct", "industry"))
+size_yearly <- sum_establishments(aggregate_period, "business_size")
+city_comparison <- compare_years(city_yearly, years = COMPARISON_YEARS, min_base = MIN_BASELINE)
+precinct_comparison <- compare_years(precinct_yearly, "precinct", COMPARISON_YEARS, MIN_BASELINE)
+industry_comparison <- compare_years(industry_yearly, "industry", COMPARISON_YEARS, MIN_BASELINE)
+precinct_industry_comparison <- compare_years(precinct_industry_yearly,
+  c("precinct", "industry"), COMPARISON_YEARS, MIN_BASELINE)
+size_comparison <- compare_years(size_yearly, "business_size", COMPARISON_YEARS, MIN_BASELINE)
+
+# Every yearly breakdown must add to the SAME selected city total.
+for (breakdown in list(precinct_yearly, industry_yearly, precinct_industry_yearly)) {
+  check <- breakdown %>% group_by(census_year) %>%
+    summarise(check_total = sum(establishments), .groups = "drop") %>%
+    full_join(city_yearly, by = "census_year", relationship = "one-to-one")
+  assert_true(!anyNA(check) && all(check$check_total == check$establishments),
+              "A grouped summary does not add to the selected city total.")
+}
+```
+
+**Small baselines:** we withhold displayed percentages where the
+starting count is below 100, while retaining counts in all totals. This
+is our display rule, not a CLUE rule. Exports include calculated rates
+and small-baseline flags. Use counts for South Yarra.
+
+# 4. How have SME counts changed?
+
+## 4.1 City-wide trend
+
+``` r
+report_table(filter(city_yearly, census_year %in% COMPARISON_YEARS),
+             col.names = c("Year", "Selected SME establishments"))
+```
+
+|  Year | Selected SME establishments |
+|------:|----------------------------:|
+| 2,019 |                      15,506 |
+| 2,022 |                      12,571 |
+| 2,024 |                      13,054 |
+
+The selected population changed from **15,506 in 2019** to **13,054 in
+2024**: -2,452 establishments (-15.8%). Between 2022 and 2024, the
+change was +483 (+3.8%).
+
+``` r
+ggplot(city_yearly, aes(census_year, establishments)) +
+  geom_vline(xintercept = 2020, linetype = "dashed", colour = GREY) +
+  geom_line(colour = BLUE, linewidth = .9) +
+  geom_point(data = filter(city_yearly, census_year %in% COMPARISON_YEARS), colour = BLUE, size = 2.7) +
+  geom_text(data = filter(city_yearly, census_year %in% COMPARISON_YEARS),
+            aes(label = comma(establishments)), vjust = -1, size = 3.6) +
+  scale_x_continuous(breaks = c(2002, 2006, 2010, 2014, 2019, 2022, 2024)) +
+  scale_y_continuous(labels = comma, expand = expansion(mult = c(.08, .15))) +
+  labs(title = "SME establishment counts over time", subtitle = SCOPE_LABEL,
+       x = "Census year", y = "Establishments",
+       caption = "Source: supplied CLUE aggregated file. Dashed line: 2020. Annual series is context, not annual turnover.")
+```
+
+<img src="01_descriptive_analytics_files/figure-gfm/city-trend-1.png" alt="" width="100%" />
+
+## 4.2 Small and medium businesses can move differently
+
+Categories marked Yes are included in the main results. Establishments
+can move between size categories, so count changes alone cannot identify
+closures or mergers.
+
+``` r
+size_display <- size_comparison %>%
+  mutate(Included = if_else(business_size %in% SME_CATEGORIES, "Yes", "No")) %>%
+  select(business_size, Included, n_pre, n_recovery_start, n_latest, gap_count, recovery_count)
+report_table(size_display, col.names = c("Size category", "In main analysis", "2019", "2022",
+                                       "2024", "Change 2019-24", "Change 2022-24"))
+```
+
+| Size category | In main analysis | 2019 | 2022 | 2024 | Change 2019-24 | Change 2022-24 |
+|:---|:---|---:|---:|---:|---:|---:|
+| Large business | No | 379 | 376 | 426 | 47 | 50 |
+| Medium business | Yes | 2,865 | 2,641 | 2,847 | -18 | 206 |
+| Non employing | No | 828 | 881 | 858 | 30 | -23 |
+| Small business | Yes | 12,641 | 9,930 | 10,207 | -2,434 | 277 |
+
+# 5. Which precincts are recovering?
+
+## 5.1 Long-run precinct patterns
+
+Each panel shows a precinct’s trend, including changes before COVID-19.
+**Vertical scales differ**; compare direction within panels, not line
+heights between them.
+
+``` r
+ggplot(precinct_yearly, aes(census_year, establishments)) +
+  geom_vline(xintercept = 2020, linetype = "dashed", colour = "grey65") +
+  geom_line(colour = BLUE, linewidth = .65) +
+  geom_point(data = filter(precinct_yearly, census_year %in% COMPARISON_YEARS), colour = BLUE, size = 1.3) +
+  facet_wrap(~precinct, scales = "free_y", ncol = 3, labeller = label_wrap_gen(width = 25)) +
+  scale_x_continuous(breaks = c(2002, 2012, 2024)) + scale_y_continuous(labels = comma) +
+  labs(title = "SME trends by precinct", subtitle = SCOPE_LABEL,
+       x = "Census year", y = "Establishments (different scale in each panel)",
+       caption = "Source: supplied CLUE aggregated file, 2002-2024. All precincts retained.")
+```
+
+<img src="01_descriptive_analytics_files/figure-gfm/precinct-trends-1.png" alt="" width="100%" />
+
+## 5.2 Recent improvement and the remaining gap
+
+``` r
+report_table(precinct_comparison %>% arrange(precinct) %>%
+  select(precinct, n_pre, n_recovery_start, n_latest, gap_count, recovery_count),
+  col.names = c("Precinct", "2019", "2022", "2024", "Change 2019-24", "Change 2022-24"))
+```
+
+| Precinct                     |  2019 |  2022 |  2024 | Change 2019-24 | Change 2022-24 |
+|:-----------------------------|------:|------:|------:|---------------:|---------------:|
+| Carlton                      | 1,021 |   829 |   904 |           -117 |             75 |
+| Docklands                    | 1,092 |   888 |   933 |           -159 |             45 |
+| East Melbourne               |   519 |   419 |   415 |           -104 |             -4 |
+| Kensington                   |   357 |   324 |   326 |            -31 |              2 |
+| Melbourne (CBD)              | 9,079 | 7,240 | 7,485 |         -1,594 |            245 |
+| Melbourne (Remainder)        |   262 |   227 |   218 |            -44 |             -9 |
+| North Melbourne              |   928 |   742 |   779 |           -149 |             37 |
+| Parkville                    |   322 |   267 |   272 |            -50 |              5 |
+| Port Melbourne               |   492 |   422 |   464 |            -28 |             42 |
+| South Yarra                  |    36 |    35 |    34 |             -2 |             -1 |
+| Southbank                    |   870 |   770 |   764 |           -106 |             -6 |
+| West Melbourne (Industrial)  |   117 |    99 |    96 |            -21 |             -3 |
+| West Melbourne (Residential) |   411 |   309 |   364 |            -47 |             55 |
+
+Of the 13 precincts, 0 were at or above their 2019 counts in 2024, while
+8 increased between 2022 and 2024. These figures cover the selected SME
+population.
+
+``` r
+precinct_plot <- precinct_comparison %>%
+  mutate(precinct = factor(precinct, levels = precinct[order(gap_count)])) %>%
+  select(precinct, `Gap from 2019` = gap_pct_display, `Change since 2022` = recovery_pct_display) %>%
+  pivot_longer(-precinct, names_to = "comparison", values_to = "change_pct") %>%
+  filter(!is.na(change_pct)) %>%
+  mutate(comparison = factor(comparison, levels = c("Gap from 2019", "Change since 2022")))
+ggplot(precinct_plot, aes(change_pct, precinct)) +
+  geom_vline(xintercept = 0, colour = "grey55") +
+  geom_segment(aes(x = 0, xend = change_pct, yend = precinct), colour = "grey75") +
+  geom_point(aes(colour = change_pct >= 0), size = 2.8) + facet_wrap(~comparison, nrow = 1) +
+  scale_colour_manual(values = c("FALSE" = RED, "TRUE" = BLUE), guide = "none") +
+  scale_x_continuous(labels = label_number(suffix = "%")) +
+  labs(title = "The remaining gap and recent change", subtitle = SCOPE_LABEL,
+       x = "Change in establishments (%)", y = NULL,
+       caption = paste("Source: CLUE aggregated file. Percentages omitted where the relevant starting count is below", MIN_BASELINE))
+```
+
+<img src="01_descriptive_analytics_files/figure-gfm/precinct-comparisons-1.png" alt="" width="100%" />
+
+Use the count table alongside percentages when comparing the CBD with
+smaller precincts.
+
+# 6. Which industries account for the changes?
+
+## 6.1 Compare industry counts
+
+The long-run panels show when industry trends began. Each has its own
+vertical scale. The comparison table and bars show count changes; the
+largest count reduction need not be the largest percentage reduction.
+
+``` r
+ggplot(industry_yearly, aes(census_year, establishments)) +
+  geom_vline(xintercept = 2020, linetype = "dashed", colour = "grey65") +
+  geom_line(colour = BLUE, linewidth = .65) +
+  geom_point(data = filter(industry_yearly, census_year %in% COMPARISON_YEARS),
+             colour = BLUE, size = 1.2) +
+  facet_wrap(~industry, scales = "free_y", ncol = 3,
+             labeller = label_wrap_gen(width = 28)) +
+  scale_x_continuous(breaks = c(2002, 2012, 2024)) +
   scale_y_continuous(labels = comma) +
-  labs(
-    title = "Melbourne had fewer establishments after 2019",
-    subtitle = "Comparisons use years at least two years apart",
-    x = "Census year",
-    y = "Business establishments"
-  ) +
-  theme_minimal(base_size = 12) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  labs(title = "SME trends by industry", subtitle = SCOPE_LABEL,
+       x = "Census year", y = "Establishments (different scale in each panel)",
+       caption = "Source: supplied CLUE aggregated file. Annual lines show context, not annual growth rates.")
 ```
 
-<div class="figure" style="text-align: center">
-
-<img src="01_descriptive_analytics_files/figure-gfm/city-trend-plot-1.png" alt="City-wide establishment trend, 2002–2024." width="95%" />
-<p class="caption">
-
-City-wide establishment trend, 2002–2024.
-</p>
-
-</div>
-
-## 7.2 Precinct baseline before COVID-19
+<img src="01_descriptive_analytics_files/figure-gfm/industry-trends-1.png" alt="" width="100%" />
 
 ``` r
-precinct_baseline <- aggregate %>%
-  filter(census_year == YEAR_PRE_COVID) %>%
-  group_by(clue_small_area) %>%
-  summarise(
-    establishments = sum(total_establishments),
-    .groups = "drop"
-  ) %>%
-  mutate(
-    city_share = establishments / sum(establishments),
-    emphasis = if_else(
-      clue_small_area == "Melbourne (CBD)",
-      "CBD",
-      "Other precincts"
-    ),
-    label = paste0(comma(establishments), " (", percent(city_share, 0.1), ")")
-  )
-
-ggplot(
-  precinct_baseline,
-  aes(
-    establishments,
-    fct_reorder(clue_small_area, establishments),
-    fill = emphasis
-  )
-) +
-  geom_col(width = 0.68) +
-  geom_text(aes(label = label), hjust = -0.05, size = 3.5) +
-  scale_fill_manual(
-    values = c("CBD" = COL_DARK, "Other precincts" = COL_LIGHT_BLUE),
-    guide = "none"
-  ) +
-  scale_x_continuous(labels = comma, limits = c(0, 10800)) +
-  labs(
-    title = "Precincts entered COVID-19 from very different baselines",
-    subtitle = "The CBD contained 56.5% of establishments in 2019",
-    x = "Business establishments in 2019",
-    y = NULL
-  ) +
-  theme_minimal(base_size = 12) +
-  theme(panel.grid.major.y = element_blank())
+report_table(industry_comparison %>% arrange(gap_count) %>%
+  select(industry, n_pre, n_recovery_start, n_latest, gap_count, recovery_count),
+  col.names = c("Industry division", "2019", "2022", "2024", "Change 2019-24", "Change 2022-24"))
 ```
 
-<div class="figure" style="text-align: center">
-
-<img src="01_descriptive_analytics_files/figure-gfm/precinct-baseline-plot-1.png" alt="Precinct establishment counts in 2019." width="95%" />
-<p class="caption">
-
-Precinct establishment counts in 2019.
-</p>
-
-</div>
-
-## 7.3 Precinct recovery gap, 2019 to 2024
-
-South Yarra is shown in the summary table but excluded from this
-percentage ranking because its 2019 baseline was only 54 establishments.
-
-``` r
-precinct_rank <- precinct_summary %>%
-  filter(eligible_for_pct_ranking)
-
-ggplot(
-  precinct_rank,
-  aes(
-    change_pct,
-    fct_reorder(clue_small_area, change_pct)
-  )
-) +
-  geom_col(fill = COL_NEGATIVE, width = 0.68) +
-  geom_vline(xintercept = 0, colour = "grey40") +
-  geom_text(
-    aes(
-      x = -0.3,
-      label = percent(change_pct / 100, accuracy = 0.1)
-    ),
-    hjust = 1,
-    colour = "white",
-    size = 3.4
-  ) +
-  labs(
-    title = "No precinct returned to its 2019 level by 2024",
-    subtitle = "The chart excludes South Yarra from percentage ranking because its baseline was only 54",
-    x = "Change in establishments, 2019 to 2024",
-    y = NULL
-  ) +
-  theme_minimal(base_size = 12) +
-  theme(panel.grid.major.y = element_blank())
-```
-
-<div class="figure" style="text-align: center">
-
-<img src="01_descriptive_analytics_files/figure-gfm/precinct-change-plot-1.png" alt="Percentage change in establishments by precinct, excluding baselines below 100." width="95%" />
-<p class="caption">
-
-Percentage change in establishments by precinct, excluding baselines
-below 100.
-</p>
-
-</div>
-
-## 7.4 Change by business size
+| Industry division | 2019 | 2022 | 2024 | Change 2019-24 | Change 2022-24 |
+|:---|---:|---:|---:|---:|---:|
+| Professional, Scientific and Technical Services | 2,697 | 2,061 | 2,035 | -662 | -26 |
+| Retail Trade | 2,235 | 1,764 | 1,840 | -395 | 76 |
+| Financial and Insurance Services | 912 | 690 | 656 | -256 | -34 |
+| Administrative and Support Services | 585 | 378 | 336 | -249 | -42 |
+| Other Services | 1,428 | 1,163 | 1,258 | -170 | 95 |
+| Accommodation and Food Services | 3,065 | 2,705 | 2,919 | -146 | 214 |
+| Health Care and Social Assistance | 1,129 | 958 | 1,020 | -109 | 62 |
+| Wholesale Trade | 369 | 287 | 291 | -78 | 4 |
+| Transport, Postal and Warehousing | 250 | 174 | 178 | -72 | 4 |
+| Construction | 372 | 291 | 301 | -71 | 10 |
+| Rental, Hiring and Real Estate Services | 460 | 364 | 390 | -70 | 26 |
+| Manufacturing | 459 | 393 | 413 | -46 | 20 |
+| Public Administration and Safety | 248 | 213 | 202 | -46 | -11 |
+| Arts and Recreation Services | 384 | 337 | 355 | -29 | 18 |
+| Information Media and Telecommunications | 210 | 167 | 181 | -29 | 14 |
+| Education and Training | 618 | 545 | 594 | -24 | 49 |
+| Mining | 32 | 26 | 23 | -9 | -3 |
+| Agriculture, Forestry and Fishing | 17 | 11 | 9 | -8 | -2 |
+| Electricity, Gas, Water and Waste Services | 36 | 44 | 53 | 17 | 9 |
 
 ``` r
-ggplot(
-  size_summary,
-  aes(change_count, fct_reorder(business_size, change_count))
-) +
-  geom_col(
-    aes(fill = change_count >= 0),
-    width = 0.65,
-    show.legend = FALSE
-  ) +
-  geom_vline(xintercept = 0, colour = "grey40") +
-  geom_text(
-    aes(
-      label = comma(change_count),
-      hjust = if_else(change_count < 0, 1.1, -0.1)
-    ),
-    colour = COL_DARK,
-    size = 3.7
-  ) +
-  scale_fill_manual(
-    values = c("TRUE" = COL_POSITIVE, "FALSE" = COL_NEGATIVE)
-  ) +
-  scale_x_continuous(
-    labels = comma,
-    limits = c(-2700, 300)
-  ) +
-  labs(
-    title = "The establishment decline was concentrated in Small businesses",
-    subtitle = "Small businesses lost 2,434 establishments from 2019 to 2024",
-    x = "Change in establishments, 2019 to 2024",
-    y = NULL
-  ) +
-  theme_minimal(base_size = 12) +
-  theme(panel.grid.major.y = element_blank())
-```
-
-<div class="figure" style="text-align: center">
-
-<img src="01_descriptive_analytics_files/figure-gfm/business-size-change-plot-1.png" alt="Change in establishment counts by business size, 2019–2024." width="95%" />
-<p class="caption">
-
-Change in establishment counts by business size, 2019–2024.
-</p>
-
-</div>
-
-## 7.5 Industries with the largest numerical changes
-
-``` r
-industry_plot_data <- industry_summary %>%
-  slice_max(abs(change_count), n = 10, with_ties = FALSE)
-
-ggplot(
-  industry_plot_data,
-  aes(change_count, fct_reorder(anzsic_industry, change_count))
-) +
-  geom_col(
-    aes(fill = change_count >= 0),
-    width = 0.68,
-    show.legend = FALSE
-  ) +
-  geom_vline(xintercept = 0, colour = "grey40") +
-  scale_fill_manual(
-    values = c("TRUE" = COL_POSITIVE, "FALSE" = COL_NEGATIVE)
-  ) +
+industry_plot <- industry_comparison %>%
+  mutate(industry = factor(industry, levels = industry[order(gap_count)])) %>%
+  select(industry, `Gap from 2019` = gap_count, `Change since 2022` = recovery_count) %>%
+  pivot_longer(-industry, names_to = "comparison", values_to = "change_count") %>%
+  filter(!is.na(change_count)) %>%
+  mutate(comparison = factor(comparison, levels = c("Gap from 2019", "Change since 2022")))
+ggplot(industry_plot, aes(change_count, industry)) +
+  geom_col(aes(fill = change_count >= 0), width = .65) +
+  geom_vline(xintercept = 0, colour = "grey55") +
+  facet_wrap(~comparison, nrow = 1, scales = "free_x") +
+  scale_y_discrete(labels = function(x) stringr::str_wrap(x, 30)) +
   scale_x_continuous(labels = comma) +
-  labs(
-    title = "Professional services and retail recorded the largest losses",
-    subtitle = "Ten industries with the largest numerical changes, 2019 to 2024",
-    x = "Change in establishments, 2019 to 2024",
-    y = NULL
-  ) +
-  theme_minimal(base_size = 11) +
-  theme(panel.grid.major.y = element_blank())
+  scale_fill_manual(values = c("FALSE" = RED, "TRUE" = BLUE), guide = "none") +
+  labs(title = "SME establishment changes by industry", subtitle = SCOPE_LABEL,
+       x = "Change in establishment count (different scales by panel)", y = NULL,
+       caption = "Source: supplied CLUE aggregated file. Counts are net changes, not firm closures or entries.")
 ```
 
-<div class="figure" style="text-align: center">
+<img src="01_descriptive_analytics_files/figure-gfm/industry-comparisons-1.png" alt="" width="100%" />
 
-<img src="01_descriptive_analytics_files/figure-gfm/industry-change-plot-1.png" alt="Industries with the largest absolute establishment changes, 2019–2024." width="95%" />
-<p class="caption">
+## 6.2 Does industry composition change?
 
-Industries with the largest absolute establishment changes, 2019–2024.
-</p>
-
-</div>
-
-# 8. Main findings
+Industry share is the industry’s SME count divided by the city SME total
+**in the same year**. These city-wide shares may hide changes within
+precincts and do not test whether diversity affects recovery.
 
 ``` r
-headline_findings <- tibble(
-  finding = c(
-    "City-wide establishments fell from 16,713 in 2019 to 14,338 in 2024, a 14.2% decline.",
-    "None of the 13 precincts returned to its 2019 establishment level by 2024.",
-    "Small businesses lost 2,434 establishments, more than the total city-wide net decline.",
-    "Large businesses added 47 establishments, partly offsetting the small-business decline.",
-    "Professional, Scientific and Technical Services recorded the largest numerical loss (-638), followed by Retail Trade (-393)."
-  )
-)
+industry_shares <- industry_yearly %>% filter(census_year %in% c(2019L, 2024L)) %>%
+  group_by(census_year) %>% mutate(share_pct = 100 * establishments / sum(establishments)) %>%
+  ungroup() %>% select(industry, census_year, share_pct) %>%
+  pivot_wider(names_from = census_year, values_from = share_pct, names_prefix = "share_") %>%
+  mutate(change_pp = share_2024 - share_2019) %>% arrange(desc(abs(change_pp)))
+report_table(industry_shares, col.names = c("Industry division", "2019 share (%)",
+                                          "2024 share (%)", "Change (percentage points)"))
+```
 
-kable(headline_findings, col.names = "Finding")
+| Industry division | 2019 share (%) | 2024 share (%) | Change (percentage points) |
+|:---|---:|---:|---:|
+| Accommodation and Food Services | 19.8 | 22.4 | 2.6 |
+| Professional, Scientific and Technical Services | 17.4 | 15.6 | -1.8 |
+| Administrative and Support Services | 3.8 | 2.6 | -1.2 |
+| Financial and Insurance Services | 5.9 | 5.0 | -0.9 |
+| Education and Training | 4.0 | 4.6 | 0.6 |
+| Health Care and Social Assistance | 7.3 | 7.8 | 0.5 |
+| Other Services | 9.2 | 9.6 | 0.4 |
+| Retail Trade | 14.4 | 14.1 | -0.3 |
+| Transport, Postal and Warehousing | 1.6 | 1.4 | -0.2 |
+| Arts and Recreation Services | 2.5 | 2.7 | 0.2 |
+| Manufacturing | 3.0 | 3.2 | 0.2 |
+| Electricity, Gas, Water and Waste Services | 0.2 | 0.4 | 0.2 |
+| Wholesale Trade | 2.4 | 2.2 | -0.2 |
+| Construction | 2.4 | 2.3 | -0.1 |
+| Public Administration and Safety | 1.6 | 1.5 | -0.1 |
+| Agriculture, Forestry and Fishing | 0.1 | 0.1 | 0.0 |
+| Information Media and Telecommunications | 1.4 | 1.4 | 0.0 |
+| Mining | 0.2 | 0.2 | 0.0 |
+| Rental, Hiring and Real Estate Services | 3.0 | 3.0 | 0.0 |
+
+## 6.3 Connect precincts and industries
+
+City-wide industry totals can hide local differences. This chart shows
+the 2022-2024 **count change** for each precinct-industry combination.
+Blue means more establishments, red means fewer. Grey means a source
+total was unavailable in at least one comparison year.
+
+Absent source combinations stay unavailable. Small groups, including
+South Yarra, remain in the chart. Larger precincts can have larger
+changes because of their size.
+
+``` r
+grid_changes <- precinct_industry_comparison %>%
+  complete(precinct = sort(unique(sme$precinct)), industry = sort(unique(sme$industry)))
+ggplot(grid_changes, aes(precinct, industry, fill = recovery_count)) +
+  geom_tile(colour = "white", linewidth = .3) +
+  scale_fill_gradient2(low = RED, mid = "#FAFAFA", high = BLUE, midpoint = 0,
+                       na.value = "#B8B8B8", name = "Count change",
+                       breaks = function(limits) sort(unique(c(limits, 0))),
+                       labels = label_number(accuracy = 1)) +
+  scale_x_discrete(labels = function(x) stringr::str_wrap(x, 18)) +
+  scale_y_discrete(labels = function(x) stringr::str_wrap(x, 32)) +
+  labs(title = "Where SME counts increased or decreased, 2022-2024", subtitle = SCOPE_LABEL,
+       x = "Precinct", y = "Industry division",
+       caption = "Source: supplied CLUE aggregated file. Grey = unavailable comparison; white = near zero.") +
+  theme(axis.text.x = element_text(angle = 60, hjust = 1, size = 9),
+        axis.text.y = element_text(size = 9), panel.grid = element_blank())
+```
+
+<img src="01_descriptive_analytics_files/figure-gfm/precinct-industry-changes-1.png" alt="" width="100%" />
+
+39 combinations have no available 2022-2024 comparison under this rule.
+They should not be read as zero change.
+
+# 7. Does the SME definition affect the results?
+
+We repeat city, precinct and industry comparisons with and without
+non-employing businesses, using the same snapshot.
+
+``` r
+scope_options <- list(
+  `Small + medium only` = c("Small business", "Medium business"),
+  `Non-employing + small + medium` = c("Non employing", "Small business", "Medium business"))
+scope_city <- imap_dfr(scope_options, function(categories, label) {
+  filtered <- filter(aggregate_period, business_size %in% categories)
+  compare_years(sum_establishments(filtered), years = COMPARISON_YEARS,
+                min_base = MIN_BASELINE) %>% mutate(scope = label, .before = 1)
+})
+scope_precinct <- imap_dfr(scope_options, function(categories, label) {
+  filtered <- filter(aggregate_period, business_size %in% categories)
+  compare_years(sum_establishments(filtered, "precinct"), "precinct",
+                COMPARISON_YEARS, MIN_BASELINE) %>% mutate(scope = label, .before = 1)
+})
+scope_industry <- imap_dfr(scope_options, function(categories, label) {
+  filtered <- filter(aggregate_period, business_size %in% categories)
+  compare_years(sum_establishments(filtered, "industry"), "industry",
+                COMPARISON_YEARS, MIN_BASELINE) %>% mutate(scope = label, .before = 1)
+})
+report_table(scope_city %>% select(scope, n_pre, n_latest, gap_pct, recovery_pct),
+  col.names = c("Definition", "2019", "2024", "Change 2019-24 (%)", "Change 2022-24 (%)"))
+```
+
+| Definition | 2019 | 2024 | Change 2019-24 (%) | Change 2022-24 (%) |
+|:---|---:|---:|---:|---:|
+| Small + medium only | 15,506 | 13,054 | -15.8 | 3.8 |
+| Non-employing + small + medium | 16,334 | 13,912 | -14.8 | 3.4 |
+
+``` r
+scope_direction_check <- bind_rows(
+  scope_precinct %>% mutate(level = "Precinct", group = precinct),
+  scope_industry %>% mutate(level = "Industry", group = industry)
+) %>% group_by(level, group) %>% summarise(
+  comparable = all(!is.na(gap_count) & !is.na(recovery_count)),
+  gap_direction_changes = if (comparable) n_distinct(sign(gap_count)) > 1 else NA,
+  recent_direction_changes = if (comparable) n_distinct(sign(recovery_count)) > 1 else NA,
+  .groups = "drop")
+report_table(scope_direction_check %>% group_by(level) %>%
+  summarise(groups_checked = n(), unavailable = sum(!comparable),
+            changed_gap_direction = sum(gap_direction_changes, na.rm = TRUE),
+            changed_recent_direction = sum(recent_direction_changes, na.rm = TRUE), .groups = "drop"),
+  col.names = c("Level", "Groups", "Not comparable", "2019-24 direction changes", "2022-24 direction changes"))
+```
+
+| Level | Groups | Not comparable | 2019-24 direction changes | 2022-24 direction changes |
+|:---|---:|---:|---:|---:|
+| Industry | 19 | 0 | 0 | 1 |
+| Precinct | 13 | 0 | 0 | 2 |
+
+The check compares increase, decrease and no change. Magnitudes and
+rankings can differ even when directions agree. Full results for both
+definitions are exported for the group’s scope decision.
+
+# 8. Findings and next steps
+
+## 8.1 Findings calculated from the selected sample
+
+``` r
+largest_industry_gap <- industry_comparison %>% filter(!is.na(gap_count)) %>%
+  arrange(gap_count, industry) %>% slice_head(n = 1)
+largest_precinct_gap <- precinct_comparison %>% filter(!is.na(gap_count)) %>%
+  arrange(gap_count, precinct) %>% slice_head(n = 1)
+findings <- tibble(Finding = c(
+  paste0("Population: ", SCOPE_LABEL, "."),
+  paste0("City count: ", fmt_count(city_comparison$n_pre), " in 2019 and ",
+         fmt_count(city_comparison$n_latest), " in 2024 (", fmt_pct(city_comparison$gap_pct), ")."),
+  paste0("Change from 2022 to 2024: ", fmt_change(city_comparison$recovery_count),
+         " establishments (", fmt_pct(city_comparison$recovery_pct), ")."),
+  paste0(sum(precinct_comparison$gap_count < 0, na.rm = TRUE), " of ", nrow(precinct_comparison),
+         " precincts were below 2019; ", sum(precinct_comparison$recovery_count > 0, na.rm = TRUE),
+         " increased between 2022 and 2024."),
+  paste0("Largest precinct decline in count since 2019: ", largest_precinct_gap$precinct,
+         " (", fmt_change(largest_precinct_gap$gap_count), ")."),
+  paste0("Largest industry decline in count since 2019: ", largest_industry_gap$industry,
+         " (", fmt_change(largest_industry_gap$gap_count), ").")))
+report_table(findings)
 ```
 
 | Finding |
 |:---|
-| City-wide establishments fell from 16,713 in 2019 to 14,338 in 2024, a 14.2% decline. |
-| None of the 13 precincts returned to its 2019 establishment level by 2024. |
-| Small businesses lost 2,434 establishments, more than the total city-wide net decline. |
-| Large businesses added 47 establishments, partly offsetting the small-business decline. |
-| Professional, Scientific and Technical Services recorded the largest numerical loss (-638), followed by Retail Trade (-393). |
+| Population: Small and medium establishments (1-199 jobs). |
+| City count: 15,506 in 2019 and 13,054 in 2024 (-15.8%). |
+| Change from 2022 to 2024: +483 establishments (+3.8%). |
+| 13 of 13 precincts were below 2019; 8 increased between 2022 and 2024. |
+| Largest precinct decline in count since 2019: Melbourne (CBD) (-1,594). |
+| Largest industry decline in count since 2019: Professional, Scientific and Technical Services (-662). |
 
-# 9. Limitations and next step
-
-- The analysis identifies patterns but does not establish causal effects
-  of COVID-19.
-- Job values are incomplete because CLUE suppresses cells with one or
-  two establishments. This report does not impute them.
-- Percentage rankings exclude precincts with fewer than 100
-  establishments in 2019, although those precincts remain in the
-  underlying tables.
-- The next stage will compare precinct × industry × business-size
-  patterns at multi-year intervals rather than calculate year-on-year
-  entry or exit rates.
-
-# 10. Reproducibility information
+## 8.2 Use the results to guide further investigation
 
 ``` r
-sessionInfo()
+follow_up <- precinct_comparison %>% arrange(recovery_count) %>%
+  select(precinct, recovery_status, gap_count, recovery_count)
+report_table(follow_up, col.names = c("Precinct", "Count pattern", "Change 2019-24", "Change 2022-24"))
 ```
 
-    ## R version 4.5.3 (2026-03-11)
-    ## Platform: aarch64-apple-darwin20
-    ## Running under: macOS Tahoe 26.6.2
-    ## 
-    ## Matrix products: default
-    ## BLAS:   /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRblas.0.dylib 
-    ## LAPACK: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
-    ## 
-    ## locale:
-    ## [1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8
-    ## 
-    ## time zone: Australia/Melbourne
-    ## tzcode source: internal
-    ## 
-    ## attached base packages:
-    ## [1] stats     graphics  grDevices utils     datasets  methods   base     
-    ## 
-    ## other attached packages:
-    ##  [1] knitr_1.51      scales_1.4.0    lubridate_1.9.5 forcats_1.0.1  
-    ##  [5] stringr_1.6.0   dplyr_1.2.0     purrr_1.2.1     readr_2.2.0    
-    ##  [9] tidyr_1.3.2     tibble_3.3.1    ggplot2_4.0.2   tidyverse_2.0.0
-    ## 
-    ## loaded via a namespace (and not attached):
-    ##  [1] bit_4.6.0          gtable_0.3.6       crayon_1.5.3       compiler_4.5.3    
-    ##  [5] tidyselect_1.2.1   parallel_4.5.3     yaml_2.3.12        fastmap_1.2.0     
-    ##  [9] R6_2.6.1           labeling_0.4.3     generics_0.1.4     pillar_1.11.1     
-    ## [13] RColorBrewer_1.1-3 tzdb_0.5.0         rlang_1.1.7        stringi_1.8.7     
-    ## [17] xfun_0.56          S7_0.2.1           bit64_4.6.0-1      otel_0.2.0        
-    ## [21] timechange_0.4.0   cli_3.6.5          withr_3.0.2        magrittr_2.0.4    
-    ## [25] digest_0.6.39      grid_4.5.3         vroom_1.7.0        hms_1.1.4         
-    ## [29] lifecycle_1.0.5    vctrs_0.7.1        evaluate_1.0.5     glue_1.8.0        
-    ## [33] farver_2.1.2       rmarkdown_2.30     tools_4.5.3        pkgconfig_2.0.3   
-    ## [37] htmltools_0.5.9
+| Precinct | Count pattern | Change 2019-24 | Change 2022-24 |
+|:---|:---|---:|---:|
+| Melbourne (Remainder) | Below 2019; decreasing since 2022 | -44 | -9 |
+| Southbank | Below 2019; decreasing since 2022 | -106 | -6 |
+| East Melbourne | Below 2019; decreasing since 2022 | -104 | -4 |
+| West Melbourne (Industrial) | Below 2019; decreasing since 2022 | -21 | -3 |
+| South Yarra | Below 2019; decreasing since 2022 | -2 | -1 |
+| Kensington | Below 2019; increasing since 2022 | -31 | 2 |
+| Parkville | Below 2019; increasing since 2022 | -50 | 5 |
+| North Melbourne | Below 2019; increasing since 2022 | -149 | 37 |
+| Port Melbourne | Below 2019; increasing since 2022 | -28 | 42 |
+| Docklands | Below 2019; increasing since 2022 | -159 | 45 |
+| West Melbourne (Residential) | Below 2019; increasing since 2022 | -47 | 55 |
+| Carlton | Below 2019; increasing since 2022 | -117 | 75 |
+| Melbourne (CBD) | Below 2019; increasing since 2022 | -1,594 | 245 |
+
+- For precincts still declining, identify which industries account for
+  the losses.
+- For precincts growing again, check whether gains are broad or
+  concentrated.
+- Check redevelopment, relocations and boundary changes before
+  explaining causes.
+- Assess costs, eligibility and evidence of effectiveness before
+  proposing support.
+
+## 8.3 Planned analysis
+
+**Prediction — not yet fitted:** forecast precinct SME counts two years
+ahead. Compare simple time-trend regression with a no-change baseline,
+using two-year-spaced observations. Train on earlier dates and test on
+later held-out dates. Report mean absolute error (MAE), root mean
+squared error (RMSE), and whether the CBD dominates errors. Check both
+SME definitions and performance around the pandemic break. The limited
+number of survey updates calls for a simple model; keep it only if it
+improves on the baseline.
+
+**Recommendations — not yet evaluated:** use count gaps, recent
+direction and industry breakdowns to shortlist areas for consultation.
+Test whether that list changes with the SME definition or small-baseline
+rule. Policy recommendations will also need evidence on intervention
+costs and effectiveness.
+
+# 9. Checks, exports and reproducibility
+
+Checks stop on parsing errors, missing essential fields, duplicate
+aggregate keys, unexpected size labels or unresolved address categories.
+They verify that precinct and industry totals add to the selected city
+totals.
+
+Exports contain aggregate results only. Each SME definition has its own
+folder.
+
+``` r
+manifest <- tibble(file = c(aggregate_filename, address_filename),
+  bytes = as.numeric(file.info(c(aggregate_path, address_path))$size),
+  md5 = unname(tools::md5sum(c(aggregate_path, address_path))))
+run_settings <- tibble(setting = c("start_year", "end_year", "comparison_years",
+  "include_non_employing", "small_baseline_display_threshold"),
+  value = c(as.character(START_YEAR), as.character(END_YEAR),
+    paste(COMPARISON_YEARS, collapse = ", "), as.character(params$include_non_employing),
+    as.character(MIN_BASELINE)))
+result_tables <- list(file_manifest = manifest, run_settings = run_settings,
+  missing_values = bind_rows(aggregate_missing, location_missing),
+  vacancy_subset_missing_values = vacancy_missing, location_categories = location_categories,
+  sample_log = sample_log, source_reconciliation = reconciliation,
+  city_yearly = city_yearly, precinct_yearly = precinct_yearly, industry_yearly = industry_yearly,
+  city_comparison = city_comparison, precinct_comparison = precinct_comparison,
+  industry_comparison = industry_comparison, precinct_industry_comparison = precinct_industry_comparison,
+  business_size_comparison = size_comparison, industry_shares = industry_shares,
+  scope_city = scope_city, scope_precinct = scope_precinct, scope_industry = scope_industry,
+  scope_direction_check = scope_direction_check, findings = findings)
+if (params$export_tables) {
+  OUTPUT_DIR <- file.path(PROJECT_ROOT, "outputs", "tables", SCOPE_KEY)
+  dir.create(OUTPUT_DIR, recursive = TRUE, showWarnings = FALSE)
+  iwalk(result_tables, function(table, name) write_csv(table, file.path(OUTPUT_DIR, paste0(name, ".csv"))))
+}
+report_table(run_settings, col.names = c("Setting", "Value"))
+```
+
+| Setting                          | Value            |
+|:---------------------------------|:-----------------|
+| start_year                       | 2002             |
+| end_year                         | 2024             |
+| comparison_years                 | 2019, 2022, 2024 |
+| include_non_employing            | FALSE            |
+| small_baseline_display_threshold | 100              |
+
+``` r
+report_table(manifest, col.names = c("Source file", "Bytes", "MD5 checksum"))
+```
+
+| Source file | Bytes | MD5 checksum |
+|:---|---:|:---|
+| business-establishments-and-jobs-data-by-business-size-and-anzsic.csv | 946,127 | 092490f73fa22c83c82d95d1ccd7e010 |
+| business-establishments-with-address-and-industry-classification.csv | 79,271,999 | 84f61da018f6d302999bb447e4036708 |
+
+## 9.1 Review checklist
+
+Before submission, confirm the SME definition, check that copied figures
+use the right population and dates, and review sources and
+acknowledgements. Further review questions are in `docs/TEAM_REVIEW.md`.
+
+Run `Rscript tests/test_analysis.R` from the repository root for unit
+checks and independent raw-data checks under both definitions. Run
+`Rscript scripts/render_reports.R` to rebuild the GitHub Markdown and
+HTML reports. The complete `scripts/` folder is required alongside this
+Rmd.
+
+## 9.2 Technical details
+
+Establishment count is numerical; year is a time index. Precinct,
+industry and size are categorical variables. The table below summarises
+**published aggregate cells in 2024**, not individual business sizes.
+Absent combinations are excluded from these cell statistics, not counted
+as zeros.
+
+``` r
+cell_statistics <- sme %>% filter(census_year == END_YEAR) %>%
+  summarise(published_cells = n(), mean = mean(total_establishments),
+    median = median(total_establishments), sd = sd(total_establishments),
+    min = min(total_establishments), max = max(total_establishments))
+report_table(cell_statistics)
+```
+
+| published_cells | mean | median |    sd | min |   max |
+|----------------:|-----:|-------:|------:|----:|------:|
+|             383 | 34.1 |      7 | 116.2 |   1 | 1,421 |
+
+``` r
+# Trim print padding so generated Markdown has no trailing whitespace.
+cat(trimws(capture.output(sessionInfo()), which = "right"), sep = "\n")
+```
+
+    R version 4.5.3 (2026-03-11)
+    Platform: aarch64-apple-darwin20
+    Running under: macOS Tahoe 26.6.2
+
+    Matrix products: default
+    BLAS:   /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRblas.0.dylib
+    LAPACK: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+    locale:
+    [1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8
+
+    time zone: Australia/Melbourne
+    tzcode source: internal
+
+    attached base packages:
+    [1] stats     graphics  grDevices utils     datasets  methods   base
+
+    other attached packages:
+     [1] knitr_1.51      scales_1.4.0    lubridate_1.9.5 forcats_1.0.1
+     [5] stringr_1.6.0   dplyr_1.2.0     purrr_1.2.1     readr_2.2.0
+     [9] tidyr_1.3.2     tibble_3.3.1    ggplot2_4.0.2   tidyverse_2.0.0
+
+    loaded via a namespace (and not attached):
+     [1] bit_4.6.0          gtable_0.3.6       jsonlite_2.0.0     crayon_1.5.3
+     [5] compiler_4.5.3     tidyselect_1.2.1   parallel_4.5.3     jquerylib_0.1.4
+     [9] yaml_2.3.12        fastmap_1.2.0      R6_2.6.1           labeling_0.4.3
+    [13] generics_0.1.4     bslib_0.10.0       pillar_1.11.1      RColorBrewer_1.1-3
+    [17] tzdb_0.5.0         rlang_1.1.7        stringi_1.8.7      cachem_1.1.0
+    [21] xfun_0.56          sass_0.4.10        S7_0.2.1           bit64_4.6.0-1
+    [25] otel_0.2.0         timechange_0.4.0   cli_3.6.5          withr_3.0.2
+    [29] magrittr_2.0.4     digest_0.6.39      grid_4.5.3         vroom_1.7.0
+    [33] hms_1.1.4          lifecycle_1.0.5    vctrs_0.7.1        evaluate_1.0.5
+    [37] glue_1.8.0         farver_2.1.2       rmarkdown_2.30     tools_4.5.3
+    [41] pkgconfig_2.0.3    htmltools_0.5.9
+
+# 10. Sources and acknowledgement
+
+1.  City of Melbourne. *Business establishments and jobs data by
+    business size and ANZSIC in small areas*. [Official metadata on
+    DataVic](https://discover.data.vic.gov.au/dataset/business-establishments-and-jobs-data-by-business-size-and-anzsic-in-small-areas).
+    Source for size definitions and confidentiality treatment. Analysis
+    uses the supplied snapshot, not a live download.
+2.  City of Melbourne. *Census of Land Use and Employment definitions*.
+    [Official
+    definitions](https://data.melbourne.vic.gov.au/api/datasets/1.0/buildings-with-name-age-size-accessibility-and-bicycle-facilities/attachments/clue_definitions_pdf/).
+    Sections 12 (survey timing), 24 (establishments), 28 (industry), and
+    41, 44-46 (space-use terminology).
+3.  City of Melbourne. *Business establishments location and industry
+    classification*. [Official
+    metadata](https://discover.data.vic.gov.au/dataset/business-establishments-location-and-industry-classification).
+    The supplied snapshot’s coverage is reported in Section 2.
+4.  CMCE30005. *Business establishments in Melbourne Project Brief* and
+    *Interim Project Report instructions*, Semester 2, 2026. Source for
+    the client and scope.
+
+**AI assistance:** OpenAI Codex helped revise the R code, comments and
+explanations, and develop validation checks. See
+`docs/AI_ASSISTANCE.md`. Group review and confirmation of the SME scope
+remain pending.

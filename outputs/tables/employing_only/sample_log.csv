@@ -1,0 +1,4 @@
+Step,Aggregated rows,Action
+Raw aggregated file,13353,Retain source
+Within 2002-2024,13353,Apply study period
+Selected SME categories,8800,Apply size definition

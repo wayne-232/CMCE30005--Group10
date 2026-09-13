@@ -1,0 +1,39 @@
+scope,industry,n_pre,n_recovery_start,n_latest,gap_count,gap_pct,recovery_count,recovery_pct,small_pre_base,small_recovery_base,gap_pct_display,recovery_pct_display,recovery_status
+Small + medium only,Accommodation and Food Services,3065,2705,2919,-146,-4.763458401305057,214,7.911275415896488,FALSE,FALSE,-4.763458401305057,7.911275415896488,Below 2019; increasing since 2022
+Small + medium only,Administrative and Support Services,585,378,336,-249,-42.56410256410256,-42,-11.11111111111111,FALSE,FALSE,-42.56410256410256,-11.11111111111111,Below 2019; decreasing since 2022
+Small + medium only,"Agriculture, Forestry and Fishing",17,11,9,-8,-47.05882352941177,-2,-18.181818181818183,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Small + medium only,Arts and Recreation Services,384,337,355,-29,-7.552083333333333,18,5.341246290801187,FALSE,FALSE,-7.552083333333333,5.341246290801187,Below 2019; increasing since 2022
+Small + medium only,Construction,372,291,301,-71,-19.086021505376344,10,3.4364261168384878,FALSE,FALSE,-19.086021505376344,3.4364261168384878,Below 2019; increasing since 2022
+Small + medium only,Education and Training,618,545,594,-24,-3.883495145631068,49,8.990825688073395,FALSE,FALSE,-3.883495145631068,8.990825688073395,Below 2019; increasing since 2022
+Small + medium only,"Electricity, Gas, Water and Waste Services",36,44,53,17,47.22222222222222,9,20.454545454545453,TRUE,TRUE,NA,NA,At or above 2019
+Small + medium only,Financial and Insurance Services,912,690,656,-256,-28.07017543859649,-34,-4.927536231884058,FALSE,FALSE,-28.07017543859649,-4.927536231884058,Below 2019; decreasing since 2022
+Small + medium only,Health Care and Social Assistance,1129,958,1020,-109,-9.654561558901683,62,6.471816283924843,FALSE,FALSE,-9.654561558901683,6.471816283924843,Below 2019; increasing since 2022
+Small + medium only,Information Media and Telecommunications,210,167,181,-29,-13.80952380952381,14,8.383233532934131,FALSE,FALSE,-13.80952380952381,8.383233532934131,Below 2019; increasing since 2022
+Small + medium only,Manufacturing,459,393,413,-46,-10.021786492374728,20,5.089058524173028,FALSE,FALSE,-10.021786492374728,5.089058524173028,Below 2019; increasing since 2022
+Small + medium only,Mining,32,26,23,-9,-28.125,-3,-11.538461538461538,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Small + medium only,Other Services,1428,1163,1258,-170,-11.904761904761905,95,8.168529664660362,FALSE,FALSE,-11.904761904761905,8.168529664660362,Below 2019; increasing since 2022
+Small + medium only,"Professional, Scientific and Technical Services",2697,2061,2035,-662,-24.545791620318873,-26,-1.2615235322658904,FALSE,FALSE,-24.545791620318873,-1.2615235322658904,Below 2019; decreasing since 2022
+Small + medium only,Public Administration and Safety,248,213,202,-46,-18.548387096774192,-11,-5.164319248826291,FALSE,FALSE,-18.548387096774192,-5.164319248826291,Below 2019; decreasing since 2022
+Small + medium only,"Rental, Hiring and Real Estate Services",460,364,390,-70,-15.217391304347826,26,7.142857142857143,FALSE,FALSE,-15.217391304347826,7.142857142857143,Below 2019; increasing since 2022
+Small + medium only,Retail Trade,2235,1764,1840,-395,-17.67337807606264,76,4.308390022675737,FALSE,FALSE,-17.67337807606264,4.308390022675737,Below 2019; increasing since 2022
+Small + medium only,"Transport, Postal and Warehousing",250,174,178,-72,-28.8,4,2.2988505747126435,FALSE,FALSE,-28.8,2.2988505747126435,Below 2019; increasing since 2022
+Small + medium only,Wholesale Trade,369,287,291,-78,-21.13821138211382,4,1.3937282229965158,FALSE,FALSE,-21.13821138211382,1.3937282229965158,Below 2019; increasing since 2022
+Non-employing + small + medium,Accommodation and Food Services,3136,2815,3014,-122,-3.8903061224489797,199,7.069271758436945,FALSE,FALSE,-3.8903061224489797,7.069271758436945,Below 2019; increasing since 2022
+Non-employing + small + medium,Administrative and Support Services,594,383,345,-249,-41.91919191919192,-38,-9.921671018276763,FALSE,FALSE,-41.91919191919192,-9.921671018276763,Below 2019; decreasing since 2022
+Non-employing + small + medium,"Agriculture, Forestry and Fishing",17,12,10,-7,-41.1764705882353,-2,-16.666666666666668,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Non-employing + small + medium,Arts and Recreation Services,630,592,615,-15,-2.380952380952381,23,3.885135135135135,FALSE,FALSE,-2.380952380952381,3.885135135135135,Below 2019; increasing since 2022
+Non-employing + small + medium,Construction,390,298,314,-76,-19.487179487179485,16,5.369127516778524,FALSE,FALSE,-19.487179487179485,5.369127516778524,Below 2019; increasing since 2022
+Non-employing + small + medium,Education and Training,650,573,624,-26,-4,51,8.900523560209423,FALSE,FALSE,-4,8.900523560209423,Below 2019; increasing since 2022
+Non-employing + small + medium,"Electricity, Gas, Water and Waste Services",180,195,202,22,12.222222222222221,7,3.58974358974359,FALSE,FALSE,12.222222222222221,3.58974358974359,At or above 2019
+Non-employing + small + medium,Financial and Insurance Services,914,698,662,-252,-27.571115973741794,-36,-5.157593123209169,FALSE,FALSE,-27.571115973741794,-5.157593123209169,Below 2019; decreasing since 2022
+Non-employing + small + medium,Health Care and Social Assistance,1144,970,1029,-115,-10.052447552447552,59,6.082474226804123,FALSE,FALSE,-10.052447552447552,6.082474226804123,Below 2019; increasing since 2022
+Non-employing + small + medium,Information Media and Telecommunications,225,184,197,-28,-12.444444444444445,13,7.065217391304348,FALSE,FALSE,-12.444444444444445,7.065217391304348,Below 2019; increasing since 2022
+Non-employing + small + medium,Manufacturing,467,402,426,-41,-8.779443254817988,24,5.970149253731344,FALSE,FALSE,-8.779443254817988,5.970149253731344,Below 2019; increasing since 2022
+Non-employing + small + medium,Mining,32,26,23,-9,-28.125,-3,-11.538461538461538,TRUE,TRUE,NA,NA,Below 2019; decreasing since 2022
+Non-employing + small + medium,Other Services,1599,1322,1413,-186,-11.632270168855534,91,6.883509833585476,FALSE,FALSE,-11.632270168855534,6.883509833585476,Below 2019; increasing since 2022
+Non-employing + small + medium,"Professional, Scientific and Technical Services",2702,2077,2043,-659,-24.389341228719466,-34,-1.6369764082811749,FALSE,FALSE,-24.389341228719466,-1.6369764082811749,Below 2019; decreasing since 2022
+Non-employing + small + medium,Public Administration and Safety,254,225,215,-39,-15.354330708661417,-10,-4.444444444444445,FALSE,FALSE,-15.354330708661417,-4.444444444444445,Below 2019; decreasing since 2022
+Non-employing + small + medium,"Rental, Hiring and Real Estate Services",475,371,397,-78,-16.42105263157895,26,7.008086253369272,FALSE,FALSE,-16.42105263157895,7.008086253369272,Below 2019; increasing since 2022
+Non-employing + small + medium,Retail Trade,2258,1787,1861,-397,-17.58193091231178,74,4.141018466703973,FALSE,FALSE,-17.58193091231178,4.141018466703973,Below 2019; increasing since 2022
+Non-employing + small + medium,"Transport, Postal and Warehousing",293,229,225,-68,-23.208191126279864,-4,-1.7467248908296944,FALSE,FALSE,-23.208191126279864,-1.7467248908296944,Below 2019; decreasing since 2022
+Non-employing + small + medium,Wholesale Trade,374,293,297,-77,-20.58823529411765,4,1.3651877133105803,FALSE,FALSE,-20.58823529411765,1.3651877133105803,Below 2019; increasing since 2022

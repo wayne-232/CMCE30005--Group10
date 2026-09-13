@@ -1,0 +1,300 @@
+census_year,precinct,establishments
+2002,Carlton,1056
+2002,Docklands,138
+2002,East Melbourne,466
+2002,Kensington,167
+2002,Melbourne (CBD),7006
+2002,Melbourne (Remainder),365
+2002,North Melbourne,832
+2002,Parkville,196
+2002,Port Melbourne,167
+2002,South Yarra,68
+2002,Southbank,552
+2002,West Melbourne (Industrial),373
+2002,West Melbourne (Residential),478
+2003,Carlton,1128
+2003,Docklands,136
+2003,East Melbourne,419
+2003,Kensington,167
+2003,Melbourne (CBD),7006
+2003,Melbourne (Remainder),365
+2003,North Melbourne,866
+2003,Parkville,206
+2003,Port Melbourne,167
+2003,South Yarra,68
+2003,Southbank,552
+2003,West Melbourne (Industrial),396
+2003,West Melbourne (Residential),502
+2004,Carlton,1128
+2004,Docklands,136
+2004,East Melbourne,419
+2004,Kensington,177
+2004,Melbourne (CBD),7263
+2004,Melbourne (Remainder),346
+2004,North Melbourne,866
+2004,Parkville,206
+2004,Port Melbourne,202
+2004,South Yarra,67
+2004,Southbank,559
+2004,West Melbourne (Industrial),396
+2004,West Melbourne (Residential),502
+2005,Carlton,1122
+2005,Docklands,407
+2005,East Melbourne,503
+2005,Kensington,177
+2005,Melbourne (CBD),7630
+2005,Melbourne (Remainder),346
+2005,North Melbourne,900
+2005,Parkville,202
+2005,Port Melbourne,202
+2005,South Yarra,67
+2005,Southbank,559
+2005,West Melbourne (Industrial),413
+2005,West Melbourne (Residential),520
+2006,Carlton,1122
+2006,Docklands,407
+2006,East Melbourne,503
+2006,Kensington,171
+2006,Melbourne (CBD),8014
+2006,Melbourne (Remainder),392
+2006,North Melbourne,900
+2006,Parkville,202
+2006,Port Melbourne,314
+2006,South Yarra,66
+2006,Southbank,641
+2006,West Melbourne (Industrial),413
+2006,West Melbourne (Residential),520
+2007,Carlton,1132
+2007,Docklands,561
+2007,East Melbourne,558
+2007,Kensington,171
+2007,Melbourne (CBD),8331
+2007,Melbourne (Remainder),392
+2007,North Melbourne,1073
+2007,Parkville,253
+2007,Port Melbourne,314
+2007,South Yarra,66
+2007,Southbank,641
+2007,West Melbourne (Industrial),391
+2007,West Melbourne (Residential),490
+2008,Carlton,1132
+2008,Docklands,561
+2008,East Melbourne,558
+2008,Kensington,357
+2008,Melbourne (CBD),8734
+2008,Melbourne (Remainder),403
+2008,North Melbourne,1073
+2008,Parkville,253
+2008,Port Melbourne,332
+2008,South Yarra,65
+2008,Southbank,691
+2008,West Melbourne (Industrial),391
+2008,West Melbourne (Residential),490
+2009,Carlton,1145
+2009,Docklands,839
+2009,East Melbourne,570
+2009,Kensington,357
+2009,Melbourne (CBD),8812
+2009,Melbourne (Remainder),403
+2009,North Melbourne,1064
+2009,Parkville,253
+2009,Port Melbourne,332
+2009,South Yarra,65
+2009,Southbank,691
+2009,West Melbourne (Industrial),361
+2009,West Melbourne (Residential),487
+2010,Carlton,1145
+2010,Docklands,839
+2010,East Melbourne,570
+2010,Kensington,357
+2010,Melbourne (CBD),8697
+2010,Melbourne (Remainder),384
+2010,North Melbourne,1064
+2010,Parkville,271
+2010,Port Melbourne,419
+2010,South Yarra,65
+2010,Southbank,691
+2010,West Melbourne (Industrial),361
+2010,West Melbourne (Residential),487
+2011,Carlton,1145
+2011,Docklands,839
+2011,East Melbourne,570
+2011,Kensington,439
+2011,Melbourne (CBD),8746
+2011,Melbourne (Remainder),384
+2011,North Melbourne,1064
+2011,Parkville,271
+2011,Port Melbourne,419
+2011,South Yarra,65
+2011,Southbank,840
+2011,West Melbourne (Industrial),361
+2011,West Melbourne (Residential),487
+2012,Carlton,1122
+2012,Docklands,876
+2012,East Melbourne,591
+2012,Kensington,439
+2012,Melbourne (CBD),8799
+2012,Melbourne (Remainder),384
+2012,North Melbourne,1088
+2012,Parkville,282
+2012,Port Melbourne,419
+2012,South Yarra,65
+2012,Southbank,840
+2012,West Melbourne (Industrial),368
+2012,West Melbourne (Residential),468
+2013,Carlton,1122
+2013,Docklands,876
+2013,East Melbourne,590
+2013,Kensington,431
+2013,Melbourne (CBD),8900
+2013,Melbourne (Remainder),403
+2013,North Melbourne,1088
+2013,Parkville,282
+2013,Port Melbourne,490
+2013,South Yarra,58
+2013,Southbank,919
+2013,West Melbourne (Industrial),368
+2013,West Melbourne (Residential),468
+2014,Carlton,1122
+2014,Docklands,955
+2014,East Melbourne,565
+2014,Kensington,431
+2014,Melbourne (CBD),8927
+2014,Melbourne (Remainder),402
+2014,North Melbourne,1029
+2014,Parkville,292
+2014,Port Melbourne,490
+2014,South Yarra,58
+2014,Southbank,918
+2014,West Melbourne (Industrial),344
+2014,West Melbourne (Residential),451
+2015,Carlton,1122
+2015,Docklands,955
+2015,East Melbourne,565
+2015,Kensington,469
+2015,Melbourne (CBD),8934
+2015,Melbourne (Remainder),399
+2015,North Melbourne,1029
+2015,Parkville,292
+2015,Port Melbourne,500
+2015,South Yarra,53
+2015,Southbank,907
+2015,West Melbourne (Industrial),344
+2015,West Melbourne (Residential),451
+2016,Carlton,1134
+2016,Docklands,1089
+2016,East Melbourne,574
+2016,Kensington,469
+2016,Melbourne (CBD),9125
+2016,Melbourne (Remainder),399
+2016,North Melbourne,1008
+2016,Parkville,375
+2016,Port Melbourne,500
+2016,South Yarra,53
+2016,Southbank,907
+2016,West Melbourne (Industrial),150
+2016,West Melbourne (Residential),432
+2017,Carlton,1133
+2017,Docklands,1089
+2017,East Melbourne,574
+2017,Kensington,469
+2017,Melbourne (CBD),9307
+2017,Melbourne (Remainder),350
+2017,North Melbourne,1008
+2017,Parkville,375
+2017,Port Melbourne,525
+2017,South Yarra,51
+2017,Southbank,918
+2017,West Melbourne (Industrial),151
+2017,West Melbourne (Residential),432
+2018,Carlton,1110
+2018,Docklands,1156
+2018,East Melbourne,575
+2018,Kensington,469
+2018,Melbourne (CBD),9293
+2018,Melbourne (Remainder),350
+2018,North Melbourne,996
+2018,Parkville,378
+2018,Port Melbourne,525
+2018,South Yarra,51
+2018,Southbank,917
+2018,West Melbourne (Industrial),148
+2018,West Melbourne (Residential),445
+2019,Carlton,1110
+2019,Docklands,1156
+2019,East Melbourne,575
+2019,Kensington,443
+2019,Melbourne (CBD),9273
+2019,Melbourne (Remainder),303
+2019,North Melbourne,996
+2019,Parkville,378
+2019,Port Melbourne,523
+2019,South Yarra,53
+2019,Southbank,931
+2019,West Melbourne (Industrial),148
+2019,West Melbourne (Residential),445
+2020,Carlton,1013
+2020,Docklands,1147
+2020,East Melbourne,507
+2020,Kensington,439
+2020,Melbourne (CBD),8079
+2020,Melbourne (Remainder),295
+2020,North Melbourne,879
+2020,Parkville,357
+2020,Port Melbourne,505
+2020,South Yarra,51
+2020,Southbank,909
+2020,West Melbourne (Industrial),127
+2020,West Melbourne (Residential),379
+2021,Carlton,1013
+2021,Docklands,960
+2021,East Melbourne,507
+2021,Kensington,414
+2021,Melbourne (CBD),7905
+2021,Melbourne (Remainder),269
+2021,North Melbourne,879
+2021,Parkville,357
+2021,Port Melbourne,450
+2021,South Yarra,51
+2021,Southbank,831
+2021,West Melbourne (Industrial),127
+2021,West Melbourne (Residential),379
+2022,Carlton,932
+2022,Docklands,960
+2022,East Melbourne,467
+2022,Kensington,414
+2022,Melbourne (CBD),7465
+2022,Melbourne (Remainder),269
+2022,North Melbourne,819
+2022,Parkville,323
+2022,Port Melbourne,450
+2022,South Yarra,51
+2022,Southbank,831
+2022,West Melbourne (Industrial),132
+2022,West Melbourne (Residential),339
+2023,Carlton,1009
+2023,Docklands,992
+2023,East Melbourne,466
+2023,Kensington,426
+2023,Melbourne (CBD),7465
+2023,Melbourne (Remainder),256
+2023,North Melbourne,858
+2023,Parkville,330
+2023,Port Melbourne,493
+2023,South Yarra,51
+2023,Southbank,822
+2023,West Melbourne (Industrial),133
+2023,West Melbourne (Residential),394
+2024,Carlton,1009
+2024,Docklands,992
+2024,East Melbourne,466
+2024,Kensington,426
+2024,Melbourne (CBD),7682
+2024,Melbourne (Remainder),256
+2024,North Melbourne,858
+2024,Parkville,330
+2024,Port Melbourne,493
+2024,South Yarra,51
+2024,Southbank,822
+2024,West Melbourne (Industrial),133
+2024,West Melbourne (Residential),394
