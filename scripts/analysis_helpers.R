@@ -1,4 +1,5 @@
 # Small, reusable checks and calculations for the CLUE report.
+# AI-assisted code: OpenAI Codex (2026). See docs/AI_ASSISTANCE.md.
 # These functions do not read, change or save the source data.
 
 assert_true <- function(condition, explanation) {

@@ -1,4 +1,5 @@
 # Rebuild both reader-facing reports from the same R Markdown source.
+# AI-assisted code: OpenAI Codex (2026). See docs/AI_ASSISTANCE.md.
 # Run from the repository root: Rscript scripts/render_reports.R
 # Optional alternative: Rscript scripts/render_reports.R --include-non-employing
 # Each run replaces the main reports with the selected scope. Do not mix exports

@@ -1,0 +1,4 @@
+# Preserve the original CSV bytes, including their source line endings.
+# These fixed snapshots are downloaded for analysis, not edited through diffs.
+data/business-establishments-and-jobs-data-by-business-size-and-anzsic.csv -text -diff
+data/business-establishments-with-address-and-industry-classification.csv -text -diff

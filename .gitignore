@@ -52,7 +52,9 @@ rsconnect/
 *.xlsx
 *.csv.gz
 
-# Derived aggregate summaries are reviewable; raw CSVs remain excluded.
+# Track only the two supplied project datasets and derived aggregate summaries.
+!data/business-establishments-and-jobs-data-by-business-size-and-anzsic.csv
+!data/business-establishments-with-address-and-industry-classification.csv
 !outputs/tables/**/*.csv
 
 # R outputs

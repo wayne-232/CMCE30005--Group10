@@ -1,4 +1,5 @@
 # Run from the repository root: Rscript tests/test_analysis.R
+# AI-assisted code: OpenAI Codex (2026). See docs/AI_ASSISTANCE.md.
 # No testthat dependency. Test calculations, failure cases and both SME scopes.
 # The integration checks independently sum the raw file using base R.
 
@@ -128,6 +129,12 @@ for (include in c(FALSE, TRUE)) {
   check(all(env$aggregate_missing$rows_checked == nrow(raw)), "full-file missing denominator")
   check(all(env$vacancy_missing$rows_checked == nrow(env$location_vacant)),
         "vacant subset denominator")
+  check(sum(env$industry_summary$gap_count) == env$city_comparison$gap_count,
+        "short-report industry bars reconcile")
+  plotted <- env$precinct_comparison %>% filter(!is.na(gap_pct_display)) %>%
+    arrange(desc(gap_pct_display), precinct) %>% pull(precinct)
+  check(identical(tail(env$precinct_order, length(plotted)), plotted),
+        "percentage plot sorted by percentage gap")
   check(all(abs(tapply(env$industry_yearly$establishments,
                        env$industry_yearly$census_year, sum) - env$city_yearly$establishments) < 1e-9),
         "industry shares use city population")
