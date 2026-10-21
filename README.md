@@ -189,11 +189,10 @@ exact snapshot; public metadata may describe a different date range.
 
 ## AI acknowledgement
 
-Claude helped review code. Codex helped with brainstorming, English editing,
-code and chart revisions, and validation checks. Incorporated code and text
-are acknowledged in the [AI assistance record](docs/AI_ASSISTANCE.md), which also
-lists the tools and outputs. The group remains responsible for reviewing the
-analysis, sources and submitted wording.
+Claude (Anthropic) reviewed and extended the R code and edited the data
+sections. Codex (OpenAI) helped draft the earlier scripts, charts and tests.
+See the [AI assistance record](docs/AI_ASSISTANCE.md). The group reviewed all
+AI-assisted work and is responsible for the submission.
 
 ## Supporting material and reproduction
 
