@@ -181,14 +181,16 @@ and its jobs rose 9.8%, so we keep it on a watch list.
 
 ### 5.4 Predictive results
 
-| Model | MAE, 2022–24 (establishments per group) |
-| --- | ---: |
-| No change (benchmark) | 5.13 |
-| Pruned regression tree | 5.77 |
-| Gradient boosting | 5.85 |
-| Multiple linear regression | 6.17 |
+| Model | MAE, 2022–24 | RMSE, 2022–24 |
+| --- | ---: | ---: |
+| No change (benchmark) | 5.13 | 15.45 |
+| Pruned regression tree | 5.77 | 20.91 |
+| Gradient boosting | 5.85 | 22.22 |
+| Multiple linear regression | 6.17 | 20.22 |
 
-No fitted model beat the no-change benchmark. In the test period 80.2% of groups
+Errors are in establishments per group. RMSE weights large errors more heavily.
+
+No fitted model beat the no-change benchmark on either measure. In the test period 80.2% of groups
 changed by five establishments or fewer, so the current count was the best guide
 to the next. The fitted models also over-predicted decline. Their training data
 included the two pandemic windows, when the average group lost 8.6 and 5.9
@@ -237,9 +239,12 @@ gained 481. We therefore set priorities from observed gaps and recent change.
 - Vacant Space covers businesses of all sizes and gives no floor area.
 - Each published year mixes surveys from that year and the year before.
 - The models were validated on four periods and tested on one. The main
-  improvement is to mark the pandemic years explicitly: without the two pandemic
-  windows, gradient boosting's test MAE falls from 5.85 to 5.15 (a post-hoc
-  diagnostic, not used for model selection).
+  improvement is to mark the pandemic years explicitly. Refitted without the two
+  pandemic windows, linear regression (RMSE 14.70) and the regression tree
+  (15.30) beat the benchmark's RMSE of 15.45, so the models do carry information
+  about the large groups; on MAE the benchmark still leads (5.13 against 5.15 for
+  gradient boosting). This is a post-hoc diagnostic and was not used to select a
+  model.
 - Future work could model small-business counts separately, add leading
   indicators such as vacancy and pedestrian counts, and test the screen
   prospectively on the 2026 CLUE release.

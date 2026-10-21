@@ -33,7 +33,8 @@ score <- function(train, label) {
   bind_rows(lapply(seq_len(nrow(configs)), function(i)
     pred_fit_predict(train, split$test, configs[i, ]))) |>
     group_by(model) |>
-    summarise(test_cells = n(), mae = mean(absolute_error), bias = mean(error),
+    summarise(test_cells = n(), mae = mean(absolute_error),
+              rmse = sqrt(mean(squared_error)), bias = mean(error),
               predicted_net_change = sum(predicted_change),
               actual_net_change = sum(actual_change), .groups = "drop") |>
     mutate(training_windows = label, .before = 1)
@@ -43,7 +44,8 @@ diagnostic <- bind_rows(
   score(split$train, "All windows to 2022 (as in main analysis)"),
   score(filter(split$train, target_year <= 2018L), "Excluding pandemic windows (2018-20, 2020-22)"))
 
-stopifnot(abs(diagnostic$mae[diagnostic$model == "No change"][1] - 5.1256) < 1e-3)
+stopifnot(abs(diagnostic$mae[diagnostic$model == "No change"][1] - 5.1256) < 1e-3,
+          abs(diagnostic$rmse[diagnostic$model == "No change"][1] - 15.4515) < 1e-3)
 readr::write_csv(window_means, file.path(out_dir, "training_window_mean_change.csv"))
 readr::write_csv(diagnostic, file.path(out_dir, "pandemic_window_diagnostic.csv"))
 print(as.data.frame(diagnostic))
