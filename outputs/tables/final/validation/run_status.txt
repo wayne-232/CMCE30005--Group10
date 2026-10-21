@@ -1,4 +1,4 @@
-Completed: 2026-10-21 15:45:36 AEDT
+Completed: 2026-10-21 17:05:44 AEDT
 Tests passed; HTML and Markdown reports rendered with warnings treated as errors.
 Both raw CSV checksums unchanged.
 No Git commit, push or upload performed.

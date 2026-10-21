@@ -7,9 +7,8 @@ without reading code. Its R Markdown source rebuilds the analysis from the
 original CSV. `analysis/01_descriptive_analytics.html` contains the underlying
 data-quality checks and comparisons under both SME definitions.
 
-This code update and its supporting results are for group review. The existing
-interim report is preserved in the README. The final group report still needs
-to incorporate the agreed results.
+The README now contains the final project report. The September interim
+report is preserved in the Git history.
 
 ## What changed
 

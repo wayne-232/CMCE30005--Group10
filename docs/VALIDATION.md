@@ -1,5 +1,19 @@
 # Validation record
 
+## Final report update — 21 October 2026 (evening)
+
+`Rscript scripts/run_final_analysis.R` completed with 56 original checks and 71
+final-analysis checks (127 in total), in both a UTF-8 and a plain C locale. The
+six new checks cover the agreed case rule: four CBD scale cases, the Southbank
+hospitality contrast case, the 2% recency threshold, the CBD health care watch
+list and order independence. The runner now also executes
+`scripts/data_insights.R` and `scripts/model_diagnostic_pandemic.R`, which carry
+their own reconciliation checks (city totals, the 206 complete groups, the 64
+flagged groups, the 68,299 Vacant Space records and the benchmark MAE).
+Headline figures were also recomputed independently in Python from the raw
+CSVs (36 values, all matching). Figures 1–4 in the README were inspected as
+rendered PNGs. Raw CSV checksums were unchanged.
+
 ## Final analysis — 21 October 2026
 
 `Rscript scripts/run_final_analysis.R` completed locally. It ran 56 original

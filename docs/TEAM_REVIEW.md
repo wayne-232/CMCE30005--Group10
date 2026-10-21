@@ -7,10 +7,9 @@ and `analysis/02_final_analysis.html`. The remainder of this guide records the
 earlier descriptive-analysis review. Models have now been fitted in the separate
 final-analysis module; group approval is still required.
 
-Start with the root README for the five-section interim report and three core
-figures. Both original CSVs are now included in data/. The longer analysis and
-the documents here are supporting material, not extra required report sections.
-Before LMS submission, align the README with the group's final shared report.
+The root README now holds the final project report; the September interim
+report is in the Git history. Both original CSVs are included in data/. The
+longer analysis and the documents here are supporting material.
 
 Read Sections 1, 3-6 and 8 of the report for scope, results and next steps.
 Section 2 explains the data decisions. The HTML version lets you hide the code.

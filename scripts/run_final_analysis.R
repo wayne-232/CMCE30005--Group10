@@ -40,6 +40,17 @@ for (report in c("01_descriptive_analytics", "02_final_analysis")) {
       output_format = format, envir = new.env(parent = globalenv()), quiet = TRUE)
   }
 }
+# Final-report figures and tables that sit outside the R Markdown reports.
+# The diagnostic reads the predictive outputs written while rendering above.
+for (script in c("scripts/data_insights.R", "scripts/model_diagnostic_pandemic.R")) {
+  cat("Running", script, "\n")
+  result <- system2(file.path(R.home("bin"), "Rscript"), shQuote(script), stdout = TRUE, stderr = TRUE)
+  status <- attr(result, "status")
+  log <- c(log, paste("COMMAND:", script), result, "")
+  writeLines(log, file.path(audit_dir, "test_log.txt"))
+  if (!is.null(status) && status != 0L) stop(script, " failed. See ", audit_dir, "/test_log.txt")
+  cat(grep("^PASS:", result, value = TRUE), "\n")
+}
 if (!identical(before, tools::md5sum(sources))) stop("A raw input changed during the run.")
 versions <- data.frame(package = required,
   version = vapply(required, function(x) as.character(utils::packageVersion(x)), character(1)))
