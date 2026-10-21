@@ -1,0 +1,6 @@
+stage,origin_year,target_year,possible_precinct_industry_cells,published_origin_cells,matched_origin_target_cells,comparison_cells,share_of_published_origin_cells,origin_establishments_in_published_cells,origin_establishments_in_comparison,share_of_origin_establishments,target_establishments_in_published_cells,target_establishments_in_comparison,share_of_target_establishments
+Rolling validation,2014,2016,247,214,206,205,0.9579439252336449,15154,15143,0.9992741190444767,15332,15325,0.9995434385598748
+Rolling validation,2016,2018,247,211,208,203,0.9620853080568721,15332,15323,0.9994129924341247,15569,15558,0.9992934677885542
+Rolling validation,2018,2020,247,211,210,207,0.981042654028436,15569,15565,0.9997430791958379,13795,13788,0.9994925697716563
+Rolling validation,2020,2022,247,211,209,208,0.985781990521327,13795,13792,0.9997825299021385,12571,12568,0.9997613555007557
+Held-out test,2022,2024,247,210,208,207,0.9857142857142858,12571,12568,0.9997613555007557,13054,13049,0.9996169756396507

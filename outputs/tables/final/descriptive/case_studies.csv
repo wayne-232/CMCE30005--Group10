@@ -1,0 +1,6 @@
+precinct,industry,n_2019,n_2022,n_2024,gap_count,shortfall_count,gap_pct,recent_change,recent_pct,gap_pct_display,recent_pct_display,small_baseline_warning,persistent_decline,review_category,context_check,absolute_shortfall_rank,percentage_gap_rank,recent_change_rank,case_rank
+Melbourne (CBD),"Professional, Scientific and Technical Services",1788,1383,1338,-450,450,-25.16778523489933,-45,-3.2537960954446854,-25.16778523489933,-3.2537960954446854,FALSE,TRUE,Below 2019 and still decreasing,,1,6,1,1
+Melbourne (CBD),Financial and Insurance Services,719,554,534,-185,185,-25.73018080667594,-20,-3.6101083032490973,-25.73018080667594,-3.6101083032490973,FALSE,TRUE,Below 2019 and still decreasing,,3,5,3,2
+Melbourne (CBD),Administrative and Support Services,381,243,219,-162,162,-42.51968503937008,-24,-9.876543209876543,-42.51968503937008,-9.876543209876543,FALSE,TRUE,Below 2019 and still decreasing,,4,1,2,3
+Melbourne (CBD),Health Care and Social Assistance,405,346,343,-62,62,-15.308641975308642,-3,-0.8670520231213873,-15.308641975308642,-0.8670520231213873,FALSE,TRUE,Below 2019 and still decreasing,,7,15,24,4
+Melbourne (CBD),Construction,141,111,96,-45,45,-31.914893617021278,-15,-13.513513513513514,-31.914893617021278,-13.513513513513514,FALSE,TRUE,Below 2019 and still decreasing,,10,2,4,5

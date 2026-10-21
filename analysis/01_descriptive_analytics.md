@@ -1,7 +1,7 @@
 Melbourne SME Establishments: Trends and Recovery
 ================
 Group 10
-17 September 2026
+21 October 2026
 
 - [1. What this report answers](#1-what-this-report-answers)
   - [Reading guide and scope](#reading-guide-and-scope)
@@ -40,7 +40,7 @@ Group 10
     sample](#81-findings-calculated-from-the-selected-sample)
   - [8.2 Use the results to guide further
     investigation](#82-use-the-results-to-guide-further-investigation)
-  - [8.3 Planned analysis](#83-planned-analysis)
+  - [8.3 Final analysis](#83-final-analysis)
 - [9. Checks, exports and
   reproducibility](#9-checks-exports-and-reproducibility)
   - [9.1 Review checklist](#91-review-checklist)
@@ -55,9 +55,9 @@ pre { overflow-x: auto; }
 
 # 1. What this report answers
 
-The [repository README](../README.md) contains the concise interim
-report. This document retains the calculations, checks and full
-breakdowns supporting it.
+This document contains the data checks and descriptive analysis. The
+[final analysis](02_final_analysis.html) adds the deeper industry
+comparisons, model evaluation and decision-support results.
 
 **Research question:** How have small and medium-sized business
 establishment patterns evolved across Melbourne precincts and industries
@@ -76,10 +76,9 @@ This report answers three questions:
 **Population in the main results: Small and medium establishments (1-199
 jobs).**
 
-The default includes Small business and Medium business. The group still
-needs to confirm whether to include CLUE’s separate Non employing
-category. Section 7 compares both definitions; `include_non_employing`
-controls the main results.
+The main analysis includes Small business and Medium business. Section 7
+checks the effect of adding CLUE’s separate Non employing category;
+`include_non_employing` controls this sensitivity analysis.
 
 CLUE counts **business locations**, not unique legal companies. One
 company can have several establishments. Size is based on jobs at the
@@ -885,22 +884,19 @@ report_table(follow_up, col.names = c("Precinct", "Count pattern", "Change 2019-
 - Assess costs, eligibility and evidence of effectiveness before
   proposing support.
 
-## 8.3 Planned analysis
+## 8.3 Final analysis
 
-**Prediction — not yet fitted:** forecast precinct SME counts two years
-ahead. Compare simple time-trend regression with a no-change baseline,
-using two-year-spaced observations. Train on earlier dates and test on
-later held-out dates. Report mean absolute error (MAE), root mean
-squared error (RMSE), and whether the CBD dominates errors. Check both
-SME definitions and performance around the pandemic break. The limited
-number of survey updates calls for a simple model; keep it only if it
-improves on the baseline.
+The separate [final analysis](02_final_analysis.html) compares no
+change, multiple linear regression, a pruned regression tree and
+gradient boosting. The target is the two-year change in a
+precinct-industry group’s SME count. Earlier rolling validation periods
+select settings before the 2022-2024 evaluation. It reports errors,
+sample coverage and sensitivity to the SME definition.
 
-**Recommendations — not yet evaluated:** use count gaps, recent
-direction and industry breakdowns to shortlist areas for consultation.
-Test whether that list changes with the SME definition or small-baseline
-rule. Policy recommendations will also need evidence on intervention
-costs and effectiveness.
+The same analysis compares the remaining count gap with recent direction
+to identify groups for further investigation. The shortlist describes
+observed conditions; it does not estimate the effects or costs of a
+proposed policy.
 
 # 9. Checks, exports and reproducibility
 
@@ -995,7 +991,7 @@ cat(trimws(capture.output(sessionInfo()), which = "right"), sep = "\n")
 
     R version 4.5.3 (2026-03-11)
     Platform: aarch64-apple-darwin20
-    Running under: macOS Tahoe 26.6.2
+    Running under: macOS 27.0.1
 
     Matrix products: default
     BLAS:   /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRblas.0.dylib
@@ -1016,17 +1012,18 @@ cat(trimws(capture.output(sessionInfo()), which = "right"), sep = "\n")
      [9] tidyr_1.3.2     tibble_3.3.1    ggplot2_4.0.2   tidyverse_2.0.0
 
     loaded via a namespace (and not attached):
-     [1] bit_4.6.0          gtable_0.3.6       jsonlite_2.0.0     crayon_1.5.3
-     [5] compiler_4.5.3     tidyselect_1.2.1   parallel_4.5.3     jquerylib_0.1.4
-     [9] yaml_2.3.12        fastmap_1.2.0      R6_2.6.1           labeling_0.4.3
-    [13] generics_0.1.4     bslib_0.10.0       pillar_1.11.1      RColorBrewer_1.1-3
-    [17] tzdb_0.5.0         rlang_1.1.7        stringi_1.8.7      cachem_1.1.0
-    [21] xfun_0.56          sass_0.4.10        S7_0.2.1           bit64_4.6.0-1
-    [25] otel_0.2.0         timechange_0.4.0   cli_3.6.5          withr_3.0.2
-    [29] magrittr_2.0.4     digest_0.6.39      grid_4.5.3         vroom_1.7.0
-    [33] hms_1.1.4          lifecycle_1.0.5    vctrs_0.7.1        evaluate_1.0.5
-    [37] glue_1.8.0         farver_2.1.2       rmarkdown_2.30     tools_4.5.3
-    [41] pkgconfig_2.0.3    htmltools_0.5.9
+     [1] sass_0.4.10        generics_0.1.4     stringi_1.8.7      lattice_0.22-9
+     [5] hms_1.1.4          digest_0.6.39      magrittr_2.0.4     timechange_0.4.0
+     [9] evaluate_1.0.5     grid_4.5.3         RColorBrewer_1.1-3 gbm_2.3.1
+    [13] fastmap_1.2.0      jsonlite_2.0.0     Matrix_1.7-4       survival_3.8-6
+    [17] jquerylib_0.1.4    cli_3.6.5          crayon_1.5.3       rlang_1.1.7
+    [21] bit64_4.6.0-1      splines_4.5.3      withr_3.0.2        cachem_1.1.0
+    [25] yaml_2.3.12        otel_0.2.0         parallel_4.5.3     tools_4.5.3
+    [29] tzdb_0.5.0         vctrs_0.7.1        R6_2.6.1           rpart_4.1.24
+    [33] lifecycle_1.0.5    bit_4.6.0          vroom_1.7.0        pkgconfig_2.0.3
+    [37] pillar_1.11.1      bslib_0.10.0       gtable_0.3.6       glue_1.8.0
+    [41] xfun_0.56          tidyselect_1.2.1   farver_2.1.2       htmltools_0.5.9
+    [45] labeling_0.4.3     rmarkdown_2.30     compiler_4.5.3     S7_0.2.1
 
 # 10. Sources and acknowledgement
 
@@ -1051,5 +1048,5 @@ cat(trimws(capture.output(sessionInfo()), which = "right"), sep = "\n")
 **AI assistance:** Claude helped review code. Codex helped with
 brainstorming, English editing, code and chart revisions, and validation
 checks (OpenAI, 2026). See the [AI assistance
-record](../docs/AI_ASSISTANCE.md) for tool references and examples.
-Group review and confirmation of the SME scope remain pending.
+record](../docs/AI_ASSISTANCE.md) for tool references and examples. The
+group must review the final analysis before submission.

@@ -1,0 +1,22 @@
+precinct,industry,n_start,n_end,start_year,end_year,comparison_status,change,pct_change,small_baseline,pct_change_display
+East Melbourne,Manufacturing,3,NA,2019,2024,End-year source cell absent,NA,NA,TRUE,NA
+East Melbourne,Mining,1,NA,2019,2024,End-year source cell absent,NA,NA,TRUE,NA
+Parkville,Information Media and Telecommunications,1,NA,2019,2024,End-year source cell absent,NA,NA,TRUE,NA
+Parkville,Manufacturing,2,NA,2019,2024,End-year source cell absent,NA,NA,TRUE,NA
+Southbank,Mining,2,NA,2019,2024,End-year source cell absent,NA,NA,TRUE,NA
+Carlton,"Electricity, Gas, Water and Waste Services",NA,1,2019,2024,Start-year source cell absent,NA,NA,FALSE,NA
+East Melbourne,"Electricity, Gas, Water and Waste Services",NA,1,2019,2024,Start-year source cell absent,NA,NA,FALSE,NA
+Parkville,Construction,NA,1,2019,2024,Start-year source cell absent,NA,NA,FALSE,NA
+West Melbourne (Industrial),Administrative and Support Services,NA,1,2019,2024,Start-year source cell absent,NA,NA,FALSE,NA
+West Melbourne (Industrial),Health Care and Social Assistance,NA,1,2019,2024,Start-year source cell absent,NA,NA,FALSE,NA
+West Melbourne (Residential),Mining,NA,1,2019,2024,Start-year source cell absent,NA,NA,FALSE,NA
+East Melbourne,Mining,1,NA,2022,2024,End-year source cell absent,NA,NA,TRUE,NA
+Parkville,Manufacturing,1,NA,2022,2024,End-year source cell absent,NA,NA,TRUE,NA
+Carlton,"Electricity, Gas, Water and Waste Services",NA,1,2022,2024,Start-year source cell absent,NA,NA,FALSE,NA
+East Melbourne,"Electricity, Gas, Water and Waste Services",NA,1,2022,2024,Start-year source cell absent,NA,NA,FALSE,NA
+Parkville,Construction,NA,1,2022,2024,Start-year source cell absent,NA,NA,FALSE,NA
+West Melbourne (Industrial),Health Care and Social Assistance,NA,1,2022,2024,Start-year source cell absent,NA,NA,FALSE,NA
+Carlton,"Agriculture, Forestry and Fishing",1,NA,2017,2019,End-year source cell absent,NA,NA,TRUE,NA
+Docklands,Mining,1,NA,2017,2019,End-year source cell absent,NA,NA,TRUE,NA
+West Melbourne (Industrial),Information Media and Telecommunications,1,NA,2017,2019,End-year source cell absent,NA,NA,TRUE,NA
+East Melbourne,Mining,NA,1,2017,2019,Start-year source cell absent,NA,NA,FALSE,NA

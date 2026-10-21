@@ -1,0 +1,19 @@
+COMMAND: tests/test_analysis.R
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+The following object is masked from ‘package:readr’:
+
+    col_factor
+
+Validated full report chunks for include_non_employing = FALSE 
+Validated full report chunks for include_non_employing = TRUE 
+PASS: 56 checks; both SME definitions; raw files unchanged.
+
+COMMAND: tests/test_final_analysis.R
+PASS: 65 final-analysis checks; models fitted, temporal leakage tests passed.
+

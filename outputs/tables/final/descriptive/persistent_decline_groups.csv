@@ -1,0 +1,65 @@
+precinct,industry,n_2019,n_2022,n_2024,gap_count,shortfall_count,gap_pct,recent_change,recent_pct,gap_pct_display,recent_pct_display,small_baseline_warning,persistent_decline,review_category,context_check,absolute_shortfall_rank,percentage_gap_rank,recent_change_rank
+Melbourne (CBD),"Professional, Scientific and Technical Services",1788,1383,1338,-450,450,-25.16778523489933,-45,-3.2537960954446854,-25.16778523489933,-3.2537960954446854,FALSE,TRUE,Below 2019 and still decreasing,,1,6,1
+Melbourne (CBD),Financial and Insurance Services,719,554,534,-185,185,-25.73018080667594,-20,-3.6101083032490973,-25.73018080667594,-3.6101083032490973,FALSE,TRUE,Below 2019 and still decreasing,,3,5,3
+Melbourne (CBD),Administrative and Support Services,381,243,219,-162,162,-42.51968503937008,-24,-9.876543209876543,-42.51968503937008,-9.876543209876543,FALSE,TRUE,Below 2019 and still decreasing,,4,1,2
+Melbourne (CBD),Health Care and Social Assistance,405,346,343,-62,62,-15.308641975308642,-3,-0.8670520231213873,-15.308641975308642,-0.8670520231213873,FALSE,TRUE,Below 2019 and still decreasing,,7,15,24
+Melbourne (CBD),Construction,141,111,96,-45,45,-31.914893617021278,-15,-13.513513513513514,-31.914893617021278,-13.513513513513514,FALSE,TRUE,Below 2019 and still decreasing,,10,2,4
+North Melbourne,"Professional, Scientific and Technical Services",151,117,111,-40,40,-26.490066225165563,-6,-5.128205128205129,-26.490066225165563,-5.128205128205129,FALSE,TRUE,Below 2019 and still decreasing,Check land-use and major-site changes before attributing causes,11,4,10
+Melbourne (CBD),Public Administration and Safety,155,130,121,-34,34,-21.93548387096774,-9,-6.923076923076923,-21.93548387096774,-6.923076923076923,FALSE,TRUE,Below 2019 and still decreasing,,14,7,7
+Southbank,Accommodation and Food Services,236,212,202,-34,34,-14.40677966101695,-10,-4.716981132075472,-14.40677966101695,-4.716981132075472,FALSE,TRUE,Below 2019 and still decreasing,,14,16,6
+Docklands,Accommodation and Food Services,275,261,246,-29,29,-10.545454545454545,-15,-5.747126436781609,-10.545454545454545,-5.747126436781609,FALSE,TRUE,Below 2019 and still decreasing,,16,20,4
+Melbourne (CBD),"Transport, Postal and Warehousing",75,54,50,-25,25,-33.333333333333336,-4,-7.407407407407407,NA,NA,TRUE,TRUE,Small baseline: use counts,,18,NA,14
+North Melbourne,Other Services,125,104,100,-25,25,-20,-4,-3.8461538461538463,-20,-3.8461538461538463,FALSE,TRUE,Below 2019 and still decreasing,Check land-use and major-site changes before attributing causes,18,10,14
+Docklands,Administrative and Support Services,39,20,16,-23,23,-58.97435897435897,-4,-20,NA,NA,TRUE,TRUE,Small baseline: use counts,,21,NA,14
+Southbank,Retail Trade,234,216,211,-23,23,-9.82905982905983,-5,-2.314814814814815,-9.82905982905983,-2.314814814814815,FALSE,TRUE,Below 2019 and still decreasing,,21,22,12
+Docklands,Financial and Insurance Services,46,31,25,-21,21,-45.65217391304348,-6,-19.35483870967742,NA,NA,TRUE,TRUE,Small baseline: use counts,,24,NA,10
+Melbourne (CBD),Wholesale Trade,109,91,88,-21,21,-19.26605504587156,-3,-3.2967032967032965,-19.26605504587156,NA,TRUE,TRUE,Small baseline: use counts,,24,11,24
+West Melbourne (Industrial),"Transport, Postal and Warehousing",43,27,25,-18,18,-41.86046511627907,-2,-7.407407407407407,NA,NA,TRUE,TRUE,Small baseline: use counts,Check land-use and major-site changes before attributing causes,28,NA,33
+North Melbourne,Financial and Insurance Services,23,10,8,-15,15,-65.21739130434783,-2,-20,NA,NA,TRUE,TRUE,Small baseline: use counts,Check land-use and major-site changes before attributing causes,30,NA,33
+Port Melbourne,"Professional, Scientific and Technical Services",74,61,60,-14,14,-18.91891891891892,-1,-1.639344262295082,NA,NA,TRUE,TRUE,Small baseline: use counts,,32,NA,42
+Carlton,Administrative and Support Services,22,13,9,-13,13,-59.09090909090909,-4,-30.76923076923077,NA,NA,TRUE,TRUE,Small baseline: use counts,,33,NA,14
+Kensington,Manufacturing,41,31,28,-13,13,-31.70731707317073,-3,-9.67741935483871,NA,NA,TRUE,TRUE,Small baseline: use counts,,33,NA,24
+Southbank,Administrative and Support Services,32,23,19,-13,13,-40.625,-4,-17.391304347826086,NA,NA,TRUE,TRUE,Small baseline: use counts,,33,NA,14
+East Melbourne,Accommodation and Food Services,60,50,48,-12,12,-20,-2,-4,NA,NA,TRUE,TRUE,Small baseline: use counts,,38,NA,33
+Southbank,Construction,32,22,21,-11,11,-34.375,-1,-4.545454545454546,NA,NA,TRUE,TRUE,Small baseline: use counts,,42,NA,42
+Melbourne (Remainder),"Professional, Scientific and Technical Services",26,17,16,-10,10,-38.46153846153846,-1,-5.882352941176471,NA,NA,TRUE,TRUE,Small baseline: use counts,,44,NA,42
+West Melbourne (Residential),Administrative and Support Services,14,7,4,-10,10,-71.42857142857143,-3,-42.857142857142854,NA,NA,TRUE,TRUE,Small baseline: use counts,,44,NA,24
+North Melbourne,Administrative and Support Services,34,29,25,-9,9,-26.470588235294116,-4,-13.793103448275861,NA,NA,TRUE,TRUE,Small baseline: use counts,Check land-use and major-site changes before attributing causes,48,NA,14
+Parkville,Other Services,19,12,10,-9,9,-47.36842105263158,-2,-16.666666666666668,NA,NA,TRUE,TRUE,Small baseline: use counts,Check land-use and major-site changes before attributing causes,48,NA,33
+West Melbourne (Residential),"Transport, Postal and Warehousing",15,7,6,-9,9,-60,-1,-14.285714285714286,NA,NA,TRUE,TRUE,Small baseline: use counts,,48,NA,42
+Southbank,Financial and Insurance Services,32,29,24,-8,8,-25,-5,-17.24137931034483,NA,NA,TRUE,TRUE,Small baseline: use counts,,51,NA,12
+East Melbourne,Education and Training,10,7,3,-7,7,-70,-4,-57.142857142857146,NA,NA,TRUE,TRUE,Small baseline: use counts,,55,NA,14
+Kensington,Other Services,39,39,32,-7,7,-17.94871794871795,-7,-17.94871794871795,NA,NA,TRUE,TRUE,Small baseline: use counts,,55,NA,8
+Melbourne (CBD),Mining,29,24,22,-7,7,-24.137931034482758,-2,-8.333333333333334,NA,NA,TRUE,TRUE,Small baseline: use counts,,55,NA,33
+Carlton,Wholesale Trade,16,11,10,-6,6,-37.5,-1,-9.090909090909092,NA,NA,TRUE,TRUE,Small baseline: use counts,,64,NA,42
+Kensington,"Transport, Postal and Warehousing",11,6,5,-6,6,-54.54545454545455,-1,-16.666666666666668,NA,NA,TRUE,TRUE,Small baseline: use counts,,64,NA,42
+Kensington,Wholesale Trade,30,28,24,-6,6,-20,-4,-14.285714285714286,NA,NA,TRUE,TRUE,Small baseline: use counts,,64,NA,14
+Melbourne (CBD),"Agriculture, Forestry and Fishing",8,3,2,-6,6,-75,-1,-33.333333333333336,NA,NA,TRUE,TRUE,Small baseline: use counts,,64,NA,42
+North Melbourne,Information Media and Telecommunications,16,12,10,-6,6,-37.5,-2,-16.666666666666668,NA,NA,TRUE,TRUE,Small baseline: use counts,Check land-use and major-site changes before attributing causes,64,NA,33
+East Melbourne,Financial and Insurance Services,14,13,9,-5,5,-35.714285714285715,-4,-30.76923076923077,NA,NA,TRUE,TRUE,Small baseline: use counts,,71,NA,14
+East Melbourne,Other Services,40,36,35,-5,5,-12.5,-1,-2.7777777777777777,NA,NA,TRUE,TRUE,Small baseline: use counts,,71,NA,42
+Melbourne (Remainder),Financial and Insurance Services,20,19,15,-5,5,-25,-4,-21.05263157894737,NA,NA,TRUE,TRUE,Small baseline: use counts,,71,NA,14
+Port Melbourne,"Rental, Hiring and Real Estate Services",20,18,15,-5,5,-25,-3,-16.666666666666668,NA,NA,TRUE,TRUE,Small baseline: use counts,,71,NA,24
+Carlton,Education and Training,73,70,69,-4,4,-5.47945205479452,-1,-1.4285714285714286,NA,NA,TRUE,TRUE,Small baseline: use counts,,83,NA,42
+Kensington,Arts and Recreation Services,26,25,22,-4,4,-15.384615384615385,-3,-12,NA,NA,TRUE,TRUE,Small baseline: use counts,,83,NA,24
+Kensington,Information Media and Telecommunications,6,4,2,-4,4,-66.66666666666667,-2,-50,NA,NA,TRUE,TRUE,Small baseline: use counts,,83,NA,33
+Parkville,Education and Training,57,60,53,-4,4,-7.017543859649122,-7,-11.666666666666666,NA,NA,TRUE,TRUE,Small baseline: use counts,Check land-use and major-site changes before attributing causes,83,NA,8
+Port Melbourne,Education and Training,9,7,5,-4,4,-44.44444444444444,-2,-28.571428571428573,NA,NA,TRUE,TRUE,Small baseline: use counts,,83,NA,33
+Southbank,Arts and Recreation Services,36,35,32,-4,4,-11.11111111111111,-3,-8.571428571428571,NA,NA,TRUE,TRUE,Small baseline: use counts,,83,NA,24
+Southbank,Wholesale Trade,15,12,11,-4,4,-26.666666666666668,-1,-8.333333333333334,NA,NA,TRUE,TRUE,Small baseline: use counts,,83,NA,42
+Docklands,Public Administration and Safety,19,17,16,-3,3,-15.789473684210526,-1,-5.882352941176471,NA,NA,TRUE,TRUE,Small baseline: use counts,,97,NA,42
+East Melbourne,Arts and Recreation Services,17,17,14,-3,3,-17.647058823529413,-3,-17.647058823529413,NA,NA,TRUE,TRUE,Small baseline: use counts,,97,NA,24
+Melbourne (Remainder),Accommodation and Food Services,45,43,42,-3,3,-6.666666666666667,-1,-2.3255813953488373,NA,NA,TRUE,TRUE,Small baseline: use counts,,97,NA,42
+Melbourne (Remainder),Administrative and Support Services,9,7,6,-3,3,-33.333333333333336,-1,-14.285714285714286,NA,NA,TRUE,TRUE,Small baseline: use counts,,97,NA,42
+Melbourne (Remainder),Other Services,13,13,10,-3,3,-23.076923076923077,-3,-23.076923076923077,NA,NA,TRUE,TRUE,Small baseline: use counts,,97,NA,24
+West Melbourne (Industrial),"Professional, Scientific and Technical Services",6,4,3,-3,3,-50,-1,-25,NA,NA,TRUE,TRUE,Small baseline: use counts,Check land-use and major-site changes before attributing causes,97,NA,42
+West Melbourne (Industrial),Wholesale Trade,31,30,28,-3,3,-9.67741935483871,-2,-6.666666666666667,NA,NA,TRUE,TRUE,Small baseline: use counts,Check land-use and major-site changes before attributing causes,97,NA,33
+Docklands,"Electricity, Gas, Water and Waste Services",3,2,1,-2,2,-66.66666666666667,-1,-50,NA,NA,TRUE,TRUE,Small baseline: use counts,,108,NA,42
+East Melbourne,Information Media and Telecommunications,6,5,4,-2,2,-33.333333333333336,-1,-20,NA,NA,TRUE,TRUE,Small baseline: use counts,,108,NA,42
+Kensington,Public Administration and Safety,5,4,3,-2,2,-40,-1,-25,NA,NA,TRUE,TRUE,Small baseline: use counts,,108,NA,42
+Southbank,Education and Training,15,14,13,-2,2,-13.333333333333334,-1,-7.142857142857143,NA,NA,TRUE,TRUE,Small baseline: use counts,,108,NA,42
+East Melbourne,"Transport, Postal and Warehousing",3,3,2,-1,1,-33.333333333333336,-1,-33.333333333333336,NA,NA,TRUE,TRUE,Small baseline: use counts,,125,NA,42
+Kensington,"Rental, Hiring and Real Estate Services",13,13,12,-1,1,-7.6923076923076925,-1,-7.6923076923076925,NA,NA,TRUE,TRUE,Small baseline: use counts,,125,NA,42
+Melbourne (Remainder),Public Administration and Safety,4,4,3,-1,1,-25,-1,-25,NA,NA,TRUE,TRUE,Small baseline: use counts,,125,NA,42
+Parkville,Public Administration and Safety,2,2,1,-1,1,-50,-1,-50,NA,NA,TRUE,TRUE,Small baseline: use counts,Check land-use and major-site changes before attributing causes,125,NA,42
+South Yarra,Other Services,7,7,6,-1,1,-14.285714285714286,-1,-14.285714285714286,NA,NA,TRUE,TRUE,Small baseline: use counts,,125,NA,42

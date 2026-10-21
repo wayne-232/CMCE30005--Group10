@@ -1,5 +1,34 @@
 # Validation record
 
+## Final analysis — 21 October 2026
+
+`Rscript scripts/run_final_analysis.R` completed locally. It ran 56 original
+checks and 65 final-analysis checks (121 in total), then rendered both analysis documents to HTML and
+GitHub Markdown with warnings treated as errors.
+
+The new checks independently reproduce source totals and the no-change MAE,
+test exact two-year joins, verify identical model samples and time boundaries,
+and confirm that changing held-out outcomes does not change predictions.
+They also cover benchmark denominators, missing cells, scope sensitivity,
+non-negative forecasts and error-share calculations. Additional checks reproduce
+the 64-group descriptive screen and the five-case selection, including missing
+comparisons, small-baseline flags and deterministic ordering.
+
+Both raw CSV checksums remained unchanged. Full logs, input and result
+checksums, package versions and session information are in
+`outputs/tables/final/validation/`. The rendered analysis contains seven figures,
+including the new five-case comparison. Figure layouts were visually inspected.
+The analysis runner performs no Git operations, shared-document edits or LMS
+submission. Its run-status record describes the calculation run, not subsequent
+repository publication.
+
+These tests establish that the implemented workflow runs and follows its
+stated rules. They do not establish policy effectiveness, causal effects,
+future forecast reliability or reproduction of the unavailable original
+presentation model code.
+
+## Earlier descriptive validation — 17 September 2026
+
 Tests and both report formats rerun on 17 September 2026 after revising the
 README, data packaging and report figures.
 The analysis still uses the supplied two-file snapshot.

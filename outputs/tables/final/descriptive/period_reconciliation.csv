@@ -1,0 +1,4 @@
+start_year,end_year,matched_change,end_only_observed_count,start_only_observed_count,source_total_change,reconciliation_difference
+2017,2019,-7,1,3,-9,0
+2019,2024,-2449,6,9,-2452,0
+2022,2024,481,4,2,483,0

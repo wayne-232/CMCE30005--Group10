@@ -22,9 +22,15 @@ the subject's requirements. Group approval of the analysis is still pending.
   Code-review assistance reported by Wayne; the model version and review date
   have not been recorded here.
 - OpenAI. (2026). *Codex-assisted R code, validation checks and report revisions
-  for the Group 10 CLUE project* [AI-assisted code and text, August–September
+  for the Group 10 CLUE project* [AI-assisted code and text, August–October
   2026]. https://chatgpt.com/codex
   The resulting source files and revisions are retained in this repository.
+
+The October update includes a rebuilt predictive pipeline, deeper
+descriptive analysis, error diagnostics, figures and automated tests drafted
+with Codex assistance. The original presentation's model source was not
+available for direct reproduction. The group must review the rebuilt results
+before adopting them.
 
 Include this acknowledgement with the submitted report, not only in GitHub.
 The subject guide requires acknowledgement of planning and editing assistance

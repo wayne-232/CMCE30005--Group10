@@ -1,5 +1,30 @@
 # CMCE30005 Business Analytics Challenge
 
+## Final analysis — reproducible code and results
+
+The October analysis is available as [GitHub-readable Markdown](analysis/02_final_analysis.md),
+[R Markdown source](analysis/02_final_analysis.Rmd), and
+[downloadable HTML](analysis/02_final_analysis.html). It includes descriptive
+findings and five named CBD cases, with the full 64-group screening list exported
+for review. Model validation and supplementary comparisons are in the appendices.
+All results use the supplied data.
+
+Start with the [code review guide](docs/FINAL_CODE_REVIEW.md). To rebuild everything:
+
+```sh
+Rscript scripts/install_dependencies.R
+Rscript scripts/run_final_analysis.R
+```
+
+The update contains code and supporting results for group review. The final
+submission still needs to incorporate the agreed findings. The interim report
+below is retained as a historical record; its future-tense modelling plan does
+not describe the current code.
+
+---
+
+## Archived interim report
+
 ## Group 10 — Melbourne SME Establishments
 
 **Interim Project Report | Updated 17 September 2026**<br>

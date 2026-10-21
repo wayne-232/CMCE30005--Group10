@@ -1,0 +1,45 @@
+{
+  "scope": "Small and Medium business establishments (1-199 jobs)",
+  "source_filename": "business-establishments-and-jobs-data-by-business-size-and-anzsic.csv",
+  "source_md5": "092490f73fa22c83c82d95d1ccd7e010",
+  "source_rows": 13353,
+  "selected_source_rows": 8800,
+  "source_columns": 6,
+  "source_years": 23,
+  "precincts": 13,
+  "industries": 19,
+  "missing_job_rows": 4252,
+  "missing_job_pct": 31.8430315284955,
+  "case_shortfall": 904,
+  "case_recent_loss": 107,
+  "city_counts": [
+    {
+      "year": 2019,
+      "establishments": 15506
+    },
+    {
+      "year": 2022,
+      "establishments": 12571
+    },
+    {
+      "year": 2024,
+      "establishments": 13054
+    }
+  ],
+  "city_recent_gain": 483,
+  "city_remaining_shortfall": 2452,
+  "city_gap_pct": -15.8132335869986,
+  "city_recent_pct": 3.84217643783311,
+  "share_of_2019_to_2022_loss_offset_pct": 16.4565587734242,
+  "precincts_below_2019": 13,
+  "precincts_increasing_since_2022": 8,
+  "cbd_shortfall": 1594,
+  "cbd_recent_gain": 245,
+  "cbd_share_of_remaining_city_shortfall_pct": 65.0081566068515,
+  "cbd_share_of_recent_city_gain_pct": 50.7246376811594,
+  "hospitality_recent_gain": 214,
+  "hospitality_share_of_city_net_gain_pct": 44.3064182194617,
+  "gross_industry_gains": 601,
+  "gross_industry_losses": -118,
+  "notes": ["Changes are net establishment counts, not individual openings or closures.", "Absent precinct-industry cells stay unknown. Coverage is exported.", "The industry-mix comparison is descriptive and uses observed rest-of-city totals.", "The 100-establishment and 95% coverage thresholds are review choices, not publisher rules.", "Priority categories summarise observed gaps and recent changes. They do not predict policy benefits."]
+}

@@ -64,6 +64,9 @@ rsconnect/
 .Rapp.history
 Rplots.pdf
 
+# Optional project-local R dependencies. Source code and package versions are tracked.
+.r-library/
+
 # Compiled reports (keep .Rmd source, not rendered HTML if it's auto-generated)
 # Uncomment the line below only if you want to exclude HTML outputs:
 # *.html

@@ -1,0 +1,5 @@
+model,config_id,validation_mean_fold_mae,validation_mean_fold_rmse,validation_mean_fold_bias,validation_folds,cp,minbucket,depth,trees,shrinkage,complexity_order
+Gradient boosting,gbm_depth1_trees300,7.298121211487457,20.731561505540824,4.95084926434687,4,NA,NA,1,300,0.03,10
+No change,no_change,6.954957590835151,20.03995026474714,3.1059290253470633,4,NA,NA,NA,NA,NA,1
+OLS,ols,7.41614312082911,19.884022362224233,4.428450566290904,4,NA,NA,NA,NA,NA,2
+Pruned tree,tree_cp0.05_bucket5,7.440460641782527,19.457283256946454,4.932790892808971,4,0.05,5,NA,NA,NA,7

@@ -2,6 +2,11 @@
 
 ## Where to start
 
+For the final analysis, start with [the October code review guide](FINAL_CODE_REVIEW.md)
+and `analysis/02_final_analysis.html`. The remainder of this guide records the
+earlier descriptive-analysis review. Models have now been fitted in the separate
+final-analysis module; group approval is still required.
+
 Start with the root README for the five-section interim report and three core
 figures. Both original CSVs are now included in data/. The longer analysis and
 the documents here are supporting material, not extra required report sections.

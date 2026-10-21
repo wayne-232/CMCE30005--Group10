@@ -1,0 +1,1236 @@
+stage,origin_year,target_year,precinct,industry,current_count,previous_count,future_count,missing_origin,missing_previous,missing_target,known_precinct,known_industry,comparison_eligible,exclusion_reason
+Rolling validation,2014,2016,Carlton,Accommodation and Food Services,244,235,272,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Carlton,Administrative and Support Services,26,28,26,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Carlton,"Agriculture, Forestry and Fishing",2,2,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Carlton,Arts and Recreation Services,24,24,22,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Carlton,Construction,13,17,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Carlton,Education and Training,76,80,81,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Carlton,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,Carlton,Financial and Insurance Services,40,34,31,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Carlton,Health Care and Social Assistance,100,98,105,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Carlton,Information Media and Telecommunications,14,15,18,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Carlton,Manufacturing,28,30,23,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Carlton,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,Carlton,Other Services,125,130,120,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Carlton,"Professional, Scientific and Technical Services",139,141,143,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Carlton,Public Administration and Safety,16,18,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Carlton,"Rental, Hiring and Real Estate Services",22,20,20,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Carlton,Retail Trade,143,147,126,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Carlton,"Transport, Postal and Warehousing",4,4,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Carlton,Wholesale Trade,23,25,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Docklands,Accommodation and Food Services,224,169,261,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Docklands,Administrative and Support Services,29,29,36,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Docklands,"Agriculture, Forestry and Fishing",NA,NA,1,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,Docklands,Arts and Recreation Services,29,25,30,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Docklands,Construction,17,23,21,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Docklands,Education and Training,12,11,18,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Docklands,"Electricity, Gas, Water and Waste Services",NA,NA,2,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,Docklands,Financial and Insurance Services,24,21,39,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Docklands,Health Care and Social Assistance,20,20,32,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Docklands,Information Media and Telecommunications,12,17,18,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Docklands,Manufacturing,17,14,13,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Docklands,Mining,1,2,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Docklands,Other Services,56,43,57,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Docklands,"Professional, Scientific and Technical Services",116,102,146,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Docklands,Public Administration and Safety,6,8,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Docklands,"Rental, Hiring and Real Estate Services",50,42,64,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Docklands,Retail Trade,230,256,214,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Docklands,"Transport, Postal and Warehousing",29,28,38,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Docklands,Wholesale Trade,18,12,24,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,East Melbourne,Accommodation and Food Services,62,62,65,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,East Melbourne,Administrative and Support Services,12,13,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,East Melbourne,"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,East Melbourne,Arts and Recreation Services,22,23,20,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,East Melbourne,Construction,5,9,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,East Melbourne,Education and Training,11,11,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,East Melbourne,"Electricity, Gas, Water and Waste Services",NA,4,NA,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,East Melbourne,Financial and Insurance Services,12,21,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,East Melbourne,Health Care and Social Assistance,229,220,233,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,East Melbourne,Information Media and Telecommunications,4,4,9,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,East Melbourne,Manufacturing,4,4,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,East Melbourne,Mining,1,1,NA,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,No published target-year cell
+Rolling validation,2014,2016,East Melbourne,Other Services,43,44,41,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,East Melbourne,"Professional, Scientific and Technical Services",71,88,72,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,East Melbourne,Public Administration and Safety,16,12,14,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,East Melbourne,"Rental, Hiring and Real Estate Services",10,7,9,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,East Melbourne,Retail Trade,13,16,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,East Melbourne,"Transport, Postal and Warehousing",2,2,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,East Melbourne,Wholesale Trade,4,6,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Kensington,Accommodation and Food Services,39,33,46,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Kensington,Administrative and Support Services,5,6,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Kensington,"Agriculture, Forestry and Fishing",3,3,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Kensington,Arts and Recreation Services,27,28,36,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Kensington,Construction,22,25,22,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Kensington,Education and Training,7,10,9,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Kensington,"Electricity, Gas, Water and Waste Services",NA,1,NA,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,Kensington,Financial and Insurance Services,3,3,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Kensington,Health Care and Social Assistance,22,24,22,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Kensington,Information Media and Telecommunications,6,6,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Kensington,Manufacturing,34,41,45,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Kensington,Mining,NA,1,NA,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,Kensington,Other Services,40,36,38,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Kensington,"Professional, Scientific and Technical Services",31,32,41,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Kensington,Public Administration and Safety,5,5,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Kensington,"Rental, Hiring and Real Estate Services",14,11,13,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Kensington,Retail Trade,43,43,38,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Kensington,"Transport, Postal and Warehousing",12,11,13,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Kensington,Wholesale Trade,28,28,27,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (CBD),Accommodation and Food Services,1654,1530,1724,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (CBD),Administrative and Support Services,456,499,421,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (CBD),"Agriculture, Forestry and Fishing",4,4,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (CBD),Arts and Recreation Services,137,136,147,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (CBD),Construction,82,85,95,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (CBD),Education and Training,268,268,308,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (CBD),"Electricity, Gas, Water and Waste Services",13,20,18,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (CBD),Financial and Insurance Services,669,666,678,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (CBD),Health Care and Social Assistance,402,383,414,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (CBD),Information Media and Telecommunications,115,152,105,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (CBD),Manufacturing,244,267,240,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (CBD),Mining,45,46,35,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (CBD),Other Services,787,734,863,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (CBD),"Professional, Scientific and Technical Services",1763,1734,1774,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (CBD),Public Administration and Safety,129,136,126,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (CBD),"Rental, Hiring and Real Estate Services",191,189,218,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (CBD),Retail Trade,1557,1543,1528,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (CBD),"Transport, Postal and Warehousing",80,83,78,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (CBD),Wholesale Trade,111,113,115,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (Remainder),Accommodation and Food Services,38,37,49,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (Remainder),Administrative and Support Services,20,22,20,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (Remainder),"Agriculture, Forestry and Fishing",NA,1,NA,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,Melbourne (Remainder),Arts and Recreation Services,15,19,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (Remainder),Construction,8,10,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (Remainder),Education and Training,9,4,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (Remainder),"Electricity, Gas, Water and Waste Services",NA,1,1,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,Melbourne (Remainder),Financial and Insurance Services,36,37,33,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (Remainder),Health Care and Social Assistance,63,64,67,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (Remainder),Information Media and Telecommunications,11,9,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (Remainder),Manufacturing,12,10,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (Remainder),Mining,1,1,NA,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,No published target-year cell
+Rolling validation,2014,2016,Melbourne (Remainder),Other Services,23,17,19,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (Remainder),"Professional, Scientific and Technical Services",72,67,60,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (Remainder),Public Administration and Safety,7,6,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (Remainder),"Rental, Hiring and Real Estate Services",11,10,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (Remainder),Retail Trade,17,18,18,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (Remainder),"Transport, Postal and Warehousing",6,6,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Melbourne (Remainder),Wholesale Trade,9,6,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,North Melbourne,Accommodation and Food Services,118,106,124,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,North Melbourne,Administrative and Support Services,39,43,32,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,North Melbourne,"Agriculture, Forestry and Fishing",1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,North Melbourne,Arts and Recreation Services,39,39,39,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,North Melbourne,Construction,42,46,44,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,North Melbourne,Education and Training,32,28,40,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,North Melbourne,"Electricity, Gas, Water and Waste Services",1,2,NA,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,No published target-year cell
+Rolling validation,2014,2016,North Melbourne,Financial and Insurance Services,20,21,21,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,North Melbourne,Health Care and Social Assistance,98,97,102,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,North Melbourne,Information Media and Telecommunications,21,30,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,North Melbourne,Manufacturing,58,61,52,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,North Melbourne,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,North Melbourne,Other Services,124,143,126,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,North Melbourne,"Professional, Scientific and Technical Services",143,150,129,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,North Melbourne,Public Administration and Safety,15,14,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,North Melbourne,"Rental, Hiring and Real Estate Services",22,23,20,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,North Melbourne,Retail Trade,91,102,92,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,North Melbourne,"Transport, Postal and Warehousing",26,31,25,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,North Melbourne,Wholesale Trade,67,74,60,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Parkville,Accommodation and Food Services,70,60,86,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Parkville,Administrative and Support Services,4,2,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Parkville,"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,Parkville,Arts and Recreation Services,10,7,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Parkville,Construction,1,1,NA,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,No published target-year cell
+Rolling validation,2014,2016,Parkville,Education and Training,17,17,62,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Parkville,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,Parkville,Financial and Insurance Services,8,7,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Parkville,Health Care and Social Assistance,70,71,83,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Parkville,Information Media and Telecommunications,1,2,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Parkville,Manufacturing,1,5,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Parkville,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,Parkville,Other Services,17,16,21,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Parkville,"Professional, Scientific and Technical Services",20,19,19,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Parkville,Public Administration and Safety,4,4,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Parkville,"Rental, Hiring and Real Estate Services",1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Parkville,Retail Trade,20,24,22,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Parkville,"Transport, Postal and Warehousing",3,4,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Parkville,Wholesale Trade,NA,NA,1,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,Port Melbourne,Accommodation and Food Services,21,17,21,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Port Melbourne,Administrative and Support Services,14,13,21,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Port Melbourne,"Agriculture, Forestry and Fishing",2,2,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Port Melbourne,Arts and Recreation Services,6,5,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Port Melbourne,Construction,53,44,49,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Port Melbourne,Education and Training,5,5,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Port Melbourne,"Electricity, Gas, Water and Waste Services",2,NA,NA,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,No published exact two-year lag
+Rolling validation,2014,2016,Port Melbourne,Financial and Insurance Services,12,9,9,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Port Melbourne,Health Care and Social Assistance,5,1,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Port Melbourne,Information Media and Telecommunications,15,12,14,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Port Melbourne,Manufacturing,82,69,81,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Port Melbourne,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,Port Melbourne,Other Services,13,10,16,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Port Melbourne,"Professional, Scientific and Technical Services",70,73,81,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Port Melbourne,Public Administration and Safety,8,5,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Port Melbourne,"Rental, Hiring and Real Estate Services",15,11,16,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Port Melbourne,Retail Trade,24,21,23,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Port Melbourne,"Transport, Postal and Warehousing",35,29,36,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Port Melbourne,Wholesale Trade,77,68,73,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,South Yarra,Accommodation and Food Services,13,16,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,South Yarra,Administrative and Support Services,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,South Yarra,"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,South Yarra,Arts and Recreation Services,2,NA,1,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,No published exact two-year lag
+Rolling validation,2014,2016,South Yarra,Construction,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,South Yarra,Education and Training,7,9,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,South Yarra,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,South Yarra,Financial and Insurance Services,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,South Yarra,Health Care and Social Assistance,3,3,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,South Yarra,Information Media and Telecommunications,NA,NA,1,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,South Yarra,Manufacturing,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,South Yarra,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,South Yarra,Other Services,8,10,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,South Yarra,"Professional, Scientific and Technical Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,South Yarra,Public Administration and Safety,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,South Yarra,"Rental, Hiring and Real Estate Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,South Yarra,Retail Trade,5,9,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,South Yarra,"Transport, Postal and Warehousing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,South Yarra,Wholesale Trade,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,Southbank,Accommodation and Food Services,192,141,201,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Southbank,Administrative and Support Services,23,25,24,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Southbank,"Agriculture, Forestry and Fishing",3,3,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Southbank,Arts and Recreation Services,37,28,31,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Southbank,Construction,34,25,35,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Southbank,Education and Training,17,14,16,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Southbank,"Electricity, Gas, Water and Waste Services",3,1,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Southbank,Financial and Insurance Services,28,28,28,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Southbank,Health Care and Social Assistance,23,23,28,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Southbank,Information Media and Telecommunications,20,20,18,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Southbank,Manufacturing,8,12,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Southbank,Mining,2,3,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Southbank,Other Services,27,33,20,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Southbank,"Professional, Scientific and Technical Services",128,135,130,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Southbank,Public Administration and Safety,9,9,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Southbank,"Rental, Hiring and Real Estate Services",32,28,31,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Southbank,Retail Trade,241,218,229,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Southbank,"Transport, Postal and Warehousing",13,12,14,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,Southbank,Wholesale Trade,21,17,19,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Industrial),Accommodation and Food Services,9,8,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Industrial),Administrative and Support Services,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,West Melbourne (Industrial),"Agriculture, Forestry and Fishing",1,1,NA,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,No published target-year cell
+Rolling validation,2014,2016,West Melbourne (Industrial),Arts and Recreation Services,4,4,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Industrial),Construction,2,4,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Industrial),Education and Training,NA,1,NA,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,West Melbourne (Industrial),"Electricity, Gas, Water and Waste Services",6,5,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Industrial),Financial and Insurance Services,1,1,NA,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,No published target-year cell
+Rolling validation,2014,2016,West Melbourne (Industrial),Health Care and Social Assistance,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,West Melbourne (Industrial),Information Media and Telecommunications,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Industrial),Manufacturing,10,11,9,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Industrial),Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,West Melbourne (Industrial),Other Services,7,5,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Industrial),"Professional, Scientific and Technical Services",6,4,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Industrial),Public Administration and Safety,3,4,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Industrial),"Rental, Hiring and Real Estate Services",11,11,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Industrial),Retail Trade,8,9,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Industrial),"Transport, Postal and Warehousing",43,44,39,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Industrial),Wholesale Trade,200,222,32,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Residential),Accommodation and Food Services,59,58,49,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Residential),Administrative and Support Services,12,14,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Residential),"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,West Melbourne (Residential),Arts and Recreation Services,9,10,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Residential),Construction,9,12,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Residential),Education and Training,21,20,20,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Residential),"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2014,2016,West Melbourne (Residential),Financial and Insurance Services,13,16,13,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Residential),Health Care and Social Assistance,17,13,18,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Residential),Information Media and Telecommunications,13,12,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Residential),Manufacturing,16,19,13,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Residential),Mining,1,NA,NA,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,No published exact two-year lag
+Rolling validation,2014,2016,West Melbourne (Residential),Other Services,51,53,47,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Residential),"Professional, Scientific and Technical Services",99,105,92,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Residential),Public Administration and Safety,4,5,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Residential),"Rental, Hiring and Real Estate Services",7,6,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Residential),Retail Trade,40,42,42,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Residential),"Transport, Postal and Warehousing",19,19,14,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2014,2016,West Melbourne (Residential),Wholesale Trade,32,35,27,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Carlton,Accommodation and Food Services,272,244,267,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Carlton,Administrative and Support Services,26,26,22,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Carlton,"Agriculture, Forestry and Fishing",1,2,NA,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,No published target-year cell
+Rolling validation,2016,2018,Carlton,Arts and Recreation Services,22,24,24,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Carlton,Construction,17,13,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Carlton,Education and Training,81,76,73,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Carlton,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,Carlton,Financial and Insurance Services,31,40,31,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Carlton,Health Care and Social Assistance,105,100,108,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Carlton,Information Media and Telecommunications,18,14,20,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Carlton,Manufacturing,23,28,22,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Carlton,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,Carlton,Other Services,120,125,113,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Carlton,"Professional, Scientific and Technical Services",143,139,146,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Carlton,Public Administration and Safety,15,16,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Carlton,"Rental, Hiring and Real Estate Services",20,22,29,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Carlton,Retail Trade,126,143,119,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Carlton,"Transport, Postal and Warehousing",4,4,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Carlton,Wholesale Trade,17,23,16,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Docklands,Accommodation and Food Services,261,224,275,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Docklands,Administrative and Support Services,36,29,39,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Docklands,"Agriculture, Forestry and Fishing",1,NA,2,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,No published exact two-year lag
+Rolling validation,2016,2018,Docklands,Arts and Recreation Services,30,29,36,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Docklands,Construction,21,17,22,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Docklands,Education and Training,18,12,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Docklands,"Electricity, Gas, Water and Waste Services",2,NA,3,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,No published exact two-year lag
+Rolling validation,2016,2018,Docklands,Financial and Insurance Services,39,24,46,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Docklands,Health Care and Social Assistance,32,20,39,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Docklands,Information Media and Telecommunications,18,12,18,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Docklands,Manufacturing,13,17,16,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Docklands,Mining,1,1,NA,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,No published target-year cell
+Rolling validation,2016,2018,Docklands,Other Services,57,56,68,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Docklands,"Professional, Scientific and Technical Services",146,116,172,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Docklands,Public Administration and Safety,8,6,19,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Docklands,"Rental, Hiring and Real Estate Services",64,50,66,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Docklands,Retail Trade,214,230,197,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Docklands,"Transport, Postal and Warehousing",38,29,34,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Docklands,Wholesale Trade,24,18,23,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,East Melbourne,Accommodation and Food Services,65,62,60,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,East Melbourne,Administrative and Support Services,10,12,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,East Melbourne,"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,East Melbourne,Arts and Recreation Services,20,22,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,East Melbourne,Construction,5,5,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,East Melbourne,Education and Training,10,11,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,East Melbourne,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,East Melbourne,Financial and Insurance Services,11,12,14,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,East Melbourne,Health Care and Social Assistance,233,229,234,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,East Melbourne,Information Media and Telecommunications,9,4,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,East Melbourne,Manufacturing,3,4,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,East Melbourne,Mining,NA,1,1,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,East Melbourne,Other Services,41,43,40,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,East Melbourne,"Professional, Scientific and Technical Services",72,71,75,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,East Melbourne,Public Administration and Safety,14,16,13,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,East Melbourne,"Rental, Hiring and Real Estate Services",9,10,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,East Melbourne,Retail Trade,12,13,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,East Melbourne,"Transport, Postal and Warehousing",1,2,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,East Melbourne,Wholesale Trade,4,4,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Kensington,Accommodation and Food Services,46,39,52,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Kensington,Administrative and Support Services,10,5,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Kensington,"Agriculture, Forestry and Fishing",2,3,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Kensington,Arts and Recreation Services,36,27,34,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Kensington,Construction,22,22,26,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Kensington,Education and Training,9,7,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Kensington,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,Kensington,Financial and Insurance Services,4,3,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Kensington,Health Care and Social Assistance,22,22,23,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Kensington,Information Media and Telecommunications,8,6,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Kensington,Manufacturing,45,34,48,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Kensington,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,Kensington,Other Services,38,40,40,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Kensington,"Professional, Scientific and Technical Services",41,31,36,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Kensington,Public Administration and Safety,6,5,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Kensington,"Rental, Hiring and Real Estate Services",13,14,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Kensington,Retail Trade,38,43,39,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Kensington,"Transport, Postal and Warehousing",13,12,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Kensington,Wholesale Trade,27,28,24,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (CBD),Accommodation and Food Services,1724,1654,1784,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (CBD),Administrative and Support Services,421,456,391,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (CBD),"Agriculture, Forestry and Fishing",5,4,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (CBD),Arts and Recreation Services,147,137,155,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (CBD),Construction,95,82,126,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (CBD),Education and Training,308,268,340,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (CBD),"Electricity, Gas, Water and Waste Services",18,13,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (CBD),Financial and Insurance Services,678,669,720,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (CBD),Health Care and Social Assistance,414,402,406,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (CBD),Information Media and Telecommunications,105,115,102,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (CBD),Manufacturing,240,244,227,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (CBD),Mining,35,45,32,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (CBD),Other Services,863,787,923,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (CBD),"Professional, Scientific and Technical Services",1774,1763,1822,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (CBD),Public Administration and Safety,126,129,139,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (CBD),"Rental, Hiring and Real Estate Services",218,191,252,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (CBD),Retail Trade,1528,1557,1450,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (CBD),"Transport, Postal and Warehousing",78,80,79,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (CBD),Wholesale Trade,115,111,117,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (Remainder),Accommodation and Food Services,49,38,45,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (Remainder),Administrative and Support Services,20,20,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (Remainder),"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,Melbourne (Remainder),Arts and Recreation Services,17,15,19,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (Remainder),Construction,10,8,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (Remainder),Education and Training,10,9,9,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (Remainder),"Electricity, Gas, Water and Waste Services",1,NA,1,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,No published exact two-year lag
+Rolling validation,2016,2018,Melbourne (Remainder),Financial and Insurance Services,33,36,23,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (Remainder),Health Care and Social Assistance,67,63,61,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (Remainder),Information Media and Telecommunications,6,11,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (Remainder),Manufacturing,7,12,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (Remainder),Mining,NA,1,NA,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,Melbourne (Remainder),Other Services,19,23,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (Remainder),"Professional, Scientific and Technical Services",60,72,53,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (Remainder),Public Administration and Safety,7,7,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (Remainder),"Rental, Hiring and Real Estate Services",11,11,9,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (Remainder),Retail Trade,18,17,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (Remainder),"Transport, Postal and Warehousing",6,6,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Melbourne (Remainder),Wholesale Trade,7,9,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,North Melbourne,Accommodation and Food Services,124,118,129,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,North Melbourne,Administrative and Support Services,32,39,34,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,North Melbourne,"Agriculture, Forestry and Fishing",1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,North Melbourne,Arts and Recreation Services,39,39,34,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,North Melbourne,Construction,44,42,43,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,North Melbourne,Education and Training,40,32,37,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,North Melbourne,"Electricity, Gas, Water and Waste Services",NA,1,NA,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,North Melbourne,Financial and Insurance Services,21,20,23,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,North Melbourne,Health Care and Social Assistance,102,98,103,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,North Melbourne,Information Media and Telecommunications,17,21,16,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,North Melbourne,Manufacturing,52,58,40,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,North Melbourne,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,North Melbourne,Other Services,126,124,125,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,North Melbourne,"Professional, Scientific and Technical Services",129,143,151,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,North Melbourne,Public Administration and Safety,12,15,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,North Melbourne,"Rental, Hiring and Real Estate Services",20,22,20,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,North Melbourne,Retail Trade,92,91,91,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,North Melbourne,"Transport, Postal and Warehousing",25,26,21,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,North Melbourne,Wholesale Trade,60,67,50,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Parkville,Accommodation and Food Services,86,70,84,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Parkville,Administrative and Support Services,5,4,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Parkville,"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,Parkville,Arts and Recreation Services,12,10,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Parkville,Construction,NA,1,NA,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,Parkville,Education and Training,62,17,57,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Parkville,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,Parkville,Financial and Insurance Services,5,8,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Parkville,Health Care and Social Assistance,83,70,86,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Parkville,Information Media and Telecommunications,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Parkville,Manufacturing,2,1,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Parkville,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,Parkville,Other Services,21,17,19,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Parkville,"Professional, Scientific and Technical Services",19,20,19,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Parkville,Public Administration and Safety,3,4,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Parkville,"Rental, Hiring and Real Estate Services",1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Parkville,Retail Trade,22,20,22,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Parkville,"Transport, Postal and Warehousing",3,3,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Parkville,Wholesale Trade,1,NA,1,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,No published exact two-year lag
+Rolling validation,2016,2018,Port Melbourne,Accommodation and Food Services,21,21,23,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Port Melbourne,Administrative and Support Services,21,14,27,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Port Melbourne,"Agriculture, Forestry and Fishing",1,2,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Port Melbourne,Arts and Recreation Services,6,6,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Port Melbourne,Construction,49,53,67,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Port Melbourne,Education and Training,5,5,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Port Melbourne,"Electricity, Gas, Water and Waste Services",NA,2,1,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,Port Melbourne,Financial and Insurance Services,9,12,9,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Port Melbourne,Health Care and Social Assistance,5,5,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Port Melbourne,Information Media and Telecommunications,14,15,19,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Port Melbourne,Manufacturing,81,82,80,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Port Melbourne,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,Port Melbourne,Other Services,16,13,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Port Melbourne,"Professional, Scientific and Technical Services",81,70,75,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Port Melbourne,Public Administration and Safety,11,8,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Port Melbourne,"Rental, Hiring and Real Estate Services",16,15,22,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Port Melbourne,Retail Trade,23,24,24,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Port Melbourne,"Transport, Postal and Warehousing",36,35,40,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Port Melbourne,Wholesale Trade,73,77,68,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,South Yarra,Accommodation and Food Services,12,13,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,South Yarra,Administrative and Support Services,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,South Yarra,"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,South Yarra,Arts and Recreation Services,1,2,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,South Yarra,Construction,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,South Yarra,Education and Training,7,7,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,South Yarra,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,South Yarra,Financial and Insurance Services,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,South Yarra,Health Care and Social Assistance,1,3,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,South Yarra,Information Media and Telecommunications,1,NA,1,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,No published exact two-year lag
+Rolling validation,2016,2018,South Yarra,Manufacturing,NA,NA,1,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,South Yarra,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,South Yarra,Other Services,8,8,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,South Yarra,"Professional, Scientific and Technical Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,South Yarra,Public Administration and Safety,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,South Yarra,"Rental, Hiring and Real Estate Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,South Yarra,Retail Trade,5,5,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,South Yarra,"Transport, Postal and Warehousing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,South Yarra,Wholesale Trade,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,Southbank,Accommodation and Food Services,201,192,206,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Southbank,Administrative and Support Services,24,23,31,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Southbank,"Agriculture, Forestry and Fishing",3,3,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Southbank,Arts and Recreation Services,31,37,33,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Southbank,Construction,35,34,37,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Southbank,Education and Training,16,17,16,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Southbank,"Electricity, Gas, Water and Waste Services",2,3,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Southbank,Financial and Insurance Services,28,28,27,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Southbank,Health Care and Social Assistance,28,23,31,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Southbank,Information Media and Telecommunications,18,20,19,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Southbank,Manufacturing,8,8,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Southbank,Mining,2,2,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Southbank,Other Services,20,27,21,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Southbank,"Professional, Scientific and Technical Services",130,128,114,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Southbank,Public Administration and Safety,6,9,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Southbank,"Rental, Hiring and Real Estate Services",31,32,36,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Southbank,Retail Trade,229,241,237,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Southbank,"Transport, Postal and Warehousing",14,13,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,Southbank,Wholesale Trade,19,21,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Industrial),Accommodation and Food Services,6,9,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Industrial),Administrative and Support Services,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,West Melbourne (Industrial),"Agriculture, Forestry and Fishing",NA,1,NA,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,West Melbourne (Industrial),Arts and Recreation Services,3,4,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Industrial),Construction,3,2,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Industrial),Education and Training,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,West Melbourne (Industrial),"Electricity, Gas, Water and Waste Services",4,6,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Industrial),Financial and Insurance Services,NA,1,NA,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,West Melbourne (Industrial),Health Care and Social Assistance,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,West Melbourne (Industrial),Information Media and Telecommunications,1,1,NA,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,No published target-year cell
+Rolling validation,2016,2018,West Melbourne (Industrial),Manufacturing,9,10,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Industrial),Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,West Melbourne (Industrial),Other Services,6,7,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Industrial),"Professional, Scientific and Technical Services",4,6,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Industrial),Public Administration and Safety,2,3,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Industrial),"Rental, Hiring and Real Estate Services",2,11,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Industrial),Retail Trade,7,8,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Industrial),"Transport, Postal and Warehousing",39,43,43,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Industrial),Wholesale Trade,32,200,31,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Residential),Accommodation and Food Services,49,59,59,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Residential),Administrative and Support Services,17,12,14,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Residential),"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,West Melbourne (Residential),Arts and Recreation Services,10,9,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Residential),Construction,12,9,13,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Residential),Education and Training,20,21,23,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Residential),"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,West Melbourne (Residential),Financial and Insurance Services,13,13,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Residential),Health Care and Social Assistance,18,17,25,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Residential),Information Media and Telecommunications,10,13,9,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Residential),Manufacturing,13,16,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Residential),Mining,NA,1,NA,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2016,2018,West Melbourne (Residential),Other Services,47,51,49,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Residential),"Professional, Scientific and Technical Services",92,99,99,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Residential),Public Administration and Safety,4,4,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Residential),"Rental, Hiring and Real Estate Services",11,7,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Residential),Retail Trade,42,40,42,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Residential),"Transport, Postal and Warehousing",14,19,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2016,2018,West Melbourne (Residential),Wholesale Trade,27,32,23,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Carlton,Accommodation and Food Services,267,272,265,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Carlton,Administrative and Support Services,22,26,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Carlton,"Agriculture, Forestry and Fishing",NA,1,NA,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,Carlton,Arts and Recreation Services,24,22,24,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Carlton,Construction,15,17,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Carlton,Education and Training,73,81,76,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Carlton,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,Carlton,Financial and Insurance Services,31,31,24,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Carlton,Health Care and Social Assistance,108,105,91,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Carlton,Information Media and Telecommunications,20,18,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Carlton,Manufacturing,22,23,21,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Carlton,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,Carlton,Other Services,113,120,104,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Carlton,"Professional, Scientific and Technical Services",146,143,112,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Carlton,Public Administration and Safety,12,15,9,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Carlton,"Rental, Hiring and Real Estate Services",29,20,21,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Carlton,Retail Trade,119,126,105,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Carlton,"Transport, Postal and Warehousing",4,4,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Carlton,Wholesale Trade,16,17,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Docklands,Accommodation and Food Services,275,261,303,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Docklands,Administrative and Support Services,39,36,31,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Docklands,"Agriculture, Forestry and Fishing",2,1,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Docklands,Arts and Recreation Services,36,30,34,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Docklands,Construction,22,21,22,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Docklands,Education and Training,17,18,23,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Docklands,"Electricity, Gas, Water and Waste Services",3,2,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Docklands,Financial and Insurance Services,46,39,45,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Docklands,Health Care and Social Assistance,39,32,43,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Docklands,Information Media and Telecommunications,18,18,24,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Docklands,Manufacturing,16,13,18,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Docklands,Mining,NA,1,NA,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,Docklands,Other Services,68,57,57,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Docklands,"Professional, Scientific and Technical Services",172,146,158,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Docklands,Public Administration and Safety,19,8,19,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Docklands,"Rental, Hiring and Real Estate Services",66,64,66,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Docklands,Retail Trade,197,214,180,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Docklands,"Transport, Postal and Warehousing",34,38,27,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Docklands,Wholesale Trade,23,24,18,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,East Melbourne,Accommodation and Food Services,60,65,53,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,East Melbourne,Administrative and Support Services,11,10,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,East Melbourne,"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,East Melbourne,Arts and Recreation Services,17,20,16,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,East Melbourne,Construction,7,5,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,East Melbourne,Education and Training,10,10,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,East Melbourne,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,East Melbourne,Financial and Insurance Services,14,11,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,East Melbourne,Health Care and Social Assistance,234,233,211,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,East Melbourne,Information Media and Telecommunications,6,9,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,East Melbourne,Manufacturing,3,3,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,East Melbourne,Mining,1,NA,1,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,No published exact two-year lag
+Rolling validation,2018,2020,East Melbourne,Other Services,40,41,39,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,East Melbourne,"Professional, Scientific and Technical Services",75,72,58,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,East Melbourne,Public Administration and Safety,13,14,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,East Melbourne,"Rental, Hiring and Real Estate Services",7,9,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,East Melbourne,Retail Trade,12,12,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,East Melbourne,"Transport, Postal and Warehousing",3,1,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,East Melbourne,Wholesale Trade,6,4,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Kensington,Accommodation and Food Services,52,46,48,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Kensington,Administrative and Support Services,10,10,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Kensington,"Agriculture, Forestry and Fishing",2,2,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Kensington,Arts and Recreation Services,34,36,26,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Kensington,Construction,26,22,22,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Kensington,Education and Training,10,9,9,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Kensington,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,Kensington,Financial and Insurance Services,3,4,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Kensington,Health Care and Social Assistance,23,22,25,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Kensington,Information Media and Telecommunications,6,8,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Kensington,Manufacturing,48,45,40,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Kensington,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,Kensington,Other Services,40,38,39,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Kensington,"Professional, Scientific and Technical Services",36,41,35,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Kensington,Public Administration and Safety,5,6,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Kensington,"Rental, Hiring and Real Estate Services",15,13,13,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Kensington,Retail Trade,39,38,29,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Kensington,"Transport, Postal and Warehousing",11,13,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Kensington,Wholesale Trade,24,27,29,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (CBD),Accommodation and Food Services,1784,1724,1692,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (CBD),Administrative and Support Services,391,421,311,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (CBD),"Agriculture, Forestry and Fishing",6,5,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (CBD),Arts and Recreation Services,155,147,129,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (CBD),Construction,126,95,122,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (CBD),Education and Training,340,308,312,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (CBD),"Electricity, Gas, Water and Waste Services",17,18,19,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (CBD),Financial and Insurance Services,720,678,614,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (CBD),Health Care and Social Assistance,406,414,349,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (CBD),Information Media and Telecommunications,102,105,73,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (CBD),Manufacturing,227,240,191,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (CBD),Mining,32,35,25,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (CBD),Other Services,923,863,825,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (CBD),"Professional, Scientific and Technical Services",1822,1774,1551,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (CBD),Public Administration and Safety,139,126,143,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (CBD),"Rental, Hiring and Real Estate Services",252,218,211,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (CBD),Retail Trade,1450,1528,1118,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (CBD),"Transport, Postal and Warehousing",79,78,70,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (CBD),Wholesale Trade,117,115,95,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (Remainder),Accommodation and Food Services,45,49,42,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (Remainder),Administrative and Support Services,11,20,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (Remainder),"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,Melbourne (Remainder),Arts and Recreation Services,19,17,21,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (Remainder),Construction,8,10,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (Remainder),Education and Training,9,10,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (Remainder),"Electricity, Gas, Water and Waste Services",1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (Remainder),Financial and Insurance Services,23,33,20,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (Remainder),Health Care and Social Assistance,61,67,64,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (Remainder),Information Media and Telecommunications,3,6,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (Remainder),Manufacturing,7,7,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (Remainder),Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,Melbourne (Remainder),Other Services,15,19,13,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (Remainder),"Professional, Scientific and Technical Services",53,60,24,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (Remainder),Public Administration and Safety,7,7,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (Remainder),"Rental, Hiring and Real Estate Services",9,11,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (Remainder),Retail Trade,17,18,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (Remainder),"Transport, Postal and Warehousing",5,6,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Melbourne (Remainder),Wholesale Trade,8,7,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,North Melbourne,Accommodation and Food Services,129,124,124,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,North Melbourne,Administrative and Support Services,34,32,32,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,North Melbourne,"Agriculture, Forestry and Fishing",1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,North Melbourne,Arts and Recreation Services,34,39,31,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,North Melbourne,Construction,43,44,27,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,North Melbourne,Education and Training,37,40,32,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,North Melbourne,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,North Melbourne,Financial and Insurance Services,23,21,13,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,North Melbourne,Health Care and Social Assistance,103,102,86,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,North Melbourne,Information Media and Telecommunications,16,17,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,North Melbourne,Manufacturing,40,52,31,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,North Melbourne,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,North Melbourne,Other Services,125,126,116,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,North Melbourne,"Professional, Scientific and Technical Services",151,129,131,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,North Melbourne,Public Administration and Safety,10,12,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,North Melbourne,"Rental, Hiring and Real Estate Services",20,20,18,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,North Melbourne,Retail Trade,91,92,77,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,North Melbourne,"Transport, Postal and Warehousing",21,25,18,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,North Melbourne,Wholesale Trade,50,60,41,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Parkville,Accommodation and Food Services,84,86,75,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Parkville,Administrative and Support Services,7,5,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Parkville,"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,Parkville,Arts and Recreation Services,12,12,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Parkville,Construction,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,Parkville,Education and Training,57,62,64,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Parkville,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,Parkville,Financial and Insurance Services,7,5,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Parkville,Health Care and Social Assistance,86,83,78,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Parkville,Information Media and Telecommunications,1,1,NA,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,No published target-year cell
+Rolling validation,2018,2020,Parkville,Manufacturing,2,2,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Parkville,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,Parkville,Other Services,19,21,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Parkville,"Professional, Scientific and Technical Services",19,19,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Parkville,Public Administration and Safety,2,3,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Parkville,"Rental, Hiring and Real Estate Services",1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Parkville,Retail Trade,22,22,20,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Parkville,"Transport, Postal and Warehousing",2,3,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Parkville,Wholesale Trade,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Port Melbourne,Accommodation and Food Services,23,21,21,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Port Melbourne,Administrative and Support Services,27,21,25,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Port Melbourne,"Agriculture, Forestry and Fishing",1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Port Melbourne,Arts and Recreation Services,5,6,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Port Melbourne,Construction,67,49,61,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Port Melbourne,Education and Training,5,5,9,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Port Melbourne,"Electricity, Gas, Water and Waste Services",1,NA,4,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,No published exact two-year lag
+Rolling validation,2018,2020,Port Melbourne,Financial and Insurance Services,9,9,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Port Melbourne,Health Care and Social Assistance,3,5,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Port Melbourne,Information Media and Telecommunications,19,14,22,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Port Melbourne,Manufacturing,80,81,80,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Port Melbourne,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,Port Melbourne,Other Services,17,16,18,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Port Melbourne,"Professional, Scientific and Technical Services",75,81,69,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Port Melbourne,Public Administration and Safety,8,11,16,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Port Melbourne,"Rental, Hiring and Real Estate Services",22,16,18,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Port Melbourne,Retail Trade,24,23,26,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Port Melbourne,"Transport, Postal and Warehousing",40,36,26,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Port Melbourne,Wholesale Trade,68,73,57,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,South Yarra,Accommodation and Food Services,11,12,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,South Yarra,Administrative and Support Services,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,South Yarra,"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,South Yarra,Arts and Recreation Services,1,1,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,South Yarra,Construction,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,South Yarra,Education and Training,6,7,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,South Yarra,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,South Yarra,Financial and Insurance Services,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,South Yarra,Health Care and Social Assistance,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,South Yarra,Information Media and Telecommunications,1,1,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,South Yarra,Manufacturing,1,NA,1,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,No published exact two-year lag
+Rolling validation,2018,2020,South Yarra,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,South Yarra,Other Services,7,8,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,South Yarra,"Professional, Scientific and Technical Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,South Yarra,Public Administration and Safety,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,South Yarra,"Rental, Hiring and Real Estate Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,South Yarra,Retail Trade,4,5,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,South Yarra,"Transport, Postal and Warehousing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,South Yarra,Wholesale Trade,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,Southbank,Accommodation and Food Services,206,201,229,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Southbank,Administrative and Support Services,31,24,29,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Southbank,"Agriculture, Forestry and Fishing",4,3,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Southbank,Arts and Recreation Services,33,31,38,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Southbank,Construction,37,35,29,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Southbank,Education and Training,16,16,14,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Southbank,"Electricity, Gas, Water and Waste Services",2,2,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Southbank,Financial and Insurance Services,27,28,32,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Southbank,Health Care and Social Assistance,31,28,29,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Southbank,Information Media and Telecommunications,19,18,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Southbank,Manufacturing,10,8,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Southbank,Mining,4,2,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Southbank,Other Services,21,20,20,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Southbank,"Professional, Scientific and Technical Services",114,130,105,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Southbank,Public Administration and Safety,5,6,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Southbank,"Rental, Hiring and Real Estate Services",36,31,27,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Southbank,Retail Trade,237,229,225,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Southbank,"Transport, Postal and Warehousing",10,14,9,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,Southbank,Wholesale Trade,15,19,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Industrial),Accommodation and Food Services,6,6,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Industrial),Administrative and Support Services,NA,NA,1,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,West Melbourne (Industrial),"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,West Melbourne (Industrial),Arts and Recreation Services,4,3,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Industrial),Construction,6,3,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Industrial),Education and Training,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,West Melbourne (Industrial),"Electricity, Gas, Water and Waste Services",3,4,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Industrial),Financial and Insurance Services,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,West Melbourne (Industrial),Health Care and Social Assistance,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,West Melbourne (Industrial),Information Media and Telecommunications,NA,1,NA,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,West Melbourne (Industrial),Manufacturing,7,9,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Industrial),Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,West Melbourne (Industrial),Other Services,5,6,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Industrial),"Professional, Scientific and Technical Services",6,4,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Industrial),Public Administration and Safety,1,2,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Industrial),"Rental, Hiring and Real Estate Services",2,2,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Industrial),Retail Trade,3,7,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Industrial),"Transport, Postal and Warehousing",43,39,33,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Industrial),Wholesale Trade,31,32,28,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Residential),Accommodation and Food Services,59,49,57,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Residential),Administrative and Support Services,14,17,9,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Residential),"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,West Melbourne (Residential),Arts and Recreation Services,10,10,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Residential),Construction,13,12,9,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Residential),Education and Training,23,20,16,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Residential),"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,West Melbourne (Residential),Financial and Insurance Services,11,13,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Residential),Health Care and Social Assistance,25,18,22,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Residential),Information Media and Telecommunications,9,10,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Residential),Manufacturing,8,13,9,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Residential),Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2018,2020,West Melbourne (Residential),Other Services,49,47,37,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Residential),"Professional, Scientific and Technical Services",99,92,83,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Residential),Public Administration and Safety,3,4,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Residential),"Rental, Hiring and Real Estate Services",8,11,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Residential),Retail Trade,42,42,33,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Residential),"Transport, Postal and Warehousing",15,14,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2018,2020,West Melbourne (Residential),Wholesale Trade,23,27,21,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Carlton,Accommodation and Food Services,265,267,259,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Carlton,Administrative and Support Services,17,22,13,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Carlton,"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,Carlton,Arts and Recreation Services,24,24,20,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Carlton,Construction,12,15,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Carlton,Education and Training,76,73,70,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Carlton,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,Carlton,Financial and Insurance Services,24,31,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Carlton,Health Care and Social Assistance,91,108,84,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Carlton,Information Media and Telecommunications,12,20,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Carlton,Manufacturing,21,22,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Carlton,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,Carlton,Other Services,104,113,101,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Carlton,"Professional, Scientific and Technical Services",112,146,95,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Carlton,Public Administration and Safety,9,12,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Carlton,"Rental, Hiring and Real Estate Services",21,29,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Carlton,Retail Trade,105,119,97,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Carlton,"Transport, Postal and Warehousing",4,4,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Carlton,Wholesale Trade,11,16,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Docklands,Accommodation and Food Services,303,275,261,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Docklands,Administrative and Support Services,31,39,20,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Docklands,"Agriculture, Forestry and Fishing",2,2,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Docklands,Arts and Recreation Services,34,36,29,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Docklands,Construction,22,22,14,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Docklands,Education and Training,23,17,22,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Docklands,"Electricity, Gas, Water and Waste Services",3,3,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Docklands,Financial and Insurance Services,45,46,31,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Docklands,Health Care and Social Assistance,43,39,36,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Docklands,Information Media and Telecommunications,24,18,21,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Docklands,Manufacturing,18,16,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Docklands,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,Docklands,Other Services,57,68,46,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Docklands,"Professional, Scientific and Technical Services",158,172,137,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Docklands,Public Administration and Safety,19,19,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Docklands,"Rental, Hiring and Real Estate Services",66,66,55,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Docklands,Retail Trade,180,197,145,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Docklands,"Transport, Postal and Warehousing",27,34,22,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Docklands,Wholesale Trade,18,23,13,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,East Melbourne,Accommodation and Food Services,53,60,50,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,East Melbourne,Administrative and Support Services,8,11,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,East Melbourne,"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,East Melbourne,Arts and Recreation Services,16,17,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,East Melbourne,Construction,3,7,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,East Melbourne,Education and Training,10,10,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,East Melbourne,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,East Melbourne,Financial and Insurance Services,12,14,13,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,East Melbourne,Health Care and Social Assistance,211,234,205,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,East Melbourne,Information Media and Telecommunications,5,6,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,East Melbourne,Manufacturing,1,3,NA,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,No published target-year cell
+Rolling validation,2020,2022,East Melbourne,Mining,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,East Melbourne,Other Services,39,40,36,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,East Melbourne,"Professional, Scientific and Technical Services",58,75,40,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,East Melbourne,Public Administration and Safety,15,13,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,East Melbourne,"Rental, Hiring and Real Estate Services",7,7,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,East Melbourne,Retail Trade,12,12,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,East Melbourne,"Transport, Postal and Warehousing",3,3,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,East Melbourne,Wholesale Trade,4,6,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Kensington,Accommodation and Food Services,48,52,52,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Kensington,Administrative and Support Services,10,10,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Kensington,"Agriculture, Forestry and Fishing",2,2,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Kensington,Arts and Recreation Services,26,34,25,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Kensington,Construction,22,26,20,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Kensington,Education and Training,9,10,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Kensington,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,Kensington,Financial and Insurance Services,2,3,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Kensington,Health Care and Social Assistance,25,23,25,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Kensington,Information Media and Telecommunications,6,6,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Kensington,Manufacturing,40,48,31,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Kensington,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,Kensington,Other Services,39,40,39,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Kensington,"Professional, Scientific and Technical Services",35,36,31,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Kensington,Public Administration and Safety,5,5,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Kensington,"Rental, Hiring and Real Estate Services",13,15,13,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Kensington,Retail Trade,29,39,28,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Kensington,"Transport, Postal and Warehousing",11,11,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Kensington,Wholesale Trade,29,24,28,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (CBD),Accommodation and Food Services,1692,1784,1557,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (CBD),Administrative and Support Services,311,391,243,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (CBD),"Agriculture, Forestry and Fishing",7,6,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (CBD),Arts and Recreation Services,129,155,118,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (CBD),Construction,122,126,111,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (CBD),Education and Training,312,340,299,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (CBD),"Electricity, Gas, Water and Waste Services",19,17,29,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (CBD),Financial and Insurance Services,614,720,554,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (CBD),Health Care and Social Assistance,349,406,346,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (CBD),Information Media and Telecommunications,73,102,72,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (CBD),Manufacturing,191,227,194,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (CBD),Mining,25,32,24,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (CBD),Other Services,825,923,736,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (CBD),"Professional, Scientific and Technical Services",1551,1822,1383,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (CBD),Public Administration and Safety,143,139,130,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (CBD),"Rental, Hiring and Real Estate Services",211,252,198,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (CBD),Retail Trade,1118,1450,1098,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (CBD),"Transport, Postal and Warehousing",70,79,54,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (CBD),Wholesale Trade,95,117,91,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (Remainder),Accommodation and Food Services,42,45,43,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (Remainder),Administrative and Support Services,8,11,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (Remainder),"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,Melbourne (Remainder),Arts and Recreation Services,21,19,22,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (Remainder),Construction,8,8,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (Remainder),Education and Training,5,9,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (Remainder),"Electricity, Gas, Water and Waste Services",1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (Remainder),Financial and Insurance Services,20,23,19,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (Remainder),Health Care and Social Assistance,64,61,53,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (Remainder),Information Media and Telecommunications,1,3,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (Remainder),Manufacturing,4,7,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (Remainder),Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,Melbourne (Remainder),Other Services,13,15,13,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (Remainder),"Professional, Scientific and Technical Services",24,53,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (Remainder),Public Administration and Safety,4,7,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (Remainder),"Rental, Hiring and Real Estate Services",11,9,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (Remainder),Retail Trade,17,17,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (Remainder),"Transport, Postal and Warehousing",6,5,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Melbourne (Remainder),Wholesale Trade,6,8,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,North Melbourne,Accommodation and Food Services,124,129,125,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,North Melbourne,Administrative and Support Services,32,34,29,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,North Melbourne,"Agriculture, Forestry and Fishing",1,1,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,North Melbourne,Arts and Recreation Services,31,34,36,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,North Melbourne,Construction,27,43,20,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,North Melbourne,Education and Training,32,37,29,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,North Melbourne,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,North Melbourne,Financial and Insurance Services,13,23,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,North Melbourne,Health Care and Social Assistance,86,103,80,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,North Melbourne,Information Media and Telecommunications,15,16,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,North Melbourne,Manufacturing,31,40,32,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,North Melbourne,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,North Melbourne,Other Services,116,125,104,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,North Melbourne,"Professional, Scientific and Technical Services",131,151,117,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,North Melbourne,Public Administration and Safety,7,10,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,North Melbourne,"Rental, Hiring and Real Estate Services",18,20,18,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,North Melbourne,Retail Trade,77,91,74,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,North Melbourne,"Transport, Postal and Warehousing",18,21,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,North Melbourne,Wholesale Trade,41,50,35,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Parkville,Accommodation and Food Services,75,84,65,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Parkville,Administrative and Support Services,3,7,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Parkville,"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,Parkville,Arts and Recreation Services,12,12,13,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Parkville,Construction,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,Parkville,Education and Training,64,57,60,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Parkville,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,Parkville,Financial and Insurance Services,7,7,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Parkville,Health Care and Social Assistance,78,86,75,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Parkville,Information Media and Telecommunications,NA,1,NA,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,Parkville,Manufacturing,1,2,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Parkville,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,Parkville,Other Services,15,19,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Parkville,"Professional, Scientific and Technical Services",17,19,14,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Parkville,Public Administration and Safety,2,2,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Parkville,"Rental, Hiring and Real Estate Services",1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Parkville,Retail Trade,20,22,14,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Parkville,"Transport, Postal and Warehousing",2,2,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Parkville,Wholesale Trade,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Port Melbourne,Accommodation and Food Services,21,23,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Port Melbourne,Administrative and Support Services,25,27,21,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Port Melbourne,"Agriculture, Forestry and Fishing",1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Port Melbourne,Arts and Recreation Services,8,5,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Port Melbourne,Construction,61,67,59,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Port Melbourne,Education and Training,9,5,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Port Melbourne,"Electricity, Gas, Water and Waste Services",4,1,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Port Melbourne,Financial and Insurance Services,7,9,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Port Melbourne,Health Care and Social Assistance,6,3,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Port Melbourne,Information Media and Telecommunications,22,19,20,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Port Melbourne,Manufacturing,80,80,71,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Port Melbourne,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,Port Melbourne,Other Services,18,17,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Port Melbourne,"Professional, Scientific and Technical Services",69,75,61,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Port Melbourne,Public Administration and Safety,16,8,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Port Melbourne,"Rental, Hiring and Real Estate Services",18,22,18,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Port Melbourne,Retail Trade,26,24,24,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Port Melbourne,"Transport, Postal and Warehousing",26,40,26,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Port Melbourne,Wholesale Trade,57,68,46,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,South Yarra,Accommodation and Food Services,10,11,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,South Yarra,Administrative and Support Services,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,South Yarra,"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,South Yarra,Arts and Recreation Services,2,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,South Yarra,Construction,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,South Yarra,Education and Training,5,6,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,South Yarra,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,South Yarra,Financial and Insurance Services,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,South Yarra,Health Care and Social Assistance,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,South Yarra,Information Media and Telecommunications,2,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,South Yarra,Manufacturing,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,South Yarra,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,South Yarra,Other Services,7,7,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,South Yarra,"Professional, Scientific and Technical Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,South Yarra,Public Administration and Safety,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,South Yarra,"Rental, Hiring and Real Estate Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,South Yarra,Retail Trade,3,4,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,South Yarra,"Transport, Postal and Warehousing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,South Yarra,Wholesale Trade,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,Southbank,Accommodation and Food Services,229,206,212,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Southbank,Administrative and Support Services,29,31,23,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Southbank,"Agriculture, Forestry and Fishing",3,4,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Southbank,Arts and Recreation Services,38,33,35,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Southbank,Construction,29,37,22,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Southbank,Education and Training,14,16,14,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Southbank,"Electricity, Gas, Water and Waste Services",4,2,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Southbank,Financial and Insurance Services,32,27,29,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Southbank,Health Care and Social Assistance,29,31,28,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Southbank,Information Media and Telecommunications,17,19,14,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Southbank,Manufacturing,10,10,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Southbank,Mining,1,4,NA,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,No published target-year cell
+Rolling validation,2020,2022,Southbank,Other Services,20,21,19,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Southbank,"Professional, Scientific and Technical Services",105,114,89,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Southbank,Public Administration and Safety,8,5,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Southbank,"Rental, Hiring and Real Estate Services",27,36,24,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Southbank,Retail Trade,225,237,216,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Southbank,"Transport, Postal and Warehousing",9,10,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,Southbank,Wholesale Trade,15,15,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Industrial),Accommodation and Food Services,4,6,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Industrial),Administrative and Support Services,1,NA,2,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,No published exact two-year lag
+Rolling validation,2020,2022,West Melbourne (Industrial),"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,West Melbourne (Industrial),Arts and Recreation Services,2,4,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Industrial),Construction,6,6,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Industrial),Education and Training,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,West Melbourne (Industrial),"Electricity, Gas, Water and Waste Services",3,3,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Industrial),Financial and Insurance Services,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,West Melbourne (Industrial),Health Care and Social Assistance,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,West Melbourne (Industrial),Information Media and Telecommunications,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,West Melbourne (Industrial),Manufacturing,5,7,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Industrial),Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,West Melbourne (Industrial),Other Services,5,5,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Industrial),"Professional, Scientific and Technical Services",6,6,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Industrial),Public Administration and Safety,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Industrial),"Rental, Hiring and Real Estate Services",2,2,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Industrial),Retail Trade,3,3,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Industrial),"Transport, Postal and Warehousing",33,43,27,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Industrial),Wholesale Trade,28,31,30,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Residential),Accommodation and Food Services,57,59,50,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Residential),Administrative and Support Services,9,14,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Residential),"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,West Melbourne (Residential),Arts and Recreation Services,11,10,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Residential),Construction,9,13,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Residential),Education and Training,16,23,16,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Residential),"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,West Melbourne (Residential),Financial and Insurance Services,8,11,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Residential),Health Care and Social Assistance,22,25,20,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Residential),Information Media and Telecommunications,8,9,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Residential),Manufacturing,9,8,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Residential),Mining,NA,NA,1,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,No published origin-year cell
+Rolling validation,2020,2022,West Melbourne (Residential),Other Services,37,49,30,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Residential),"Professional, Scientific and Technical Services",83,99,73,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Residential),Public Administration and Safety,4,3,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Residential),"Rental, Hiring and Real Estate Services",6,8,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Residential),Retail Trade,33,42,31,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Residential),"Transport, Postal and Warehousing",12,15,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Rolling validation,2020,2022,West Melbourne (Residential),Wholesale Trade,21,23,14,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Carlton,Accommodation and Food Services,259,265,285,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Carlton,Administrative and Support Services,13,17,9,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Carlton,"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,Carlton,Arts and Recreation Services,20,24,27,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Carlton,Construction,10,12,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Carlton,Education and Training,70,76,69,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Carlton,"Electricity, Gas, Water and Waste Services",NA,NA,1,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,Carlton,Financial and Insurance Services,17,24,21,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Carlton,Health Care and Social Assistance,84,91,104,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Carlton,Information Media and Telecommunications,10,12,13,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Carlton,Manufacturing,17,21,18,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Carlton,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,Carlton,Other Services,101,104,107,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Carlton,"Professional, Scientific and Technical Services",95,112,100,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Carlton,Public Administration and Safety,6,9,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Carlton,"Rental, Hiring and Real Estate Services",17,21,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Carlton,Retail Trade,97,105,103,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Carlton,"Transport, Postal and Warehousing",2,4,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Carlton,Wholesale Trade,11,11,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Docklands,Accommodation and Food Services,261,303,246,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Docklands,Administrative and Support Services,20,31,16,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Docklands,"Agriculture, Forestry and Fishing",2,2,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Docklands,Arts and Recreation Services,29,34,31,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Docklands,Construction,14,22,18,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Docklands,Education and Training,22,23,27,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Docklands,"Electricity, Gas, Water and Waste Services",2,3,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Docklands,Financial and Insurance Services,31,45,25,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Docklands,Health Care and Social Assistance,36,43,40,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Docklands,Information Media and Telecommunications,21,24,23,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Docklands,Manufacturing,15,18,16,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Docklands,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,Docklands,Other Services,46,57,61,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Docklands,"Professional, Scientific and Technical Services",137,158,143,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Docklands,Public Administration and Safety,17,19,16,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Docklands,"Rental, Hiring and Real Estate Services",55,66,67,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Docklands,Retail Trade,145,180,160,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Docklands,"Transport, Postal and Warehousing",22,27,23,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Docklands,Wholesale Trade,13,18,18,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,East Melbourne,Accommodation and Food Services,50,53,48,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,East Melbourne,Administrative and Support Services,4,8,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,East Melbourne,"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,East Melbourne,Arts and Recreation Services,17,16,14,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,East Melbourne,Construction,4,3,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,East Melbourne,Education and Training,7,10,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,East Melbourne,"Electricity, Gas, Water and Waste Services",NA,NA,1,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,East Melbourne,Financial and Insurance Services,13,12,9,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,East Melbourne,Health Care and Social Assistance,205,211,213,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,East Melbourne,Information Media and Telecommunications,5,5,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,East Melbourne,Manufacturing,NA,1,NA,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,East Melbourne,Mining,1,1,NA,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,No published target-year cell
+Held-out test,2022,2024,East Melbourne,Other Services,36,39,35,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,East Melbourne,"Professional, Scientific and Technical Services",40,58,40,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,East Melbourne,Public Administration and Safety,15,15,14,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,East Melbourne,"Rental, Hiring and Real Estate Services",6,7,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,East Melbourne,Retail Trade,11,12,13,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,East Melbourne,"Transport, Postal and Warehousing",3,3,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,East Melbourne,Wholesale Trade,2,4,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Kensington,Accommodation and Food Services,52,48,54,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Kensington,Administrative and Support Services,6,10,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Kensington,"Agriculture, Forestry and Fishing",1,2,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Kensington,Arts and Recreation Services,25,26,22,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Kensington,Construction,20,22,24,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Kensington,Education and Training,10,9,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Kensington,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,Kensington,Financial and Insurance Services,1,2,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Kensington,Health Care and Social Assistance,25,25,28,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Kensington,Information Media and Telecommunications,4,6,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Kensington,Manufacturing,31,40,28,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Kensington,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,Kensington,Other Services,39,39,32,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Kensington,"Professional, Scientific and Technical Services",31,35,36,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Kensington,Public Administration and Safety,4,5,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Kensington,"Rental, Hiring and Real Estate Services",13,13,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Kensington,Retail Trade,28,29,35,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Kensington,"Transport, Postal and Warehousing",6,11,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Kensington,Wholesale Trade,28,29,24,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (CBD),Accommodation and Food Services,1557,1692,1737,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (CBD),Administrative and Support Services,243,311,219,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (CBD),"Agriculture, Forestry and Fishing",3,7,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (CBD),Arts and Recreation Services,118,129,131,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (CBD),Construction,111,122,96,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (CBD),Education and Training,299,312,349,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (CBD),"Electricity, Gas, Water and Waste Services",29,19,30,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (CBD),Financial and Insurance Services,554,614,534,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (CBD),Health Care and Social Assistance,346,349,343,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (CBD),Information Media and Telecommunications,72,73,85,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (CBD),Manufacturing,194,191,202,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (CBD),Mining,24,25,22,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (CBD),Other Services,736,825,805,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (CBD),"Professional, Scientific and Technical Services",1383,1551,1338,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (CBD),Public Administration and Safety,130,143,121,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (CBD),"Rental, Hiring and Real Estate Services",198,211,198,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (CBD),Retail Trade,1098,1118,1135,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (CBD),"Transport, Postal and Warehousing",54,70,50,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (CBD),Wholesale Trade,91,95,88,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (Remainder),Accommodation and Food Services,43,42,42,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (Remainder),Administrative and Support Services,7,8,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (Remainder),"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,Melbourne (Remainder),Arts and Recreation Services,22,21,21,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (Remainder),Construction,8,8,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (Remainder),Education and Training,4,5,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (Remainder),"Electricity, Gas, Water and Waste Services",1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (Remainder),Financial and Insurance Services,19,20,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (Remainder),Health Care and Social Assistance,53,64,54,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (Remainder),Information Media and Telecommunications,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (Remainder),Manufacturing,4,4,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (Remainder),Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,Melbourne (Remainder),Other Services,13,13,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (Remainder),"Professional, Scientific and Technical Services",17,24,16,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (Remainder),Public Administration and Safety,4,4,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (Remainder),"Rental, Hiring and Real Estate Services",7,11,9,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (Remainder),Retail Trade,15,17,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (Remainder),"Transport, Postal and Warehousing",5,6,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Melbourne (Remainder),Wholesale Trade,4,6,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,North Melbourne,Accommodation and Food Services,125,124,133,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,North Melbourne,Administrative and Support Services,29,32,25,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,North Melbourne,"Agriculture, Forestry and Fishing",2,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,North Melbourne,Arts and Recreation Services,36,31,41,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,North Melbourne,Construction,20,27,30,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,North Melbourne,Education and Training,29,32,34,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,North Melbourne,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,North Melbourne,Financial and Insurance Services,10,13,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,North Melbourne,Health Care and Social Assistance,80,86,96,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,North Melbourne,Information Media and Telecommunications,12,15,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,North Melbourne,Manufacturing,32,31,34,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,North Melbourne,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,North Melbourne,Other Services,104,116,100,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,North Melbourne,"Professional, Scientific and Technical Services",117,131,111,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,North Melbourne,Public Administration and Safety,7,7,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,North Melbourne,"Rental, Hiring and Real Estate Services",18,18,20,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,North Melbourne,Retail Trade,74,77,76,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,North Melbourne,"Transport, Postal and Warehousing",12,18,14,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,North Melbourne,Wholesale Trade,35,41,38,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Parkville,Accommodation and Food Services,65,75,74,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Parkville,Administrative and Support Services,2,3,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Parkville,"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,Parkville,Arts and Recreation Services,13,12,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Parkville,Construction,NA,NA,1,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,Parkville,Education and Training,60,64,53,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Parkville,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,Parkville,Financial and Insurance Services,5,7,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Parkville,Health Care and Social Assistance,75,78,79,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Parkville,Information Media and Telecommunications,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,Parkville,Manufacturing,1,1,NA,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,No published target-year cell
+Held-out test,2022,2024,Parkville,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,Parkville,Other Services,12,15,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Parkville,"Professional, Scientific and Technical Services",14,17,17,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Parkville,Public Administration and Safety,2,2,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Parkville,"Rental, Hiring and Real Estate Services",1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Parkville,Retail Trade,14,20,14,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Parkville,"Transport, Postal and Warehousing",2,2,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Parkville,Wholesale Trade,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Port Melbourne,Accommodation and Food Services,17,21,19,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Port Melbourne,Administrative and Support Services,21,25,21,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Port Melbourne,"Agriculture, Forestry and Fishing",1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Port Melbourne,Arts and Recreation Services,7,8,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Port Melbourne,Construction,59,61,67,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Port Melbourne,Education and Training,7,9,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Port Melbourne,"Electricity, Gas, Water and Waste Services",4,4,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Port Melbourne,Financial and Insurance Services,5,7,5,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Port Melbourne,Health Care and Social Assistance,5,6,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Port Melbourne,Information Media and Telecommunications,20,22,21,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Port Melbourne,Manufacturing,71,80,82,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Port Melbourne,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,Port Melbourne,Other Services,15,18,19,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Port Melbourne,"Professional, Scientific and Technical Services",61,69,60,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Port Melbourne,Public Administration and Safety,15,16,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Port Melbourne,"Rental, Hiring and Real Estate Services",18,18,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Port Melbourne,Retail Trade,24,26,29,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Port Melbourne,"Transport, Postal and Warehousing",26,26,35,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Port Melbourne,Wholesale Trade,46,57,51,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,South Yarra,Accommodation and Food Services,11,10,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,South Yarra,Administrative and Support Services,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,South Yarra,"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,South Yarra,Arts and Recreation Services,1,2,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,South Yarra,Construction,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,South Yarra,Education and Training,7,5,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,South Yarra,"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,South Yarra,Financial and Insurance Services,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,South Yarra,Health Care and Social Assistance,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,South Yarra,Information Media and Telecommunications,1,2,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,South Yarra,Manufacturing,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,South Yarra,Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,South Yarra,Other Services,7,7,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,South Yarra,"Professional, Scientific and Technical Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,South Yarra,Public Administration and Safety,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,South Yarra,"Rental, Hiring and Real Estate Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,South Yarra,Retail Trade,4,3,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,South Yarra,"Transport, Postal and Warehousing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,South Yarra,Wholesale Trade,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,Southbank,Accommodation and Food Services,212,229,202,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Southbank,Administrative and Support Services,23,29,19,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Southbank,"Agriculture, Forestry and Fishing",2,3,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Southbank,Arts and Recreation Services,35,38,32,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Southbank,Construction,22,29,21,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Southbank,Education and Training,14,14,13,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Southbank,"Electricity, Gas, Water and Waste Services",5,4,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Southbank,Financial and Insurance Services,29,32,24,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Southbank,Health Care and Social Assistance,28,29,32,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Southbank,Information Media and Telecommunications,14,17,14,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Southbank,Manufacturing,11,10,10,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Southbank,Mining,NA,1,NA,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,Southbank,Other Services,19,20,22,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Southbank,"Professional, Scientific and Technical Services",89,105,91,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Southbank,Public Administration and Safety,7,8,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Southbank,"Rental, Hiring and Real Estate Services",24,27,34,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Southbank,Retail Trade,216,225,211,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Southbank,"Transport, Postal and Warehousing",8,9,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,Southbank,Wholesale Trade,12,15,11,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Industrial),Accommodation and Food Services,3,4,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Industrial),Administrative and Support Services,2,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Industrial),"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,West Melbourne (Industrial),Arts and Recreation Services,2,2,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Industrial),Construction,8,6,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Industrial),Education and Training,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,West Melbourne (Industrial),"Electricity, Gas, Water and Waste Services",3,3,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Industrial),Financial and Insurance Services,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,West Melbourne (Industrial),Health Care and Social Assistance,NA,NA,1,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,West Melbourne (Industrial),Information Media and Telecommunications,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,West Melbourne (Industrial),Manufacturing,5,5,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Industrial),Mining,NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,West Melbourne (Industrial),Other Services,5,5,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Industrial),"Professional, Scientific and Technical Services",4,6,3,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Industrial),Public Administration and Safety,1,1,1,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Industrial),"Rental, Hiring and Real Estate Services",2,2,2,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Industrial),Retail Trade,7,3,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Industrial),"Transport, Postal and Warehousing",27,33,25,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Industrial),Wholesale Trade,30,28,28,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Residential),Accommodation and Food Services,50,57,64,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Residential),Administrative and Support Services,7,9,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Residential),"Agriculture, Forestry and Fishing",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,West Melbourne (Residential),Arts and Recreation Services,12,11,13,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Residential),Construction,15,9,15,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Residential),Education and Training,16,16,19,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Residential),"Electricity, Gas, Water and Waste Services",NA,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
+Held-out test,2022,2024,West Melbourne (Residential),Financial and Insurance Services,6,8,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Residential),Health Care and Social Assistance,20,22,23,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Residential),Information Media and Telecommunications,7,8,7,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Residential),Manufacturing,11,9,12,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Residential),Mining,1,NA,1,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,No published exact two-year lag
+Held-out test,2022,2024,West Melbourne (Residential),Other Services,30,37,45,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Residential),"Professional, Scientific and Technical Services",73,83,80,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Residential),Public Administration and Safety,4,4,4,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Residential),"Rental, Hiring and Real Estate Services",5,6,8,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Residential),Retail Trade,31,33,39,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Residential),"Transport, Postal and Warehousing",7,12,6,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included
+Held-out test,2022,2024,West Melbourne (Residential),Wholesale Trade,14,21,16,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,Included

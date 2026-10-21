@@ -72,8 +72,9 @@ pre { overflow-x: auto; }
 
 # 1. What this report answers
 
-The [repository README](../README.md) contains the concise interim report.
-This document retains the calculations, checks and full breakdowns supporting it.
+This document contains the data checks and descriptive analysis.
+The [final analysis](02_final_analysis.html) adds the deeper industry comparisons,
+model evaluation and decision-support results.
 
 **Research question:** How have small and medium-sized business establishment
 patterns evolved across Melbourne precincts and industries from 2002 to 2024?
@@ -89,9 +90,9 @@ This report answers three questions:
 
 **Population in the main results: `r SCOPE_LABEL`.**
 
-The default includes Small business and Medium business. The group still needs
-to confirm whether to include CLUE's separate Non employing category. Section 7
-compares both definitions; `include_non_employing` controls the main results.
+The main analysis includes Small business and Medium business. Section 7 checks
+the effect of adding CLUE's separate Non employing category;
+`include_non_employing` controls this sensitivity analysis.
 
 CLUE counts **business locations**, not unique legal companies. One company can
 have several establishments. Size is based on jobs at the establishment, not
@@ -690,20 +691,17 @@ report_table(follow_up, col.names = c("Precinct", "Count pattern", "Change 2019-
 - Check redevelopment, relocations and boundary changes before explaining causes.
 - Assess costs, eligibility and evidence of effectiveness before proposing support.
 
-## 8.3 Planned analysis
+## 8.3 Final analysis
 
-**Prediction — not yet fitted:** forecast precinct SME counts two years ahead.
-Compare simple time-trend regression with a no-change baseline, using
-two-year-spaced observations. Train on earlier dates and test on later held-out
-dates. Report mean absolute error (MAE), root mean squared error (RMSE), and
-whether the CBD dominates errors. Check both SME definitions and performance
-around the pandemic break. The limited number of survey updates calls for a
-simple model; keep it only if it improves on the baseline.
+The separate [final analysis](02_final_analysis.html) compares no change,
+multiple linear regression, a pruned regression tree and gradient boosting.
+The target is the two-year change in a precinct-industry group's SME count.
+Earlier rolling validation periods select settings before the 2022-2024 evaluation.
+It reports errors, sample coverage and sensitivity to the SME definition.
 
-**Recommendations — not yet evaluated:** use count gaps, recent direction and
-industry breakdowns to shortlist areas for consultation. Test whether that list
-changes with the SME definition or small-baseline rule. Policy recommendations
-will also need evidence on intervention costs and effectiveness.
+The same analysis compares the remaining count gap with recent direction to
+identify groups for further investigation. The shortlist describes observed
+conditions; it does not estimate the effects or costs of a proposed policy.
 
 # 9. Checks, exports and reproducibility
 
@@ -788,4 +786,4 @@ cat(trimws(capture.output(sessionInfo()), which = "right"), sep = "\n")
 **AI assistance:** Claude helped review code. Codex helped with brainstorming,
 English editing, code and chart revisions, and validation checks (OpenAI, 2026).
 See the [AI assistance record](../docs/AI_ASSISTANCE.md) for tool references and
-examples. Group review and confirmation of the SME scope remain pending.
+examples. The group must review the final analysis before submission.

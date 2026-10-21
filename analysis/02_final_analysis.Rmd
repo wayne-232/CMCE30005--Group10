@@ -1,0 +1,552 @@
+---
+title: "Melbourne SME recovery: where business presence remains weak"
+author: "Group 10"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 2
+    code_folding: hide
+    self_contained: true
+    theme: readable
+  github_document:
+    toc: true
+    toc_depth: 2
+    html_preview: false
+---
+
+```{r setup, include=FALSE}
+# Each render rebuilds the results from the supplied source. It never installs
+# packages, changes raw data, contacts GitHub or downloads new observations.
+roots <- c(".", "..")
+roots <- roots[file.exists(file.path(roots, "scripts/predictive_models.R"))]
+if (!length(roots)) stop("Open this file inside the complete project repository.")
+ROOT <- normalizePath(roots[1])
+if (dir.exists(file.path(ROOT, ".r-library"))) {
+  .libPaths(c(file.path(ROOT, ".r-library"), .libPaths()))
+}
+options(warn = 2, knitr.kable.NA = "--")
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(ggplot2))
+source(file.path(ROOT, "scripts/descriptive_followup.R"), local = TRUE)
+source(file.path(ROOT, "scripts/predictive_models.R"), local = TRUE)
+SOURCE <- file.path(ROOT, "data",
+  "business-establishments-and-jobs-data-by-business-size-and-anzsic.csv")
+OUT <- file.path(ROOT, "outputs/tables/final")
+desc <- run_followup(SOURCE, file.path(OUT, "descriptive"))
+models <- run_predictive(SOURCE, file.path(OUT, "predictive"))
+sensitivity <- pred_evaluate_sensitivity(SOURCE, models, file.path(OUT, "scope_sensitivity"))
+m <- desc$metrics
+selected <- models$selected_configuration
+test <- models$test_metrics
+nb <- filter(test, model == "No change")
+error_summary <- filter(models$error_concentration_summary, model == "No change")
+cover <- filter(models$comparison_coverage, stage == "Held-out test")
+cases <- desc$tables$case_studies
+screen <- desc$tables$priority_screen_summary
+case_row <- function(industry_name) {
+  row <- filter(cases, industry == industry_name)
+  if (nrow(row) != 1) stop("Expected case study missing from the ranked shortlist.")
+  row
+}
+professional <- case_row("Professional, Scientific and Technical Services")
+finance <- case_row("Financial and Insurance Services")
+admin <- case_row("Administrative and Support Services")
+health <- case_row("Health Care and Social Assistance")
+construction <- case_row("Construction")
+num <- function(x) scales::comma(x, accuracy = 1)
+percent <- function(x) sprintf("%.1f%%", x)
+table_out <- function(x, ...) knitr::kable(x, digits = 2, ...)
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = TRUE, error = FALSE,
+  fig.width = 10.5, fig.height = 6, dpi = 160, out.width = "100%")
+theme_set(theme_minimal(base_size = 12) +
+  theme(panel.grid.minor = element_blank(), plot.title.position = "plot",
+    plot.title = element_text(face = "bold"), legend.position = "bottom"))
+```
+
+<style>
+body { line-height: 1.65; }
+table { font-size: .9em; }
+td, th { overflow-wrap: anywhere; }
+pre { overflow-x: auto; }
+</style>
+
+# 1. The question and the answer
+
+**Research question:** Which precinct–industry groups show the greatest evidence
+of persistent SME weakness, and where should the City prioritise further support?
+
+The Lord Mayor needs evidence to focus attention across a city with uneven
+business recovery. A rising city total can hide industries that continue to
+lose business locations. We examine changes across precincts and industries
+from 2002 to 2024, then compare the remaining gap from 2019 with recent change
+from 2022. This turns the broad recovery question into a specific review list.
+
+We use **Small and Medium establishments (1–199 jobs)** throughout. An
+establishment is a business location. One company may operate several locations.
+
+Three findings matter:
+
+- **Recovery remains incomplete.** The city had 13,054 SME establishments in
+  2024, `r percent(abs(m$city_gap_pct))` below 2019. The gain of
+  `r num(m$city_recent_gain)` since 2022 offset
+  `r percent(m$share_of_2019_to_2022_loss_offset_pct)` of the earlier loss.
+- **The CBD and hospitality account for much of the recent increase.** The CBD
+  contributed `r percent(m$cbd_share_of_recent_city_gain_pct)` of the city net gain.
+  Accommodation and Food Services contributed
+  `r percent(m$hospitality_share_of_city_net_gain_pct)`. These describe different
+  breakdowns of the same city total and should not be added together.
+- **Five CBD groups make the remaining weakness concrete.** Professional
+  services, finance, administrative support, health care and construction have
+  the largest 2019 shortfalls among groups that also declined after 2022.
+  Together, they account for `r num(m$case_shortfall)` fewer establishments than
+  in 2019 and a further loss of `r num(m$case_recent_loss)` after 2022.
+
+The recommendations follow these observed patterns. Forecast comparisons help
+explain why we have not used a model-generated ranking of future recovery.
+
+# 2. What we did with the data
+
+## 2.1 Coverage, variables and unit of analysis
+
+The City of Melbourne's Census of Land Use and Employment (CLUE) supplies two
+files covering 2002–2024. The aggregated file has **`r num(m$source_rows)` rows
+and `r m$source_columns` variables**: census year, precinct, ANZSIC industry
+division, business size, establishment count and job count. A row is a
+year–precinct–industry–size combination containing a count of establishments.
+It does not represent an individual business.
+
+Selecting Small and Medium categories retains **`r num(m$selected_source_rows)`
+source rows**, spanning `r m$source_years` census years, `r m$precincts` precincts
+and `r m$industries` industry divisions. We add the published Small and Medium
+counts within each year–precinct–industry group. For example, “CBD professional
+services in 2024” is one analytical group, containing 1,338 establishments.
+Large and non-employing businesses are outside the main population.
+
+The address file contains **413,550 records and 12 fields**, including census
+year, property identifiers, address, industry and coordinates. It supports
+all-size count checks. It has no business-size field, so we do not use it to
+identify individual SMEs or join business-level attributes onto the SME counts.
+
+## 2.2 Preparation and data quality
+
+We standardised names and types, checked the grouping keys for duplicates,
+and tested establishment counts for missing, negative or non-integer values.
+The aggregated file passed these checks. Precinct and industry totals were
+reconciled to the city total after selecting SMEs.
+
+Job counts are missing in **`r num(m$missing_job_rows)` aggregated rows
+(`r percent(m$missing_job_pct)`)**, all containing two or fewer establishments.
+This is consistent with confidentiality suppression. Their establishment
+counts are available, so we retain the rows and leave jobs missing. Jobs are
+not an outcome or predictor in this analysis.
+
+The address file includes **68,299 Vacant Space records across all years**.
+We retain the original records and separate this recorded category when
+checking operating-establishment totals. The aggregated SME file has no
+vacancy category. This step does not identify unrecorded closures or correct
+the survey cycle. The [data audit](01_descriptive_analytics.html) records the
+checks and remaining differences between the two sources.
+
+## 2.3 Why these years and comparisons?
+
+Two-year-or-longer comparisons follow CLUE's two-year property survey cycle.
+We use **2019 as the pre-pandemic reference, 2022 as the recent recovery
+starting point and 2024 as the latest supplied year**. The city series gives
+longer-term context: 11,271 SMEs in 2002, 15,515 in 2017 and 15,506 in 2019.
+The near-flat 2017–2019 comparison helps distinguish the later shortfall from
+a long-running city-wide decline. These comparisons describe changes around
+the pandemic without estimating its causal effect.
+
+An absent source combination stays unknown. The three-year descriptive
+screen has `r screen$complete_three_year_groups` complete groups out of
+`r screen$groups_in_any_reference_year` observed in at least one reference year.
+The other `r screen$incomplete_groups` cannot be classified by that screen.
+We report counts for small groups and withhold percentage comparisons where
+the relevant starting count is below 100. This is our reporting choice, not a
+CLUE rule. Small groups remain in city totals.
+
+# 3. Where recovery is happening
+
+## 3.1 The city is growing again, but remains below 2019
+
+```{r city-chart, echo=FALSE, fig.height=6}
+desc$figures$city_recovery
+```
+
+The count fell by `r num(15506 - 12571)` between 2019 and 2022, then rose by
+`r num(m$city_recent_gain)` by 2024. The remaining gap is
+`r num(m$city_remaining_shortfall)` establishments. This is net change in
+establishment counts, not a count of closures or a causal estimate of COVID-19.
+
+## 3.2 The CBD has the largest gap and the largest recent gain
+
+```{r precinct-chart, echo=FALSE, fig.height=8}
+desc$figures$precinct_changes
+```
+
+All `r m$precincts_below_2019` precincts remained below their 2019 counts.
+`r m$precincts_increasing_since_2022` increased after 2022.
+The CBD accounts for `r percent(m$cbd_share_of_remaining_city_shortfall_pct)`
+of the remaining city shortfall and added `r num(m$cbd_recent_gain)` recently.
+Large remaining losses and recent improvement can occur in the same precinct.
+
+## 3.3 Hospitality gains coexist with continuing service-sector losses
+
+```{r industry-chart, echo=FALSE, fig.height=8}
+desc$figures$industry_recent_change
+```
+
+Accommodation and Food Services added `r num(m$hospitality_recent_gain)`
+establishments city-wide. Industry gains totalled `r num(m$gross_industry_gains)`;
+industry losses totalled `r num(abs(m$gross_industry_losses))`, leaving a net
+gain of `r num(m$city_recent_gain)`.
+
+Within the CBD, hospitality increased by 180, while Professional, Scientific
+and Technical Services fell by 45. CBD professional services also had the
+largest precinct–industry shortfall from 2019, at 450. This makes the industry
+breakdown more informative than calling the whole CBD “recovered” or “declining”.
+
+# 4. Five groups that explain the priority list
+
+## 4.1 From 64 flagged groups to five specific cases
+
+Our screen asks two questions: **Was the 2024 count below 2019? Did it fall
+again between 2022 and 2024?** `r screen$groups_meeting_screen` of the
+`r screen$complete_three_year_groups` comparable precinct–industry groups meet
+both conditions. Each group counts business locations in one industry within
+one precinct.
+
+For closer review, we rank those groups by their **absolute 2019–2024
+shortfall and select the five largest**. All five are in the CBD. The rule
+favours gaps affecting more establishments; it does not estimate which policy
+would deliver the greatest benefit. The five account for
+`r percent(100 * m$case_shortfall / m$city_remaining_shortfall)` of the city's
+remaining net shortfall. Other groups still matter: the full screen is exported,
+including `r screen$screened_with_small_baseline` groups with a baseline below
+100 in at least one comparison.
+
+```{r five-cases-chart, echo=FALSE, fig.height=7}
+desc$figures$priority_cases
+```
+
+```{r five-cases-counts, echo=FALSE}
+table_out(cases |> transmute(`Industry (all Melbourne CBD)` = industry,
+  `2019` = num(n_2019), `2022` = num(n_2022), `2024` = num(n_2024),
+  `2019-2024 change` = percent(gap_pct), `2022-2024 change` = percent(recent_pct)))
+```
+
+## 4.2 What each case tells the City
+
+**Professional, Scientific and Technical Services: the largest remaining gap.**
+The count fell from `r num(professional$n_2019)` to `r num(professional$n_2024)`,
+leaving `r num(professional$shortfall_count)` fewer establishments than in 2019.
+It lost a further `r num(abs(professional$recent_change))` after 2022, the largest
+recent decline among these five groups. Its scale makes it the clearest starting
+point for investigating weaker CBD business presence. Growth in CBD hospitality
+does not offset this industry's loss of locations.
+
+**Financial and Insurance Services: a second substantial service-sector gap.**
+Finance fell from `r num(finance$n_2019)` to `r num(finance$n_2024)` establishments,
+a `r percent(abs(finance$gap_pct))` reduction. The additional loss of
+`r num(abs(finance$recent_change))` after 2022 shows that the earlier shortfall
+was still widening. Together, finance and professional services place much of
+the remaining weakness in the CBD's service economy.
+
+**Administrative and Support Services: the deepest proportional decline.**
+This group fell from `r num(admin$n_2019)` to `r num(admin$n_2024)`, down
+`r percent(abs(admin$gap_pct))`. It also lost `r num(abs(admin$recent_change))`
+establishments after 2022 (`r percent(abs(admin$recent_pct))`). Its smaller size
+than professional services should not obscure the much larger proportional
+loss. Both scale and recent direction support keeping it near the top of the
+City's review list.
+
+**Health Care and Social Assistance: a historical gap with little recent movement.**
+The count remains `r num(health$shortfall_count)` below 2019, but fell only
+`r num(abs(health$recent_change))` after 2022 (`r percent(abs(health$recent_pct))`).
+It qualifies because the screen uses direction, with no minimum decline
+threshold. The recent change provides a weaker urgency signal than in the
+other four cases. This is a useful distinction when deciding which groups
+need the closest attention.
+
+**Construction: a smaller group with the sharpest recent percentage decline.**
+Construction fell from `r num(construction$n_2019)` to
+`r num(construction$n_2024)` establishments. Its loss of
+`r num(abs(construction$recent_change))` since 2022 represents
+`r percent(abs(construction$recent_pct))`, the largest recent percentage
+decline among the five. The count measures construction business locations
+in the CBD; it does not measure construction output or the number of projects.
+
+# 5. What prediction added
+
+We tested whether historical counts could improve forecasts of each group's
+next two-year change. The comparison used a no-change benchmark, multiple
+linear regression, a pruned regression tree and gradient boosting. Current
+count, its log transform, previous two-year change, precinct and industry were
+the predictors. Even-year observations provide consistent two-year steps
+aligned with the survey cycle.
+
+Four expanding-window validation periods selected settings using mean absolute
+error (MAE). Outcomes from 2024 were excluded from model selection. Every
+selected model was then evaluated on the same `r cover$comparison_cells`
+groups for 2022–2024.
+
+```{r model-summary, echo=FALSE}
+table_out(test |> transmute(Model = model,
+  `MAE (establishments per group)` = mae))
+```
+
+No change predicts that a group's count stays at its starting level. It had the
+lowest average error among the tested methods. In the evaluation sample,
+`r percent(100 * error_summary$actual_change_within_5_share)` of groups changed
+by five establishments or fewer, which helps explain why the simple benchmark
+was competitive. That does not imply that the city stopped changing.
+
+The baseline missed the matched sample's net increase of
+`r num(nb$actual_total_change)` establishments, and its error was much larger
+for large groups. We therefore make no model-based 2026 forecast. **Observed
+shortfalls and recent changes support the recommendations.** Full model
+settings, sample coverage and error diagnostics are in Appendix A.
+
+# 6. Recommendations and conclusion
+
+**Focus the first review on CBD professional services, finance and administrative
+support.** Together they have `r num(sum(c(professional$shortfall_count,
+finance$shortfall_count, admin$shortfall_count)))` fewer establishments than in
+2019 and lost a further `r num(abs(sum(c(professional$recent_change,
+finance$recent_change, admin$recent_change))))` after 2022. They combine the
+largest historical gaps with continuing losses. This gives the City a specific
+set of industries to consider when setting SME support priorities.
+
+**Keep construction and health care distinct within that review.** Construction
+shows a stronger recent decline relative to its size. Health care's recent
+count is nearly unchanged despite its historical gap. A single “declining”
+label would conceal that difference.
+
+**Use the precinct–industry breakdown when discussing recovery.** The CBD added
+245 SMEs overall, including 180 in hospitality, while the five reviewed
+industries lost 107. City growth and continuing local weakness coexist. The
+same breakdown should guide consideration of the remaining screened groups
+outside these five cases.
+
+The study identifies where business presence has weakened and how the pattern
+differs across groups. Choosing a particular grant, incentive or funding amount
+requires evidence on business needs and intervention costs that CLUE does not
+provide. Policy implementation schedules and programme evaluation are outside
+this report's scope.
+
+# Appendix A. Predictive methods and diagnostics
+
+## A.1 Target, predictors and models
+
+For each precinct–industry group:
+
+**Target change = establishments at t+2 − establishments at t.**
+
+For example, a count of 100 rising to 108 gives a target of +8. No change
+predicts a target of zero, equivalent to predicting that 100 establishments
+remain. Its absolute error in this example is 8.
+
+The fitted models use five predictors available at the starting date: the
+current count, log(1 + current count), the previous two-year change, precinct
+and industry. The log term allows OLS to describe a curved size relationship
+without forcing the effect of size to be purely proportional.
+
+- **No change:** a simple benchmark with no fitted coefficients.
+- **Multiple linear regression (OLS):** a transparent additive relationship
+  between the predictors and the next change.
+- **Pruned regression tree:** thresholds and interactions, with pruning chosen
+  from historical validation rather than random cross-validation.
+- **Gradient boosting:** a small ensemble of shallow regression trees, tested
+  to see whether added flexibility improves prediction.
+
+Every method is assessed on identical cells. Predicted changes are bounded
+below by minus the starting count, so a forecast cannot imply a negative number
+of establishments. Predictions are not rounded before scoring.
+
+## A.2 Keep later outcomes out of model selection
+
+We grow the training window forward through time. For a prediction made at
+year t, training can use only changes whose **outcome year is at or before t**.
+The train/test separation applies to time, not a random selection of rows.
+
+```{r timeline, echo=FALSE}
+timing <- models$validation_predictions |>
+  distinct(origin_year, target_year, train_first_origin, train_last_origin,
+           train_last_target, training_rows) |>
+  transmute(`Training origins` = paste(train_first_origin, train_last_origin, sep = "-"),
+    `Last observed training outcome` = train_last_target,
+    `Validation period` = paste(origin_year, target_year, sep = "-"),
+    `Training rows` = training_rows)
+table_out(timing)
+```
+
+The tree grid tests pruning parameters 0.001, 0.01 and 0.05, with minimum leaf
+sizes of 5 or 10. Boosting tests depths 1 or 2 and 100 or 300 trees, with a
+learning rate of 0.03. No random subsampling is used.
+
+We average the four validation MAEs, giving each historical period equal
+weight. That selects a configuration within each model family and an overall
+model **before** the 2022–2024 evaluation. The selected model is
+**`r selected$model`**. These are reconstructed historical tests using the
+supplied data vintage, not a prospective test on newly observed outcomes.
+
+## A.3 Results on the 2022–2024 evaluation
+
+```{r accuracy-table, echo=FALSE}
+table_out(test |> transmute(Model = model, Cells = n, MAE = mae, RMSE = rmse,
+  `Mean error` = bias, `Selected before test` = selected_before_test))
+```
+
+MAE is the average absolute error, in establishments per group. RMSE gives
+large errors more weight. Mean error is predicted minus actual change: negative
+values indicate underprediction.
+
+```{r model-accuracy, echo=FALSE}
+accuracy_plot <- ggplot(test, aes(mae, reorder(model, -mae))) +
+  geom_col(aes(fill = selected_before_test), width = .6, show.legend = FALSE) +
+  geom_text(aes(label = sprintf("%.2f", mae)), hjust = -.2, size = 4) +
+  scale_fill_manual(values = c("TRUE" = "#187F86", "FALSE" = "#A7B6C2")) +
+  scale_x_continuous(limits = c(0, max(test$mae) * 1.2)) +
+  labs(title = "No change has the lowest average error in the final evaluation",
+    subtitle = "2022-2024; the same 207 precinct-industry groups for every model.",
+    x = "Mean absolute error (establishments per group)", y = NULL,
+    caption = "Group 10 rebuild from supplied CLUE data. Models selected using earlier periods.")
+accuracy_plot
+```
+
+The evaluation includes `r cover$comparison_cells` of
+`r cover$published_origin_cells` published starting groups and
+`r percent(100 * cover$share_of_origin_establishments)` of their establishments.
+The matched sample gained `r num(nb$actual_total_change)` establishments, compared
+with `r num(m$city_recent_gain)` for the city. Coverage tables account for the
+difference; it is not silently treated as zero.
+
+The baseline wins on test MAE and RMSE in this rebuild. Historical validation
+RMSE and MAE do not always rank models in the same order; the model-selection
+rule was MAE throughout. The complete validation leaderboard is exported.
+
+## A.4 Why no change performs well, and where it is weak
+
+`r percent(100 * error_summary$actual_change_within_5_share)` of evaluation groups
+changed by five establishments or fewer. `r percent(100 * error_summary$origin_count_under_20_share)`
+started with fewer than 20 establishments. Predicting zero can keep errors
+small across many such groups without estimating extra relationships.
+
+That is a pattern in the evaluation sample, not proof that every group is
+stable. Only `r percent(100 * error_summary$actual_zero_change_share)` had exactly
+zero change. Large changes still matter.
+
+```{r size-errors, echo=FALSE}
+size_errors <- models$subgroups |>
+  filter(model == "No change", grouping == "origin_size_band") |>
+  mutate(group = factor(group, levels = c("0-19", "20-99", "100+")))
+size_plot <- ggplot(size_errors, aes(group, mae)) +
+  geom_col(fill = "#253F57", width = .55) +
+  geom_text(aes(label = sprintf("%.1f\n(n = %d)", mae, n)), vjust = -.3, size = 4) +
+  scale_y_continuous(expand = expansion(mult = c(0, .2))) +
+  labs(title = "Baseline errors are much larger in large groups",
+    subtitle = "2022-2024 no-change predictions, grouped by 2022 count.",
+    x = "SME establishments in a precinct-industry group in 2022",
+    y = "Mean absolute error (establishments per group)")
+size_plot
+```
+
+The ten largest errors account for
+`r percent(100 * error_summary$top_10_cells_error_share)` of total absolute error.
+The no-change prediction misses the matched sample's net gain of
+`r num(nb$actual_total_change)`. We therefore use it as a benchmark, while
+using observed local gaps and recent changes to support investigation priorities.
+A zero-change forecast cannot rank which groups will recover fastest.
+
+## A.5 What changes when non-employing establishments are included?
+
+```{r scope-sensitivity, echo=FALSE}
+table_out(sensitivity$common_cell_scope_comparison |>
+  transmute(Scope = if_else(stage == "Held-out test", "Small + Medium",
+    "Small + Medium + Non employing"),
+    Model = model, `Matched cells` = n, MAE = mae, RMSE = rmse,
+    `Observed net change` = actual_total_change))
+```
+
+This check holds each model family's main-analysis configuration fixed and compares identical
+group keys. It changes the population, so its counts and error sizes should
+not replace the main results. The separate data audit compares descriptive
+results under both definitions.
+
+# Appendix B. Supplementary industry-mix comparison
+
+We compare each precinct with the **same industries elsewhere in the city**.
+For each matched industry, we multiply the local starting count by the
+rest-of-city industry's observed growth factor. We then sum the comparison
+counts over the same cells as the observed counts.
+
+```{r industry-mix-chart, echo=FALSE, fig.height=8}
+desc$figures$industry_mix_comparison
+```
+
+A negative value means local growth was below that descriptive comparison.
+It suggests a question for local investigation without estimating the effect
+of a precinct, COVID-19 or a policy. It is supplementary to the five-case
+selection and does not determine that ranking.
+
+The chart requires at least 95% count coverage in both years and a starting
+count of 100. These are our reporting thresholds. The exported tables also
+repeat the comparison after requiring 100 establishments in each rest-of-city
+reference industry, to check sensitivity to small reference groups.
+
+# Appendix C. Audit trail and reproduction
+
+The report is generated from R Markdown, which runs the calculations and
+inserts the resulting tables and figures. The supplied CSV files remain
+unchanged. Source checksums, package versions and test results are saved with
+the analysis outputs.
+
+Run from the repository root:
+
+```sh
+Rscript scripts/install_dependencies.R
+Rscript scripts/run_final_analysis.R
+```
+
+The first command installs missing packages once. The second runs both test
+suites and rebuilds the data audit, final analysis, charts and exported results.
+No packages or source datasets are downloaded during analysis.
+
+The code checks duplicate keys, invalid counts, source-file hashes, missing
+cells, reconciliation, identical evaluation samples, exact two-year alignment,
+and temporal leakage. A test changes the held-out outcomes and confirms that
+all four models' predictions remain unchanged.
+
+Key files:
+
+- `scripts/descriptive_followup.R`: counts, contributions, industry-mix comparison
+  and observed review lists.
+- `scripts/predictive_models.R`: panel construction, validation, fitting and errors.
+- `tests/test_final_analysis.R`: independent calculations and failure-case tests.
+- `outputs/tables/final/`: every score, prediction, exclusion, setting and figure.
+
+The report uses the supplied 2002–2024 snapshot. It does not estimate individual
+business survival, policy effects, employment growth or the causal effect of
+COVID-19. There are only four validation periods and one final evaluation
+period. The error rankings do not establish statistical significance.
+
+## Sources and assistance
+
+City of Melbourne: [aggregated CLUE dataset](https://discover.data.vic.gov.au/dataset/business-establishments-and-jobs-data-by-business-size-and-anzsic-in-small-areas)
+and [address-level dataset](https://discover.data.vic.gov.au/dataset/business-establishments-location-and-industry-classification).
+The supplied files, rather than live downloads, are used here.
+
+Hyndman and Athanasopoulos, [*Forecasting: Principles and Practice*, Chapter 5](https://otexts.com/fpp3/toolbox.html):
+naive benchmarks, forecast errors and rolling-origin evaluation.
+[rpart documentation](https://cran.r-project.org/package=rpart) and
+[gbm documentation](https://cran.r-project.org/package=gbm) describe the fitted tree methods.
+
+Claude assisted with code review as reported by the group. Codex assisted with
+code, tests, charts and wording. The group is responsible for reviewing the
+analysis and the final submission.
+
+```{r session-info, echo=FALSE}
+cat(capture.output(sessionInfo()), sep = "\n")
+```
