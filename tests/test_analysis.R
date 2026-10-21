@@ -79,7 +79,8 @@ input_paths <- file.path("data", c(
   "business-establishments-with-address-and-industry-classification.csv"))
 check(all(file.exists(input_paths)), "both source files available")
 before <- tools::md5sum(input_paths)
-raw <- read.csv(input_paths[1], check.names = FALSE, na.strings = c("", "NA"))
+raw <- read.csv(input_paths[1], check.names = FALSE, na.strings = c("", "NA"),
+                fileEncoding = "UTF-8-BOM")
 script_path <- tempfile(fileext = ".R")
 invisible(knitr::purl("analysis/01_descriptive_analytics.Rmd", script_path,
                       documentation = 0, quiet = TRUE))

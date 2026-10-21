@@ -19,7 +19,8 @@ expect_error <- function(expression, pattern, label) {
 }
 input <- "data/business-establishments-and-jobs-data-by-business-size-and-anzsic.csv"
 raw_hash <- tools::md5sum(input)
-raw <- read.csv(input, check.names = FALSE, na.strings = c("", "NA"))
+raw <- read.csv(input, check.names = FALSE, na.strings = c("", "NA"),
+                fileEncoding = "UTF-8-BOM")
 selected_raw <- raw[raw$`Business size` %in% c("Small business", "Medium business"), ]
 independent_city <- tapply(selected_raw$`Total establishments`, selected_raw$`Census year`, sum)
 
