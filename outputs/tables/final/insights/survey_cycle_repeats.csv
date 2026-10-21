@@ -1,0 +1,14 @@
+precinct,year_pairs,unchanged_from_previous_year,three_identical_years_in_a_row,unchanged_pct
+Carlton,22,10,1,45.45454545454545
+Docklands,22,11,1,50
+East Melbourne,22,10,1,45.45454545454545
+Kensington,22,11,1,50
+Melbourne (CBD),22,3,0,13.636363636363637
+Melbourne (Remainder),22,10,1,45.45454545454545
+North Melbourne,22,11,1,50
+Parkville,22,11,1,50
+Port Melbourne,22,11,1,50
+South Yarra,22,13,5,59.09090909090909
+Southbank,22,9,1,40.90909090909091
+West Melbourne (Industrial),22,11,2,50
+West Melbourne (Residential),22,10,1,45.45454545454545
