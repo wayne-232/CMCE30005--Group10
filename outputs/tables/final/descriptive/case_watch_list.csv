@@ -1,0 +1,2 @@
+precinct,industry,n_2019,n_2022,n_2024,gap_count,shortfall_count,gap_pct,recent_change,recent_pct,gap_pct_display,recent_pct_display,small_baseline_warning,persistent_decline,review_category,context_check,absolute_shortfall_rank,percentage_gap_rank,recent_change_rank,meets_recency,case_role
+Melbourne (CBD),Health Care and Social Assistance,405,346,343,-62,62,-15.308641975308642,-3,-0.8670520231213873,-15.308641975308642,-0.8670520231213873,FALSE,TRUE,Below 2019 and still decreasing,,7,15,24,FALSE,Watch

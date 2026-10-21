@@ -15,7 +15,7 @@
   "selection_rule": "Lowest unweighted mean of historical fold MAEs; exact ties favour simpler configuration.",
   "selected_model": "No change",
   "selected_config_id": "no_change",
-  "selected_validation_mae": 6.95495759083515,
+  "selected_validation_mae": 6.95495759083516,
   "selected_test_mae": 5.1256038647343,
   "lowest_test_mae_model": "No change",
   "test_interpretation": "Test results evaluate a locked historical choice; the lowest test MAE does not retune that choice.",

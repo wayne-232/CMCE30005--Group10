@@ -79,14 +79,31 @@ check(nrow(desc$tables$persistent_decline_groups) == 64L,
 check(desc$tables$priority_screen_summary$screened_with_small_baseline == 53L,
   "small groups remain in the count screen with a warning")
 cases <- desc$tables$case_studies
-check(nrow(cases) == 5L && all(cases$precinct == "Melbourne (CBD)"),
-  "five largest screened gaps are in the CBD")
-check(close_to(cases$shortfall_count, c(450, 185, 162, 62, 45)),
-  "case selection is ranked by the observed absolute gap")
-check(sum(cases$shortfall_count) == 904 && sum(cases$recent_change) == -107,
+check(nrow(cases) == 5L && identical(cases$case_role, c(rep("Scale", 4), "Contrast")),
+  "four scale cases and one contrast case")
+check(all(cases$precinct[1:4] == "Melbourne (CBD)") &&
+        cases$precinct[5] == "Southbank" &&
+        cases$industry[5] == "Accommodation and Food Services",
+  "scale cases are CBD groups; contrast case is Southbank hospitality")
+check(close_to(cases$shortfall_count, c(450, 185, 162, 45, 34)),
+  "scale cases ranked by observed absolute gap")
+check(all(cases$recent_pct[1:4] <= -2), "scale cases fell by at least 2% after 2022")
+check(sum(cases$shortfall_count) == 876 && sum(cases$recent_change) == -114,
   "five-case totals reconcile")
-check(identical(cases, followup_case_studies(review[nrow(review):1, ])),
-  "case ranking does not depend on input order")
+watch <- desc$tables$case_watch_list
+check(nrow(watch) == 1L && watch$industry == "Health Care and Social Assistance" &&
+        watch$recent_change == -3, "CBD health care moves to the watch list")
+check(identical(cases, followup_select_cases(review[nrow(review):1, ])$cases),
+  "case selection does not depend on input order")
+expect_error(followup_select_cases(review, 0), "positive whole", "invalid scale-case count rejected")
+# Independent check of the contrast rule from the raw screen.
+non_cbd_hosp <- review[review$persistent_decline %in% TRUE &
+  review$industry == "Accommodation and Food Services" & review$precinct != "Melbourne (CBD)", ]
+check(non_cbd_hosp$precinct[which.max(non_cbd_hosp$shortfall_count)] == "Southbank",
+  "contrast case is the largest non-CBD hospitality shortfall")
+check(identical(followup_case_studies(review[nrow(review):1, ]),
+                followup_case_studies(review)),
+  "generic ranking does not depend on input order")
 tie_fixture <- review[rep(which(independent_screen)[1], 3), ]
 tie_fixture$industry <- c("Z", "A", "M")
 check(identical(followup_case_studies(tie_fixture, 2)$industry, c("A", "M")),

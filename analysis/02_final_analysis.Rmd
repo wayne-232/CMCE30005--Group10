@@ -44,17 +44,19 @@ nb <- filter(test, model == "No change")
 error_summary <- filter(models$error_concentration_summary, model == "No change")
 cover <- filter(models$comparison_coverage, stage == "Held-out test")
 cases <- desc$tables$case_studies
+watch <- desc$tables$case_watch_list
 screen <- desc$tables$priority_screen_summary
-case_row <- function(industry_name) {
-  row <- filter(cases, industry == industry_name)
-  if (nrow(row) != 1) stop("Expected case study missing from the ranked shortlist.")
+case_row <- function(industry_name, precinct_name = "Melbourne (CBD)", from = cases) {
+  row <- filter(from, industry == industry_name, precinct == precinct_name)
+  if (nrow(row) != 1) stop("Expected case study missing from the selected cases.")
   row
 }
 professional <- case_row("Professional, Scientific and Technical Services")
 finance <- case_row("Financial and Insurance Services")
 admin <- case_row("Administrative and Support Services")
-health <- case_row("Health Care and Social Assistance")
 construction <- case_row("Construction")
+southbank <- case_row("Accommodation and Food Services", "Southbank")
+health <- case_row("Health Care and Social Assistance", from = watch)
 num <- function(x) scales::comma(x, accuracy = 1)
 percent <- function(x) sprintf("%.1f%%", x)
 table_out <- function(x, ...) knitr::kable(x, digits = 2, ...)
@@ -97,11 +99,12 @@ Three findings matter:
   Accommodation and Food Services contributed
   `r percent(m$hospitality_share_of_city_net_gain_pct)`. These describe different
   breakdowns of the same city total and should not be added together.
-- **Five CBD groups make the remaining weakness concrete.** Professional
-  services, finance, administrative support, health care and construction have
-  the largest 2019 shortfalls among groups that also declined after 2022.
-  Together, they account for `r num(m$case_shortfall)` fewer establishments than
-  in 2019 and a further loss of `r num(m$case_recent_loss)` after 2022.
+- **Five groups make the remaining weakness concrete.** CBD professional
+  services, finance, administrative support and construction have the largest
+  2019 shortfalls among groups still falling after 2022. Southbank hospitality
+  shows that the hospitality recovery has not reached every precinct. Together,
+  the five account for `r num(m$case_shortfall)` fewer establishments than in
+  2019 and a further loss of `r num(m$case_recent_loss)` after 2022.
 
 The recommendations follow these observed patterns. Forecast comparisons help
 explain why we have not used a model-generated ranking of future recovery.
@@ -208,7 +211,7 @@ and Technical Services fell by 45. CBD professional services also had the
 largest precinct–industry shortfall from 2019, at 450. This makes the industry
 breakdown more informative than calling the whole CBD “recovered” or “declining”.
 
-# 4. Five groups that explain the priority list
+# 4. Five priority groups and why they matter
 
 ## 4.1 From 64 flagged groups to five specific cases
 
@@ -219,9 +222,15 @@ both conditions. Each group counts business locations in one industry within
 one precinct.
 
 For closer review, we rank those groups by their **absolute 2019–2024
-shortfall and select the five largest**. All five are in the CBD. The rule
-favours gaps affecting more establishments; it does not estimate which policy
-would deliver the greatest benefit. The five account for
+shortfall** and keep the four largest that also fell by at least 2% after 2022.
+All four are in the CBD. CBD health care ranks fourth by gap but lost only
+`r num(abs(health$recent_change))` establishments after 2022
+(`r percent(abs(health$recent_pct))`), so it goes to a watch list. The fifth case
+is the largest hospitality shortfall outside the CBD, Southbank: hospitality
+drives the city's recovery, so a hospitality group that is still shrinking tests
+how far that recovery has spread. The rule favours gaps affecting more
+establishments; it does not estimate which policy would deliver the greatest
+benefit. The five account for
 `r percent(100 * m$case_shortfall / m$city_remaining_shortfall)` of the city's
 remaining net shortfall. Other groups still matter: the full screen is exported,
 including `r screen$screened_with_small_baseline` groups with a baseline below
@@ -232,7 +241,7 @@ desc$figures$priority_cases
 ```
 
 ```{r five-cases-counts, echo=FALSE}
-table_out(cases |> transmute(`Industry (all Melbourne CBD)` = industry,
+table_out(cases |> transmute(Precinct = precinct, Industry = industry,
   `2019` = num(n_2019), `2022` = num(n_2022), `2024` = num(n_2024),
   `2019-2024 change` = percent(gap_pct), `2022-2024 change` = percent(recent_pct)))
 ```
@@ -262,14 +271,6 @@ than professional services should not obscure the much larger proportional
 loss. Both scale and recent direction support keeping it near the top of the
 City's review list.
 
-**Health Care and Social Assistance: a historical gap with little recent movement.**
-The count remains `r num(health$shortfall_count)` below 2019, but fell only
-`r num(abs(health$recent_change))` after 2022 (`r percent(abs(health$recent_pct))`).
-It qualifies because the screen uses direction, with no minimum decline
-threshold. The recent change provides a weaker urgency signal than in the
-other four cases. This is a useful distinction when deciding which groups
-need the closest attention.
-
 **Construction: a smaller group with the sharpest recent percentage decline.**
 Construction fell from `r num(construction$n_2019)` to
 `r num(construction$n_2024)` establishments. Its loss of
@@ -277,6 +278,13 @@ Construction fell from `r num(construction$n_2019)` to
 `r percent(abs(construction$recent_pct))`, the largest recent percentage
 decline among the five. The count measures construction business locations
 in the CBD; it does not measure construction output or the number of projects.
+
+**Southbank Accommodation and Food Services: the recovery has not reached the waterfront.**
+The count fell from `r num(southbank$n_2019)` to `r num(southbank$n_2024)`,
+including `r num(abs(southbank$recent_change))` after 2022
+(`r percent(abs(southbank$recent_pct))`), while CBD hospitality grew by 180 over
+the same period. Southbank's weakness is therefore tied to the location, and a
+city-wide hospitality measure would mostly reach the CBD.
 
 # 5. What prediction added
 
@@ -319,14 +327,14 @@ finance$recent_change, admin$recent_change))))` after 2022. They combine the
 largest historical gaps with continuing losses. This gives the City a specific
 set of industries to consider when setting SME support priorities.
 
-**Keep construction and health care distinct within that review.** Construction
-shows a stronger recent decline relative to its size. Health care's recent
-count is nearly unchanged despite its historical gap. A single “declining”
-label would conceal that difference.
+**Treat construction and Southbank hospitality separately.** CBD construction
+has the sharpest recent percentage decline of the five. Southbank hospitality
+is a local weakness in an industry that is growing in the CBD. CBD health care
+stays on a watch list because its count has barely moved since 2022.
 
 **Use the precinct–industry breakdown when discussing recovery.** The CBD added
-245 SMEs overall, including 180 in hospitality, while the five reviewed
-industries lost 107. City growth and continuing local weakness coexist. The
+245 SMEs overall, including 180 in hospitality, while the four CBD cases lost
+`r num(abs(sum(c(professional$recent_change, finance$recent_change, admin$recent_change, construction$recent_change))))`. City growth and continuing local weakness coexist. The
 same breakdown should guide consideration of the remaining screened groups
 outside these five cases.
 

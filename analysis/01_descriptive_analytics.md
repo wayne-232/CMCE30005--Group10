@@ -240,9 +240,9 @@ report_table(jobs_check, col.names = c("Rows", "Missing jobs", "Missing jobs (%)
                                     "Missing jobs in cells with >2 establishments"))
 ```
 
-| Rows | Missing jobs | Missing jobs (%) | Missing jobs in cells with \>2 establishments |
-|---:|---:|---:|---:|
-| 13,353 | 4,252 | 31.8 | 0 |
+|   Rows | Missing jobs | Missing jobs (%) | Missing jobs in cells with \>2 establishments |
+|-------:|-------------:|-----------------:|----------------------------------------------:|
+| 13,353 |        4,252 |             31.8 |                                             0 |
 
 The publisher withholds job counts in cells with two or fewer businesses
 to protect confidentiality \[1\]. In this snapshot, 4,252 job values are
@@ -302,20 +302,20 @@ report_table(select(vacancy_missing, -dataset),
   col.names = c("Variable", "Vacant rows checked", "Missing", "Blank strings", "Missing (%)"))
 ```
 
-| Variable | Vacant rows checked | Missing | Blank strings | Missing (%) |
-|:---|---:|---:|---:|---:|
-| census_year | 68,299 | 0 | 0 | 0.0 |
-| block_id | 68,299 | 0 | 0 | 0.0 |
-| property_id | 68,299 | 0 | 0 | 0.0 |
-| base_property_id | 68,299 | 0 | 0 | 0.0 |
-| clue_small_area | 68,299 | 0 | 0 | 0.0 |
-| trading_name | 68,299 | 109 | 0 | 0.2 |
-| business_address | 68,299 | 0 | 0 | 0.0 |
-| industry_anzsic4_code | 68,299 | 0 | 0 | 0.0 |
-| industry_anzsic4_description | 68,299 | 0 | 0 | 0.0 |
-| longitude | 68,299 | 1,094 | 0 | 1.6 |
-| latitude | 68,299 | 1,094 | 0 | 1.6 |
-| point | 68,299 | 1,094 | 0 | 1.6 |
+| Variable                     | Vacant rows checked | Missing | Blank strings | Missing (%) |
+|:-----------------------------|--------------------:|--------:|--------------:|------------:|
+| census_year                  |              68,299 |       0 |             0 |         0.0 |
+| block_id                     |              68,299 |       0 |             0 |         0.0 |
+| property_id                  |              68,299 |       0 |             0 |         0.0 |
+| base_property_id             |              68,299 |       0 |             0 |         0.0 |
+| clue_small_area              |              68,299 |       0 |             0 |         0.0 |
+| trading_name                 |              68,299 |     109 |             0 |         0.2 |
+| business_address             |              68,299 |       0 |             0 |         0.0 |
+| industry_anzsic4_code        |              68,299 |       0 |             0 |         0.0 |
+| industry_anzsic4_description |              68,299 |       0 |             0 |         0.0 |
+| longitude                    |              68,299 |   1,094 |             0 |         1.6 |
+| latitude                     |              68,299 |   1,094 |             0 |         1.6 |
+| point                        |              68,299 |   1,094 |             0 |         1.6 |
 
 ## 2.4 Check counts between files
 
@@ -337,11 +337,11 @@ report_table(filter(reconciliation, census_year %in% COMPARISON_YEARS),
                 "Industry-coded records", "Difference"))
 ```
 
-| Year | Aggregated total | All address records | Vacant records | Industry-coded records | Difference |
-|---:|---:|---:|---:|---:|---:|
-| 2,019 | 16,713 | 19,730 | 3,011 | 16,719 | 6 |
-| 2,022 | 13,828 | 19,659 | 5,831 | 13,828 | 0 |
-| 2,024 | 14,338 | 19,672 | 5,335 | 14,337 | -1 |
+|  Year | Aggregated total | All address records | Vacant records | Industry-coded records | Difference |
+|------:|-----------------:|--------------------:|---------------:|-----------------------:|-----------:|
+| 2,019 |           16,713 |              19,730 |          3,011 |                 16,719 |          6 |
+| 2,022 |           13,828 |              19,659 |          5,831 |                 13,828 |          0 |
+| 2,024 |           14,338 |              19,672 |          5,335 |                 14,337 |         -1 |
 
 The largest absolute annual difference is 23 records. The cause is
 unresolved, so we retain the differences and use the aggregated source
@@ -463,7 +463,7 @@ ggplot(city_yearly, aes(census_year, establishments)) +
        caption = "Source: supplied CLUE aggregated file. Dashed line: 2020. Annual series is context, not annual turnover.")
 ```
 
-<img src="01_descriptive_analytics_files/figure-gfm/city-trend-1.png" alt="" width="100%" />
+<img src="01_descriptive_analytics_files/figure-gfm/city-trend-1.png" width="100%" />
 
 ## 4.2 Small and medium businesses can move differently
 
@@ -479,12 +479,12 @@ report_table(size_display, col.names = c("Size category", "In main analysis", "2
                                        "2024", "Change 2019-24", "Change 2022-24"))
 ```
 
-| Size category | In main analysis | 2019 | 2022 | 2024 | Change 2019-24 | Change 2022-24 |
-|:---|:---|---:|---:|---:|---:|---:|
-| Large business | No | 379 | 376 | 426 | 47 | 50 |
-| Medium business | Yes | 2,865 | 2,641 | 2,847 | -18 | 206 |
-| Non employing | No | 828 | 881 | 858 | 30 | -23 |
-| Small business | Yes | 12,641 | 9,930 | 10,207 | -2,434 | 277 |
+| Size category   | In main analysis |   2019 |  2022 |   2024 | Change 2019-24 | Change 2022-24 |
+|:----------------|:-----------------|-------:|------:|-------:|---------------:|---------------:|
+| Large business  | No               |    379 |   376 |    426 |             47 |             50 |
+| Medium business | Yes              |  2,865 | 2,641 |  2,847 |            -18 |            206 |
+| Non employing   | No               |    828 |   881 |    858 |             30 |            -23 |
+| Small business  | Yes              | 12,641 | 9,930 | 10,207 |         -2,434 |            277 |
 
 # 5. Which precincts are recovering?
 
@@ -506,7 +506,7 @@ ggplot(precinct_yearly, aes(census_year, establishments)) +
        caption = "Source: supplied CLUE aggregated file, 2002-2024. All precincts retained.")
 ```
 
-<img src="01_descriptive_analytics_files/figure-gfm/precinct-trends-1.png" alt="" width="100%" />
+<img src="01_descriptive_analytics_files/figure-gfm/precinct-trends-1.png" width="100%" />
 
 ## 5.2 Recent improvement and the remaining gap
 
@@ -568,7 +568,7 @@ ggplot(precinct_plot, aes(change_pct, precinct)) +
                         ": percentage withheld, not zero. All precincts remain in the count table."))
 ```
 
-<img src="01_descriptive_analytics_files/figure-gfm/precinct-comparisons-1.png" alt="" width="100%" />
+<img src="01_descriptive_analytics_files/figure-gfm/precinct-comparisons-1.png" width="100%" />
 
 Use the count table alongside percentages when comparing the CBD with
 smaller precincts.
@@ -609,7 +609,7 @@ ggplot(industry_summary, aes(gap_count, industry)) +
        caption = "Source: CLUE aggregated file. Five largest net declines; remaining industries combined.\nAll bars add to the city-wide change. Net losses do not measure closures.")
 ```
 
-<img src="01_descriptive_analytics_files/figure-gfm/industry-summary-1.png" alt="" width="100%" />
+<img src="01_descriptive_analytics_files/figure-gfm/industry-summary-1.png" width="100%" />
 
 ### Full industry detail
 
@@ -636,7 +636,7 @@ ggplot(industry_yearly, aes(census_year, establishments)) +
        caption = "Source: supplied CLUE aggregated file. Annual lines show context, not annual growth rates.")
 ```
 
-<img src="01_descriptive_analytics_files/figure-gfm/industry-trends-1.png" alt="" width="100%" />
+<img src="01_descriptive_analytics_files/figure-gfm/industry-trends-1.png" width="100%" />
 
 ``` r
 report_table(industry_comparison %>% arrange(gap_count) %>%
@@ -644,27 +644,27 @@ report_table(industry_comparison %>% arrange(gap_count) %>%
   col.names = c("Industry division", "2019", "2022", "2024", "Change 2019-24", "Change 2022-24"))
 ```
 
-| Industry division | 2019 | 2022 | 2024 | Change 2019-24 | Change 2022-24 |
-|:---|---:|---:|---:|---:|---:|
-| Professional, Scientific and Technical Services | 2,697 | 2,061 | 2,035 | -662 | -26 |
-| Retail Trade | 2,235 | 1,764 | 1,840 | -395 | 76 |
-| Financial and Insurance Services | 912 | 690 | 656 | -256 | -34 |
-| Administrative and Support Services | 585 | 378 | 336 | -249 | -42 |
-| Other Services | 1,428 | 1,163 | 1,258 | -170 | 95 |
-| Accommodation and Food Services | 3,065 | 2,705 | 2,919 | -146 | 214 |
-| Health Care and Social Assistance | 1,129 | 958 | 1,020 | -109 | 62 |
-| Wholesale Trade | 369 | 287 | 291 | -78 | 4 |
-| Transport, Postal and Warehousing | 250 | 174 | 178 | -72 | 4 |
-| Construction | 372 | 291 | 301 | -71 | 10 |
-| Rental, Hiring and Real Estate Services | 460 | 364 | 390 | -70 | 26 |
-| Manufacturing | 459 | 393 | 413 | -46 | 20 |
-| Public Administration and Safety | 248 | 213 | 202 | -46 | -11 |
-| Arts and Recreation Services | 384 | 337 | 355 | -29 | 18 |
-| Information Media and Telecommunications | 210 | 167 | 181 | -29 | 14 |
-| Education and Training | 618 | 545 | 594 | -24 | 49 |
-| Mining | 32 | 26 | 23 | -9 | -3 |
-| Agriculture, Forestry and Fishing | 17 | 11 | 9 | -8 | -2 |
-| Electricity, Gas, Water and Waste Services | 36 | 44 | 53 | 17 | 9 |
+| Industry division                               |  2019 |  2022 |  2024 | Change 2019-24 | Change 2022-24 |
+|:------------------------------------------------|------:|------:|------:|---------------:|---------------:|
+| Professional, Scientific and Technical Services | 2,697 | 2,061 | 2,035 |           -662 |            -26 |
+| Retail Trade                                    | 2,235 | 1,764 | 1,840 |           -395 |             76 |
+| Financial and Insurance Services                |   912 |   690 |   656 |           -256 |            -34 |
+| Administrative and Support Services             |   585 |   378 |   336 |           -249 |            -42 |
+| Other Services                                  | 1,428 | 1,163 | 1,258 |           -170 |             95 |
+| Accommodation and Food Services                 | 3,065 | 2,705 | 2,919 |           -146 |            214 |
+| Health Care and Social Assistance               | 1,129 |   958 | 1,020 |           -109 |             62 |
+| Wholesale Trade                                 |   369 |   287 |   291 |            -78 |              4 |
+| Transport, Postal and Warehousing               |   250 |   174 |   178 |            -72 |              4 |
+| Construction                                    |   372 |   291 |   301 |            -71 |             10 |
+| Rental, Hiring and Real Estate Services         |   460 |   364 |   390 |            -70 |             26 |
+| Manufacturing                                   |   459 |   393 |   413 |            -46 |             20 |
+| Public Administration and Safety                |   248 |   213 |   202 |            -46 |            -11 |
+| Arts and Recreation Services                    |   384 |   337 |   355 |            -29 |             18 |
+| Information Media and Telecommunications        |   210 |   167 |   181 |            -29 |             14 |
+| Education and Training                          |   618 |   545 |   594 |            -24 |             49 |
+| Mining                                          |    32 |    26 |    23 |             -9 |             -3 |
+| Agriculture, Forestry and Fishing               |    17 |    11 |     9 |             -8 |             -2 |
+| Electricity, Gas, Water and Waste Services      |    36 |    44 |    53 |             17 |              9 |
 
 ``` r
 industry_plot <- industry_comparison %>%
@@ -685,7 +685,7 @@ ggplot(industry_plot, aes(change_count, industry)) +
        caption = "Source: supplied CLUE aggregated file. Counts are net changes, not firm closures or entries.")
 ```
 
-<img src="01_descriptive_analytics_files/figure-gfm/industry-comparisons-1.png" alt="" width="100%" />
+<img src="01_descriptive_analytics_files/figure-gfm/industry-comparisons-1.png" width="100%" />
 
 ## 6.2 Does industry composition change?
 
@@ -703,27 +703,27 @@ report_table(industry_shares, col.names = c("Industry division", "2019 share (%)
                                           "2024 share (%)", "Change (percentage points)"))
 ```
 
-| Industry division | 2019 share (%) | 2024 share (%) | Change (percentage points) |
-|:---|---:|---:|---:|
-| Accommodation and Food Services | 19.8 | 22.4 | 2.6 |
-| Professional, Scientific and Technical Services | 17.4 | 15.6 | -1.8 |
-| Administrative and Support Services | 3.8 | 2.6 | -1.2 |
-| Financial and Insurance Services | 5.9 | 5.0 | -0.9 |
-| Education and Training | 4.0 | 4.6 | 0.6 |
-| Health Care and Social Assistance | 7.3 | 7.8 | 0.5 |
-| Other Services | 9.2 | 9.6 | 0.4 |
-| Retail Trade | 14.4 | 14.1 | -0.3 |
-| Transport, Postal and Warehousing | 1.6 | 1.4 | -0.2 |
-| Arts and Recreation Services | 2.5 | 2.7 | 0.2 |
-| Manufacturing | 3.0 | 3.2 | 0.2 |
-| Electricity, Gas, Water and Waste Services | 0.2 | 0.4 | 0.2 |
-| Wholesale Trade | 2.4 | 2.2 | -0.2 |
-| Construction | 2.4 | 2.3 | -0.1 |
-| Public Administration and Safety | 1.6 | 1.5 | -0.1 |
-| Agriculture, Forestry and Fishing | 0.1 | 0.1 | 0.0 |
-| Information Media and Telecommunications | 1.4 | 1.4 | 0.0 |
-| Mining | 0.2 | 0.2 | 0.0 |
-| Rental, Hiring and Real Estate Services | 3.0 | 3.0 | 0.0 |
+| Industry division                               | 2019 share (%) | 2024 share (%) | Change (percentage points) |
+|:------------------------------------------------|---------------:|---------------:|---------------------------:|
+| Accommodation and Food Services                 |           19.8 |           22.4 |                        2.6 |
+| Professional, Scientific and Technical Services |           17.4 |           15.6 |                       -1.8 |
+| Administrative and Support Services             |            3.8 |            2.6 |                       -1.2 |
+| Financial and Insurance Services                |            5.9 |            5.0 |                       -0.9 |
+| Education and Training                          |            4.0 |            4.6 |                        0.6 |
+| Health Care and Social Assistance               |            7.3 |            7.8 |                        0.5 |
+| Other Services                                  |            9.2 |            9.6 |                        0.4 |
+| Retail Trade                                    |           14.4 |           14.1 |                       -0.3 |
+| Transport, Postal and Warehousing               |            1.6 |            1.4 |                       -0.2 |
+| Arts and Recreation Services                    |            2.5 |            2.7 |                        0.2 |
+| Manufacturing                                   |            3.0 |            3.2 |                        0.2 |
+| Electricity, Gas, Water and Waste Services      |            0.2 |            0.4 |                        0.2 |
+| Wholesale Trade                                 |            2.4 |            2.2 |                       -0.2 |
+| Construction                                    |            2.4 |            2.3 |                       -0.1 |
+| Public Administration and Safety                |            1.6 |            1.5 |                       -0.1 |
+| Agriculture, Forestry and Fishing               |            0.1 |            0.1 |                        0.0 |
+| Information Media and Telecommunications        |            1.4 |            1.4 |                        0.0 |
+| Mining                                          |            0.2 |            0.2 |                        0.0 |
+| Rental, Hiring and Real Estate Services         |            3.0 |            3.0 |                        0.0 |
 
 ## 6.3 Connect precincts and industries
 
@@ -754,7 +754,7 @@ ggplot(grid_changes, aes(precinct, industry, fill = recovery_count)) +
         axis.text.y = element_text(size = 9), panel.grid = element_blank())
 ```
 
-<img src="01_descriptive_analytics_files/figure-gfm/precinct-industry-changes-1.png" alt="" width="100%" />
+<img src="01_descriptive_analytics_files/figure-gfm/precinct-industry-changes-1.png" width="100%" />
 
 39 combinations have no available 2022-2024 comparison under this rule.
 They should not be read as zero change.
@@ -787,10 +787,10 @@ report_table(scope_city %>% select(scope, n_pre, n_latest, gap_pct, recovery_pct
   col.names = c("Definition", "2019", "2024", "Change 2019-24 (%)", "Change 2022-24 (%)"))
 ```
 
-| Definition | 2019 | 2024 | Change 2019-24 (%) | Change 2022-24 (%) |
-|:---|---:|---:|---:|---:|
-| Small + medium only | 15,506 | 13,054 | -15.8 | 3.8 |
-| Non-employing + small + medium | 16,334 | 13,912 | -14.8 | 3.4 |
+| Definition                     |   2019 |   2024 | Change 2019-24 (%) | Change 2022-24 (%) |
+|:-------------------------------|-------:|-------:|-------------------:|-------------------:|
+| Small + medium only            | 15,506 | 13,054 |              -15.8 |                3.8 |
+| Non-employing + small + medium | 16,334 | 13,912 |              -14.8 |                3.4 |
 
 ``` r
 scope_direction_check <- bind_rows(
@@ -808,10 +808,10 @@ report_table(scope_direction_check %>% group_by(level) %>%
   col.names = c("Level", "Groups", "Not comparable", "2019-24 direction changes", "2022-24 direction changes"))
 ```
 
-| Level | Groups | Not comparable | 2019-24 direction changes | 2022-24 direction changes |
-|:---|---:|---:|---:|---:|
-| Industry | 19 | 0 | 0 | 1 |
-| Precinct | 13 | 0 | 0 | 2 |
+| Level    | Groups | Not comparable | 2019-24 direction changes | 2022-24 direction changes |
+|:---------|-------:|---------------:|--------------------------:|--------------------------:|
+| Industry |     19 |              0 |                         0 |                         1 |
+| Precinct |     13 |              0 |                         0 |                         2 |
 
 The check compares increase, decrease and no change. Magnitudes and
 rankings can differ even when directions agree. Full results for both
@@ -842,13 +842,13 @@ findings <- tibble(Finding = c(
 report_table(findings)
 ```
 
-| Finding |
-|:---|
-| Population: Small and medium establishments (1-199 jobs). |
-| City count: 15,506 in 2019 and 13,054 in 2024 (-15.8%). |
-| Change from 2022 to 2024: +483 establishments (+3.8%). |
-| 13 of 13 precincts were below 2019; 8 increased between 2022 and 2024. |
-| Largest precinct decline in count since 2019: Melbourne (CBD) (-1,594). |
+| Finding                                                                                               |
+|:------------------------------------------------------------------------------------------------------|
+| Population: Small and medium establishments (1-199 jobs).                                             |
+| City count: 15,506 in 2019 and 13,054 in 2024 (-15.8%).                                               |
+| Change from 2022 to 2024: +483 establishments (+3.8%).                                                |
+| 13 of 13 precincts were below 2019; 8 increased between 2022 and 2024.                                |
+| Largest precinct decline in count since 2019: Melbourne (CBD) (-1,594).                               |
 | Largest industry decline in count since 2019: Professional, Scientific and Technical Services (-662). |
 
 ## 8.2 Use the results to guide further investigation
@@ -859,21 +859,21 @@ follow_up <- precinct_comparison %>% arrange(recovery_count) %>%
 report_table(follow_up, col.names = c("Precinct", "Count pattern", "Change 2019-24", "Change 2022-24"))
 ```
 
-| Precinct | Count pattern | Change 2019-24 | Change 2022-24 |
-|:---|:---|---:|---:|
-| Melbourne (Remainder) | Below 2019; decreasing since 2022 | -44 | -9 |
-| Southbank | Below 2019; decreasing since 2022 | -106 | -6 |
-| East Melbourne | Below 2019; decreasing since 2022 | -104 | -4 |
-| West Melbourne (Industrial) | Below 2019; decreasing since 2022 | -21 | -3 |
-| South Yarra | Below 2019; decreasing since 2022 | -2 | -1 |
-| Kensington | Below 2019; increasing since 2022 | -31 | 2 |
-| Parkville | Below 2019; increasing since 2022 | -50 | 5 |
-| North Melbourne | Below 2019; increasing since 2022 | -149 | 37 |
-| Port Melbourne | Below 2019; increasing since 2022 | -28 | 42 |
-| Docklands | Below 2019; increasing since 2022 | -159 | 45 |
-| West Melbourne (Residential) | Below 2019; increasing since 2022 | -47 | 55 |
-| Carlton | Below 2019; increasing since 2022 | -117 | 75 |
-| Melbourne (CBD) | Below 2019; increasing since 2022 | -1,594 | 245 |
+| Precinct                     | Count pattern                     | Change 2019-24 | Change 2022-24 |
+|:-----------------------------|:----------------------------------|---------------:|---------------:|
+| Melbourne (Remainder)        | Below 2019; decreasing since 2022 |            -44 |             -9 |
+| Southbank                    | Below 2019; decreasing since 2022 |           -106 |             -6 |
+| East Melbourne               | Below 2019; decreasing since 2022 |           -104 |             -4 |
+| West Melbourne (Industrial)  | Below 2019; decreasing since 2022 |            -21 |             -3 |
+| South Yarra                  | Below 2019; decreasing since 2022 |             -2 |             -1 |
+| Kensington                   | Below 2019; increasing since 2022 |            -31 |              2 |
+| Parkville                    | Below 2019; increasing since 2022 |            -50 |              5 |
+| North Melbourne              | Below 2019; increasing since 2022 |           -149 |             37 |
+| Port Melbourne               | Below 2019; increasing since 2022 |            -28 |             42 |
+| Docklands                    | Below 2019; increasing since 2022 |           -159 |             45 |
+| West Melbourne (Residential) | Below 2019; increasing since 2022 |            -47 |             55 |
+| Carlton                      | Below 2019; increasing since 2022 |           -117 |             75 |
+| Melbourne (CBD)              | Below 2019; increasing since 2022 |         -1,594 |            245 |
 
 - For precincts still declining, identify which industries account for
   the losses.
@@ -947,10 +947,10 @@ report_table(run_settings, col.names = c("Setting", "Value"))
 report_table(manifest, col.names = c("Source file", "Bytes", "MD5 checksum"))
 ```
 
-| Source file | Bytes | MD5 checksum |
-|:---|---:|:---|
-| business-establishments-and-jobs-data-by-business-size-and-anzsic.csv | 946,127 | 092490f73fa22c83c82d95d1ccd7e010 |
-| business-establishments-with-address-and-industry-classification.csv | 79,271,999 | 84f61da018f6d302999bb447e4036708 |
+| Source file                                                           |      Bytes | MD5 checksum                     |
+|:----------------------------------------------------------------------|-----------:|:---------------------------------|
+| business-establishments-and-jobs-data-by-business-size-and-anzsic.csv |    946,127 | 092490f73fa22c83c82d95d1ccd7e010 |
+| business-establishments-with-address-and-industry-classification.csv  | 79,271,999 | 84f61da018f6d302999bb447e4036708 |
 
 ## 9.1 Review checklist
 
@@ -989,41 +989,45 @@ report_table(cell_statistics)
 cat(trimws(capture.output(sessionInfo()), which = "right"), sep = "\n")
 ```
 
-    R version 4.5.3 (2026-03-11)
-    Platform: aarch64-apple-darwin20
-    Running under: macOS 27.0.1
+    R version 4.3.3 (2024-02-29)
+    Platform: x86_64-pc-linux-gnu (64-bit)
+    Running under: Ubuntu 24.04.5 LTS
 
     Matrix products: default
-    BLAS:   /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRblas.0.dylib
-    LAPACK: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+    BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0
+    LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0
 
     locale:
-    [1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8
+     [1] LC_CTYPE=C.UTF-8       LC_NUMERIC=C           LC_TIME=C.UTF-8
+     [4] LC_COLLATE=C.UTF-8     LC_MONETARY=C.UTF-8    LC_MESSAGES=C.UTF-8
+     [7] LC_PAPER=C.UTF-8       LC_NAME=C              LC_ADDRESS=C
+    [10] LC_TELEPHONE=C         LC_MEASUREMENT=C.UTF-8 LC_IDENTIFICATION=C
 
     time zone: Australia/Melbourne
-    tzcode source: internal
+    tzcode source: system (glibc)
 
     attached base packages:
     [1] stats     graphics  grDevices utils     datasets  methods   base
 
     other attached packages:
-     [1] knitr_1.51      scales_1.4.0    lubridate_1.9.5 forcats_1.0.1
-     [5] stringr_1.6.0   dplyr_1.2.0     purrr_1.2.1     readr_2.2.0
-     [9] tidyr_1.3.2     tibble_3.3.1    ggplot2_4.0.2   tidyverse_2.0.0
+     [1] knitr_1.45      scales_1.3.0    lubridate_1.9.3 forcats_1.0.0
+     [5] stringr_1.5.1   dplyr_1.1.4     purrr_1.0.2     readr_2.1.5
+     [9] tidyr_1.3.1     tibble_3.2.1    ggplot2_3.4.4   tidyverse_2.0.0
 
     loaded via a namespace (and not attached):
-     [1] sass_0.4.10        generics_0.1.4     stringi_1.8.7      lattice_0.22-9
-     [5] hms_1.1.4          digest_0.6.39      magrittr_2.0.4     timechange_0.4.0
-     [9] evaluate_1.0.5     grid_4.5.3         RColorBrewer_1.1-3 gbm_2.3.1
-    [13] fastmap_1.2.0      jsonlite_2.0.0     Matrix_1.7-4       survival_3.8-6
-    [17] jquerylib_0.1.4    cli_3.6.5          crayon_1.5.3       rlang_1.1.7
-    [21] bit64_4.6.0-1      splines_4.5.3      withr_3.0.2        cachem_1.1.0
-    [25] yaml_2.3.12        otel_0.2.0         parallel_4.5.3     tools_4.5.3
-    [29] tzdb_0.5.0         vctrs_0.7.1        R6_2.6.1           rpart_4.1.24
-    [33] lifecycle_1.0.5    bit_4.6.0          vroom_1.7.0        pkgconfig_2.0.3
-    [37] pillar_1.11.1      bslib_0.10.0       gtable_0.3.6       glue_1.8.0
-    [41] xfun_0.56          tidyselect_1.2.1   farver_2.1.2       htmltools_0.5.9
-    [45] labeling_0.4.3     rmarkdown_2.30     compiler_4.5.3     S7_0.2.1
+     [1] sass_0.4.8       utf8_1.2.4       generics_0.1.3   stringi_1.8.3
+     [5] lattice_0.22-5   hms_1.1.3        digest_0.6.34    magrittr_2.0.3
+     [9] evaluate_0.23    grid_4.3.3       timechange_0.3.0 gbm_2.1.8.1
+    [13] fastmap_1.1.1    jsonlite_1.8.8   Matrix_1.6-5     survival_3.5-8
+    [17] fansi_1.0.5      jquerylib_0.1.4  cli_3.6.2        crayon_1.5.2
+    [21] rlang_1.1.3      bit64_4.0.5      munsell_0.5.0    splines_4.3.3
+    [25] withr_2.5.0      cachem_1.0.8     yaml_2.3.8       parallel_4.3.3
+    [29] tools_4.3.3      tzdb_0.4.0       colorspace_2.1-0 vctrs_0.6.5
+    [33] R6_2.5.1         rpart_4.1.23     lifecycle_1.0.4  bit_4.0.5
+    [37] vroom_1.6.5      pkgconfig_2.0.3  pillar_1.9.0     bslib_0.6.1
+    [41] gtable_0.3.4     glue_1.7.0       highr_0.10       xfun_0.41
+    [45] tidyselect_1.2.0 farver_2.1.1     htmltools_0.5.7  labeling_0.4.3
+    [49] rmarkdown_2.25   compiler_4.3.3
 
 # 10. Sources and acknowledgement
 

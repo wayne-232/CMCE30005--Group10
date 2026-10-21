@@ -130,6 +130,44 @@ followup_case_studies <- function(review, number = 5L) {
     dplyr::mutate(case_rank = dplyr::row_number())
 }
 
+# Final-report case selection (agreed by the group after the final presentation).
+# Rule, applied only to the groups that meet the persistent-decline screen:
+#   1. Scale cases: the largest absolute shortfalls among groups that also fell
+#      by at least `min_recent_decline_pct` after 2022. A group that ranks highly
+#      by gap but barely moved after 2022 goes to a watch list instead.
+#   2. Contrast case: the largest shortfall in `contrast_industry` outside the
+#      CBD. Hospitality drives the city's recovery, so a non-CBD hospitality group
+#      that is still shrinking tests whether that recovery has spread.
+# The rule uses observed counts only; it does not estimate policy benefit.
+followup_select_cases <- function(review, scale_cases = 4L, min_recent_decline_pct = 2,
+                                  contrast_industry = "Accommodation and Food Services") {
+  if (length(scale_cases) != 1L || !is.finite(scale_cases) || scale_cases < 1 ||
+      scale_cases != floor(scale_cases)) stop("Case count must be a positive whole number.")
+  if (length(min_recent_decline_pct) != 1L || !is.finite(min_recent_decline_pct) ||
+      min_recent_decline_pct < 0) stop("Recent-decline threshold must be non-negative.")
+  ranked <- review |>
+    dplyr::filter(persistent_decline %in% TRUE) |>
+    dplyr::arrange(dplyr::desc(shortfall_count), precinct, industry) |>
+    dplyr::mutate(meets_recency = !is.na(recent_pct) & recent_pct <= -min_recent_decline_pct)
+  scale <- ranked |>
+    dplyr::filter(meets_recency) |>
+    dplyr::slice_head(n = scale_cases) |>
+    dplyr::mutate(case_role = "Scale")
+  if (nrow(scale) < scale_cases) stop("Too few groups meet the scale-case rule.")
+  cutoff <- min(scale$shortfall_count)
+  watch <- ranked |>
+    dplyr::filter(!meets_recency, shortfall_count >= cutoff) |>
+    dplyr::mutate(case_role = "Watch")
+  contrast <- ranked |>
+    dplyr::filter(industry == contrast_industry, precinct != "Melbourne (CBD)") |>
+    dplyr::slice_head(n = 1L) |>
+    dplyr::mutate(case_role = "Contrast")
+  if (nrow(contrast) != 1L) stop("No contrast group meets the rule.")
+  cases <- dplyr::bind_rows(scale, contrast) |>
+    dplyr::mutate(case_rank = dplyr::row_number())
+  list(cases = cases, watch = watch)
+}
+
 followup_figures <- function(tables, output_dir) {
   navy <- "#253F57"
   teal <- "#187F86"
@@ -204,7 +242,8 @@ followup_figures <- function(tables, output_dir) {
       x = "Actual growth minus comparison growth (percentage points)", y = NULL,
       caption = paste0(caption, "\nDescriptive comparison, 2022-2024. At least 95% count coverage and 100 baseline establishments.")) + style
   cases_data <- tables$case_studies |>
-    dplyr::mutate(label = paste0(case_rank, ". ", gsub(", ", ",\n", industry)),
+    dplyr::mutate(label = paste0(case_rank, ". ", sub("Melbourne \\(CBD\\)", "CBD", precinct),
+      ": ", gsub(", ", ",\n", industry)),
       label = factor(label, levels = rev(label))) |>
     dplyr::select(label, gap_count, recent_change) |>
     tidyr::pivot_longer(c(gap_count, recent_change), names_to = "period", values_to = "change") |>
@@ -216,10 +255,10 @@ followup_figures <- function(tables, output_dir) {
     ggplot2::geom_text(ggplot2::aes(label = sprintf("%+g", change)), hjust = 1.2, size = 4) +
     ggplot2::facet_wrap(~period, scales = "free_x") +
     ggplot2::scale_x_continuous(expand = ggplot2::expansion(mult = c(.22, .06))) +
-    ggplot2::labs(title = "The five largest shortfalls among still-declining groups are in the CBD",
-      subtitle = "Ranked by the 2019-2024 count gap. Each panel has its own horizontal scale.",
+    ggplot2::labs(title = "Five groups still below 2019 and still falling",
+      subtitle = "Cases 1-4: largest gaps still falling 2%+ after 2022.\nCase 5: largest hospitality gap outside the CBD.",
       x = "Change in SME establishments", y = NULL, caption = paste0(caption,
-        "\nScreen: below 2019 in 2024 and decreasing from 2022 to 2024. This is a count-based review list.")) +
+        "\nScreen: below 2019 in 2024 and decreasing from 2022 to 2024. Each panel has its own horizontal scale.")) +
     style
   charts <- list(city_recovery = city, precinct_changes = precinct,
     industry_recent_change = industry, industry_mix_comparison = benchmark,
@@ -315,7 +354,8 @@ run_followup <- function(data_path, output_dir, make_figures = TRUE) {
   cell_priorities <- followup_priorities(cells) |>
     dplyr::mutate(absolute_shortfall_rank = dplyr::min_rank(dplyr::desc(shortfall_count)),
       percentage_gap_rank = dplyr::min_rank(gap_pct_display))
-  cases <- followup_case_studies(cell_priorities)
+  selection <- followup_select_cases(cell_priorities)
+  cases <- selection$cases
   screen_summary <- cell_priorities |>
     dplyr::summarise(groups_in_any_reference_year = dplyr::n(),
       complete_three_year_groups = sum(!is.na(persistent_decline)),
@@ -334,7 +374,8 @@ run_followup <- function(data_path, output_dir, make_figures = TRUE) {
     period_reconciliation = reconciliation, review_priorities = priorities,
     precinct_industry_review = cell_priorities,
     persistent_decline_groups = dplyr::filter(cell_priorities, persistent_decline %in% TRUE),
-    priority_screen_summary = screen_summary, case_studies = cases)
+    priority_screen_summary = screen_summary, case_studies = cases,
+    case_watch_list = selection$watch)
   get_count <- function(year) city$establishments[match(year, city$year)]
   cbd <- priorities[priorities$precinct == "Melbourne (CBD)", ]
   hospitality <- recent[recent$industry == "Accommodation and Food Services", ]

@@ -26,11 +26,15 @@ Of the 64 screened groups, 53 have fewer than 100 establishments at the start of
 at least one comparison. These groups still belong in a count-based screen;
 the percentage-display rule must not silently redefine the list.
 
-Five cases are selected mechanically by the largest absolute 2019-2024 gaps
-within that screen. All are in the CBD: professional services, finance,
-administrative support, health care and construction. They account for a gap
-of 904 and a further loss of 107 after 2022. Health care's recent loss is only
-three, so the text distinguishes a historical gap from a strong urgency signal.
+Five cases are selected by a stated rule (`followup_select_cases()`). Cases 1-4
+are the largest absolute 2019-2024 gaps among screened groups that also fell by
+at least 2% after 2022: CBD professional services, finance, administrative
+support and construction. Case 5 is the largest hospitality gap outside the
+CBD, Southbank, chosen as a contrast because hospitality drives the city's
+recovery. CBD health care ranks fourth by gap but lost only three
+establishments after 2022, so it is exported as a watch list
+(`case_watch_list.csv`). The five account for a gap of 876 and a further loss
+of 114 after 2022.
 
 Policy timelines, trial designs and programme evaluation are outside scope.
 Model validation stays in the report because it is needed to support the

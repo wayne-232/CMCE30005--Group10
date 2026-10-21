@@ -15,5 +15,5 @@ Validated full report chunks for include_non_employing = TRUE
 PASS: 56 checks; both SME definitions; raw files unchanged.
 
 COMMAND: tests/test_final_analysis.R
-PASS: 65 final-analysis checks; models fitted, temporal leakage tests passed.
+PASS: 71 final-analysis checks; models fitted, temporal leakage tests passed.
 

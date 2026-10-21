@@ -17,8 +17,8 @@ Group 10
     gain](#32-the-cbd-has-the-largest-gap-and-the-largest-recent-gain)
   - [3.3 Hospitality gains coexist with continuing service-sector
     losses](#33-hospitality-gains-coexist-with-continuing-service-sector-losses)
-- [4. Five groups that explain the priority
-  list](#4-five-groups-that-explain-the-priority-list)
+- [4. Five priority groups and why they
+  matter](#4-five-priority-groups-and-why-they-matter)
   - [4.1 From 64 flagged groups to five specific
     cases](#41-from-64-flagged-groups-to-five-specific-cases)
   - [4.2 What each case tells the
@@ -76,11 +76,12 @@ Three findings matter:
   The CBD contributed 50.7% of the city net gain. Accommodation and Food
   Services contributed 44.3%. These describe different breakdowns of the
   same city total and should not be added together.
-- **Five CBD groups make the remaining weakness concrete.** Professional
-  services, finance, administrative support, health care and
-  construction have the largest 2019 shortfalls among groups that also
-  declined after 2022. Together, they account for 904 fewer
-  establishments than in 2019 and a further loss of 107 after 2022.
+- **Five groups make the remaining weakness concrete.** CBD professional
+  services, finance, administrative support and construction have the
+  largest 2019 shortfalls among groups still falling after 2022.
+  Southbank hospitality shows that the hospitality recovery has not
+  reached every precinct. Together, the five account for 876 fewer
+  establishments than in 2019 and a further loss of 114 after 2022.
 
 The recommendations follow these observed patterns. Forecast comparisons
 help explain why we have not used a model-generated ranking of future
@@ -154,7 +155,7 @@ not a CLUE rule. Small groups remain in city totals.
 
 ## 3.1 The city is growing again, but remains below 2019
 
-<img src="02_final_analysis_files/figure-gfm/city-chart-1.png" alt="" width="100%" />
+<img src="02_final_analysis_files/figure-gfm/city-chart-1.png" width="100%" />
 
 The count fell by 2,935 between 2019 and 2022, then rose by 483 by 2024.
 The remaining gap is 2,452 establishments. This is net change in
@@ -163,7 +164,7 @@ COVID-19.
 
 ## 3.2 The CBD has the largest gap and the largest recent gain
 
-<img src="02_final_analysis_files/figure-gfm/precinct-chart-1.png" alt="" width="100%" />
+<img src="02_final_analysis_files/figure-gfm/precinct-chart-1.png" width="100%" />
 
 All 13 precincts remained below their 2019 counts. 8 increased after
 2022. The CBD accounts for 65.0% of the remaining city shortfall and
@@ -172,7 +173,7 @@ occur in the same precinct.
 
 ## 3.3 Hospitality gains coexist with continuing service-sector losses
 
-<img src="02_final_analysis_files/figure-gfm/industry-chart-1.png" alt="" width="100%" />
+<img src="02_final_analysis_files/figure-gfm/industry-chart-1.png" width="100%" />
 
 Accommodation and Food Services added 214 establishments city-wide.
 Industry gains totalled 601; industry losses totalled 118, leaving a net
@@ -184,7 +185,7 @@ also had the largest precinct–industry shortfall from 2019, at 450. This
 makes the industry breakdown more informative than calling the whole CBD
 “recovered” or “declining”.
 
-# 4. Five groups that explain the priority list
+# 4. Five priority groups and why they matter
 
 ## 4.1 From 64 flagged groups to five specific cases
 
@@ -194,22 +195,27 @@ precinct–industry groups meet both conditions. Each group counts
 business locations in one industry within one precinct.
 
 For closer review, we rank those groups by their **absolute 2019–2024
-shortfall and select the five largest**. All five are in the CBD. The
-rule favours gaps affecting more establishments; it does not estimate
-which policy would deliver the greatest benefit. The five account for
-36.9% of the city’s remaining net shortfall. Other groups still matter:
-the full screen is exported, including 53 groups with a baseline below
-100 in at least one comparison.
+shortfall** and keep the four largest that also fell by at least 2%
+after 2022. All four are in the CBD. CBD health care ranks fourth by gap
+but lost only 3 establishments after 2022 (0.9%), so it goes to a watch
+list. The fifth case is the largest hospitality shortfall outside the
+CBD, Southbank: hospitality drives the city’s recovery, so a hospitality
+group that is still shrinking tests how far that recovery has spread.
+The rule favours gaps affecting more establishments; it does not
+estimate which policy would deliver the greatest benefit. The five
+account for 35.7% of the city’s remaining net shortfall. Other groups
+still matter: the full screen is exported, including 53 groups with a
+baseline below 100 in at least one comparison.
 
-<img src="02_final_analysis_files/figure-gfm/five-cases-chart-1.png" alt="" width="100%" />
+<img src="02_final_analysis_files/figure-gfm/five-cases-chart-1.png" width="100%" />
 
-| Industry (all Melbourne CBD) | 2019 | 2022 | 2024 | 2019-2024 change | 2022-2024 change |
-|:---|:---|:---|:---|:---|:---|
-| Professional, Scientific and Technical Services | 1,788 | 1,383 | 1,338 | -25.2% | -3.3% |
-| Financial and Insurance Services | 719 | 554 | 534 | -25.7% | -3.6% |
-| Administrative and Support Services | 381 | 243 | 219 | -42.5% | -9.9% |
-| Health Care and Social Assistance | 405 | 346 | 343 | -15.3% | -0.9% |
-| Construction | 141 | 111 | 96 | -31.9% | -13.5% |
+| Precinct        | Industry                                        | 2019  | 2022  | 2024  | 2019-2024 change | 2022-2024 change |
+|:----------------|:------------------------------------------------|:------|:------|:------|:-----------------|:-----------------|
+| Melbourne (CBD) | Professional, Scientific and Technical Services | 1,788 | 1,383 | 1,338 | -25.2%           | -3.3%            |
+| Melbourne (CBD) | Financial and Insurance Services                | 719   | 554   | 534   | -25.7%           | -3.6%            |
+| Melbourne (CBD) | Administrative and Support Services             | 381   | 243   | 219   | -42.5%           | -9.9%            |
+| Melbourne (CBD) | Construction                                    | 141   | 111   | 96    | -31.9%           | -13.5%           |
+| Southbank       | Accommodation and Food Services                 | 236   | 212   | 202   | -14.4%           | -4.7%            |
 
 ## 4.2 What each case tells the City
 
@@ -234,19 +240,18 @@ services should not obscure the much larger proportional loss. Both
 scale and recent direction support keeping it near the top of the City’s
 review list.
 
-**Health Care and Social Assistance: a historical gap with little recent
-movement.** The count remains 62 below 2019, but fell only 3 after 2022
-(0.9%). It qualifies because the screen uses direction, with no minimum
-decline threshold. The recent change provides a weaker urgency signal
-than in the other four cases. This is a useful distinction when deciding
-which groups need the closest attention.
-
 **Construction: a smaller group with the sharpest recent percentage
 decline.** Construction fell from 141 to 96 establishments. Its loss of
 15 since 2022 represents 13.5%, the largest recent percentage decline
 among the five. The count measures construction business locations in
 the CBD; it does not measure construction output or the number of
 projects.
+
+**Southbank Accommodation and Food Services: the recovery has not
+reached the waterfront.** The count fell from 236 to 202, including 10
+after 2022 (4.7%), while CBD hospitality grew by 180 over the same
+period. Southbank’s weakness is therefore tied to the location, and a
+city-wide hospitality measure would mostly reach the CBD.
 
 # 5. What prediction added
 
@@ -289,16 +294,17 @@ than in 2019 and lost a further 89 after 2022. They combine the largest
 historical gaps with continuing losses. This gives the City a specific
 set of industries to consider when setting SME support priorities.
 
-**Keep construction and health care distinct within that review.**
-Construction shows a stronger recent decline relative to its size.
-Health care’s recent count is nearly unchanged despite its historical
-gap. A single “declining” label would conceal that difference.
+**Treat construction and Southbank hospitality separately.** CBD
+construction has the sharpest recent percentage decline of the five.
+Southbank hospitality is a local weakness in an industry that is growing
+in the CBD. CBD health care stays on a watch list because its count has
+barely moved since 2022.
 
 **Use the precinct–industry breakdown when discussing recovery.** The
-CBD added 245 SMEs overall, including 180 in hospitality, while the five
-reviewed industries lost 107. City growth and continuing local weakness
-coexist. The same breakdown should guide consideration of the remaining
-screened groups outside these five cases.
+CBD added 245 SMEs overall, including 180 in hospitality, while the four
+CBD cases lost 104. City growth and continuing local weakness coexist.
+The same breakdown should guide consideration of the remaining screened
+groups outside these five cases.
 
 The study identifies where business presence has weakened and how the
 pattern differs across groups. Choosing a particular grant, incentive or
@@ -345,11 +351,11 @@ before t**. The train/test separation applies to time, not a random
 selection of rows.
 
 | Training origins | Last observed training outcome | Validation period | Training rows |
-|:---|---:|:---|---:|
-| 2004-2012 | 2014 | 2014-2016 | 1042 |
-| 2004-2014 | 2016 | 2016-2018 | 1247 |
-| 2004-2016 | 2018 | 2018-2020 | 1450 |
-| 2004-2018 | 2020 | 2020-2022 | 1657 |
+|:-----------------|-------------------------------:|:------------------|--------------:|
+| 2004-2012        |                           2014 | 2014-2016         |          1042 |
+| 2004-2014        |                           2016 | 2016-2018         |          1247 |
+| 2004-2016        |                           2018 | 2018-2020         |          1450 |
+| 2004-2018        |                           2020 | 2020-2022         |          1657 |
 
 The tree grid tests pruning parameters 0.001, 0.01 and 0.05, with
 minimum leaf sizes of 5 or 10. Boosting tests depths 1 or 2 and 100 or
@@ -375,7 +381,7 @@ MAE is the average absolute error, in establishments per group. RMSE
 gives large errors more weight. Mean error is predicted minus actual
 change: negative values indicate underprediction.
 
-<img src="02_final_analysis_files/figure-gfm/model-accuracy-1.png" alt="" width="100%" />
+<img src="02_final_analysis_files/figure-gfm/model-accuracy-1.png" width="100%" />
 
 The evaluation includes 207 of 210 published starting groups and 100.0%
 of their establishments. The matched sample gained 481 establishments,
@@ -398,7 +404,7 @@ That is a pattern in the evaluation sample, not proof that every group
 is stable. Only 21.3% had exactly zero change. Large changes still
 matter.
 
-<img src="02_final_analysis_files/figure-gfm/size-errors-1.png" alt="" width="100%" />
+<img src="02_final_analysis_files/figure-gfm/size-errors-1.png" width="100%" />
 
 The ten largest errors account for 45.9% of total absolute error. The
 no-change prediction misses the matched sample’s net gain of 481. We
@@ -408,16 +414,16 @@ forecast cannot rank which groups will recover fastest.
 
 ## A.5 What changes when non-employing establishments are included?
 
-| Scope | Model | Matched cells | MAE | RMSE | Observed net change |
-|:---|:---|---:|---:|---:|---:|
-| Small + Medium | Gradient boosting | 207 | 5.85 | 22.22 | 481 |
-| Small + Medium | No change | 207 | 5.13 | 15.45 | 481 |
-| Small + Medium | OLS | 207 | 6.17 | 20.22 | 481 |
-| Small + Medium | Pruned tree | 207 | 5.77 | 20.91 | 481 |
-| Small + Medium + Non employing | Gradient boosting | 207 | 5.84 | 21.14 | 458 |
-| Small + Medium + Non employing | No change | 207 | 5.12 | 14.94 | 458 |
-| Small + Medium + Non employing | OLS | 207 | 6.26 | 19.64 | 458 |
-| Small + Medium + Non employing | Pruned tree | 207 | 6.13 | 22.19 | 458 |
+| Scope                          | Model             | Matched cells |  MAE |  RMSE | Observed net change |
+|:-------------------------------|:------------------|--------------:|-----:|------:|--------------------:|
+| Small + Medium                 | Gradient boosting |           207 | 5.85 | 22.22 |                 481 |
+| Small + Medium                 | No change         |           207 | 5.13 | 15.45 |                 481 |
+| Small + Medium                 | OLS               |           207 | 6.17 | 20.22 |                 481 |
+| Small + Medium                 | Pruned tree       |           207 | 5.77 | 20.91 |                 481 |
+| Small + Medium + Non employing | Gradient boosting |           207 | 5.84 | 21.14 |                 458 |
+| Small + Medium + Non employing | No change         |           207 | 5.12 | 14.94 |                 458 |
+| Small + Medium + Non employing | OLS               |           207 | 6.26 | 19.64 |                 458 |
+| Small + Medium + Non employing | Pruned tree       |           207 | 6.13 | 22.19 |                 458 |
 
 This check holds each model family’s main-analysis configuration fixed
 and compares identical group keys. It changes the population, so its
@@ -431,7 +437,7 @@ city**. For each matched industry, we multiply the local starting count
 by the rest-of-city industry’s observed growth factor. We then sum the
 comparison counts over the same cells as the observed counts.
 
-<img src="02_final_analysis_files/figure-gfm/industry-mix-chart-1.png" alt="" width="100%" />
+<img src="02_final_analysis_files/figure-gfm/industry-mix-chart-1.png" width="100%" />
 
 A negative value means local growth was below that descriptive
 comparison. It suggests a question for local investigation without
@@ -506,39 +512,43 @@ Claude assisted with code review as reported by the group. Codex
 assisted with code, tests, charts and wording. The group is responsible
 for reviewing the analysis and the final submission.
 
-    ## R version 4.5.3 (2026-03-11)
-    ## Platform: aarch64-apple-darwin20
-    ## Running under: macOS 27.0.1
+    ## R version 4.3.3 (2024-02-29)
+    ## Platform: x86_64-pc-linux-gnu (64-bit)
+    ## Running under: Ubuntu 24.04.5 LTS
     ## 
     ## Matrix products: default
-    ## BLAS:   /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRblas.0.dylib 
-    ## LAPACK: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+    ## BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 
+    ## LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0
     ## 
     ## locale:
-    ## [1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8
+    ##  [1] LC_CTYPE=C.UTF-8       LC_NUMERIC=C           LC_TIME=C.UTF-8       
+    ##  [4] LC_COLLATE=C.UTF-8     LC_MONETARY=C.UTF-8    LC_MESSAGES=C.UTF-8   
+    ##  [7] LC_PAPER=C.UTF-8       LC_NAME=C              LC_ADDRESS=C          
+    ## [10] LC_TELEPHONE=C         LC_MEASUREMENT=C.UTF-8 LC_IDENTIFICATION=C   
     ## 
     ## time zone: Australia/Melbourne
-    ## tzcode source: internal
+    ## tzcode source: system (glibc)
     ## 
     ## attached base packages:
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] knitr_1.51      scales_1.4.0    lubridate_1.9.5 forcats_1.0.1  
-    ##  [5] stringr_1.6.0   dplyr_1.2.0     purrr_1.2.1     readr_2.2.0    
-    ##  [9] tidyr_1.3.2     tibble_3.3.1    ggplot2_4.0.2   tidyverse_2.0.0
+    ##  [1] knitr_1.45      scales_1.3.0    lubridate_1.9.3 forcats_1.0.0  
+    ##  [5] stringr_1.5.1   dplyr_1.1.4     purrr_1.0.2     readr_2.1.5    
+    ##  [9] tidyr_1.3.1     tibble_3.2.1    ggplot2_3.4.4   tidyverse_2.0.0
     ## 
     ## loaded via a namespace (and not attached):
-    ##  [1] sass_0.4.10        generics_0.1.4     stringi_1.8.7      lattice_0.22-9    
-    ##  [5] hms_1.1.4          digest_0.6.39      magrittr_2.0.4     timechange_0.4.0  
-    ##  [9] evaluate_1.0.5     grid_4.5.3         RColorBrewer_1.1-3 gbm_2.3.1         
-    ## [13] fastmap_1.2.0      jsonlite_2.0.0     Matrix_1.7-4       survival_3.8-6    
-    ## [17] textshaping_1.0.5  jquerylib_0.1.4    cli_3.6.5          crayon_1.5.3      
-    ## [21] rlang_1.1.7        bit64_4.6.0-1      splines_4.5.3      withr_3.0.2       
-    ## [25] cachem_1.1.0       yaml_2.3.12        otel_0.2.0         parallel_4.5.3    
-    ## [29] tools_4.5.3        tzdb_0.5.0         vctrs_0.7.1        R6_2.6.1          
-    ## [33] rpart_4.1.24       lifecycle_1.0.5    bit_4.6.0          vroom_1.7.0       
-    ## [37] ragg_1.5.1         pkgconfig_2.0.3    pillar_1.11.1      bslib_0.10.0      
-    ## [41] gtable_0.3.6       glue_1.8.0         systemfonts_1.3.2  xfun_0.56         
-    ## [45] tidyselect_1.2.1   farver_2.1.2       htmltools_0.5.9    labeling_0.4.3    
-    ## [49] rmarkdown_2.30     compiler_4.5.3     S7_0.2.1
+    ##  [1] sass_0.4.8        utf8_1.2.4        generics_0.1.3    stringi_1.8.3    
+    ##  [5] lattice_0.22-5    hms_1.1.3         digest_0.6.34     magrittr_2.0.3   
+    ##  [9] evaluate_0.23     grid_4.3.3        timechange_0.3.0  gbm_2.1.8.1      
+    ## [13] fastmap_1.1.1     jsonlite_1.8.8    Matrix_1.6-5      survival_3.5-8   
+    ## [17] fansi_1.0.5       textshaping_0.3.7 jquerylib_0.1.4   cli_3.6.2        
+    ## [21] crayon_1.5.2      rlang_1.1.3       bit64_4.0.5       munsell_0.5.0    
+    ## [25] splines_4.3.3     withr_2.5.0       cachem_1.0.8      yaml_2.3.8       
+    ## [29] parallel_4.3.3    tools_4.3.3       tzdb_0.4.0        colorspace_2.1-0 
+    ## [33] vctrs_0.6.5       R6_2.5.1          rpart_4.1.23      lifecycle_1.0.4  
+    ## [37] bit_4.0.5         vroom_1.6.5       ragg_1.2.7        pkgconfig_2.0.3  
+    ## [41] pillar_1.9.0      bslib_0.6.1       gtable_0.3.4      glue_1.7.0       
+    ## [45] systemfonts_1.0.5 highr_0.10        xfun_0.41         tidyselect_1.2.0 
+    ## [49] farver_2.1.1      htmltools_0.5.7   labeling_0.4.3    rmarkdown_2.25   
+    ## [53] compiler_4.3.3
