@@ -130,7 +130,8 @@ followup_case_studies <- function(review, number = 5L) {
     dplyr::mutate(case_rank = dplyr::row_number())
 }
 
-# Final-report case selection (agreed by the group after the final presentation).
+# Final-report case selection (agreed by the group after the final presentation;
+# function drafted with Anthropic Claude, 2026).
 # Rule, applied only to the groups that meet the persistent-decline screen:
 #   1. Scale cases: the largest absolute shortfalls among groups that also fell
 #      by at least `min_recent_decline_pct` after 2022. A group that ranks highly

@@ -552,7 +552,7 @@ naive benchmarks, forecast errors and rolling-origin evaluation.
 [gbm documentation](https://cran.r-project.org/package=gbm) describe the fitted tree methods.
 
 Claude (Anthropic) reviewed and extended the R code and edited the data
-sections. Codex (OpenAI) helped draft the earlier scripts, charts and tests.
+sections. Codex (OpenAI) reviewed earlier versions of the R scripts.
 See `docs/AI_ASSISTANCE.md`. The group is responsible for the submission.
 
 ```{r session-info, echo=FALSE}

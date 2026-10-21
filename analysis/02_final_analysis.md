@@ -509,9 +509,8 @@ documentation](https://cran.r-project.org/package=gbm) describe the
 fitted tree methods.
 
 Claude (Anthropic) reviewed and extended the R code and edited the data
-sections. Codex (OpenAI) helped draft the earlier scripts, charts and
-tests. See `docs/AI_ASSISTANCE.md`. The group is responsible for the
-submission.
+sections. Codex (OpenAI) reviewed earlier versions of the R scripts. See
+`docs/AI_ASSISTANCE.md`. The group is responsible for the submission.
 
     ## R version 4.3.3 (2024-02-29)
     ## Platform: x86_64-pc-linux-gnu (64-bit)

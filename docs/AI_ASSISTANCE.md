@@ -7,8 +7,8 @@ wording, and remains responsible for the submission.
   (case selection, size-class, jobs and vacancy analysis, a model diagnostic and
   test fixes), checked results against the source data, and edited the data
   sections of the final report.
-- **OpenAI Codex** (August–October 2026) helped draft the earlier R scripts,
-  charts and tests that the final analysis builds on.
+- **OpenAI Codex** (August–October 2026) reviewed earlier versions of the R
+  scripts, which Wayne wrote.
 
 No data were generated or altered by AI. All results are calculated from the
 supplied City of Melbourne CLUE files.

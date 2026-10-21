@@ -1,4 +1,5 @@
 # Data insights for the final report (Wayne: data description and descriptive results).
+# Drafted with Anthropic Claude (2026). See docs/AI_ASSISTANCE.md.
 # Adds four views that answer the tutor feedback on the interim report and final
 # presentation:
 #   1. Which SMEs make up the remaining gap? (Small 1-19 jobs vs Medium 20-199 jobs)

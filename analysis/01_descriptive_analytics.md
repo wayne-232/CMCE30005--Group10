@@ -1050,6 +1050,6 @@ cat(trimws(capture.output(sessionInfo()), which = "right"), sep = "\n")
     the client and scope.
 
 **AI assistance:** Claude (Anthropic) reviewed and extended the R code
-and edited the data sections. Codex (OpenAI) helped draft the earlier
-scripts, charts and tests. See the [AI assistance
+and edited the data sections. Codex (OpenAI) reviewed earlier versions
+of the R scripts. See the [AI assistance
 record](../docs/AI_ASSISTANCE.md).

@@ -21,7 +21,7 @@ params:
 ---
 
 ```{r setup, include=FALSE}
-# AI-assisted code: OpenAI Codex (2026); see ../docs/AI_ASSISTANCE.md.
+# Code written by Group 10 and reviewed with AI tools; see ../docs/AI_ASSISTANCE.md.
 # Install packages once using scripts/scripts_00_packages.R, not while knitting.
 required_packages <- c("tidyverse", "scales", "knitr", "rmarkdown")
 missing_packages <- required_packages[!vapply(required_packages, requireNamespace,
@@ -784,5 +784,5 @@ cat(trimws(capture.output(sessionInfo()), which = "right"), sep = "\n")
    Project Report instructions*, Semester 2, 2026. Source for the client and scope.
 
 **AI assistance:** Claude (Anthropic) reviewed and extended the R code and edited the data
-sections. Codex (OpenAI) helped draft the earlier scripts, charts and tests.
+sections. Codex (OpenAI) reviewed earlier versions of the R scripts.
 See the [AI assistance record](../docs/AI_ASSISTANCE.md).

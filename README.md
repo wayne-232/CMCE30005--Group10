@@ -190,7 +190,7 @@ exact snapshot; public metadata may describe a different date range.
 ## AI acknowledgement
 
 Claude (Anthropic) reviewed and extended the R code and edited the data
-sections. Codex (OpenAI) helped draft the earlier scripts, charts and tests.
+sections. Codex (OpenAI) reviewed earlier versions of the R scripts.
 See the [AI assistance record](docs/AI_ASSISTANCE.md). The group reviewed all
 AI-assisted work and is responsible for the submission.
 

@@ -1,5 +1,5 @@
 # Run from the repository root: Rscript tests/test_analysis.R
-# AI-assisted code: OpenAI Codex (2026). See docs/AI_ASSISTANCE.md.
+# Written by Group 10 and reviewed with AI tools. See docs/AI_ASSISTANCE.md.
 # No testthat dependency. Test calculations, failure cases and both SME scopes.
 # The integration checks independently sum the raw file using base R.
 

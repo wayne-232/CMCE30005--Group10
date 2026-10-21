@@ -1,4 +1,5 @@
 # Post-hoc diagnostic: why did the fitted models lose to the no-change benchmark?
+# Drafted with Anthropic Claude (2026). See docs/AI_ASSISTANCE.md.
 #
 # The 2022-24 test models were trained on every two-year window up to 2022,
 # including the two pandemic windows (2018-20 and 2020-22), when the average
