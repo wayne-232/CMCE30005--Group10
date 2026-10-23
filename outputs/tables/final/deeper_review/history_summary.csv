@@ -1,0 +1,6 @@
+case_rank,label,precinct,industry,pre_windows,pre_windows_below_peers,minimum_gap_pp,maximum_gap_pp
+1,CBD professional services,Melbourne (CBD),"Professional, Scientific and Technical Services",8,3,-8.135093104207858,7.637876743139893
+2,CBD finance and insurance,Melbourne (CBD),Financial and Insurance Services,8,4,-15.315315315315313,15.553160919540232
+3,CBD administrative services,Melbourne (CBD),Administrative and Support Services,8,6,-16.087962962962965,4.687949381650846
+4,CBD construction,Melbourne (CBD),Construction,8,4,-41.01780255349759,27.833588119676786
+5,Southbank hospitality,Southbank,Accommodation and Food Services,8,4,-3.591627699844137,30.962335304250654

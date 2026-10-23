@@ -1,0 +1,248 @@
+precinct,industry,n_2022,n_2024,change,growth_pct,display_status,display_growth_pct
+Carlton,Accommodation and Food Services,259,285,26,10.038610038610042,Percentage displayed,10.038610038610042
+Carlton,Administrative and Support Services,13,9,-4,-30.76923076923077,Starting count below 20,NA
+Carlton,"Agriculture, Forestry and Fishing",NA,NA,NA,NA,Unknown in at least one year,NA
+Carlton,Arts and Recreation Services,20,27,7,35.00000000000001,Percentage displayed,35.00000000000001
+Carlton,Construction,10,10,0,0,Starting count below 20,NA
+Carlton,Education and Training,70,69,-1,-1.4285714285714235,Percentage displayed,-1.4285714285714235
+Carlton,"Electricity, Gas, Water and Waste Services",NA,1,NA,NA,Unknown in at least one year,NA
+Carlton,Financial and Insurance Services,17,21,4,23.529411764705888,Starting count below 20,NA
+Carlton,Health Care and Social Assistance,84,104,20,23.809523809523814,Percentage displayed,23.809523809523814
+Carlton,Information Media and Telecommunications,10,13,3,30.000000000000004,Starting count below 20,NA
+Carlton,Manufacturing,17,18,1,5.882352941176472,Starting count below 20,NA
+Carlton,Mining,NA,NA,NA,NA,Unknown in at least one year,NA
+Carlton,Other Services,101,107,6,5.940594059405946,Percentage displayed,5.940594059405946
+Carlton,"Professional, Scientific and Technical Services",95,100,5,5.263157894736836,Percentage displayed,5.263157894736836
+Carlton,Public Administration and Safety,6,7,1,16.666666666666675,Starting count below 20,NA
+Carlton,"Rental, Hiring and Real Estate Services",17,17,0,0,Starting count below 20,NA
+Carlton,Retail Trade,97,103,6,6.185567010309279,Percentage displayed,6.185567010309279
+Carlton,"Transport, Postal and Warehousing",2,3,1,50,Starting count below 20,NA
+Carlton,Wholesale Trade,11,10,-1,-9.090909090909093,Starting count below 20,NA
+Docklands,Accommodation and Food Services,261,246,-15,-5.747126436781613,Percentage displayed,-5.747126436781613
+Docklands,Administrative and Support Services,20,16,-4,-19.999999999999996,Percentage displayed,-19.999999999999996
+Docklands,"Agriculture, Forestry and Fishing",2,2,0,0,Starting count below 20,NA
+Docklands,Arts and Recreation Services,29,31,2,6.896551724137923,Percentage displayed,6.896551724137923
+Docklands,Construction,14,18,4,28.57142857142858,Starting count below 20,NA
+Docklands,Education and Training,22,27,5,22.72727272727273,Percentage displayed,22.72727272727273
+Docklands,"Electricity, Gas, Water and Waste Services",2,1,-1,-50,Starting count below 20,NA
+Docklands,Financial and Insurance Services,31,25,-6,-19.354838709677423,Percentage displayed,-19.354838709677423
+Docklands,Health Care and Social Assistance,36,40,4,11.111111111111116,Percentage displayed,11.111111111111116
+Docklands,Information Media and Telecommunications,21,23,2,9.523809523809534,Percentage displayed,9.523809523809534
+Docklands,Manufacturing,15,16,1,6.666666666666665,Starting count below 20,NA
+Docklands,Mining,NA,NA,NA,NA,Unknown in at least one year,NA
+Docklands,Other Services,46,61,15,32.6086956521739,Percentage displayed,32.6086956521739
+Docklands,"Professional, Scientific and Technical Services",137,143,6,4.379562043795615,Percentage displayed,4.379562043795615
+Docklands,Public Administration and Safety,17,16,-1,-5.882352941176472,Starting count below 20,NA
+Docklands,"Rental, Hiring and Real Estate Services",55,67,12,21.818181818181827,Percentage displayed,21.818181818181827
+Docklands,Retail Trade,145,160,15,10.344827586206895,Percentage displayed,10.344827586206895
+Docklands,"Transport, Postal and Warehousing",22,23,1,4.545454545454541,Percentage displayed,4.545454545454541
+Docklands,Wholesale Trade,13,18,5,38.46153846153846,Starting count below 20,NA
+East Melbourne,Accommodation and Food Services,50,48,-2,-4.0000000000000036,Percentage displayed,-4.0000000000000036
+East Melbourne,Administrative and Support Services,4,6,2,50,Starting count below 20,NA
+East Melbourne,"Agriculture, Forestry and Fishing",NA,NA,NA,NA,Unknown in at least one year,NA
+East Melbourne,Arts and Recreation Services,17,14,-3,-17.647058823529417,Starting count below 20,NA
+East Melbourne,Construction,4,4,0,0,Starting count below 20,NA
+East Melbourne,Education and Training,7,3,-4,-57.14285714285714,Starting count below 20,NA
+East Melbourne,"Electricity, Gas, Water and Waste Services",NA,1,NA,NA,Unknown in at least one year,NA
+East Melbourne,Financial and Insurance Services,13,9,-4,-30.76923076923077,Starting count below 20,NA
+East Melbourne,Health Care and Social Assistance,205,213,8,3.9024390243902474,Percentage displayed,3.9024390243902474
+East Melbourne,Information Media and Telecommunications,5,4,-1,-19.999999999999996,Starting count below 20,NA
+East Melbourne,Manufacturing,NA,NA,NA,NA,Unknown in at least one year,NA
+East Melbourne,Mining,1,NA,NA,NA,Unknown in at least one year,NA
+East Melbourne,Other Services,36,35,-1,-2.777777777777779,Percentage displayed,-2.777777777777779
+East Melbourne,"Professional, Scientific and Technical Services",40,40,0,0,Percentage displayed,0
+East Melbourne,Public Administration and Safety,15,14,-1,-6.666666666666665,Starting count below 20,NA
+East Melbourne,"Rental, Hiring and Real Estate Services",6,7,1,16.666666666666675,Starting count below 20,NA
+East Melbourne,Retail Trade,11,13,2,18.181818181818187,Starting count below 20,NA
+East Melbourne,"Transport, Postal and Warehousing",3,2,-1,-33.333333333333336,Starting count below 20,NA
+East Melbourne,Wholesale Trade,2,2,0,0,Starting count below 20,NA
+Kensington,Accommodation and Food Services,52,54,2,3.8461538461538547,Percentage displayed,3.8461538461538547
+Kensington,Administrative and Support Services,6,7,1,16.666666666666675,Starting count below 20,NA
+Kensington,"Agriculture, Forestry and Fishing",1,1,0,0,Starting count below 20,NA
+Kensington,Arts and Recreation Services,25,22,-3,-12,Percentage displayed,-12
+Kensington,Construction,20,24,4,19.999999999999996,Percentage displayed,19.999999999999996
+Kensington,Education and Training,10,11,1,10.000000000000009,Starting count below 20,NA
+Kensington,"Electricity, Gas, Water and Waste Services",NA,NA,NA,NA,Unknown in at least one year,NA
+Kensington,Financial and Insurance Services,1,2,1,100,Starting count below 20,NA
+Kensington,Health Care and Social Assistance,25,28,3,12.00000000000001,Percentage displayed,12.00000000000001
+Kensington,Information Media and Telecommunications,4,2,-2,-50,Starting count below 20,NA
+Kensington,Manufacturing,31,28,-3,-9.677419354838712,Percentage displayed,-9.677419354838712
+Kensington,Mining,NA,NA,NA,NA,Unknown in at least one year,NA
+Kensington,Other Services,39,32,-7,-17.948717948717952,Percentage displayed,-17.948717948717952
+Kensington,"Professional, Scientific and Technical Services",31,36,5,16.129032258064523,Percentage displayed,16.129032258064523
+Kensington,Public Administration and Safety,4,3,-1,-25,Starting count below 20,NA
+Kensington,"Rental, Hiring and Real Estate Services",13,12,-1,-7.692307692307687,Starting count below 20,NA
+Kensington,Retail Trade,28,35,7,25,Percentage displayed,25
+Kensington,"Transport, Postal and Warehousing",6,5,-1,-16.666666666666664,Starting count below 20,NA
+Kensington,Wholesale Trade,28,24,-4,-14.28571428571429,Percentage displayed,-14.28571428571429
+Melbourne (CBD),Accommodation and Food Services,1557,1737,180,11.560693641618492,Percentage displayed,11.560693641618492
+Melbourne (CBD),Administrative and Support Services,243,219,-24,-9.876543209876543,Percentage displayed,-9.876543209876543
+Melbourne (CBD),"Agriculture, Forestry and Fishing",3,2,-1,-33.333333333333336,Starting count below 20,NA
+Melbourne (CBD),Arts and Recreation Services,118,131,13,11.016949152542367,Percentage displayed,11.016949152542367
+Melbourne (CBD),Construction,111,96,-15,-13.513513513513509,Percentage displayed,-13.513513513513509
+Melbourne (CBD),Education and Training,299,349,50,16.722408026755865,Percentage displayed,16.722408026755865
+Melbourne (CBD),"Electricity, Gas, Water and Waste Services",29,30,1,3.4482758620689724,Percentage displayed,3.4482758620689724
+Melbourne (CBD),Financial and Insurance Services,554,534,-20,-3.6101083032490933,Percentage displayed,-3.6101083032490933
+Melbourne (CBD),Health Care and Social Assistance,346,343,-3,-0.8670520231213841,Percentage displayed,-0.8670520231213841
+Melbourne (CBD),Information Media and Telecommunications,72,85,13,18.055555555555557,Percentage displayed,18.055555555555557
+Melbourne (CBD),Manufacturing,194,202,8,4.123711340206193,Percentage displayed,4.123711340206193
+Melbourne (CBD),Mining,24,22,-2,-8.333333333333337,Percentage displayed,-8.333333333333337
+Melbourne (CBD),Other Services,736,805,69,9.375,Percentage displayed,9.375
+Melbourne (CBD),"Professional, Scientific and Technical Services",1383,1338,-45,-3.253796095444683,Percentage displayed,-3.253796095444683
+Melbourne (CBD),Public Administration and Safety,130,121,-9,-6.923076923076921,Percentage displayed,-6.923076923076921
+Melbourne (CBD),"Rental, Hiring and Real Estate Services",198,198,0,0,Percentage displayed,0
+Melbourne (CBD),Retail Trade,1098,1135,37,3.3697632058287796,Percentage displayed,3.3697632058287796
+Melbourne (CBD),"Transport, Postal and Warehousing",54,50,-4,-7.4074074074074066,Percentage displayed,-7.4074074074074066
+Melbourne (CBD),Wholesale Trade,91,88,-3,-3.296703296703296,Percentage displayed,-3.296703296703296
+Melbourne (Remainder),Accommodation and Food Services,43,42,-1,-2.3255813953488413,Percentage displayed,-2.3255813953488413
+Melbourne (Remainder),Administrative and Support Services,7,6,-1,-14.28571428571429,Starting count below 20,NA
+Melbourne (Remainder),"Agriculture, Forestry and Fishing",NA,NA,NA,NA,Unknown in at least one year,NA
+Melbourne (Remainder),Arts and Recreation Services,22,21,-1,-4.545454545454541,Percentage displayed,-4.545454545454541
+Melbourne (Remainder),Construction,8,8,0,0,Starting count below 20,NA
+Melbourne (Remainder),Education and Training,4,4,0,0,Starting count below 20,NA
+Melbourne (Remainder),"Electricity, Gas, Water and Waste Services",1,1,0,0,Starting count below 20,NA
+Melbourne (Remainder),Financial and Insurance Services,19,15,-4,-21.052631578947366,Starting count below 20,NA
+Melbourne (Remainder),Health Care and Social Assistance,53,54,1,1.8867924528301883,Percentage displayed,1.8867924528301883
+Melbourne (Remainder),Information Media and Telecommunications,1,1,0,0,Starting count below 20,NA
+Melbourne (Remainder),Manufacturing,4,4,0,0,Starting count below 20,NA
+Melbourne (Remainder),Mining,NA,NA,NA,NA,Unknown in at least one year,NA
+Melbourne (Remainder),Other Services,13,10,-3,-23.076923076923073,Starting count below 20,NA
+Melbourne (Remainder),"Professional, Scientific and Technical Services",17,16,-1,-5.882352941176472,Starting count below 20,NA
+Melbourne (Remainder),Public Administration and Safety,4,3,-1,-25,Starting count below 20,NA
+Melbourne (Remainder),"Rental, Hiring and Real Estate Services",7,9,2,28.57142857142858,Starting count below 20,NA
+Melbourne (Remainder),Retail Trade,15,15,0,0,Starting count below 20,NA
+Melbourne (Remainder),"Transport, Postal and Warehousing",5,5,0,0,Starting count below 20,NA
+Melbourne (Remainder),Wholesale Trade,4,4,0,0,Starting count below 20,NA
+North Melbourne,Accommodation and Food Services,125,133,8,6.400000000000006,Percentage displayed,6.400000000000006
+North Melbourne,Administrative and Support Services,29,25,-4,-13.793103448275868,Percentage displayed,-13.793103448275868
+North Melbourne,"Agriculture, Forestry and Fishing",2,1,-1,-50,Starting count below 20,NA
+North Melbourne,Arts and Recreation Services,36,41,5,13.888888888888884,Percentage displayed,13.888888888888884
+North Melbourne,Construction,20,30,10,50,Percentage displayed,50
+North Melbourne,Education and Training,29,34,5,17.24137931034482,Percentage displayed,17.24137931034482
+North Melbourne,"Electricity, Gas, Water and Waste Services",NA,NA,NA,NA,Unknown in at least one year,NA
+North Melbourne,Financial and Insurance Services,10,8,-2,-19.999999999999996,Starting count below 20,NA
+North Melbourne,Health Care and Social Assistance,80,96,16,19.999999999999996,Percentage displayed,19.999999999999996
+North Melbourne,Information Media and Telecommunications,12,10,-2,-16.666666666666664,Starting count below 20,NA
+North Melbourne,Manufacturing,32,34,2,6.25,Percentage displayed,6.25
+North Melbourne,Mining,NA,NA,NA,NA,Unknown in at least one year,NA
+North Melbourne,Other Services,104,100,-4,-3.8461538461538436,Percentage displayed,-3.8461538461538436
+North Melbourne,"Professional, Scientific and Technical Services",117,111,-6,-5.128205128205132,Percentage displayed,-5.128205128205132
+North Melbourne,Public Administration and Safety,7,8,1,14.28571428571428,Starting count below 20,NA
+North Melbourne,"Rental, Hiring and Real Estate Services",18,20,2,11.111111111111116,Starting count below 20,NA
+North Melbourne,Retail Trade,74,76,2,2.7027027027026973,Percentage displayed,2.7027027027026973
+North Melbourne,"Transport, Postal and Warehousing",12,14,2,16.666666666666675,Starting count below 20,NA
+North Melbourne,Wholesale Trade,35,38,3,8.571428571428562,Percentage displayed,8.571428571428562
+Parkville,Accommodation and Food Services,65,74,9,13.846153846153841,Percentage displayed,13.846153846153841
+Parkville,Administrative and Support Services,2,2,0,0,Starting count below 20,NA
+Parkville,"Agriculture, Forestry and Fishing",NA,NA,NA,NA,Unknown in at least one year,NA
+Parkville,Arts and Recreation Services,13,12,-1,-7.692307692307687,Starting count below 20,NA
+Parkville,Construction,NA,1,NA,NA,Unknown in at least one year,NA
+Parkville,Education and Training,60,53,-7,-11.66666666666667,Percentage displayed,-11.66666666666667
+Parkville,"Electricity, Gas, Water and Waste Services",NA,NA,NA,NA,Unknown in at least one year,NA
+Parkville,Financial and Insurance Services,5,5,0,0,Starting count below 20,NA
+Parkville,Health Care and Social Assistance,75,79,4,5.333333333333323,Percentage displayed,5.333333333333323
+Parkville,Information Media and Telecommunications,NA,NA,NA,NA,Unknown in at least one year,NA
+Parkville,Manufacturing,1,NA,NA,NA,Unknown in at least one year,NA
+Parkville,Mining,NA,NA,NA,NA,Unknown in at least one year,NA
+Parkville,Other Services,12,10,-2,-16.666666666666664,Starting count below 20,NA
+Parkville,"Professional, Scientific and Technical Services",14,17,3,21.42857142857142,Starting count below 20,NA
+Parkville,Public Administration and Safety,2,1,-1,-50,Starting count below 20,NA
+Parkville,"Rental, Hiring and Real Estate Services",1,1,0,0,Starting count below 20,NA
+Parkville,Retail Trade,14,14,0,0,Starting count below 20,NA
+Parkville,"Transport, Postal and Warehousing",2,2,0,0,Starting count below 20,NA
+Parkville,Wholesale Trade,1,1,0,0,Starting count below 20,NA
+Port Melbourne,Accommodation and Food Services,17,19,2,11.764705882352944,Starting count below 20,NA
+Port Melbourne,Administrative and Support Services,21,21,0,0,Percentage displayed,0
+Port Melbourne,"Agriculture, Forestry and Fishing",1,1,0,0,Starting count below 20,NA
+Port Melbourne,Arts and Recreation Services,7,8,1,14.28571428571428,Starting count below 20,NA
+Port Melbourne,Construction,59,67,8,13.559322033898313,Percentage displayed,13.559322033898313
+Port Melbourne,Education and Training,7,5,-2,-28.57142857142857,Starting count below 20,NA
+Port Melbourne,"Electricity, Gas, Water and Waste Services",4,5,1,25,Starting count below 20,NA
+Port Melbourne,Financial and Insurance Services,5,5,0,0,Starting count below 20,NA
+Port Melbourne,Health Care and Social Assistance,5,6,1,19.999999999999996,Starting count below 20,NA
+Port Melbourne,Information Media and Telecommunications,20,21,1,5.000000000000004,Percentage displayed,5.000000000000004
+Port Melbourne,Manufacturing,71,82,11,15.492957746478876,Percentage displayed,15.492957746478876
+Port Melbourne,Mining,NA,NA,NA,NA,Unknown in at least one year,NA
+Port Melbourne,Other Services,15,19,4,26.66666666666666,Starting count below 20,NA
+Port Melbourne,"Professional, Scientific and Technical Services",61,60,-1,-1.6393442622950838,Percentage displayed,-1.6393442622950838
+Port Melbourne,Public Administration and Safety,15,15,0,0,Starting count below 20,NA
+Port Melbourne,"Rental, Hiring and Real Estate Services",18,15,-3,-16.666666666666664,Starting count below 20,NA
+Port Melbourne,Retail Trade,24,29,5,20.833333333333325,Percentage displayed,20.833333333333325
+Port Melbourne,"Transport, Postal and Warehousing",26,35,9,34.61538461538463,Percentage displayed,34.61538461538463
+Port Melbourne,Wholesale Trade,46,51,5,10.869565217391308,Percentage displayed,10.869565217391308
+South Yarra,Accommodation and Food Services,11,11,0,0,Starting count below 20,NA
+South Yarra,Administrative and Support Services,1,1,0,0,Starting count below 20,NA
+South Yarra,"Agriculture, Forestry and Fishing",NA,NA,NA,NA,Unknown in at least one year,NA
+South Yarra,Arts and Recreation Services,1,1,0,0,Starting count below 20,NA
+South Yarra,Construction,NA,NA,NA,NA,Unknown in at least one year,NA
+South Yarra,Education and Training,7,7,0,0,Starting count below 20,NA
+South Yarra,"Electricity, Gas, Water and Waste Services",NA,NA,NA,NA,Unknown in at least one year,NA
+South Yarra,Financial and Insurance Services,NA,NA,NA,NA,Unknown in at least one year,NA
+South Yarra,Health Care and Social Assistance,1,1,0,0,Starting count below 20,NA
+South Yarra,Information Media and Telecommunications,1,1,0,0,Starting count below 20,NA
+South Yarra,Manufacturing,1,1,0,0,Starting count below 20,NA
+South Yarra,Mining,NA,NA,NA,NA,Unknown in at least one year,NA
+South Yarra,Other Services,7,6,-1,-14.28571428571429,Starting count below 20,NA
+South Yarra,"Professional, Scientific and Technical Services",NA,NA,NA,NA,Unknown in at least one year,NA
+South Yarra,Public Administration and Safety,1,1,0,0,Starting count below 20,NA
+South Yarra,"Rental, Hiring and Real Estate Services",NA,NA,NA,NA,Unknown in at least one year,NA
+South Yarra,Retail Trade,4,4,0,0,Starting count below 20,NA
+South Yarra,"Transport, Postal and Warehousing",NA,NA,NA,NA,Unknown in at least one year,NA
+South Yarra,Wholesale Trade,NA,NA,NA,NA,Unknown in at least one year,NA
+Southbank,Accommodation and Food Services,212,202,-10,-4.716981132075471,Percentage displayed,-4.716981132075471
+Southbank,Administrative and Support Services,23,19,-4,-17.391304347826086,Percentage displayed,-17.391304347826086
+Southbank,"Agriculture, Forestry and Fishing",2,2,0,0,Starting count below 20,NA
+Southbank,Arts and Recreation Services,35,32,-3,-8.571428571428575,Percentage displayed,-8.571428571428575
+Southbank,Construction,22,21,-1,-4.545454545454541,Percentage displayed,-4.545454545454541
+Southbank,Education and Training,14,13,-1,-7.14285714285714,Starting count below 20,NA
+Southbank,"Electricity, Gas, Water and Waste Services",5,10,5,100,Starting count below 20,NA
+Southbank,Financial and Insurance Services,29,24,-5,-17.24137931034483,Percentage displayed,-17.24137931034483
+Southbank,Health Care and Social Assistance,28,32,4,14.28571428571428,Percentage displayed,14.28571428571428
+Southbank,Information Media and Telecommunications,14,14,0,0,Starting count below 20,NA
+Southbank,Manufacturing,11,10,-1,-9.090909090909093,Starting count below 20,NA
+Southbank,Mining,NA,NA,NA,NA,Unknown in at least one year,NA
+Southbank,Other Services,19,22,3,15.789473684210531,Starting count below 20,NA
+Southbank,"Professional, Scientific and Technical Services",89,91,2,2.2471910112359605,Percentage displayed,2.2471910112359605
+Southbank,Public Administration and Safety,7,8,1,14.28571428571428,Starting count below 20,NA
+Southbank,"Rental, Hiring and Real Estate Services",24,34,10,41.66666666666667,Percentage displayed,41.66666666666667
+Southbank,Retail Trade,216,211,-5,-2.314814814814814,Percentage displayed,-2.314814814814814
+Southbank,"Transport, Postal and Warehousing",8,8,0,0,Starting count below 20,NA
+Southbank,Wholesale Trade,12,11,-1,-8.333333333333337,Starting count below 20,NA
+West Melbourne (Industrial),Accommodation and Food Services,3,4,1,33.33333333333333,Starting count below 20,NA
+West Melbourne (Industrial),Administrative and Support Services,2,1,-1,-50,Starting count below 20,NA
+West Melbourne (Industrial),"Agriculture, Forestry and Fishing",NA,NA,NA,NA,Unknown in at least one year,NA
+West Melbourne (Industrial),Arts and Recreation Services,2,2,0,0,Starting count below 20,NA
+West Melbourne (Industrial),Construction,8,7,-1,-12.5,Starting count below 20,NA
+West Melbourne (Industrial),Education and Training,NA,NA,NA,NA,Unknown in at least one year,NA
+West Melbourne (Industrial),"Electricity, Gas, Water and Waste Services",3,4,1,33.33333333333333,Starting count below 20,NA
+West Melbourne (Industrial),Financial and Insurance Services,NA,NA,NA,NA,Unknown in at least one year,NA
+West Melbourne (Industrial),Health Care and Social Assistance,NA,1,NA,NA,Unknown in at least one year,NA
+West Melbourne (Industrial),Information Media and Telecommunications,NA,NA,NA,NA,Unknown in at least one year,NA
+West Melbourne (Industrial),Manufacturing,5,6,1,19.999999999999996,Starting count below 20,NA
+West Melbourne (Industrial),Mining,NA,NA,NA,NA,Unknown in at least one year,NA
+West Melbourne (Industrial),Other Services,5,6,1,19.999999999999996,Starting count below 20,NA
+West Melbourne (Industrial),"Professional, Scientific and Technical Services",4,3,-1,-25,Starting count below 20,NA
+West Melbourne (Industrial),Public Administration and Safety,1,1,0,0,Starting count below 20,NA
+West Melbourne (Industrial),"Rental, Hiring and Real Estate Services",2,2,0,0,Starting count below 20,NA
+West Melbourne (Industrial),Retail Trade,7,6,-1,-14.28571428571429,Starting count below 20,NA
+West Melbourne (Industrial),"Transport, Postal and Warehousing",27,25,-2,-7.4074074074074066,Percentage displayed,-7.4074074074074066
+West Melbourne (Industrial),Wholesale Trade,30,28,-2,-6.666666666666665,Percentage displayed,-6.666666666666665
+West Melbourne (Residential),Accommodation and Food Services,50,64,14,28.000000000000004,Percentage displayed,28.000000000000004
+West Melbourne (Residential),Administrative and Support Services,7,4,-3,-42.85714285714286,Starting count below 20,NA
+West Melbourne (Residential),"Agriculture, Forestry and Fishing",NA,NA,NA,NA,Unknown in at least one year,NA
+West Melbourne (Residential),Arts and Recreation Services,12,13,1,8.333333333333325,Starting count below 20,NA
+West Melbourne (Residential),Construction,15,15,0,0,Starting count below 20,NA
+West Melbourne (Residential),Education and Training,16,19,3,18.75,Starting count below 20,NA
+West Melbourne (Residential),"Electricity, Gas, Water and Waste Services",NA,NA,NA,NA,Unknown in at least one year,NA
+West Melbourne (Residential),Financial and Insurance Services,6,8,2,33.33333333333333,Starting count below 20,NA
+West Melbourne (Residential),Health Care and Social Assistance,20,23,3,14.999999999999991,Percentage displayed,14.999999999999991
+West Melbourne (Residential),Information Media and Telecommunications,7,7,0,0,Starting count below 20,NA
+West Melbourne (Residential),Manufacturing,11,12,1,9.090909090909083,Starting count below 20,NA
+West Melbourne (Residential),Mining,1,1,0,0,Starting count below 20,NA
+West Melbourne (Residential),Other Services,30,45,15,50,Percentage displayed,50
+West Melbourne (Residential),"Professional, Scientific and Technical Services",73,80,7,9.589041095890405,Percentage displayed,9.589041095890405
+West Melbourne (Residential),Public Administration and Safety,4,4,0,0,Starting count below 20,NA
+West Melbourne (Residential),"Rental, Hiring and Real Estate Services",5,8,3,60.00000000000001,Starting count below 20,NA
+West Melbourne (Residential),Retail Trade,31,39,8,25.806451612903224,Percentage displayed,25.806451612903224
+West Melbourne (Residential),"Transport, Postal and Warehousing",7,6,-1,-14.28571428571429,Starting count below 20,NA
+West Melbourne (Residential),Wholesale Trade,14,16,2,14.28571428571428,Starting count below 20,NA

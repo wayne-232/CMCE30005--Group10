@@ -32,8 +32,8 @@ support and construction. Case 5 is the largest hospitality gap outside the
 CBD, Southbank, chosen as a contrast because hospitality drives the city's
 recovery. CBD health care ranks fourth by gap but lost only three
 establishments after 2022, so it is exported as a watch list
-(`case_watch_list.csv`). The five account for a gap of 876 and a further loss
-of 114 after 2022.
+(`case_watch_list.csv`). The five account for a gap of 876 from 2019, including
+the 114 establishments lost after 2022.
 
 Policy timelines, trial designs and programme evaluation are outside scope.
 Model validation stays in the report because it is needed to support the
@@ -50,7 +50,8 @@ feedback revision.
 3. Tests check source totals, missing-cell treatment, exact two-year joins,
    identical evaluation samples and temporal leakage.
 4. Every model prediction, score, chosen setting and excluded cell is exported.
-   A single command runs the tests and rebuilds both reports.
+   A single command runs the tests, rebuilds all three analytical reports and
+   exports the six final report figures.
 
 The presentation's original modelling code was not available. This is an
 independent rebuild, not a claim to recover its implementation. The no-change
@@ -106,13 +107,20 @@ We do not claim that one historical evaluation proves future reliability.
 
 - `scripts/descriptive_followup.R`: observed patterns and transparent review lists.
 - `scripts/predictive_models.R`: panel, time splits, fitting and error analysis.
+- `scripts/07_peer_comparison_review.R`: same-industry peer comparisons and sensitivity checks.
+- `scripts/08_visual_review.R`: the six final report figures and their underlying tables.
 - `scripts/run_final_analysis.R`: tests and report rendering.
 - `tests/test_analysis.R`: original data-audit checks under both scopes.
 - `tests/test_final_analysis.R`: additional descriptive and model checks.
+- `tests/test_peer_comparison_review.R`: independent peer-comparison and case-selection checks.
+- `tests/test_visual_review.R`: chart membership, source arithmetic and display-rule checks.
 - `outputs/tables/final/descriptive/`: findings, comparisons and five chart PNGs.
 - `outputs/tables/final/predictive/`: models, scores, coverage and diagnostics.
 - `outputs/tables/final/scope_sensitivity/`: alternative-population check.
 - `outputs/tables/final/validation/`: test log, checksums and package versions.
+- `outputs/tables/final/deeper_review/`: peer comparisons, historical context and case sensitivity.
+- `outputs/tables/final/visual_review/`: chart data and display rules.
+- `outputs/figures/final/visual_review/`: the six report figures.
 
 Use `Rscript scripts/install_dependencies.R` once if packages are missing, then
 `Rscript scripts/run_final_analysis.R` from the repository root.

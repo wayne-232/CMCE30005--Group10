@@ -1,0 +1,231 @@
+---
+title: "SME recovery: comparing the five cases with industry peers"
+author: "Group 10"
+date: "23 October 2026"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 2
+    code_folding: hide
+    self_contained: true
+    theme: readable
+  github_document:
+    toc: true
+    toc_depth: 2
+    html_preview: false
+---
+
+```{r setup, include=FALSE}
+# Find the repository from either the repository root or the analysis folder.
+# Rendering rebuilds the supplement from the original aggregated CSV. It does
+# not install packages, change the raw data, or contact any remote service.
+roots <- c(".", "..")
+roots <- roots[file.exists(file.path(roots, "scripts/07_peer_comparison_review.R"))]
+if (!length(roots)) stop("Render inside the complete project repository.")
+ROOT <- normalizePath(roots[1])
+options(warn = 2, knitr.kable.NA = "Unknown")
+source(file.path(ROOT, "scripts/07_peer_comparison_review.R"), local = TRUE)
+review <- run_peer_review(ROOT, make_figures = TRUE)
+tables <- review$tables
+recent <- tables$peer_comparisons[tables$peer_comparisons$start_year == 2022, ]
+before <- tables$peer_comparisons[tables$peer_comparisons$start_year == 2017, ]
+number <- function(x) format(round(x), big.mark = ",", trim = TRUE)
+pct <- function(x) sprintf("%+.1f%%", x)
+pp <- function(x) sprintf("%+.1f pp", x)
+show_table <- function(x, ...) knitr::kable(x, row.names = FALSE, ...)
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = TRUE,
+  error = FALSE, out.width = "100%")
+```
+
+# 1. What this adds to the report
+
+The five cases all lost SME establishments between 2022 and 2024. The next
+question is whether the same industries also lost establishments elsewhere.
+That distinction changes the reason for selecting each case for closer review.
+
+Three groups declined while their industry peers grew: **CBD professional
+services, CBD construction and Southbank hospitality**. CBD finance and
+administrative services also declined, but less sharply than their peers.
+Their importance comes from the size of their remaining historical gaps.
+
+The comparisons describe differences in business presence. They do not measure
+the effect of COVID or predict the effect of a support programme.
+
+# 2. Data and comparison method
+
+We use the supplied CLUE file
+`business-establishments-and-jobs-data-by-business-size-and-anzsic.csv`.
+Small and Medium business categories are summed within each census year,
+precinct and ANZSIC division. These categories cover establishments with
+1–199 jobs. Missing job counts do not affect the establishment totals.
+
+For each case, its reference is the **same industry in all other precincts**.
+The focal precinct is excluded so it cannot influence its own benchmark.
+We pool the counts before calculating growth: a precinct with one business
+does not receive the same weight as one with hundreds.
+
+```{r method-example}
+# An example using the CBD professional-services case, 2022 to 2024.
+# These quantities are rebuilt from the raw source by run_peer_review().
+example <- recent[recent$case_rank == 1, ]
+peer_growth <- example$peer_end / example$peer_start - 1
+benchmark_count <- example$n_start * (1 + peer_growth)
+observed_minus_benchmark <- example$n_end - benchmark_count
+```
+
+The CBD had `r number(example$n_start)` professional-services SMEs in 2022.
+Applying the `r pct(100 * peer_growth)` growth of professional services
+outside the CBD gives a comparison count of about `r number(benchmark_count)`
+in 2024. The observed count was `r number(example$n_end)`, about
+`r number(abs(observed_minus_benchmark))` below that reference.
+The reference is a descriptive calculation, not a forecast or an estimate of
+businesses lost because of a particular policy or event.
+
+Comparisons use years at least two years apart. An absent precinct–industry–year
+cell stays unknown. Published peer totals are accompanied by a matched-peer
+check using only precincts observed in both years.
+
+# 3. Recent change: three distinct local gaps
+
+```{r recent-figure, echo=FALSE}
+knitr::include_graphics(file.path(ROOT,
+  "outputs/figures/final/deeper_review/recent_peer_comparison.png"))
+```
+
+```{r recent-table, echo=FALSE}
+display <- data.frame(
+  Group = recent$label,
+  `Local growth` = pct(recent$local_growth_pct),
+  `Peer growth` = pct(recent$peer_growth_pct),
+  `Difference` = pp(recent$growth_gap_pp),
+  `Observed minus benchmark` = sprintf("%+.1f", recent$observed_minus_benchmark),
+  check.names = FALSE)
+show_table(display)
+```
+
+The professional-services gap combines a large existing sector with recent
+underperformance. Construction has the widest percentage-point difference,
+but starts from a smaller count. Southbank hospitality moves in the opposite
+direction to hospitality elsewhere. Finance and administrative services need
+a different explanation: their decline is shared across precincts, and the
+CBD performed relatively better during this recent period.
+
+The five cases together remain `r number(review$summary$selected_case_shortfall_2019)`
+SMEs below their 2019 counts. Their `r number(abs(review$summary$selected_case_recent_change))`
+net loss since 2022 is part of that historical gap; the two numbers must not
+be added together.
+
+# 4. Was relative weakness already present before 2020?
+
+```{r pre-recent-figure, echo=FALSE}
+knitr::include_graphics(file.path(ROOT,
+  "outputs/figures/final/deeper_review/pre_recent_comparison.png"))
+```
+
+CBD professional services grew more slowly than peers in both 2017–2019
+(`r pp(before$growth_gap_pp[1])`) and 2022–2024 (`r pp(recent$growth_gap_pp[1])`).
+This recent gap is not entirely new. Construction and Southbank hospitality
+were ahead of peers in the earlier window and behind them in the recent one.
+
+Earlier windows give a mixed picture. Professional services underperformed in
+only three of eight non-overlapping pre-period comparisons from 2003–2005 to
+2017–2019, and outperformed peers in 2020–2022. The alternate even-year
+pre-period scheme gives five of eight underperformances. We therefore describe
+weakness in the two selected windows without claiming an uninterrupted
+historical trend or a permanent structural break.
+
+```{r history-figure, echo=FALSE}
+knitr::include_graphics(file.path(ROOT,
+  "outputs/figures/final/deeper_review/full_two_year_history.png"))
+```
+
+# 5. How much do the cases depend on our choices?
+
+## Recent-decline cutoff
+
+The four scale cases are the largest 2019–2024 shortfalls among groups that
+also declined by at least 2% in 2022–2024. The fifth case is selected separately:
+the largest hospitality shortfall outside the CBD among continuing declines.
+
+The same four scale cases appear with a 1%, 2% or 3% recent-decline cutoff.
+At 0%, CBD health care replaces construction. At 5%, only two of the four
+original scale cases remain. The 2% cutoff is a practical case-selection
+choice, not a test of statistical significance.
+
+```{r threshold-table, echo=FALSE}
+s <- tables$threshold_stability
+s <- s[s$baseline_year == 2019, ]
+show_table(data.frame(
+  `Recent decline cutoff` = paste0(s$threshold_pct, "%"),
+  `Original four retained` = paste0(s$original_scale_cases_retained, "/4"),
+  `Same four cases` = ifelse(s$same_scale_set_as_2019_two_percent, "Yes", "No"),
+  check.names = FALSE))
+```
+
+## Baseline year
+
+Using 2018 changes the shortlist. North Melbourne professional services
+replaces CBD construction, and Docklands replaces Southbank as the hospitality
+contrast. The first three CBD cases remain. All original five still have
+fewer SMEs in 2024 than in either baseline year, but their ranking and gap sizes
+depend on that choice.
+
+```{r baseline-table, echo=FALSE}
+b <- tables$baseline_sensitivity
+b18 <- b[b$baseline_year == 2018, ]
+b19 <- b[b$baseline_year == 2019, ]
+show_table(data.frame(Group = b18$label,
+  `2018 count` = b18$n_baseline, `2019 count` = b19$n_baseline,
+  `2024 count` = b18$n_2024,
+  `Change from 2018` = pct(b18$baseline_change_pct),
+  `Change from 2019` = pct(b19$baseline_change_pct), check.names = FALSE))
+```
+
+This matters most for Southbank hospitality: 2024 is just 1.9% below 2018,
+compared with 14.4% below 2019. Its recent underperformance remains, but the
+size of its historical shortfall should be tied explicitly to the 2019 baseline.
+The complete alternative roster is exported in `baseline_case_selection.csv`.
+
+## Peer composition
+
+Excluding the CBD as well as Southbank still leaves hospitality peers growing
+by `r pct(tables$hospitality_reference_sensitivity$peer_growth_pct[2])`, compared
+with Southbank's `r pct(recent$local_growth_pct[5])`. The local divergence is
+not explained solely by a strong CBD rebound.
+
+Construction has one establishment in a newly observed peer cell in 2024.
+Using only peer precincts observed in both years reduces peer growth from
+13.9% to 13.3%. It does not change the conclusion. Every exported comparison
+includes peer coverage and matched-peer growth so this can be checked directly.
+
+# 6. What this means for the report
+
+Use the peer comparison to explain **why** each case is important. Professional
+services, construction and Southbank hospitality show local underperformance
+against growing peers. Finance and administrative services show large
+remaining gaps within industries that also declined elsewhere.
+
+This supports differentiated priorities for further investigation. It does
+not establish the causes of the gaps, identify individual business closures,
+or show which intervention would work. Those claims need additional evidence.
+
+# 7. Reproducibility
+
+The supplement is built by `scripts/07_peer_comparison_review.R`; it can also
+be sourced and run as `run_peer_review(root, make_figures = TRUE)`. Tables and
+figures are written under `outputs/*/final/deeper_review/`. The source checksum
+and R session details are saved alongside them. The raw file is unchanged.
+
+`tests/test_peer_comparison_review.R` independently recomputes comparisons,
+rankings and history from the raw CSV, and checks missing-cell behaviour,
+zero denominators and the two-year comparison rule. Run it with:
+
+```{r test-command, eval=FALSE}
+# From the repository root, in a terminal:
+# Rscript tests/test_peer_comparison_review.R
+```
+
+```{r session-info}
+sessionInfo()
+```

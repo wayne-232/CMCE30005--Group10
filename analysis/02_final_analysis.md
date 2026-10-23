@@ -1,7 +1,7 @@
 Melbourne SME recovery: where business presence remains weak
 ================
 Group 10
-21 October 2026
+23 October 2026
 
 - [1. The question and the answer](#1-the-question-and-the-answer)
 - [2. What we did with the data](#2-what-we-did-with-the-data)
@@ -52,9 +52,15 @@ pre { overflow-x: auto; }
 
 # 1. The question and the answer
 
-**Research question:** Which precinct–industry groups show the greatest
-evidence of persistent SME weakness, and where should the City
-prioritise further support?
+**Research question:** Which precinct–industry groups in Melbourne show
+persistent SME establishment shortfalls, and how can their historical
+and recent recovery patterns inform priorities for further investigation
+and potential support?
+
+The [peer comparison supplement](03_peer_comparison_review.html) extends
+these results with same-industry comparisons outside each case’s
+precinct, historical context, and sensitivity to the screening cutoff
+and baseline year.
 
 The Lord Mayor needs evidence to focus attention across a city with
 uneven business recovery. A rising city total can hide industries that
@@ -78,10 +84,11 @@ Three findings matter:
   same city total and should not be added together.
 - **Five groups make the remaining weakness concrete.** CBD professional
   services, finance, administrative support and construction have the
-  largest 2019 shortfalls among groups still falling after 2022.
-  Southbank hospitality shows that the hospitality recovery has not
-  reached every precinct. Together, the five account for 876 fewer
-  establishments than in 2019 and a further loss of 114 after 2022.
+  largest 2019 shortfalls among groups that fell by at least 2%
+  after 2022. Southbank hospitality shows that the hospitality recovery
+  has not reached every precinct. Together, the five account for 876
+  fewer establishments than in 2019 and a further loss of 114 after
+  2022.
 
 The recommendations follow these observed patterns. Forecast comparisons
 help explain why we have not used a model-generated ranking of future
@@ -155,7 +162,7 @@ not a CLUE rule. Small groups remain in city totals.
 
 ## 3.1 The city is growing again, but remains below 2019
 
-<img src="02_final_analysis_files/figure-gfm/city-chart-1.png" width="100%" />
+<img src="02_final_analysis_files/figure-gfm/city-chart-1.png" alt="" width="100%" />
 
 The count fell by 2,935 between 2019 and 2022, then rose by 483 by 2024.
 The remaining gap is 2,452 establishments. This is net change in
@@ -164,7 +171,7 @@ COVID-19.
 
 ## 3.2 The CBD has the largest gap and the largest recent gain
 
-<img src="02_final_analysis_files/figure-gfm/precinct-chart-1.png" width="100%" />
+<img src="02_final_analysis_files/figure-gfm/precinct-chart-1.png" alt="" width="100%" />
 
 All 13 precincts remained below their 2019 counts. 8 increased after
 2022. The CBD accounts for 65.0% of the remaining city shortfall and
@@ -173,7 +180,7 @@ occur in the same precinct.
 
 ## 3.3 Hospitality gains coexist with continuing service-sector losses
 
-<img src="02_final_analysis_files/figure-gfm/industry-chart-1.png" width="100%" />
+<img src="02_final_analysis_files/figure-gfm/industry-chart-1.png" alt="" width="100%" />
 
 Accommodation and Food Services added 214 establishments city-wide.
 Industry gains totalled 601; industry losses totalled 118, leaving a net
@@ -207,15 +214,15 @@ account for 35.7% of the city’s remaining net shortfall. Other groups
 still matter: the full screen is exported, including 53 groups with a
 baseline below 100 in at least one comparison.
 
-<img src="02_final_analysis_files/figure-gfm/five-cases-chart-1.png" width="100%" />
+<img src="02_final_analysis_files/figure-gfm/five-cases-chart-1.png" alt="" width="100%" />
 
-| Precinct        | Industry                                        | 2019  | 2022  | 2024  | 2019-2024 change | 2022-2024 change |
-|:----------------|:------------------------------------------------|:------|:------|:------|:-----------------|:-----------------|
-| Melbourne (CBD) | Professional, Scientific and Technical Services | 1,788 | 1,383 | 1,338 | -25.2%           | -3.3%            |
-| Melbourne (CBD) | Financial and Insurance Services                | 719   | 554   | 534   | -25.7%           | -3.6%            |
-| Melbourne (CBD) | Administrative and Support Services             | 381   | 243   | 219   | -42.5%           | -9.9%            |
-| Melbourne (CBD) | Construction                                    | 141   | 111   | 96    | -31.9%           | -13.5%           |
-| Southbank       | Accommodation and Food Services                 | 236   | 212   | 202   | -14.4%           | -4.7%            |
+| Precinct | Industry | 2019 | 2022 | 2024 | 2019-2024 change | 2022-2024 change |
+|:---|:---|:---|:---|:---|:---|:---|
+| Melbourne (CBD) | Professional, Scientific and Technical Services | 1,788 | 1,383 | 1,338 | -25.2% | -3.3% |
+| Melbourne (CBD) | Financial and Insurance Services | 719 | 554 | 534 | -25.7% | -3.6% |
+| Melbourne (CBD) | Administrative and Support Services | 381 | 243 | 219 | -42.5% | -9.9% |
+| Melbourne (CBD) | Construction | 141 | 111 | 96 | -31.9% | -13.5% |
+| Southbank | Accommodation and Food Services | 236 | 212 | 202 | -14.4% | -4.7% |
 
 ## 4.2 What each case tells the City
 
@@ -351,11 +358,11 @@ before t**. The train/test separation applies to time, not a random
 selection of rows.
 
 | Training origins | Last observed training outcome | Validation period | Training rows |
-|:-----------------|-------------------------------:|:------------------|--------------:|
-| 2004-2012        |                           2014 | 2014-2016         |          1042 |
-| 2004-2014        |                           2016 | 2016-2018         |          1247 |
-| 2004-2016        |                           2018 | 2018-2020         |          1450 |
-| 2004-2018        |                           2020 | 2020-2022         |          1657 |
+|:---|---:|:---|---:|
+| 2004-2012 | 2014 | 2014-2016 | 1042 |
+| 2004-2014 | 2016 | 2016-2018 | 1247 |
+| 2004-2016 | 2018 | 2018-2020 | 1450 |
+| 2004-2018 | 2020 | 2020-2022 | 1657 |
 
 The tree grid tests pruning parameters 0.001, 0.01 and 0.05, with
 minimum leaf sizes of 5 or 10. Boosting tests depths 1 or 2 and 100 or
@@ -381,7 +388,7 @@ MAE is the average absolute error, in establishments per group. RMSE
 gives large errors more weight. Mean error is predicted minus actual
 change: negative values indicate underprediction.
 
-<img src="02_final_analysis_files/figure-gfm/model-accuracy-1.png" width="100%" />
+<img src="02_final_analysis_files/figure-gfm/model-accuracy-1.png" alt="" width="100%" />
 
 The evaluation includes 207 of 210 published starting groups and 100.0%
 of their establishments. The matched sample gained 481 establishments,
@@ -404,7 +411,7 @@ That is a pattern in the evaluation sample, not proof that every group
 is stable. Only 21.3% had exactly zero change. Large changes still
 matter.
 
-<img src="02_final_analysis_files/figure-gfm/size-errors-1.png" width="100%" />
+<img src="02_final_analysis_files/figure-gfm/size-errors-1.png" alt="" width="100%" />
 
 The ten largest errors account for 45.9% of total absolute error. The
 no-change prediction misses the matched sample’s net gain of 481. We
@@ -414,16 +421,16 @@ forecast cannot rank which groups will recover fastest.
 
 ## A.5 What changes when non-employing establishments are included?
 
-| Scope                          | Model             | Matched cells |  MAE |  RMSE | Observed net change |
-|:-------------------------------|:------------------|--------------:|-----:|------:|--------------------:|
-| Small + Medium                 | Gradient boosting |           207 | 5.85 | 22.22 |                 481 |
-| Small + Medium                 | No change         |           207 | 5.13 | 15.45 |                 481 |
-| Small + Medium                 | OLS               |           207 | 6.17 | 20.22 |                 481 |
-| Small + Medium                 | Pruned tree       |           207 | 5.77 | 20.91 |                 481 |
-| Small + Medium + Non employing | Gradient boosting |           207 | 5.84 | 21.14 |                 458 |
-| Small + Medium + Non employing | No change         |           207 | 5.12 | 14.94 |                 458 |
-| Small + Medium + Non employing | OLS               |           207 | 6.26 | 19.64 |                 458 |
-| Small + Medium + Non employing | Pruned tree       |           207 | 6.13 | 22.19 |                 458 |
+| Scope | Model | Matched cells | MAE | RMSE | Observed net change |
+|:---|:---|---:|---:|---:|---:|
+| Small + Medium | Gradient boosting | 207 | 5.85 | 22.22 | 481 |
+| Small + Medium | No change | 207 | 5.13 | 15.45 | 481 |
+| Small + Medium | OLS | 207 | 6.17 | 20.22 | 481 |
+| Small + Medium | Pruned tree | 207 | 5.77 | 20.91 | 481 |
+| Small + Medium + Non employing | Gradient boosting | 207 | 5.84 | 21.14 | 458 |
+| Small + Medium + Non employing | No change | 207 | 5.12 | 14.94 | 458 |
+| Small + Medium + Non employing | OLS | 207 | 6.26 | 19.64 | 458 |
+| Small + Medium + Non employing | Pruned tree | 207 | 6.13 | 22.19 | 458 |
 
 This check holds each model family’s main-analysis configuration fixed
 and compares identical group keys. It changes the population, so its
@@ -437,7 +444,7 @@ city**. For each matched industry, we multiply the local starting count
 by the rest-of-city industry’s observed growth factor. We then sum the
 comparison counts over the same cells as the observed counts.
 
-<img src="02_final_analysis_files/figure-gfm/industry-mix-chart-1.png" width="100%" />
+<img src="02_final_analysis_files/figure-gfm/industry-mix-chart-1.png" alt="" width="100%" />
 
 A negative value means local growth was below that descriptive
 comparison. It suggests a question for local investigation without
@@ -512,43 +519,39 @@ Claude (Anthropic) reviewed and extended the R code and edited the data
 sections. Codex (OpenAI) reviewed earlier versions of the R scripts. See
 `docs/AI_ASSISTANCE.md`. The group is responsible for the submission.
 
-    ## R version 4.3.3 (2024-02-29)
-    ## Platform: x86_64-pc-linux-gnu (64-bit)
-    ## Running under: Ubuntu 24.04.5 LTS
+    ## R version 4.5.3 (2026-03-11)
+    ## Platform: aarch64-apple-darwin20
+    ## Running under: macOS 27.0.1
     ## 
     ## Matrix products: default
-    ## BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 
-    ## LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0
+    ## BLAS:   /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRblas.0.dylib 
+    ## LAPACK: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
     ## 
     ## locale:
-    ##  [1] LC_CTYPE=C.UTF-8       LC_NUMERIC=C           LC_TIME=C.UTF-8       
-    ##  [4] LC_COLLATE=C.UTF-8     LC_MONETARY=C.UTF-8    LC_MESSAGES=C.UTF-8   
-    ##  [7] LC_PAPER=C.UTF-8       LC_NAME=C              LC_ADDRESS=C          
-    ## [10] LC_TELEPHONE=C         LC_MEASUREMENT=C.UTF-8 LC_IDENTIFICATION=C   
+    ## [1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8
     ## 
     ## time zone: Australia/Melbourne
-    ## tzcode source: system (glibc)
+    ## tzcode source: internal
     ## 
     ## attached base packages:
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] knitr_1.45      scales_1.3.0    lubridate_1.9.3 forcats_1.0.0  
-    ##  [5] stringr_1.5.1   dplyr_1.1.4     purrr_1.0.2     readr_2.1.5    
-    ##  [9] tidyr_1.3.1     tibble_3.2.1    ggplot2_3.4.4   tidyverse_2.0.0
+    ##  [1] knitr_1.51      scales_1.4.0    lubridate_1.9.5 forcats_1.0.1  
+    ##  [5] stringr_1.6.0   dplyr_1.2.0     purrr_1.2.1     readr_2.2.0    
+    ##  [9] tidyr_1.3.2     tibble_3.3.1    ggplot2_4.0.2   tidyverse_2.0.0
     ## 
     ## loaded via a namespace (and not attached):
-    ##  [1] sass_0.4.8        utf8_1.2.4        generics_0.1.3    stringi_1.8.3    
-    ##  [5] lattice_0.22-5    hms_1.1.3         digest_0.6.34     magrittr_2.0.3   
-    ##  [9] evaluate_0.23     grid_4.3.3        timechange_0.3.0  gbm_2.1.8.1      
-    ## [13] fastmap_1.1.1     jsonlite_1.8.8    Matrix_1.6-5      survival_3.5-8   
-    ## [17] fansi_1.0.5       textshaping_0.3.7 jquerylib_0.1.4   cli_3.6.2        
-    ## [21] crayon_1.5.2      rlang_1.1.3       bit64_4.0.5       munsell_0.5.0    
-    ## [25] splines_4.3.3     withr_2.5.0       cachem_1.0.8      yaml_2.3.8       
-    ## [29] parallel_4.3.3    tools_4.3.3       tzdb_0.4.0        colorspace_2.1-0 
-    ## [33] vctrs_0.6.5       R6_2.5.1          rpart_4.1.23      lifecycle_1.0.4  
-    ## [37] bit_4.0.5         vroom_1.6.5       ragg_1.2.7        pkgconfig_2.0.3  
-    ## [41] pillar_1.9.0      bslib_0.6.1       gtable_0.3.4      glue_1.7.0       
-    ## [45] systemfonts_1.0.5 highr_0.10        xfun_0.41         tidyselect_1.2.0 
-    ## [49] farver_2.1.1      htmltools_0.5.7   labeling_0.4.3    rmarkdown_2.25   
-    ## [53] compiler_4.3.3
+    ##  [1] sass_0.4.10        generics_0.1.4     stringi_1.8.7      lattice_0.22-9    
+    ##  [5] hms_1.1.4          digest_0.6.39      magrittr_2.0.4     timechange_0.4.0  
+    ##  [9] evaluate_1.0.5     grid_4.5.3         RColorBrewer_1.1-3 gbm_2.3.1         
+    ## [13] fastmap_1.2.0      jsonlite_2.0.0     Matrix_1.7-4       survival_3.8-6    
+    ## [17] textshaping_1.0.5  jquerylib_0.1.4    cli_3.6.5          crayon_1.5.3      
+    ## [21] rlang_1.1.7        bit64_4.6.0-1      splines_4.5.3      withr_3.0.2       
+    ## [25] cachem_1.1.0       yaml_2.3.12        otel_0.2.0         parallel_4.5.3    
+    ## [29] tools_4.5.3        tzdb_0.5.0         vctrs_0.7.1        R6_2.6.1          
+    ## [33] rpart_4.1.24       lifecycle_1.0.5    bit_4.6.0          vroom_1.7.0       
+    ## [37] ragg_1.5.1         pkgconfig_2.0.3    bslib_0.10.0       pillar_1.11.1     
+    ## [41] gtable_0.3.6       glue_1.8.0         systemfonts_1.3.2  xfun_0.56         
+    ## [45] tidyselect_1.2.1   farver_2.1.2       htmltools_0.5.9    labeling_0.4.3    
+    ## [49] rmarkdown_2.30     compiler_4.5.3     S7_0.2.1

@@ -3,7 +3,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2002,Carlton,Administrative and Support Services,40,NA,37,2004,2000,3.713572066704308,NA,-3,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Carlton,"Agriculture, Forestry and Fishing",NA,NA,NA,2004,2000,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2002,Carlton,Arts and Recreation Services,14,NA,18,2004,2000,2.70805020110221,NA,4,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
-2002,Carlton,Construction,13,NA,11,2004,2000,2.639057329615259,NA,-2,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2002,Carlton,Construction,13,NA,11,2004,2000,2.6390573296152584,NA,-2,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Carlton,Education and Training,58,NA,58,2004,2000,4.07753744390572,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Carlton,"Electricity, Gas, Water and Waste Services",NA,NA,NA,2004,2000,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2002,Carlton,Financial and Insurance Services,41,NA,44,2004,2000,3.7376696182833684,NA,3,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
@@ -13,7 +13,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2002,Carlton,Mining,NA,NA,NA,2004,2000,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2002,Carlton,Other Services,140,NA,152,2004,2000,4.948759890378168,NA,12,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Carlton,"Professional, Scientific and Technical Services",142,NA,152,2004,2000,4.962844630259907,NA,10,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
-2002,Carlton,Public Administration and Safety,13,NA,17,2004,2000,2.639057329615259,NA,4,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2002,Carlton,Public Administration and Safety,13,NA,17,2004,2000,2.6390573296152584,NA,4,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Carlton,"Rental, Hiring and Real Estate Services",15,NA,22,2004,2000,2.772588722239781,NA,7,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Carlton,Retail Trade,161,NA,163,2004,2000,5.087596335232384,NA,2,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Carlton,"Transport, Postal and Warehousing",8,NA,7,2004,2000,2.1972245773362196,NA,-1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
@@ -36,14 +36,14 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2002,Docklands,"Rental, Hiring and Real Estate Services",4,NA,2,2004,2000,1.6094379124341003,NA,-2,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Docklands,Retail Trade,11,NA,15,2004,2000,2.4849066497880004,NA,4,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Docklands,"Transport, Postal and Warehousing",30,NA,16,2004,2000,3.4339872044851463,NA,-14,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
-2002,Docklands,Wholesale Trade,2,NA,3,2004,2000,1.0986122886681096,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2002,Docklands,Wholesale Trade,2,NA,3,2004,2000,1.0986122886681098,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,East Melbourne,Accommodation and Food Services,45,NA,47,2004,2000,3.828641396489095,NA,2,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,East Melbourne,Administrative and Support Services,22,NA,20,2004,2000,3.1354942159291497,NA,-2,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,East Melbourne,"Agriculture, Forestry and Fishing",NA,NA,1,2004,2000,NA,NA,NA,TRUE,TRUE,FALSE,FALSE,No published origin-year cell
 2002,East Melbourne,Arts and Recreation Services,25,NA,26,2004,2000,3.258096538021482,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,East Melbourne,Construction,4,NA,4,2004,2000,1.6094379124341003,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,East Melbourne,Education and Training,12,NA,13,2004,2000,2.5649493574615367,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
-2002,East Melbourne,"Electricity, Gas, Water and Waste Services",2,NA,2,2004,2000,1.0986122886681096,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2002,East Melbourne,"Electricity, Gas, Water and Waste Services",2,NA,2,2004,2000,1.0986122886681098,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,East Melbourne,Financial and Insurance Services,14,NA,13,2004,2000,2.70805020110221,NA,-1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,East Melbourne,Health Care and Social Assistance,147,NA,97,2004,2000,4.997212273764115,NA,-50,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,East Melbourne,Information Media and Telecommunications,10,NA,6,2004,2000,2.3978952727983707,NA,-4,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
@@ -61,9 +61,9 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2002,Kensington,"Agriculture, Forestry and Fishing",NA,NA,NA,2004,2000,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2002,Kensington,Arts and Recreation Services,20,NA,19,2004,2000,3.044522437723423,NA,-1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Kensington,Construction,1,NA,2,2004,2000,0.6931471805599453,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
-2002,Kensington,Education and Training,2,NA,1,2004,2000,1.0986122886681096,NA,-1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2002,Kensington,Education and Training,2,NA,1,2004,2000,1.0986122886681098,NA,-1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Kensington,"Electricity, Gas, Water and Waste Services",NA,NA,NA,2004,2000,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2002,Kensington,Financial and Insurance Services,2,NA,2,2004,2000,1.0986122886681096,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2002,Kensington,Financial and Insurance Services,2,NA,2,2004,2000,1.0986122886681098,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Kensington,Health Care and Social Assistance,8,NA,11,2004,2000,2.1972245773362196,NA,3,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Kensington,Information Media and Telecommunications,1,NA,NA,2004,2000,0.6931471805599453,NA,NA,FALSE,TRUE,TRUE,FALSE,No published exact two-year lag
 2002,Kensington,Manufacturing,21,NA,24,2004,2000,3.091042453358316,NA,3,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
@@ -71,7 +71,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2002,Kensington,Other Services,8,NA,12,2004,2000,2.1972245773362196,NA,4,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Kensington,"Professional, Scientific and Technical Services",6,NA,9,2004,2000,1.9459101490553132,NA,3,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Kensington,Public Administration and Safety,3,NA,2,2004,2000,1.3862943611198906,NA,-1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
-2002,Kensington,"Rental, Hiring and Real Estate Services",2,NA,2,2004,2000,1.0986122886681096,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2002,Kensington,"Rental, Hiring and Real Estate Services",2,NA,2,2004,2000,1.0986122886681098,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Kensington,Retail Trade,7,NA,7,2004,2000,2.0794415416798357,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Kensington,"Transport, Postal and Warehousing",4,NA,4,2004,2000,1.6094379124341003,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Kensington,Wholesale Trade,23,NA,17,2004,2000,3.1780538303479458,NA,-6,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
@@ -97,7 +97,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2002,Melbourne (Remainder),Accommodation and Food Services,23,NA,27,2004,2000,3.1780538303479458,NA,4,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Melbourne (Remainder),Administrative and Support Services,24,NA,22,2004,2000,3.2188758248682006,NA,-2,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Melbourne (Remainder),"Agriculture, Forestry and Fishing",1,NA,1,2004,2000,0.6931471805599453,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
-2002,Melbourne (Remainder),Arts and Recreation Services,13,NA,14,2004,2000,2.639057329615259,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2002,Melbourne (Remainder),Arts and Recreation Services,13,NA,14,2004,2000,2.6390573296152584,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Melbourne (Remainder),Construction,5,NA,6,2004,2000,1.791759469228055,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Melbourne (Remainder),Education and Training,6,NA,5,2004,2000,1.9459101490553132,NA,-1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Melbourne (Remainder),"Electricity, Gas, Water and Waste Services",1,NA,NA,2004,2000,0.6931471805599453,NA,NA,FALSE,TRUE,TRUE,FALSE,No published exact two-year lag
@@ -105,7 +105,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2002,Melbourne (Remainder),Health Care and Social Assistance,52,NA,47,2004,2000,3.970291913552122,NA,-5,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Melbourne (Remainder),Information Media and Telecommunications,11,NA,11,2004,2000,2.4849066497880004,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Melbourne (Remainder),Manufacturing,6,NA,5,2004,2000,1.9459101490553132,NA,-1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
-2002,Melbourne (Remainder),Mining,2,NA,3,2004,2000,1.0986122886681096,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2002,Melbourne (Remainder),Mining,2,NA,3,2004,2000,1.0986122886681098,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Melbourne (Remainder),Other Services,21,NA,26,2004,2000,3.091042453358316,NA,5,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Melbourne (Remainder),"Professional, Scientific and Technical Services",93,NA,73,2004,2000,4.543294782270004,NA,-20,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Melbourne (Remainder),Public Administration and Safety,4,NA,5,2004,2000,1.6094379124341003,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
@@ -115,10 +115,10 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2002,Melbourne (Remainder),Wholesale Trade,8,NA,7,2004,2000,2.1972245773362196,NA,-1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,North Melbourne,Accommodation and Food Services,80,NA,85,2004,2000,4.394449154672439,NA,5,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,North Melbourne,Administrative and Support Services,32,NA,33,2004,2000,3.4965075614664802,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
-2002,North Melbourne,"Agriculture, Forestry and Fishing",2,NA,1,2004,2000,1.0986122886681096,NA,-1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2002,North Melbourne,"Agriculture, Forestry and Fishing",2,NA,1,2004,2000,1.0986122886681098,NA,-1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,North Melbourne,Arts and Recreation Services,29,NA,22,2004,2000,3.4011973816621555,NA,-7,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,North Melbourne,Construction,19,NA,19,2004,2000,2.995732273553991,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
-2002,North Melbourne,Education and Training,13,NA,14,2004,2000,2.639057329615259,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2002,North Melbourne,Education and Training,13,NA,14,2004,2000,2.6390573296152584,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,North Melbourne,"Electricity, Gas, Water and Waste Services",1,NA,1,2004,2000,0.6931471805599453,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,North Melbourne,Financial and Insurance Services,22,NA,23,2004,2000,3.1354942159291497,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,North Melbourne,Health Care and Social Assistance,32,NA,35,2004,2000,3.4965075614664802,NA,3,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
@@ -156,14 +156,14 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2002,Port Melbourne,"Agriculture, Forestry and Fishing",NA,NA,NA,2004,2000,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2002,Port Melbourne,Arts and Recreation Services,4,NA,3,2004,2000,1.6094379124341003,NA,-1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Port Melbourne,Construction,11,NA,13,2004,2000,2.4849066497880004,NA,2,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
-2002,Port Melbourne,Education and Training,2,NA,NA,2004,2000,1.0986122886681096,NA,NA,FALSE,TRUE,TRUE,FALSE,No published exact two-year lag
+2002,Port Melbourne,Education and Training,2,NA,NA,2004,2000,1.0986122886681098,NA,NA,FALSE,TRUE,TRUE,FALSE,No published exact two-year lag
 2002,Port Melbourne,"Electricity, Gas, Water and Waste Services",NA,NA,NA,2004,2000,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2002,Port Melbourne,Financial and Insurance Services,2,NA,3,2004,2000,1.0986122886681096,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2002,Port Melbourne,Financial and Insurance Services,2,NA,3,2004,2000,1.0986122886681098,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Port Melbourne,Health Care and Social Assistance,NA,NA,NA,2004,2000,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2002,Port Melbourne,Information Media and Telecommunications,6,NA,8,2004,2000,1.9459101490553132,NA,2,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Port Melbourne,Manufacturing,31,NA,30,2004,2000,3.4657359027997265,NA,-1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Port Melbourne,Mining,1,NA,1,2004,2000,0.6931471805599453,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
-2002,Port Melbourne,Other Services,2,NA,3,2004,2000,1.0986122886681096,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2002,Port Melbourne,Other Services,2,NA,3,2004,2000,1.0986122886681098,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Port Melbourne,"Professional, Scientific and Technical Services",21,NA,34,2004,2000,3.091042453358316,NA,13,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Port Melbourne,Public Administration and Safety,3,NA,3,2004,2000,1.3862943611198906,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Port Melbourne,"Rental, Hiring and Real Estate Services",3,NA,4,2004,2000,1.3862943611198906,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
@@ -183,15 +183,15 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2002,South Yarra,Manufacturing,NA,NA,NA,2004,2000,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2002,South Yarra,Mining,NA,NA,NA,2004,2000,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2002,South Yarra,Other Services,8,NA,9,2004,2000,2.1972245773362196,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
-2002,South Yarra,"Professional, Scientific and Technical Services",2,NA,3,2004,2000,1.0986122886681096,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
-2002,South Yarra,Public Administration and Safety,2,NA,1,2004,2000,1.0986122886681096,NA,-1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2002,South Yarra,"Professional, Scientific and Technical Services",2,NA,3,2004,2000,1.0986122886681098,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2002,South Yarra,Public Administration and Safety,2,NA,1,2004,2000,1.0986122886681098,NA,-1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,South Yarra,"Rental, Hiring and Real Estate Services",NA,NA,NA,2004,2000,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2002,South Yarra,Retail Trade,10,NA,10,2004,2000,2.3978952727983707,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,South Yarra,"Transport, Postal and Warehousing",NA,NA,NA,2004,2000,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2002,South Yarra,Wholesale Trade,NA,NA,NA,2004,2000,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2002,Southbank,Accommodation and Food Services,90,NA,103,2004,2000,4.51085950651685,NA,13,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Southbank,Administrative and Support Services,16,NA,19,2004,2000,2.833213344056216,NA,3,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
-2002,Southbank,"Agriculture, Forestry and Fishing",2,NA,3,2004,2000,1.0986122886681096,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2002,Southbank,"Agriculture, Forestry and Fishing",2,NA,3,2004,2000,1.0986122886681098,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Southbank,Arts and Recreation Services,28,NA,29,2004,2000,3.367295829986474,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Southbank,Construction,8,NA,8,2004,2000,2.1972245773362196,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,Southbank,Education and Training,8,NA,8,2004,2000,2.1972245773362196,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
@@ -243,7 +243,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2002,West Melbourne (Residential),"Professional, Scientific and Technical Services",71,NA,87,2004,2000,4.276666119016055,NA,16,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,West Melbourne (Residential),Public Administration and Safety,8,NA,7,2004,2000,2.1972245773362196,NA,-1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,West Melbourne (Residential),"Rental, Hiring and Real Estate Services",4,NA,7,2004,2000,1.6094379124341003,NA,3,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
-2002,West Melbourne (Residential),Retail Trade,47,NA,51,2004,2000,3.8712010109078907,NA,4,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2002,West Melbourne (Residential),Retail Trade,47,NA,51,2004,2000,3.871201010907891,NA,4,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,West Melbourne (Residential),"Transport, Postal and Warehousing",19,NA,21,2004,2000,2.995732273553991,NA,2,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2002,West Melbourne (Residential),Wholesale Trade,54,NA,45,2004,2000,4.007333185232471,NA,-9,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2004,Carlton,Accommodation and Food Services,197,180,211,2006,2002,5.288267030694535,17,14,FALSE,FALSE,FALSE,TRUE,Included
@@ -270,7 +270,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2004,Docklands,"Agriculture, Forestry and Fishing",1,1,2,2006,2002,0.6931471805599453,0,1,FALSE,FALSE,FALSE,TRUE,Included
 2004,Docklands,Arts and Recreation Services,5,6,13,2006,2002,1.791759469228055,-1,8,FALSE,FALSE,FALSE,TRUE,Included
 2004,Docklands,Construction,4,3,7,2006,2002,1.6094379124341003,1,3,FALSE,FALSE,FALSE,TRUE,Included
-2004,Docklands,Education and Training,2,1,3,2006,2002,1.0986122886681096,1,1,FALSE,FALSE,FALSE,TRUE,Included
+2004,Docklands,Education and Training,2,1,3,2006,2002,1.0986122886681098,1,1,FALSE,FALSE,FALSE,TRUE,Included
 2004,Docklands,"Electricity, Gas, Water and Waste Services",1,1,NA,2006,2002,0.6931471805599453,0,NA,FALSE,FALSE,TRUE,FALSE,No published target-year cell
 2004,Docklands,Financial and Insurance Services,1,1,6,2006,2002,0.6931471805599453,0,5,FALSE,FALSE,FALSE,TRUE,Included
 2004,Docklands,Health Care and Social Assistance,6,3,7,2006,2002,1.9459101490553132,3,1,FALSE,FALSE,FALSE,TRUE,Included
@@ -280,18 +280,18 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2004,Docklands,Other Services,10,12,16,2006,2002,2.3978952727983707,-2,6,FALSE,FALSE,FALSE,TRUE,Included
 2004,Docklands,"Professional, Scientific and Technical Services",5,7,37,2006,2002,1.791759469228055,-2,32,FALSE,FALSE,FALSE,TRUE,Included
 2004,Docklands,Public Administration and Safety,4,4,7,2006,2002,1.6094379124341003,0,3,FALSE,FALSE,FALSE,TRUE,Included
-2004,Docklands,"Rental, Hiring and Real Estate Services",2,4,15,2006,2002,1.0986122886681096,-2,13,FALSE,FALSE,FALSE,TRUE,Included
+2004,Docklands,"Rental, Hiring and Real Estate Services",2,4,15,2006,2002,1.0986122886681098,-2,13,FALSE,FALSE,FALSE,TRUE,Included
 2004,Docklands,Retail Trade,15,11,107,2006,2002,2.772588722239781,4,92,FALSE,FALSE,FALSE,TRUE,Included
 2004,Docklands,"Transport, Postal and Warehousing",16,30,32,2006,2002,2.833213344056216,-14,16,FALSE,FALSE,FALSE,TRUE,Included
 2004,Docklands,Wholesale Trade,3,2,3,2006,2002,1.3862943611198906,1,0,FALSE,FALSE,FALSE,TRUE,Included
-2004,East Melbourne,Accommodation and Food Services,47,45,52,2006,2002,3.8712010109078907,2,5,FALSE,FALSE,FALSE,TRUE,Included
+2004,East Melbourne,Accommodation and Food Services,47,45,52,2006,2002,3.871201010907891,2,5,FALSE,FALSE,FALSE,TRUE,Included
 2004,East Melbourne,Administrative and Support Services,20,22,13,2006,2002,3.044522437723423,-2,-7,FALSE,FALSE,FALSE,TRUE,Included
 2004,East Melbourne,"Agriculture, Forestry and Fishing",1,NA,NA,2006,2002,0.6931471805599453,NA,NA,FALSE,TRUE,TRUE,FALSE,No published exact two-year lag
 2004,East Melbourne,Arts and Recreation Services,26,25,28,2006,2002,3.295836866004329,1,2,FALSE,FALSE,FALSE,TRUE,Included
 2004,East Melbourne,Construction,4,4,3,2006,2002,1.6094379124341003,0,-1,FALSE,FALSE,FALSE,TRUE,Included
-2004,East Melbourne,Education and Training,13,12,15,2006,2002,2.639057329615259,1,2,FALSE,FALSE,FALSE,TRUE,Included
-2004,East Melbourne,"Electricity, Gas, Water and Waste Services",2,2,1,2006,2002,1.0986122886681096,0,-1,FALSE,FALSE,FALSE,TRUE,Included
-2004,East Melbourne,Financial and Insurance Services,13,14,10,2006,2002,2.639057329615259,-1,-3,FALSE,FALSE,FALSE,TRUE,Included
+2004,East Melbourne,Education and Training,13,12,15,2006,2002,2.6390573296152584,1,2,FALSE,FALSE,FALSE,TRUE,Included
+2004,East Melbourne,"Electricity, Gas, Water and Waste Services",2,2,1,2006,2002,1.0986122886681098,0,-1,FALSE,FALSE,FALSE,TRUE,Included
+2004,East Melbourne,Financial and Insurance Services,13,14,10,2006,2002,2.6390573296152584,-1,-3,FALSE,FALSE,FALSE,TRUE,Included
 2004,East Melbourne,Health Care and Social Assistance,97,147,161,2006,2002,4.584967478670572,-50,64,FALSE,FALSE,FALSE,TRUE,Included
 2004,East Melbourne,Information Media and Telecommunications,6,10,10,2006,2002,1.9459101490553132,-4,4,FALSE,FALSE,FALSE,TRUE,Included
 2004,East Melbourne,Manufacturing,5,7,5,2006,2002,1.791759469228055,-2,0,FALSE,FALSE,FALSE,TRUE,Included
@@ -304,21 +304,21 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2004,East Melbourne,"Transport, Postal and Warehousing",3,6,3,2006,2002,1.3862943611198906,-3,0,FALSE,FALSE,FALSE,TRUE,Included
 2004,East Melbourne,Wholesale Trade,6,7,7,2006,2002,1.9459101490553132,-1,1,FALSE,FALSE,FALSE,TRUE,Included
 2004,Kensington,Accommodation and Food Services,11,12,10,2006,2002,2.4849066497880004,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
-2004,Kensington,Administrative and Support Services,2,1,2,2006,2002,1.0986122886681096,1,0,FALSE,FALSE,FALSE,TRUE,Included
+2004,Kensington,Administrative and Support Services,2,1,2,2006,2002,1.0986122886681098,1,0,FALSE,FALSE,FALSE,TRUE,Included
 2004,Kensington,"Agriculture, Forestry and Fishing",NA,NA,NA,2006,2002,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2004,Kensington,Arts and Recreation Services,19,20,16,2006,2002,2.995732273553991,-1,-3,FALSE,FALSE,FALSE,TRUE,Included
-2004,Kensington,Construction,2,1,3,2006,2002,1.0986122886681096,1,1,FALSE,FALSE,FALSE,TRUE,Included
+2004,Kensington,Construction,2,1,3,2006,2002,1.0986122886681098,1,1,FALSE,FALSE,FALSE,TRUE,Included
 2004,Kensington,Education and Training,1,2,1,2006,2002,0.6931471805599453,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2004,Kensington,"Electricity, Gas, Water and Waste Services",NA,NA,NA,2006,2002,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2004,Kensington,Financial and Insurance Services,2,2,2,2006,2002,1.0986122886681096,0,0,FALSE,FALSE,FALSE,TRUE,Included
+2004,Kensington,Financial and Insurance Services,2,2,2,2006,2002,1.0986122886681098,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2004,Kensington,Health Care and Social Assistance,11,8,10,2006,2002,2.4849066497880004,3,-1,FALSE,FALSE,FALSE,TRUE,Included
 2004,Kensington,Information Media and Telecommunications,NA,1,1,2006,2002,NA,NA,NA,TRUE,FALSE,FALSE,FALSE,No published origin-year cell
 2004,Kensington,Manufacturing,24,21,21,2006,2002,3.2188758248682006,3,-3,FALSE,FALSE,FALSE,TRUE,Included
 2004,Kensington,Mining,NA,NA,NA,2006,2002,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2004,Kensington,Other Services,12,8,13,2006,2002,2.5649493574615367,4,1,FALSE,FALSE,FALSE,TRUE,Included
 2004,Kensington,"Professional, Scientific and Technical Services",9,6,9,2006,2002,2.302585092994046,3,0,FALSE,FALSE,FALSE,TRUE,Included
-2004,Kensington,Public Administration and Safety,2,3,1,2006,2002,1.0986122886681096,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
-2004,Kensington,"Rental, Hiring and Real Estate Services",2,2,2,2006,2002,1.0986122886681096,0,0,FALSE,FALSE,FALSE,TRUE,Included
+2004,Kensington,Public Administration and Safety,2,3,1,2006,2002,1.0986122886681098,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
+2004,Kensington,"Rental, Hiring and Real Estate Services",2,2,2,2006,2002,1.0986122886681098,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2004,Kensington,Retail Trade,7,7,11,2006,2002,2.0794415416798357,0,4,FALSE,FALSE,FALSE,TRUE,Included
 2004,Kensington,"Transport, Postal and Warehousing",4,4,4,2006,2002,1.6094379124341003,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2004,Kensington,Wholesale Trade,17,23,15,2006,2002,2.8903717578961645,-6,-2,FALSE,FALSE,FALSE,TRUE,Included
@@ -349,12 +349,12 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2004,Melbourne (Remainder),Education and Training,5,6,4,2006,2002,1.791759469228055,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2004,Melbourne (Remainder),"Electricity, Gas, Water and Waste Services",NA,1,NA,2006,2002,NA,NA,NA,TRUE,FALSE,TRUE,FALSE,No published origin-year cell
 2004,Melbourne (Remainder),Financial and Insurance Services,28,35,35,2006,2002,3.367295829986474,-7,7,FALSE,FALSE,FALSE,TRUE,Included
-2004,Melbourne (Remainder),Health Care and Social Assistance,47,52,60,2006,2002,3.8712010109078907,-5,13,FALSE,FALSE,FALSE,TRUE,Included
+2004,Melbourne (Remainder),Health Care and Social Assistance,47,52,60,2006,2002,3.871201010907891,-5,13,FALSE,FALSE,FALSE,TRUE,Included
 2004,Melbourne (Remainder),Information Media and Telecommunications,11,11,10,2006,2002,2.4849066497880004,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2004,Melbourne (Remainder),Manufacturing,5,6,9,2006,2002,1.791759469228055,-1,4,FALSE,FALSE,FALSE,TRUE,Included
 2004,Melbourne (Remainder),Mining,3,2,1,2006,2002,1.3862943611198906,1,-2,FALSE,FALSE,FALSE,TRUE,Included
 2004,Melbourne (Remainder),Other Services,26,21,24,2006,2002,3.295836866004329,5,-2,FALSE,FALSE,FALSE,TRUE,Included
-2004,Melbourne (Remainder),"Professional, Scientific and Technical Services",73,93,89,2006,2002,4.304065093204169,-20,16,FALSE,FALSE,FALSE,TRUE,Included
+2004,Melbourne (Remainder),"Professional, Scientific and Technical Services",73,93,89,2006,2002,4.30406509320417,-20,16,FALSE,FALSE,FALSE,TRUE,Included
 2004,Melbourne (Remainder),Public Administration and Safety,5,4,10,2006,2002,1.791759469228055,1,5,FALSE,FALSE,FALSE,TRUE,Included
 2004,Melbourne (Remainder),"Rental, Hiring and Real Estate Services",7,5,4,2006,2002,2.0794415416798357,2,-3,FALSE,FALSE,FALSE,TRUE,Included
 2004,Melbourne (Remainder),Retail Trade,18,16,21,2006,2002,2.9444389791664403,2,3,FALSE,FALSE,FALSE,TRUE,Included
@@ -397,12 +397,12 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2004,Parkville,"Rental, Hiring and Real Estate Services",1,1,1,2006,2002,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2004,Parkville,Retail Trade,17,17,17,2006,2002,2.8903717578961645,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2004,Parkville,"Transport, Postal and Warehousing",3,3,3,2006,2002,1.3862943611198906,0,0,FALSE,FALSE,FALSE,TRUE,Included
-2004,Parkville,Wholesale Trade,2,3,1,2006,2002,1.0986122886681096,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
+2004,Parkville,Wholesale Trade,2,3,1,2006,2002,1.0986122886681098,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2004,Port Melbourne,Accommodation and Food Services,6,4,8,2006,2002,1.9459101490553132,2,2,FALSE,FALSE,FALSE,TRUE,Included
 2004,Port Melbourne,Administrative and Support Services,10,6,10,2006,2002,2.3978952727983707,4,0,FALSE,FALSE,FALSE,TRUE,Included
 2004,Port Melbourne,"Agriculture, Forestry and Fishing",NA,NA,1,2006,2002,NA,NA,NA,TRUE,TRUE,FALSE,FALSE,No published origin-year cell
 2004,Port Melbourne,Arts and Recreation Services,3,4,3,2006,2002,1.3862943611198906,-1,0,FALSE,FALSE,FALSE,TRUE,Included
-2004,Port Melbourne,Construction,13,11,19,2006,2002,2.639057329615259,2,6,FALSE,FALSE,FALSE,TRUE,Included
+2004,Port Melbourne,Construction,13,11,19,2006,2002,2.6390573296152584,2,6,FALSE,FALSE,FALSE,TRUE,Included
 2004,Port Melbourne,Education and Training,NA,2,2,2006,2002,NA,NA,NA,TRUE,FALSE,FALSE,FALSE,No published origin-year cell
 2004,Port Melbourne,"Electricity, Gas, Water and Waste Services",NA,NA,NA,2006,2002,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2004,Port Melbourne,Financial and Insurance Services,3,2,7,2006,2002,1.3862943611198906,1,4,FALSE,FALSE,FALSE,TRUE,Included
@@ -414,7 +414,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2004,Port Melbourne,"Professional, Scientific and Technical Services",34,21,53,2006,2002,3.5553480614894135,13,19,FALSE,FALSE,FALSE,TRUE,Included
 2004,Port Melbourne,Public Administration and Safety,3,3,4,2006,2002,1.3862943611198906,0,1,FALSE,FALSE,FALSE,TRUE,Included
 2004,Port Melbourne,"Rental, Hiring and Real Estate Services",4,3,4,2006,2002,1.6094379124341003,1,0,FALSE,FALSE,FALSE,TRUE,Included
-2004,Port Melbourne,Retail Trade,13,8,22,2006,2002,2.639057329615259,5,9,FALSE,FALSE,FALSE,TRUE,Included
+2004,Port Melbourne,Retail Trade,13,8,22,2006,2002,2.6390573296152584,5,9,FALSE,FALSE,FALSE,TRUE,Included
 2004,Port Melbourne,"Transport, Postal and Warehousing",17,15,31,2006,2002,2.8903717578961645,2,14,FALSE,FALSE,FALSE,TRUE,Included
 2004,Port Melbourne,Wholesale Trade,40,32,51,2006,2002,3.713572066704308,8,11,FALSE,FALSE,FALSE,TRUE,Included
 2004,South Yarra,Accommodation and Food Services,15,14,15,2006,2002,2.772588722239781,1,0,FALSE,FALSE,FALSE,TRUE,Included
@@ -461,23 +461,23 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2004,West Melbourne (Industrial),Arts and Recreation Services,1,NA,3,2006,2002,0.6931471805599453,NA,2,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2004,West Melbourne (Industrial),Construction,4,4,4,2006,2002,1.6094379124341003,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2004,West Melbourne (Industrial),Education and Training,NA,NA,NA,2006,2002,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2004,West Melbourne (Industrial),"Electricity, Gas, Water and Waste Services",2,1,3,2006,2002,1.0986122886681096,1,1,FALSE,FALSE,FALSE,TRUE,Included
+2004,West Melbourne (Industrial),"Electricity, Gas, Water and Waste Services",2,1,3,2006,2002,1.0986122886681098,1,1,FALSE,FALSE,FALSE,TRUE,Included
 2004,West Melbourne (Industrial),Financial and Insurance Services,1,1,1,2006,2002,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2004,West Melbourne (Industrial),Health Care and Social Assistance,NA,NA,NA,2006,2002,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2004,West Melbourne (Industrial),Information Media and Telecommunications,2,1,3,2006,2002,1.0986122886681096,1,1,FALSE,FALSE,FALSE,TRUE,Included
+2004,West Melbourne (Industrial),Information Media and Telecommunications,2,1,3,2006,2002,1.0986122886681098,1,1,FALSE,FALSE,FALSE,TRUE,Included
 2004,West Melbourne (Industrial),Manufacturing,19,18,18,2006,2002,2.995732273553991,1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2004,West Melbourne (Industrial),Mining,NA,NA,NA,2006,2002,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2004,West Melbourne (Industrial),Other Services,7,8,7,2006,2002,2.0794415416798357,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2004,West Melbourne (Industrial),"Professional, Scientific and Technical Services",3,6,4,2006,2002,1.3862943611198906,-3,1,FALSE,FALSE,FALSE,TRUE,Included
-2004,West Melbourne (Industrial),Public Administration and Safety,2,1,4,2006,2002,1.0986122886681096,1,2,FALSE,FALSE,FALSE,TRUE,Included
+2004,West Melbourne (Industrial),Public Administration and Safety,2,1,4,2006,2002,1.0986122886681098,1,2,FALSE,FALSE,FALSE,TRUE,Included
 2004,West Melbourne (Industrial),"Rental, Hiring and Real Estate Services",15,11,16,2006,2002,2.772588722239781,4,1,FALSE,FALSE,FALSE,TRUE,Included
 2004,West Melbourne (Industrial),Retail Trade,7,9,9,2006,2002,2.0794415416798357,-2,2,FALSE,FALSE,FALSE,TRUE,Included
 2004,West Melbourne (Industrial),"Transport, Postal and Warehousing",49,50,48,2006,2002,3.912023005428146,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2004,West Melbourne (Industrial),Wholesale Trade,218,193,235,2006,2002,5.389071729816501,25,17,FALSE,FALSE,FALSE,TRUE,Included
-2004,West Melbourne (Residential),Accommodation and Food Services,47,43,51,2006,2002,3.8712010109078907,4,4,FALSE,FALSE,FALSE,TRUE,Included
+2004,West Melbourne (Residential),Accommodation and Food Services,47,43,51,2006,2002,3.871201010907891,4,4,FALSE,FALSE,FALSE,TRUE,Included
 2004,West Melbourne (Residential),Administrative and Support Services,24,29,24,2006,2002,3.2188758248682006,-5,0,FALSE,FALSE,FALSE,TRUE,Included
 2004,West Melbourne (Residential),"Agriculture, Forestry and Fishing",NA,NA,NA,2006,2002,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2004,West Melbourne (Residential),Arts and Recreation Services,13,12,13,2006,2002,2.639057329615259,1,0,FALSE,FALSE,FALSE,TRUE,Included
+2004,West Melbourne (Residential),Arts and Recreation Services,13,12,13,2006,2002,2.6390573296152584,1,0,FALSE,FALSE,FALSE,TRUE,Included
 2004,West Melbourne (Residential),Construction,9,11,10,2006,2002,2.302585092994046,-2,1,FALSE,FALSE,FALSE,TRUE,Included
 2004,West Melbourne (Residential),Education and Training,8,9,10,2006,2002,2.1972245773362196,-1,2,FALSE,FALSE,FALSE,TRUE,Included
 2004,West Melbourne (Residential),"Electricity, Gas, Water and Waste Services",1,1,1,2006,2002,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
@@ -514,8 +514,8 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2006,Carlton,Wholesale Trade,27,27,25,2008,2004,3.332204510175204,0,-2,FALSE,FALSE,FALSE,TRUE,Included
 2006,Docklands,Accommodation and Food Services,92,34,116,2008,2004,4.532599493153256,58,24,FALSE,FALSE,FALSE,TRUE,Included
 2006,Docklands,Administrative and Support Services,16,4,19,2008,2004,2.833213344056216,12,3,FALSE,FALSE,FALSE,TRUE,Included
-2006,Docklands,"Agriculture, Forestry and Fishing",2,1,NA,2008,2004,1.0986122886681096,1,NA,FALSE,FALSE,TRUE,FALSE,No published target-year cell
-2006,Docklands,Arts and Recreation Services,13,5,17,2008,2004,2.639057329615259,8,4,FALSE,FALSE,FALSE,TRUE,Included
+2006,Docklands,"Agriculture, Forestry and Fishing",2,1,NA,2008,2004,1.0986122886681098,1,NA,FALSE,FALSE,TRUE,FALSE,No published target-year cell
+2006,Docklands,Arts and Recreation Services,13,5,17,2008,2004,2.6390573296152584,8,4,FALSE,FALSE,FALSE,TRUE,Included
 2006,Docklands,Construction,7,4,15,2008,2004,2.0794415416798357,3,8,FALSE,FALSE,FALSE,TRUE,Included
 2006,Docklands,Education and Training,3,2,6,2008,2004,1.3862943611198906,1,3,FALSE,FALSE,FALSE,TRUE,Included
 2006,Docklands,"Electricity, Gas, Water and Waste Services",NA,1,NA,2008,2004,NA,NA,NA,TRUE,FALSE,TRUE,FALSE,No published origin-year cell
@@ -532,7 +532,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2006,Docklands,"Transport, Postal and Warehousing",32,16,34,2008,2004,3.4965075614664802,16,2,FALSE,FALSE,FALSE,TRUE,Included
 2006,Docklands,Wholesale Trade,3,3,10,2008,2004,1.3862943611198906,0,7,FALSE,FALSE,FALSE,TRUE,Included
 2006,East Melbourne,Accommodation and Food Services,52,47,59,2008,2004,3.970291913552122,5,7,FALSE,FALSE,FALSE,TRUE,Included
-2006,East Melbourne,Administrative and Support Services,13,20,12,2008,2004,2.639057329615259,-7,-1,FALSE,FALSE,FALSE,TRUE,Included
+2006,East Melbourne,Administrative and Support Services,13,20,12,2008,2004,2.6390573296152584,-7,-1,FALSE,FALSE,FALSE,TRUE,Included
 2006,East Melbourne,"Agriculture, Forestry and Fishing",NA,1,NA,2008,2004,NA,NA,NA,TRUE,FALSE,TRUE,FALSE,No published origin-year cell
 2006,East Melbourne,Arts and Recreation Services,28,26,25,2008,2004,3.367295829986474,2,-3,FALSE,FALSE,FALSE,TRUE,Included
 2006,East Melbourne,Construction,3,4,4,2008,2004,1.3862943611198906,-1,1,FALSE,FALSE,FALSE,TRUE,Included
@@ -545,27 +545,27 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2006,East Melbourne,Mining,NA,NA,NA,2008,2004,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2006,East Melbourne,Other Services,42,42,48,2008,2004,3.7612001156935624,0,6,FALSE,FALSE,FALSE,TRUE,Included
 2006,East Melbourne,"Professional, Scientific and Technical Services",78,72,83,2008,2004,4.3694478524670215,6,5,FALSE,FALSE,FALSE,TRUE,Included
-2006,East Melbourne,Public Administration and Safety,13,9,13,2008,2004,2.639057329615259,4,0,FALSE,FALSE,FALSE,TRUE,Included
+2006,East Melbourne,Public Administration and Safety,13,9,13,2008,2004,2.6390573296152584,4,0,FALSE,FALSE,FALSE,TRUE,Included
 2006,East Melbourne,"Rental, Hiring and Real Estate Services",6,7,7,2008,2004,1.9459101490553132,-1,1,FALSE,FALSE,FALSE,TRUE,Included
 2006,East Melbourne,Retail Trade,16,15,18,2008,2004,2.833213344056216,1,2,FALSE,FALSE,FALSE,TRUE,Included
 2006,East Melbourne,"Transport, Postal and Warehousing",3,3,3,2008,2004,1.3862943611198906,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2006,East Melbourne,Wholesale Trade,7,6,6,2008,2004,2.0794415416798357,1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2006,Kensington,Accommodation and Food Services,10,11,27,2008,2004,2.3978952727983707,-1,17,FALSE,FALSE,FALSE,TRUE,Included
-2006,Kensington,Administrative and Support Services,2,2,6,2008,2004,1.0986122886681096,0,4,FALSE,FALSE,FALSE,TRUE,Included
+2006,Kensington,Administrative and Support Services,2,2,6,2008,2004,1.0986122886681098,0,4,FALSE,FALSE,FALSE,TRUE,Included
 2006,Kensington,"Agriculture, Forestry and Fishing",NA,NA,1,2008,2004,NA,NA,NA,TRUE,TRUE,FALSE,FALSE,No published origin-year cell
 2006,Kensington,Arts and Recreation Services,16,19,28,2008,2004,2.833213344056216,-3,12,FALSE,FALSE,FALSE,TRUE,Included
 2006,Kensington,Construction,3,2,14,2008,2004,1.3862943611198906,1,11,FALSE,FALSE,FALSE,TRUE,Included
 2006,Kensington,Education and Training,1,1,6,2008,2004,0.6931471805599453,0,5,FALSE,FALSE,FALSE,TRUE,Included
 2006,Kensington,"Electricity, Gas, Water and Waste Services",NA,NA,2,2008,2004,NA,NA,NA,TRUE,TRUE,FALSE,FALSE,No published origin-year cell
-2006,Kensington,Financial and Insurance Services,2,2,4,2008,2004,1.0986122886681096,0,2,FALSE,FALSE,FALSE,TRUE,Included
+2006,Kensington,Financial and Insurance Services,2,2,4,2008,2004,1.0986122886681098,0,2,FALSE,FALSE,FALSE,TRUE,Included
 2006,Kensington,Health Care and Social Assistance,10,11,16,2008,2004,2.3978952727983707,-1,6,FALSE,FALSE,FALSE,TRUE,Included
 2006,Kensington,Information Media and Telecommunications,1,NA,4,2008,2004,0.6931471805599453,NA,3,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2006,Kensington,Manufacturing,21,24,36,2008,2004,3.091042453358316,-3,15,FALSE,FALSE,FALSE,TRUE,Included
 2006,Kensington,Mining,NA,NA,NA,2008,2004,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2006,Kensington,Other Services,13,12,33,2008,2004,2.639057329615259,1,20,FALSE,FALSE,FALSE,TRUE,Included
+2006,Kensington,Other Services,13,12,33,2008,2004,2.6390573296152584,1,20,FALSE,FALSE,FALSE,TRUE,Included
 2006,Kensington,"Professional, Scientific and Technical Services",9,9,20,2008,2004,2.302585092994046,0,11,FALSE,FALSE,FALSE,TRUE,Included
 2006,Kensington,Public Administration and Safety,1,2,3,2008,2004,0.6931471805599453,-1,2,FALSE,FALSE,FALSE,TRUE,Included
-2006,Kensington,"Rental, Hiring and Real Estate Services",2,2,7,2008,2004,1.0986122886681096,0,5,FALSE,FALSE,FALSE,TRUE,Included
+2006,Kensington,"Rental, Hiring and Real Estate Services",2,2,7,2008,2004,1.0986122886681098,0,5,FALSE,FALSE,FALSE,TRUE,Included
 2006,Kensington,Retail Trade,11,7,27,2008,2004,2.4849066497880004,4,16,FALSE,FALSE,FALSE,TRUE,Included
 2006,Kensington,"Transport, Postal and Warehousing",4,4,11,2008,2004,1.6094379124341003,0,7,FALSE,FALSE,FALSE,TRUE,Included
 2006,Kensington,Wholesale Trade,15,17,32,2008,2004,2.772588722239781,-2,17,FALSE,FALSE,FALSE,TRUE,Included
@@ -609,7 +609,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2006,Melbourne (Remainder),Wholesale Trade,10,7,8,2008,2004,2.3978952727983707,3,-2,FALSE,FALSE,FALSE,TRUE,Included
 2006,North Melbourne,Accommodation and Food Services,94,85,100,2008,2004,4.553876891600541,9,6,FALSE,FALSE,FALSE,TRUE,Included
 2006,North Melbourne,Administrative and Support Services,24,33,43,2008,2004,3.2188758248682006,-9,19,FALSE,FALSE,FALSE,TRUE,Included
-2006,North Melbourne,"Agriculture, Forestry and Fishing",2,1,NA,2008,2004,1.0986122886681096,1,NA,FALSE,FALSE,TRUE,FALSE,No published target-year cell
+2006,North Melbourne,"Agriculture, Forestry and Fishing",2,1,NA,2008,2004,1.0986122886681098,1,NA,FALSE,FALSE,TRUE,FALSE,No published target-year cell
 2006,North Melbourne,Arts and Recreation Services,30,22,33,2008,2004,3.4339872044851463,8,3,FALSE,FALSE,FALSE,TRUE,Included
 2006,North Melbourne,Construction,19,19,33,2008,2004,2.995732273553991,0,14,FALSE,FALSE,FALSE,TRUE,Included
 2006,North Melbourne,Education and Training,17,14,25,2008,2004,2.8903717578961645,3,8,FALSE,FALSE,FALSE,TRUE,Included
@@ -628,7 +628,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2006,North Melbourne,Wholesale Trade,56,61,81,2008,2004,4.04305126783455,-5,25,FALSE,FALSE,FALSE,TRUE,Included
 2006,Parkville,Accommodation and Food Services,48,48,50,2008,2004,3.8918202981106265,0,2,FALSE,FALSE,FALSE,TRUE,Included
 2006,Parkville,Administrative and Support Services,3,3,2,2008,2004,1.3862943611198906,0,-1,FALSE,FALSE,FALSE,TRUE,Included
-2006,Parkville,"Agriculture, Forestry and Fishing",2,1,1,2008,2004,1.0986122886681096,1,-1,FALSE,FALSE,FALSE,TRUE,Included
+2006,Parkville,"Agriculture, Forestry and Fishing",2,1,1,2008,2004,1.0986122886681098,1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2006,Parkville,Arts and Recreation Services,5,6,5,2008,2004,1.791759469228055,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2006,Parkville,Construction,NA,NA,1,2008,2004,NA,NA,NA,TRUE,TRUE,FALSE,FALSE,No published origin-year cell
 2006,Parkville,Education and Training,11,10,13,2008,2004,2.4849066497880004,1,2,FALSE,FALSE,FALSE,TRUE,Included
@@ -650,13 +650,13 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2006,Port Melbourne,"Agriculture, Forestry and Fishing",1,NA,1,2008,2004,0.6931471805599453,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2006,Port Melbourne,Arts and Recreation Services,3,3,4,2008,2004,1.3862943611198906,0,1,FALSE,FALSE,FALSE,TRUE,Included
 2006,Port Melbourne,Construction,19,13,31,2008,2004,2.995732273553991,6,12,FALSE,FALSE,FALSE,TRUE,Included
-2006,Port Melbourne,Education and Training,2,NA,4,2008,2004,1.0986122886681096,NA,2,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2006,Port Melbourne,Education and Training,2,NA,4,2008,2004,1.0986122886681098,NA,2,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2006,Port Melbourne,"Electricity, Gas, Water and Waste Services",NA,NA,1,2008,2004,NA,NA,NA,TRUE,TRUE,FALSE,FALSE,No published origin-year cell
 2006,Port Melbourne,Financial and Insurance Services,7,3,9,2008,2004,2.0794415416798357,4,2,FALSE,FALSE,FALSE,TRUE,Included
-2006,Port Melbourne,Health Care and Social Assistance,2,NA,1,2008,2004,1.0986122886681096,NA,-1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2006,Port Melbourne,Health Care and Social Assistance,2,NA,1,2008,2004,1.0986122886681098,NA,-1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2006,Port Melbourne,Information Media and Telecommunications,17,8,17,2008,2004,2.8903717578961645,9,0,FALSE,FALSE,FALSE,TRUE,Included
 2006,Port Melbourne,Manufacturing,53,30,52,2008,2004,3.9889840465642745,23,-1,FALSE,FALSE,FALSE,TRUE,Included
-2006,Port Melbourne,Mining,2,1,2,2008,2004,1.0986122886681096,1,0,FALSE,FALSE,FALSE,TRUE,Included
+2006,Port Melbourne,Mining,2,1,2,2008,2004,1.0986122886681098,1,0,FALSE,FALSE,FALSE,TRUE,Included
 2006,Port Melbourne,Other Services,7,3,7,2008,2004,2.0794415416798357,4,0,FALSE,FALSE,FALSE,TRUE,Included
 2006,Port Melbourne,"Professional, Scientific and Technical Services",53,34,53,2008,2004,3.9889840465642745,19,0,FALSE,FALSE,FALSE,TRUE,Included
 2006,Port Melbourne,Public Administration and Safety,4,3,3,2008,2004,1.6094379124341003,1,-1,FALSE,FALSE,FALSE,TRUE,Included
@@ -689,7 +689,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2006,Southbank,Arts and Recreation Services,28,29,31,2008,2004,3.367295829986474,-1,3,FALSE,FALSE,FALSE,TRUE,Included
 2006,Southbank,Construction,12,8,16,2008,2004,2.5649493574615367,4,4,FALSE,FALSE,FALSE,TRUE,Included
 2006,Southbank,Education and Training,7,8,13,2008,2004,2.0794415416798357,-1,6,FALSE,FALSE,FALSE,TRUE,Included
-2006,Southbank,"Electricity, Gas, Water and Waste Services",2,3,2,2008,2004,1.0986122886681096,-1,0,FALSE,FALSE,FALSE,TRUE,Included
+2006,Southbank,"Electricity, Gas, Water and Waste Services",2,3,2,2008,2004,1.0986122886681098,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2006,Southbank,Financial and Insurance Services,25,16,27,2008,2004,3.258096538021482,9,2,FALSE,FALSE,FALSE,TRUE,Included
 2006,Southbank,Health Care and Social Assistance,16,14,18,2008,2004,2.833213344056216,2,2,FALSE,FALSE,FALSE,TRUE,Included
 2006,Southbank,Information Media and Telecommunications,28,31,25,2008,2004,3.367295829986474,-3,-3,FALSE,FALSE,FALSE,TRUE,Included
@@ -724,7 +724,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2006,West Melbourne (Residential),Accommodation and Food Services,51,47,51,2008,2004,3.9512437185814275,4,0,FALSE,FALSE,FALSE,TRUE,Included
 2006,West Melbourne (Residential),Administrative and Support Services,24,24,12,2008,2004,3.2188758248682006,0,-12,FALSE,FALSE,FALSE,TRUE,Included
 2006,West Melbourne (Residential),"Agriculture, Forestry and Fishing",NA,NA,NA,2008,2004,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2006,West Melbourne (Residential),Arts and Recreation Services,13,13,12,2008,2004,2.639057329615259,0,-1,FALSE,FALSE,FALSE,TRUE,Included
+2006,West Melbourne (Residential),Arts and Recreation Services,13,13,12,2008,2004,2.6390573296152584,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2006,West Melbourne (Residential),Construction,10,9,13,2008,2004,2.3978952727983707,1,3,FALSE,FALSE,FALSE,TRUE,Included
 2006,West Melbourne (Residential),Education and Training,10,8,14,2008,2004,2.3978952727983707,2,4,FALSE,FALSE,FALSE,TRUE,Included
 2006,West Melbourne (Residential),"Electricity, Gas, Water and Waste Services",1,1,2,2008,2004,0.6931471805599453,0,1,FALSE,FALSE,FALSE,TRUE,Included
@@ -766,13 +766,13 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2008,Docklands,Construction,15,7,17,2010,2006,2.772588722239781,8,2,FALSE,FALSE,FALSE,TRUE,Included
 2008,Docklands,Education and Training,6,3,6,2010,2006,1.9459101490553132,3,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,Docklands,"Electricity, Gas, Water and Waste Services",NA,NA,NA,2010,2006,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2008,Docklands,Financial and Insurance Services,13,6,25,2010,2006,2.639057329615259,7,12,FALSE,FALSE,FALSE,TRUE,Included
+2008,Docklands,Financial and Insurance Services,13,6,25,2010,2006,2.6390573296152584,7,12,FALSE,FALSE,FALSE,TRUE,Included
 2008,Docklands,Health Care and Social Assistance,9,7,14,2010,2006,2.302585092994046,2,5,FALSE,FALSE,FALSE,TRUE,Included
 2008,Docklands,Information Media and Telecommunications,9,7,14,2010,2006,2.302585092994046,2,5,FALSE,FALSE,FALSE,TRUE,Included
 2008,Docklands,Manufacturing,8,3,15,2010,2006,2.1972245773362196,5,7,FALSE,FALSE,FALSE,TRUE,Included
 2008,Docklands,Mining,1,NA,2,2010,2006,0.6931471805599453,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2008,Docklands,Other Services,23,16,40,2010,2006,3.1780538303479458,7,17,FALSE,FALSE,FALSE,TRUE,Included
-2008,Docklands,"Professional, Scientific and Technical Services",47,37,85,2010,2006,3.8712010109078907,10,38,FALSE,FALSE,FALSE,TRUE,Included
+2008,Docklands,"Professional, Scientific and Technical Services",47,37,85,2010,2006,3.871201010907891,10,38,FALSE,FALSE,FALSE,TRUE,Included
 2008,Docklands,Public Administration and Safety,7,7,11,2010,2006,2.0794415416798357,0,4,FALSE,FALSE,FALSE,TRUE,Included
 2008,Docklands,"Rental, Hiring and Real Estate Services",33,15,40,2010,2006,3.5263605246161616,18,7,FALSE,FALSE,FALSE,TRUE,Included
 2008,Docklands,Retail Trade,156,107,281,2010,2006,5.056245805348308,49,125,FALSE,FALSE,FALSE,TRUE,Included
@@ -784,7 +784,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2008,East Melbourne,Arts and Recreation Services,25,28,23,2010,2006,3.258096538021482,-3,-2,FALSE,FALSE,FALSE,TRUE,Included
 2008,East Melbourne,Construction,4,3,6,2010,2006,1.6094379124341003,1,2,FALSE,FALSE,FALSE,TRUE,Included
 2008,East Melbourne,Education and Training,16,15,15,2010,2006,2.833213344056216,1,-1,FALSE,FALSE,FALSE,TRUE,Included
-2008,East Melbourne,"Electricity, Gas, Water and Waste Services",2,1,2,2010,2006,1.0986122886681096,1,0,FALSE,FALSE,FALSE,TRUE,Included
+2008,East Melbourne,"Electricity, Gas, Water and Waste Services",2,1,2,2010,2006,1.0986122886681098,1,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,East Melbourne,Financial and Insurance Services,17,10,17,2010,2006,2.8903717578961645,7,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,East Melbourne,Health Care and Social Assistance,202,161,213,2010,2006,5.313205979041787,41,11,FALSE,FALSE,FALSE,TRUE,Included
 2008,East Melbourne,Information Media and Telecommunications,8,10,7,2010,2006,2.1972245773362196,-2,-1,FALSE,FALSE,FALSE,TRUE,Included
@@ -792,7 +792,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2008,East Melbourne,Mining,NA,NA,1,2010,2006,NA,NA,NA,TRUE,TRUE,FALSE,FALSE,No published origin-year cell
 2008,East Melbourne,Other Services,48,42,44,2010,2006,3.8918202981106265,6,-4,FALSE,FALSE,FALSE,TRUE,Included
 2008,East Melbourne,"Professional, Scientific and Technical Services",83,78,81,2010,2006,4.430816798843313,5,-2,FALSE,FALSE,FALSE,TRUE,Included
-2008,East Melbourne,Public Administration and Safety,13,13,12,2010,2006,2.639057329615259,0,-1,FALSE,FALSE,FALSE,TRUE,Included
+2008,East Melbourne,Public Administration and Safety,13,13,12,2010,2006,2.6390573296152584,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2008,East Melbourne,"Rental, Hiring and Real Estate Services",7,6,9,2010,2006,2.0794415416798357,1,2,FALSE,FALSE,FALSE,TRUE,Included
 2008,East Melbourne,Retail Trade,18,16,19,2010,2006,2.9444389791664403,2,1,FALSE,FALSE,FALSE,TRUE,Included
 2008,East Melbourne,"Transport, Postal and Warehousing",3,3,2,2010,2006,1.3862943611198906,0,-1,FALSE,FALSE,FALSE,TRUE,Included
@@ -803,7 +803,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2008,Kensington,Arts and Recreation Services,28,16,28,2010,2006,3.367295829986474,12,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,Kensington,Construction,14,3,14,2010,2006,2.70805020110221,11,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,Kensington,Education and Training,6,1,6,2010,2006,1.9459101490553132,5,0,FALSE,FALSE,FALSE,TRUE,Included
-2008,Kensington,"Electricity, Gas, Water and Waste Services",2,NA,2,2010,2006,1.0986122886681096,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2008,Kensington,"Electricity, Gas, Water and Waste Services",2,NA,2,2010,2006,1.0986122886681098,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2008,Kensington,Financial and Insurance Services,4,2,4,2010,2006,1.6094379124341003,2,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,Kensington,Health Care and Social Assistance,16,10,16,2010,2006,2.833213344056216,6,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,Kensington,Information Media and Telecommunications,4,1,4,2010,2006,1.6094379124341003,3,0,FALSE,FALSE,FALSE,TRUE,Included
@@ -860,7 +860,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2008,North Melbourne,Arts and Recreation Services,33,30,36,2010,2006,3.5263605246161616,3,3,FALSE,FALSE,FALSE,TRUE,Included
 2008,North Melbourne,Construction,33,19,39,2010,2006,3.5263605246161616,14,6,FALSE,FALSE,FALSE,TRUE,Included
 2008,North Melbourne,Education and Training,25,17,24,2010,2006,3.258096538021482,8,-1,FALSE,FALSE,FALSE,TRUE,Included
-2008,North Melbourne,"Electricity, Gas, Water and Waste Services",2,1,1,2010,2006,1.0986122886681096,1,-1,FALSE,FALSE,FALSE,TRUE,Included
+2008,North Melbourne,"Electricity, Gas, Water and Waste Services",2,1,1,2010,2006,1.0986122886681098,1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2008,North Melbourne,Financial and Insurance Services,23,21,22,2010,2006,3.1780538303479458,2,-1,FALSE,FALSE,FALSE,TRUE,Included
 2008,North Melbourne,Health Care and Social Assistance,69,46,87,2010,2006,4.248495242049359,23,18,FALSE,FALSE,FALSE,TRUE,Included
 2008,North Melbourne,Information Media and Telecommunications,44,39,32,2010,2006,3.8066624897703196,5,-12,FALSE,FALSE,FALSE,TRUE,Included
@@ -874,20 +874,20 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2008,North Melbourne,"Transport, Postal and Warehousing",42,36,38,2010,2006,3.7612001156935624,6,-4,FALSE,FALSE,FALSE,TRUE,Included
 2008,North Melbourne,Wholesale Trade,81,56,74,2010,2006,4.406719247264253,25,-7,FALSE,FALSE,FALSE,TRUE,Included
 2008,Parkville,Accommodation and Food Services,50,48,57,2010,2006,3.9318256327243257,2,7,FALSE,FALSE,FALSE,TRUE,Included
-2008,Parkville,Administrative and Support Services,2,3,3,2010,2006,1.0986122886681096,-1,1,FALSE,FALSE,FALSE,TRUE,Included
+2008,Parkville,Administrative and Support Services,2,3,3,2010,2006,1.0986122886681098,-1,1,FALSE,FALSE,FALSE,TRUE,Included
 2008,Parkville,"Agriculture, Forestry and Fishing",1,2,1,2010,2006,0.6931471805599453,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,Parkville,Arts and Recreation Services,5,5,6,2010,2006,1.791759469228055,0,1,FALSE,FALSE,FALSE,TRUE,Included
 2008,Parkville,Construction,1,NA,NA,2010,2006,0.6931471805599453,NA,NA,FALSE,TRUE,TRUE,FALSE,No published exact two-year lag
-2008,Parkville,Education and Training,13,11,13,2010,2006,2.639057329615259,2,0,FALSE,FALSE,FALSE,TRUE,Included
+2008,Parkville,Education and Training,13,11,13,2010,2006,2.6390573296152584,2,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,Parkville,"Electricity, Gas, Water and Waste Services",NA,NA,NA,2010,2006,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2008,Parkville,Financial and Insurance Services,10,5,6,2010,2006,2.3978952727983707,5,-4,FALSE,FALSE,FALSE,TRUE,Included
 2008,Parkville,Health Care and Social Assistance,60,37,77,2010,2006,4.110873864173311,23,17,FALSE,FALSE,FALSE,TRUE,Included
 2008,Parkville,Information Media and Telecommunications,3,1,2,2010,2006,1.3862943611198906,2,-1,FALSE,FALSE,FALSE,TRUE,Included
-2008,Parkville,Manufacturing,2,1,3,2010,2006,1.0986122886681096,1,1,FALSE,FALSE,FALSE,TRUE,Included
+2008,Parkville,Manufacturing,2,1,3,2010,2006,1.0986122886681098,1,1,FALSE,FALSE,FALSE,TRUE,Included
 2008,Parkville,Mining,NA,NA,NA,2010,2006,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2008,Parkville,Other Services,20,21,20,2010,2006,3.044522437723423,-1,0,FALSE,FALSE,FALSE,TRUE,Included
-2008,Parkville,"Professional, Scientific and Technical Services",13,10,14,2010,2006,2.639057329615259,3,1,FALSE,FALSE,FALSE,TRUE,Included
-2008,Parkville,Public Administration and Safety,2,3,4,2010,2006,1.0986122886681096,-1,2,FALSE,FALSE,FALSE,TRUE,Included
+2008,Parkville,"Professional, Scientific and Technical Services",13,10,14,2010,2006,2.6390573296152584,3,1,FALSE,FALSE,FALSE,TRUE,Included
+2008,Parkville,Public Administration and Safety,2,3,4,2010,2006,1.0986122886681098,-1,2,FALSE,FALSE,FALSE,TRUE,Included
 2008,Parkville,"Rental, Hiring and Real Estate Services",1,1,1,2010,2006,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,Parkville,Retail Trade,23,17,23,2010,2006,3.1780538303479458,6,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,Parkville,"Transport, Postal and Warehousing",5,3,4,2010,2006,1.791759469228055,2,-1,FALSE,FALSE,FALSE,TRUE,Included
@@ -903,7 +903,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2008,Port Melbourne,Health Care and Social Assistance,1,2,1,2010,2006,0.6931471805599453,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,Port Melbourne,Information Media and Telecommunications,17,17,12,2010,2006,2.8903717578961645,0,-5,FALSE,FALSE,FALSE,TRUE,Included
 2008,Port Melbourne,Manufacturing,52,53,69,2010,2006,3.970291913552122,-1,17,FALSE,FALSE,FALSE,TRUE,Included
-2008,Port Melbourne,Mining,2,2,NA,2010,2006,1.0986122886681096,0,NA,FALSE,FALSE,TRUE,FALSE,No published target-year cell
+2008,Port Melbourne,Mining,2,2,NA,2010,2006,1.0986122886681098,0,NA,FALSE,FALSE,TRUE,FALSE,No published target-year cell
 2008,Port Melbourne,Other Services,7,7,10,2010,2006,2.0794415416798357,0,3,FALSE,FALSE,FALSE,TRUE,Included
 2008,Port Melbourne,"Professional, Scientific and Technical Services",53,53,73,2010,2006,3.9889840465642745,0,20,FALSE,FALSE,FALSE,TRUE,Included
 2008,Port Melbourne,Public Administration and Safety,3,4,5,2010,2006,1.3862943611198906,-1,2,FALSE,FALSE,FALSE,TRUE,Included
@@ -935,8 +935,8 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2008,Southbank,"Agriculture, Forestry and Fishing",3,4,3,2010,2006,1.3862943611198906,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,Southbank,Arts and Recreation Services,31,28,31,2010,2006,3.4657359027997265,3,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,Southbank,Construction,16,12,16,2010,2006,2.833213344056216,4,0,FALSE,FALSE,FALSE,TRUE,Included
-2008,Southbank,Education and Training,13,7,13,2010,2006,2.639057329615259,6,0,FALSE,FALSE,FALSE,TRUE,Included
-2008,Southbank,"Electricity, Gas, Water and Waste Services",2,2,2,2010,2006,1.0986122886681096,0,0,FALSE,FALSE,FALSE,TRUE,Included
+2008,Southbank,Education and Training,13,7,13,2010,2006,2.6390573296152584,6,0,FALSE,FALSE,FALSE,TRUE,Included
+2008,Southbank,"Electricity, Gas, Water and Waste Services",2,2,2,2010,2006,1.0986122886681098,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,Southbank,Financial and Insurance Services,27,25,27,2010,2006,3.332204510175204,2,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,Southbank,Health Care and Social Assistance,18,16,18,2010,2006,2.9444389791664403,2,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,Southbank,Information Media and Telecommunications,25,28,25,2010,2006,3.258096538021482,-3,0,FALSE,FALSE,FALSE,TRUE,Included
@@ -947,10 +947,10 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2008,Southbank,Public Administration and Safety,10,9,10,2010,2006,2.3978952727983707,1,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,Southbank,"Rental, Hiring and Real Estate Services",29,27,29,2010,2006,3.4011973816621555,2,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,Southbank,Retail Trade,102,100,102,2010,2006,4.634728988229636,2,0,FALSE,FALSE,FALSE,TRUE,Included
-2008,Southbank,"Transport, Postal and Warehousing",13,11,13,2010,2006,2.639057329615259,2,0,FALSE,FALSE,FALSE,TRUE,Included
+2008,Southbank,"Transport, Postal and Warehousing",13,11,13,2010,2006,2.6390573296152584,2,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,Southbank,Wholesale Trade,14,16,14,2010,2006,2.70805020110221,-2,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,West Melbourne (Industrial),Accommodation and Food Services,7,9,8,2010,2006,2.0794415416798357,-2,1,FALSE,FALSE,FALSE,TRUE,Included
-2008,West Melbourne (Industrial),Administrative and Support Services,2,3,1,2010,2006,1.0986122886681096,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
+2008,West Melbourne (Industrial),Administrative and Support Services,2,3,1,2010,2006,1.0986122886681098,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2008,West Melbourne (Industrial),"Agriculture, Forestry and Fishing",1,1,1,2010,2006,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,West Melbourne (Industrial),Arts and Recreation Services,3,3,3,2010,2006,1.3862943611198906,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,West Melbourne (Industrial),Construction,3,4,2,2010,2006,1.3862943611198906,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
@@ -972,10 +972,10 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2008,West Melbourne (Residential),Administrative and Support Services,12,24,16,2010,2006,2.5649493574615367,-12,4,FALSE,FALSE,FALSE,TRUE,Included
 2008,West Melbourne (Residential),"Agriculture, Forestry and Fishing",NA,NA,NA,2010,2006,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2008,West Melbourne (Residential),Arts and Recreation Services,12,13,11,2010,2006,2.5649493574615367,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
-2008,West Melbourne (Residential),Construction,13,10,13,2010,2006,2.639057329615259,3,0,FALSE,FALSE,FALSE,TRUE,Included
+2008,West Melbourne (Residential),Construction,13,10,13,2010,2006,2.6390573296152584,3,0,FALSE,FALSE,FALSE,TRUE,Included
 2008,West Melbourne (Residential),Education and Training,14,10,17,2010,2006,2.70805020110221,4,3,FALSE,FALSE,FALSE,TRUE,Included
-2008,West Melbourne (Residential),"Electricity, Gas, Water and Waste Services",2,1,3,2010,2006,1.0986122886681096,1,1,FALSE,FALSE,FALSE,TRUE,Included
-2008,West Melbourne (Residential),Financial and Insurance Services,13,14,14,2010,2006,2.639057329615259,-1,1,FALSE,FALSE,FALSE,TRUE,Included
+2008,West Melbourne (Residential),"Electricity, Gas, Water and Waste Services",2,1,3,2010,2006,1.0986122886681098,1,1,FALSE,FALSE,FALSE,TRUE,Included
+2008,West Melbourne (Residential),Financial and Insurance Services,13,14,14,2010,2006,2.6390573296152584,-1,1,FALSE,FALSE,FALSE,TRUE,Included
 2008,West Melbourne (Residential),Health Care and Social Assistance,15,18,13,2010,2006,2.772588722239781,-3,-2,FALSE,FALSE,FALSE,TRUE,Included
 2008,West Melbourne (Residential),Information Media and Telecommunications,18,24,12,2010,2006,2.9444389791664403,-6,-6,FALSE,FALSE,FALSE,TRUE,Included
 2008,West Melbourne (Residential),Manufacturing,28,34,21,2010,2006,3.367295829986474,-6,-7,FALSE,FALSE,FALSE,TRUE,Included
@@ -986,7 +986,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2008,West Melbourne (Residential),"Rental, Hiring and Real Estate Services",6,8,7,2010,2006,1.9459101490553132,-2,1,FALSE,FALSE,FALSE,TRUE,Included
 2008,West Melbourne (Residential),Retail Trade,49,52,45,2010,2006,3.912023005428146,-3,-4,FALSE,FALSE,FALSE,TRUE,Included
 2008,West Melbourne (Residential),"Transport, Postal and Warehousing",22,22,18,2010,2006,3.1354942159291497,0,-4,FALSE,FALSE,FALSE,TRUE,Included
-2008,West Melbourne (Residential),Wholesale Trade,47,48,44,2010,2006,3.8712010109078907,-1,-3,FALSE,FALSE,FALSE,TRUE,Included
+2008,West Melbourne (Residential),Wholesale Trade,47,48,44,2010,2006,3.871201010907891,-1,-3,FALSE,FALSE,FALSE,TRUE,Included
 2010,Carlton,Accommodation and Food Services,241,229,235,2012,2008,5.488937726156687,12,-6,FALSE,FALSE,FALSE,TRUE,Included
 2010,Carlton,Administrative and Support Services,26,27,28,2012,2008,3.295836866004329,-1,2,FALSE,FALSE,FALSE,TRUE,Included
 2010,Carlton,"Agriculture, Forestry and Fishing",1,1,2,2012,2008,0.6931471805599453,0,1,FALSE,FALSE,FALSE,TRUE,Included
@@ -1017,7 +1017,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2010,Docklands,Health Care and Social Assistance,14,9,20,2012,2008,2.70805020110221,5,6,FALSE,FALSE,FALSE,TRUE,Included
 2010,Docklands,Information Media and Telecommunications,14,9,17,2012,2008,2.70805020110221,5,3,FALSE,FALSE,FALSE,TRUE,Included
 2010,Docklands,Manufacturing,15,8,14,2012,2008,2.772588722239781,7,-1,FALSE,FALSE,FALSE,TRUE,Included
-2010,Docklands,Mining,2,1,2,2012,2008,1.0986122886681096,1,0,FALSE,FALSE,FALSE,TRUE,Included
+2010,Docklands,Mining,2,1,2,2012,2008,1.0986122886681098,1,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,Docklands,Other Services,40,23,43,2012,2008,3.713572066704308,17,3,FALSE,FALSE,FALSE,TRUE,Included
 2010,Docklands,"Professional, Scientific and Technical Services",85,47,102,2012,2008,4.454347296253507,38,17,FALSE,FALSE,FALSE,TRUE,Included
 2010,Docklands,Public Administration and Safety,11,7,8,2012,2008,2.4849066497880004,4,-3,FALSE,FALSE,FALSE,TRUE,Included
@@ -1026,12 +1026,12 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2010,Docklands,"Transport, Postal and Warehousing",28,34,28,2012,2008,3.367295829986474,-6,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,Docklands,Wholesale Trade,8,10,12,2012,2008,2.1972245773362196,-2,4,FALSE,FALSE,FALSE,TRUE,Included
 2010,East Melbourne,Accommodation and Food Services,60,59,62,2012,2008,4.110873864173311,1,2,FALSE,FALSE,FALSE,TRUE,Included
-2010,East Melbourne,Administrative and Support Services,13,12,13,2012,2008,2.639057329615259,1,0,FALSE,FALSE,FALSE,TRUE,Included
+2010,East Melbourne,Administrative and Support Services,13,12,13,2012,2008,2.6390573296152584,1,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,East Melbourne,"Agriculture, Forestry and Fishing",NA,NA,NA,2012,2008,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2010,East Melbourne,Arts and Recreation Services,23,25,23,2012,2008,3.1780538303479458,-2,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,East Melbourne,Construction,6,4,9,2012,2008,1.9459101490553132,2,3,FALSE,FALSE,FALSE,TRUE,Included
 2010,East Melbourne,Education and Training,15,16,11,2012,2008,2.772588722239781,-1,-4,FALSE,FALSE,FALSE,TRUE,Included
-2010,East Melbourne,"Electricity, Gas, Water and Waste Services",2,2,4,2012,2008,1.0986122886681096,0,2,FALSE,FALSE,FALSE,TRUE,Included
+2010,East Melbourne,"Electricity, Gas, Water and Waste Services",2,2,4,2012,2008,1.0986122886681098,0,2,FALSE,FALSE,FALSE,TRUE,Included
 2010,East Melbourne,Financial and Insurance Services,17,17,21,2012,2008,2.8903717578961645,0,4,FALSE,FALSE,FALSE,TRUE,Included
 2010,East Melbourne,Health Care and Social Assistance,213,202,220,2012,2008,5.365976015021851,11,7,FALSE,FALSE,FALSE,TRUE,Included
 2010,East Melbourne,Information Media and Telecommunications,7,8,4,2012,2008,2.0794415416798357,-1,-3,FALSE,FALSE,FALSE,TRUE,Included
@@ -1042,7 +1042,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2010,East Melbourne,Public Administration and Safety,12,13,12,2012,2008,2.5649493574615367,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,East Melbourne,"Rental, Hiring and Real Estate Services",9,7,7,2012,2008,2.302585092994046,2,-2,FALSE,FALSE,FALSE,TRUE,Included
 2010,East Melbourne,Retail Trade,19,18,16,2012,2008,2.995732273553991,1,-3,FALSE,FALSE,FALSE,TRUE,Included
-2010,East Melbourne,"Transport, Postal and Warehousing",2,3,2,2012,2008,1.0986122886681096,-1,0,FALSE,FALSE,FALSE,TRUE,Included
+2010,East Melbourne,"Transport, Postal and Warehousing",2,3,2,2012,2008,1.0986122886681098,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,East Melbourne,Wholesale Trade,4,6,6,2012,2008,1.6094379124341003,-2,2,FALSE,FALSE,FALSE,TRUE,Included
 2010,Kensington,Accommodation and Food Services,27,27,33,2012,2008,3.332204510175204,0,6,FALSE,FALSE,FALSE,TRUE,Included
 2010,Kensington,Administrative and Support Services,6,6,6,2012,2008,1.9459101490553132,0,0,FALSE,FALSE,FALSE,TRUE,Included
@@ -1050,7 +1050,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2010,Kensington,Arts and Recreation Services,28,28,28,2012,2008,3.367295829986474,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,Kensington,Construction,14,14,25,2012,2008,2.70805020110221,0,11,FALSE,FALSE,FALSE,TRUE,Included
 2010,Kensington,Education and Training,6,6,10,2012,2008,1.9459101490553132,0,4,FALSE,FALSE,FALSE,TRUE,Included
-2010,Kensington,"Electricity, Gas, Water and Waste Services",2,2,1,2012,2008,1.0986122886681096,0,-1,FALSE,FALSE,FALSE,TRUE,Included
+2010,Kensington,"Electricity, Gas, Water and Waste Services",2,2,1,2012,2008,1.0986122886681098,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2010,Kensington,Financial and Insurance Services,4,4,3,2012,2008,1.6094379124341003,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2010,Kensington,Health Care and Social Assistance,16,16,24,2012,2008,2.833213344056216,0,8,FALSE,FALSE,FALSE,TRUE,Included
 2010,Kensington,Information Media and Telecommunications,4,4,6,2012,2008,1.6094379124341003,0,2,FALSE,FALSE,FALSE,TRUE,Included
@@ -1115,7 +1115,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2010,North Melbourne,Mining,NA,1,NA,2012,2008,NA,NA,NA,TRUE,FALSE,TRUE,FALSE,No published origin-year cell
 2010,North Melbourne,Other Services,134,135,143,2012,2008,4.90527477843843,-1,9,FALSE,FALSE,FALSE,TRUE,Included
 2010,North Melbourne,"Professional, Scientific and Technical Services",151,143,150,2012,2008,5.0238805208462765,8,-1,FALSE,FALSE,FALSE,TRUE,Included
-2010,North Melbourne,Public Administration and Safety,13,12,14,2012,2008,2.639057329615259,1,1,FALSE,FALSE,FALSE,TRUE,Included
+2010,North Melbourne,Public Administration and Safety,13,12,14,2012,2008,2.6390573296152584,1,1,FALSE,FALSE,FALSE,TRUE,Included
 2010,North Melbourne,"Rental, Hiring and Real Estate Services",23,29,23,2012,2008,3.1780538303479458,-6,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,North Melbourne,Retail Trade,113,113,102,2012,2008,4.736198448394496,0,-11,FALSE,FALSE,FALSE,TRUE,Included
 2010,North Melbourne,"Transport, Postal and Warehousing",38,42,31,2012,2008,3.6635616461296463,-4,-7,FALSE,FALSE,FALSE,TRUE,Included
@@ -1125,11 +1125,11 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2010,Parkville,"Agriculture, Forestry and Fishing",1,1,NA,2012,2008,0.6931471805599453,0,NA,FALSE,FALSE,TRUE,FALSE,No published target-year cell
 2010,Parkville,Arts and Recreation Services,6,5,7,2012,2008,1.9459101490553132,1,1,FALSE,FALSE,FALSE,TRUE,Included
 2010,Parkville,Construction,NA,1,1,2012,2008,NA,NA,NA,TRUE,FALSE,FALSE,FALSE,No published origin-year cell
-2010,Parkville,Education and Training,13,13,17,2012,2008,2.639057329615259,0,4,FALSE,FALSE,FALSE,TRUE,Included
+2010,Parkville,Education and Training,13,13,17,2012,2008,2.6390573296152584,0,4,FALSE,FALSE,FALSE,TRUE,Included
 2010,Parkville,"Electricity, Gas, Water and Waste Services",NA,NA,NA,2012,2008,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2010,Parkville,Financial and Insurance Services,6,10,7,2012,2008,1.9459101490553132,-4,1,FALSE,FALSE,FALSE,TRUE,Included
 2010,Parkville,Health Care and Social Assistance,77,60,71,2012,2008,4.356708826689592,17,-6,FALSE,FALSE,FALSE,TRUE,Included
-2010,Parkville,Information Media and Telecommunications,2,3,2,2012,2008,1.0986122886681096,-1,0,FALSE,FALSE,FALSE,TRUE,Included
+2010,Parkville,Information Media and Telecommunications,2,3,2,2012,2008,1.0986122886681098,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,Parkville,Manufacturing,3,2,5,2012,2008,1.3862943611198906,1,2,FALSE,FALSE,FALSE,TRUE,Included
 2010,Parkville,Mining,NA,NA,NA,2012,2008,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2010,Parkville,Other Services,20,20,16,2012,2008,3.044522437723423,0,-4,FALSE,FALSE,FALSE,TRUE,Included
@@ -1140,8 +1140,8 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2010,Parkville,"Transport, Postal and Warehousing",4,5,4,2012,2008,1.6094379124341003,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,Parkville,Wholesale Trade,NA,NA,NA,2012,2008,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2010,Port Melbourne,Accommodation and Food Services,17,8,17,2012,2008,2.8903717578961645,9,0,FALSE,FALSE,FALSE,TRUE,Included
-2010,Port Melbourne,Administrative and Support Services,13,11,13,2012,2008,2.639057329615259,2,0,FALSE,FALSE,FALSE,TRUE,Included
-2010,Port Melbourne,"Agriculture, Forestry and Fishing",2,1,2,2012,2008,1.0986122886681096,1,0,FALSE,FALSE,FALSE,TRUE,Included
+2010,Port Melbourne,Administrative and Support Services,13,11,13,2012,2008,2.6390573296152584,2,0,FALSE,FALSE,FALSE,TRUE,Included
+2010,Port Melbourne,"Agriculture, Forestry and Fishing",2,1,2,2012,2008,1.0986122886681098,1,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,Port Melbourne,Arts and Recreation Services,5,4,5,2012,2008,1.791759469228055,1,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,Port Melbourne,Construction,44,31,44,2012,2008,3.8066624897703196,13,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,Port Melbourne,Education and Training,5,4,5,2012,2008,1.791759469228055,1,0,FALSE,FALSE,FALSE,TRUE,Included
@@ -1152,7 +1152,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2010,Port Melbourne,Manufacturing,69,52,69,2012,2008,4.248495242049359,17,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,Port Melbourne,Mining,NA,2,NA,2012,2008,NA,NA,NA,TRUE,FALSE,TRUE,FALSE,No published origin-year cell
 2010,Port Melbourne,Other Services,10,7,10,2012,2008,2.3978952727983707,3,0,FALSE,FALSE,FALSE,TRUE,Included
-2010,Port Melbourne,"Professional, Scientific and Technical Services",73,53,73,2012,2008,4.304065093204169,20,0,FALSE,FALSE,FALSE,TRUE,Included
+2010,Port Melbourne,"Professional, Scientific and Technical Services",73,53,73,2012,2008,4.30406509320417,20,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,Port Melbourne,Public Administration and Safety,5,3,5,2012,2008,1.791759469228055,2,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,Port Melbourne,"Rental, Hiring and Real Estate Services",11,4,11,2012,2008,2.4849066497880004,7,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,Port Melbourne,Retail Trade,21,20,21,2012,2008,3.091042453358316,1,0,FALSE,FALSE,FALSE,TRUE,Included
@@ -1182,8 +1182,8 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2010,Southbank,"Agriculture, Forestry and Fishing",3,3,3,2012,2008,1.3862943611198906,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,Southbank,Arts and Recreation Services,31,31,28,2012,2008,3.4657359027997265,0,-3,FALSE,FALSE,FALSE,TRUE,Included
 2010,Southbank,Construction,16,16,25,2012,2008,2.833213344056216,0,9,FALSE,FALSE,FALSE,TRUE,Included
-2010,Southbank,Education and Training,13,13,14,2012,2008,2.639057329615259,0,1,FALSE,FALSE,FALSE,TRUE,Included
-2010,Southbank,"Electricity, Gas, Water and Waste Services",2,2,1,2012,2008,1.0986122886681096,0,-1,FALSE,FALSE,FALSE,TRUE,Included
+2010,Southbank,Education and Training,13,13,14,2012,2008,2.6390573296152584,0,1,FALSE,FALSE,FALSE,TRUE,Included
+2010,Southbank,"Electricity, Gas, Water and Waste Services",2,2,1,2012,2008,1.0986122886681098,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2010,Southbank,Financial and Insurance Services,27,27,28,2012,2008,3.332204510175204,0,1,FALSE,FALSE,FALSE,TRUE,Included
 2010,Southbank,Health Care and Social Assistance,18,18,23,2012,2008,2.9444389791664403,0,5,FALSE,FALSE,FALSE,TRUE,Included
 2010,Southbank,Information Media and Telecommunications,25,25,20,2012,2008,3.258096538021482,0,-5,FALSE,FALSE,FALSE,TRUE,Included
@@ -1194,13 +1194,13 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2010,Southbank,Public Administration and Safety,10,10,9,2012,2008,2.3978952727983707,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2010,Southbank,"Rental, Hiring and Real Estate Services",29,29,28,2012,2008,3.4011973816621555,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2010,Southbank,Retail Trade,102,102,218,2012,2008,4.634728988229636,0,116,FALSE,FALSE,FALSE,TRUE,Included
-2010,Southbank,"Transport, Postal and Warehousing",13,13,12,2012,2008,2.639057329615259,0,-1,FALSE,FALSE,FALSE,TRUE,Included
+2010,Southbank,"Transport, Postal and Warehousing",13,13,12,2012,2008,2.6390573296152584,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2010,Southbank,Wholesale Trade,14,14,17,2012,2008,2.70805020110221,0,3,FALSE,FALSE,FALSE,TRUE,Included
 2010,West Melbourne (Industrial),Accommodation and Food Services,8,7,8,2012,2008,2.1972245773362196,1,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,West Melbourne (Industrial),Administrative and Support Services,1,2,NA,2012,2008,0.6931471805599453,-1,NA,FALSE,FALSE,TRUE,FALSE,No published target-year cell
 2010,West Melbourne (Industrial),"Agriculture, Forestry and Fishing",1,1,1,2012,2008,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,West Melbourne (Industrial),Arts and Recreation Services,3,3,4,2012,2008,1.3862943611198906,0,1,FALSE,FALSE,FALSE,TRUE,Included
-2010,West Melbourne (Industrial),Construction,2,3,4,2012,2008,1.0986122886681096,-1,2,FALSE,FALSE,FALSE,TRUE,Included
+2010,West Melbourne (Industrial),Construction,2,3,4,2012,2008,1.0986122886681098,-1,2,FALSE,FALSE,FALSE,TRUE,Included
 2010,West Melbourne (Industrial),Education and Training,NA,NA,1,2012,2008,NA,NA,NA,TRUE,TRUE,FALSE,FALSE,No published origin-year cell
 2010,West Melbourne (Industrial),"Electricity, Gas, Water and Waste Services",4,4,5,2012,2008,1.6094379124341003,0,1,FALSE,FALSE,FALSE,TRUE,Included
 2010,West Melbourne (Industrial),Financial and Insurance Services,1,1,1,2012,2008,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
@@ -1219,11 +1219,11 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2010,West Melbourne (Residential),Administrative and Support Services,16,12,14,2012,2008,2.833213344056216,4,-2,FALSE,FALSE,FALSE,TRUE,Included
 2010,West Melbourne (Residential),"Agriculture, Forestry and Fishing",NA,NA,NA,2012,2008,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2010,West Melbourne (Residential),Arts and Recreation Services,11,12,10,2012,2008,2.4849066497880004,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
-2010,West Melbourne (Residential),Construction,13,13,12,2012,2008,2.639057329615259,0,-1,FALSE,FALSE,FALSE,TRUE,Included
+2010,West Melbourne (Residential),Construction,13,13,12,2012,2008,2.6390573296152584,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2010,West Melbourne (Residential),Education and Training,17,14,20,2012,2008,2.8903717578961645,3,3,FALSE,FALSE,FALSE,TRUE,Included
 2010,West Melbourne (Residential),"Electricity, Gas, Water and Waste Services",3,2,NA,2012,2008,1.3862943611198906,1,NA,FALSE,FALSE,TRUE,FALSE,No published target-year cell
 2010,West Melbourne (Residential),Financial and Insurance Services,14,13,16,2012,2008,2.70805020110221,1,2,FALSE,FALSE,FALSE,TRUE,Included
-2010,West Melbourne (Residential),Health Care and Social Assistance,13,15,13,2012,2008,2.639057329615259,-2,0,FALSE,FALSE,FALSE,TRUE,Included
+2010,West Melbourne (Residential),Health Care and Social Assistance,13,15,13,2012,2008,2.6390573296152584,-2,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,West Melbourne (Residential),Information Media and Telecommunications,12,18,12,2012,2008,2.5649493574615367,-6,0,FALSE,FALSE,FALSE,TRUE,Included
 2010,West Melbourne (Residential),Manufacturing,21,28,19,2012,2008,3.091042453358316,-7,-2,FALSE,FALSE,FALSE,TRUE,Included
 2010,West Melbourne (Residential),Mining,NA,NA,NA,2012,2008,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
@@ -1236,7 +1236,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2010,West Melbourne (Residential),Wholesale Trade,44,47,35,2012,2008,3.8066624897703196,-3,-9,FALSE,FALSE,FALSE,TRUE,Included
 2012,Carlton,Accommodation and Food Services,235,241,244,2014,2010,5.4638318050256105,-6,9,FALSE,FALSE,FALSE,TRUE,Included
 2012,Carlton,Administrative and Support Services,28,26,26,2014,2010,3.367295829986474,2,-2,FALSE,FALSE,FALSE,TRUE,Included
-2012,Carlton,"Agriculture, Forestry and Fishing",2,1,2,2014,2010,1.0986122886681096,1,0,FALSE,FALSE,FALSE,TRUE,Included
+2012,Carlton,"Agriculture, Forestry and Fishing",2,1,2,2014,2010,1.0986122886681098,1,0,FALSE,FALSE,FALSE,TRUE,Included
 2012,Carlton,Arts and Recreation Services,24,18,24,2014,2010,3.2188758248682006,6,0,FALSE,FALSE,FALSE,TRUE,Included
 2012,Carlton,Construction,17,21,13,2014,2010,2.8903717578961645,-4,-4,FALSE,FALSE,FALSE,TRUE,Included
 2012,Carlton,Education and Training,80,77,76,2014,2010,4.394449154672439,3,-4,FALSE,FALSE,FALSE,TRUE,Included
@@ -1264,7 +1264,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2012,Docklands,Health Care and Social Assistance,20,14,20,2014,2010,3.044522437723423,6,0,FALSE,FALSE,FALSE,TRUE,Included
 2012,Docklands,Information Media and Telecommunications,17,14,12,2014,2010,2.8903717578961645,3,-5,FALSE,FALSE,FALSE,TRUE,Included
 2012,Docklands,Manufacturing,14,15,17,2014,2010,2.70805020110221,-1,3,FALSE,FALSE,FALSE,TRUE,Included
-2012,Docklands,Mining,2,2,1,2014,2010,1.0986122886681096,0,-1,FALSE,FALSE,FALSE,TRUE,Included
+2012,Docklands,Mining,2,2,1,2014,2010,1.0986122886681098,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2012,Docklands,Other Services,43,40,56,2014,2010,3.784189633918261,3,13,FALSE,FALSE,FALSE,TRUE,Included
 2012,Docklands,"Professional, Scientific and Technical Services",102,85,116,2014,2010,4.634728988229636,17,14,FALSE,FALSE,FALSE,TRUE,Included
 2012,Docklands,Public Administration and Safety,8,11,6,2014,2010,2.1972245773362196,-3,-2,FALSE,FALSE,FALSE,TRUE,Included
@@ -1273,7 +1273,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2012,Docklands,"Transport, Postal and Warehousing",28,28,29,2014,2010,3.367295829986474,0,1,FALSE,FALSE,FALSE,TRUE,Included
 2012,Docklands,Wholesale Trade,12,8,18,2014,2010,2.5649493574615367,4,6,FALSE,FALSE,FALSE,TRUE,Included
 2012,East Melbourne,Accommodation and Food Services,62,60,62,2014,2010,4.143134726391533,2,0,FALSE,FALSE,FALSE,TRUE,Included
-2012,East Melbourne,Administrative and Support Services,13,13,12,2014,2010,2.639057329615259,0,-1,FALSE,FALSE,FALSE,TRUE,Included
+2012,East Melbourne,Administrative and Support Services,13,13,12,2014,2010,2.6390573296152584,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2012,East Melbourne,"Agriculture, Forestry and Fishing",NA,NA,NA,2014,2010,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2012,East Melbourne,Arts and Recreation Services,23,23,22,2014,2010,3.1780538303479458,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2012,East Melbourne,Construction,9,6,5,2014,2010,2.302585092994046,3,-4,FALSE,FALSE,FALSE,TRUE,Included
@@ -1289,7 +1289,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2012,East Melbourne,Public Administration and Safety,12,12,16,2014,2010,2.5649493574615367,0,4,FALSE,FALSE,FALSE,TRUE,Included
 2012,East Melbourne,"Rental, Hiring and Real Estate Services",7,9,10,2014,2010,2.0794415416798357,-2,3,FALSE,FALSE,FALSE,TRUE,Included
 2012,East Melbourne,Retail Trade,16,19,13,2014,2010,2.833213344056216,-3,-3,FALSE,FALSE,FALSE,TRUE,Included
-2012,East Melbourne,"Transport, Postal and Warehousing",2,2,2,2014,2010,1.0986122886681096,0,0,FALSE,FALSE,FALSE,TRUE,Included
+2012,East Melbourne,"Transport, Postal and Warehousing",2,2,2,2014,2010,1.0986122886681098,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2012,East Melbourne,Wholesale Trade,6,4,4,2014,2010,1.9459101490553132,2,-2,FALSE,FALSE,FALSE,TRUE,Included
 2012,Kensington,Accommodation and Food Services,33,27,39,2014,2010,3.5263605246161616,6,6,FALSE,FALSE,FALSE,TRUE,Included
 2012,Kensington,Administrative and Support Services,6,6,5,2014,2010,1.9459101490553132,0,-1,FALSE,FALSE,FALSE,TRUE,Included
@@ -1354,7 +1354,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2012,North Melbourne,Arts and Recreation Services,39,36,39,2014,2010,3.6888794541139363,3,0,FALSE,FALSE,FALSE,TRUE,Included
 2012,North Melbourne,Construction,46,39,42,2014,2010,3.8501476017100584,7,-4,FALSE,FALSE,FALSE,TRUE,Included
 2012,North Melbourne,Education and Training,28,24,32,2014,2010,3.367295829986474,4,4,FALSE,FALSE,FALSE,TRUE,Included
-2012,North Melbourne,"Electricity, Gas, Water and Waste Services",2,1,1,2014,2010,1.0986122886681096,1,-1,FALSE,FALSE,FALSE,TRUE,Included
+2012,North Melbourne,"Electricity, Gas, Water and Waste Services",2,1,1,2014,2010,1.0986122886681098,1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2012,North Melbourne,Financial and Insurance Services,21,22,20,2014,2010,3.091042453358316,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2012,North Melbourne,Health Care and Social Assistance,97,87,98,2014,2010,4.584967478670572,10,1,FALSE,FALSE,FALSE,TRUE,Included
 2012,North Melbourne,Information Media and Telecommunications,30,32,21,2014,2010,3.4339872044851463,-2,-9,FALSE,FALSE,FALSE,TRUE,Included
@@ -1368,7 +1368,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2012,North Melbourne,"Transport, Postal and Warehousing",31,38,26,2014,2010,3.4657359027997265,-7,-5,FALSE,FALSE,FALSE,TRUE,Included
 2012,North Melbourne,Wholesale Trade,74,74,67,2014,2010,4.31748811353631,0,-7,FALSE,FALSE,FALSE,TRUE,Included
 2012,Parkville,Accommodation and Food Services,60,57,70,2014,2010,4.110873864173311,3,10,FALSE,FALSE,FALSE,TRUE,Included
-2012,Parkville,Administrative and Support Services,2,3,4,2014,2010,1.0986122886681096,-1,2,FALSE,FALSE,FALSE,TRUE,Included
+2012,Parkville,Administrative and Support Services,2,3,4,2014,2010,1.0986122886681098,-1,2,FALSE,FALSE,FALSE,TRUE,Included
 2012,Parkville,"Agriculture, Forestry and Fishing",NA,1,NA,2014,2010,NA,NA,NA,TRUE,FALSE,TRUE,FALSE,No published origin-year cell
 2012,Parkville,Arts and Recreation Services,7,6,10,2014,2010,2.0794415416798357,1,3,FALSE,FALSE,FALSE,TRUE,Included
 2012,Parkville,Construction,1,NA,1,2014,2010,0.6931471805599453,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
@@ -1376,7 +1376,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2012,Parkville,"Electricity, Gas, Water and Waste Services",NA,NA,NA,2014,2010,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2012,Parkville,Financial and Insurance Services,7,6,8,2014,2010,2.0794415416798357,1,1,FALSE,FALSE,FALSE,TRUE,Included
 2012,Parkville,Health Care and Social Assistance,71,77,70,2014,2010,4.276666119016055,-6,-1,FALSE,FALSE,FALSE,TRUE,Included
-2012,Parkville,Information Media and Telecommunications,2,2,1,2014,2010,1.0986122886681096,0,-1,FALSE,FALSE,FALSE,TRUE,Included
+2012,Parkville,Information Media and Telecommunications,2,2,1,2014,2010,1.0986122886681098,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2012,Parkville,Manufacturing,5,3,1,2014,2010,1.791759469228055,2,-4,FALSE,FALSE,FALSE,TRUE,Included
 2012,Parkville,Mining,NA,NA,NA,2014,2010,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2012,Parkville,Other Services,16,20,17,2014,2010,2.833213344056216,-4,1,FALSE,FALSE,FALSE,TRUE,Included
@@ -1387,8 +1387,8 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2012,Parkville,"Transport, Postal and Warehousing",4,4,3,2014,2010,1.6094379124341003,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2012,Parkville,Wholesale Trade,NA,NA,NA,2014,2010,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2012,Port Melbourne,Accommodation and Food Services,17,17,21,2014,2010,2.8903717578961645,0,4,FALSE,FALSE,FALSE,TRUE,Included
-2012,Port Melbourne,Administrative and Support Services,13,13,14,2014,2010,2.639057329615259,0,1,FALSE,FALSE,FALSE,TRUE,Included
-2012,Port Melbourne,"Agriculture, Forestry and Fishing",2,2,2,2014,2010,1.0986122886681096,0,0,FALSE,FALSE,FALSE,TRUE,Included
+2012,Port Melbourne,Administrative and Support Services,13,13,14,2014,2010,2.6390573296152584,0,1,FALSE,FALSE,FALSE,TRUE,Included
+2012,Port Melbourne,"Agriculture, Forestry and Fishing",2,2,2,2014,2010,1.0986122886681098,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2012,Port Melbourne,Arts and Recreation Services,5,5,6,2014,2010,1.791759469228055,0,1,FALSE,FALSE,FALSE,TRUE,Included
 2012,Port Melbourne,Construction,44,44,53,2014,2010,3.8066624897703196,0,9,FALSE,FALSE,FALSE,TRUE,Included
 2012,Port Melbourne,Education and Training,5,5,5,2014,2010,1.791759469228055,0,0,FALSE,FALSE,FALSE,TRUE,Included
@@ -1399,7 +1399,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2012,Port Melbourne,Manufacturing,69,69,82,2014,2010,4.248495242049359,0,13,FALSE,FALSE,FALSE,TRUE,Included
 2012,Port Melbourne,Mining,NA,NA,NA,2014,2010,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2012,Port Melbourne,Other Services,10,10,13,2014,2010,2.3978952727983707,0,3,FALSE,FALSE,FALSE,TRUE,Included
-2012,Port Melbourne,"Professional, Scientific and Technical Services",73,73,70,2014,2010,4.304065093204169,0,-3,FALSE,FALSE,FALSE,TRUE,Included
+2012,Port Melbourne,"Professional, Scientific and Technical Services",73,73,70,2014,2010,4.30406509320417,0,-3,FALSE,FALSE,FALSE,TRUE,Included
 2012,Port Melbourne,Public Administration and Safety,5,5,8,2014,2010,1.791759469228055,0,3,FALSE,FALSE,FALSE,TRUE,Included
 2012,Port Melbourne,"Rental, Hiring and Real Estate Services",11,11,15,2014,2010,2.4849066497880004,0,4,FALSE,FALSE,FALSE,TRUE,Included
 2012,Port Melbourne,Retail Trade,21,21,24,2014,2010,3.091042453358316,0,3,FALSE,FALSE,FALSE,TRUE,Included
@@ -1470,7 +1470,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2012,West Melbourne (Residential),Education and Training,20,17,21,2014,2010,3.044522437723423,3,1,FALSE,FALSE,FALSE,TRUE,Included
 2012,West Melbourne (Residential),"Electricity, Gas, Water and Waste Services",NA,3,NA,2014,2010,NA,NA,NA,TRUE,FALSE,TRUE,FALSE,No published origin-year cell
 2012,West Melbourne (Residential),Financial and Insurance Services,16,14,13,2014,2010,2.833213344056216,2,-3,FALSE,FALSE,FALSE,TRUE,Included
-2012,West Melbourne (Residential),Health Care and Social Assistance,13,13,17,2014,2010,2.639057329615259,0,4,FALSE,FALSE,FALSE,TRUE,Included
+2012,West Melbourne (Residential),Health Care and Social Assistance,13,13,17,2014,2010,2.6390573296152584,0,4,FALSE,FALSE,FALSE,TRUE,Included
 2012,West Melbourne (Residential),Information Media and Telecommunications,12,12,13,2014,2010,2.5649493574615367,0,1,FALSE,FALSE,FALSE,TRUE,Included
 2012,West Melbourne (Residential),Manufacturing,19,21,16,2014,2010,2.995732273553991,-2,-3,FALSE,FALSE,FALSE,TRUE,Included
 2012,West Melbourne (Residential),Mining,NA,NA,1,2014,2010,NA,NA,NA,TRUE,TRUE,FALSE,FALSE,No published origin-year cell
@@ -1483,9 +1483,9 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2012,West Melbourne (Residential),Wholesale Trade,35,44,32,2014,2010,3.58351893845611,-9,-3,FALSE,FALSE,FALSE,TRUE,Included
 2014,Carlton,Accommodation and Food Services,244,235,272,2016,2012,5.501258210544727,9,28,FALSE,FALSE,FALSE,TRUE,Included
 2014,Carlton,Administrative and Support Services,26,28,26,2016,2012,3.295836866004329,-2,0,FALSE,FALSE,FALSE,TRUE,Included
-2014,Carlton,"Agriculture, Forestry and Fishing",2,2,1,2016,2012,1.0986122886681096,0,-1,FALSE,FALSE,FALSE,TRUE,Included
+2014,Carlton,"Agriculture, Forestry and Fishing",2,2,1,2016,2012,1.0986122886681098,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2014,Carlton,Arts and Recreation Services,24,24,22,2016,2012,3.2188758248682006,0,-2,FALSE,FALSE,FALSE,TRUE,Included
-2014,Carlton,Construction,13,17,17,2016,2012,2.639057329615259,-4,4,FALSE,FALSE,FALSE,TRUE,Included
+2014,Carlton,Construction,13,17,17,2016,2012,2.6390573296152584,-4,4,FALSE,FALSE,FALSE,TRUE,Included
 2014,Carlton,Education and Training,76,80,81,2016,2012,4.343805421853684,-4,5,FALSE,FALSE,FALSE,TRUE,Included
 2014,Carlton,"Electricity, Gas, Water and Waste Services",NA,NA,NA,2016,2012,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2014,Carlton,Financial and Insurance Services,40,34,31,2016,2012,3.713572066704308,6,-9,FALSE,FALSE,FALSE,TRUE,Included
@@ -1535,8 +1535,8 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2014,East Melbourne,"Professional, Scientific and Technical Services",71,88,72,2016,2012,4.276666119016055,-17,1,FALSE,FALSE,FALSE,TRUE,Included
 2014,East Melbourne,Public Administration and Safety,16,12,14,2016,2012,2.833213344056216,4,-2,FALSE,FALSE,FALSE,TRUE,Included
 2014,East Melbourne,"Rental, Hiring and Real Estate Services",10,7,9,2016,2012,2.3978952727983707,3,-1,FALSE,FALSE,FALSE,TRUE,Included
-2014,East Melbourne,Retail Trade,13,16,12,2016,2012,2.639057329615259,-3,-1,FALSE,FALSE,FALSE,TRUE,Included
-2014,East Melbourne,"Transport, Postal and Warehousing",2,2,1,2016,2012,1.0986122886681096,0,-1,FALSE,FALSE,FALSE,TRUE,Included
+2014,East Melbourne,Retail Trade,13,16,12,2016,2012,2.6390573296152584,-3,-1,FALSE,FALSE,FALSE,TRUE,Included
+2014,East Melbourne,"Transport, Postal and Warehousing",2,2,1,2016,2012,1.0986122886681098,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2014,East Melbourne,Wholesale Trade,4,6,4,2016,2012,1.6094379124341003,-2,0,FALSE,FALSE,FALSE,TRUE,Included
 2014,Kensington,Accommodation and Food Services,39,33,46,2016,2012,3.6888794541139363,6,7,FALSE,FALSE,FALSE,TRUE,Included
 2014,Kensington,Administrative and Support Services,5,6,10,2016,2012,1.791759469228055,-1,5,FALSE,FALSE,FALSE,TRUE,Included
@@ -1563,7 +1563,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2014,Melbourne (CBD),Arts and Recreation Services,137,136,147,2016,2012,4.927253685157205,1,10,FALSE,FALSE,FALSE,TRUE,Included
 2014,Melbourne (CBD),Construction,82,85,95,2016,2012,4.418840607796598,-3,13,FALSE,FALSE,FALSE,TRUE,Included
 2014,Melbourne (CBD),Education and Training,268,268,308,2016,2012,5.594711379601839,0,40,FALSE,FALSE,FALSE,TRUE,Included
-2014,Melbourne (CBD),"Electricity, Gas, Water and Waste Services",13,20,18,2016,2012,2.639057329615259,-7,5,FALSE,FALSE,FALSE,TRUE,Included
+2014,Melbourne (CBD),"Electricity, Gas, Water and Waste Services",13,20,18,2016,2012,2.6390573296152584,-7,5,FALSE,FALSE,FALSE,TRUE,Included
 2014,Melbourne (CBD),Financial and Insurance Services,669,666,678,2016,2012,6.507277712385012,3,9,FALSE,FALSE,FALSE,TRUE,Included
 2014,Melbourne (CBD),Health Care and Social Assistance,402,383,414,2016,2012,5.998936561946683,19,12,FALSE,FALSE,FALSE,TRUE,Included
 2014,Melbourne (CBD),Information Media and Telecommunications,115,152,105,2016,2012,4.7535901911063645,-37,-10,FALSE,FALSE,FALSE,TRUE,Included
@@ -1635,27 +1635,27 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2014,Parkville,Wholesale Trade,NA,NA,1,2016,2012,NA,NA,NA,TRUE,TRUE,FALSE,FALSE,No published origin-year cell
 2014,Port Melbourne,Accommodation and Food Services,21,17,21,2016,2012,3.091042453358316,4,0,FALSE,FALSE,FALSE,TRUE,Included
 2014,Port Melbourne,Administrative and Support Services,14,13,21,2016,2012,2.70805020110221,1,7,FALSE,FALSE,FALSE,TRUE,Included
-2014,Port Melbourne,"Agriculture, Forestry and Fishing",2,2,1,2016,2012,1.0986122886681096,0,-1,FALSE,FALSE,FALSE,TRUE,Included
+2014,Port Melbourne,"Agriculture, Forestry and Fishing",2,2,1,2016,2012,1.0986122886681098,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2014,Port Melbourne,Arts and Recreation Services,6,5,6,2016,2012,1.9459101490553132,1,0,FALSE,FALSE,FALSE,TRUE,Included
 2014,Port Melbourne,Construction,53,44,49,2016,2012,3.9889840465642745,9,-4,FALSE,FALSE,FALSE,TRUE,Included
 2014,Port Melbourne,Education and Training,5,5,5,2016,2012,1.791759469228055,0,0,FALSE,FALSE,FALSE,TRUE,Included
-2014,Port Melbourne,"Electricity, Gas, Water and Waste Services",2,NA,NA,2016,2012,1.0986122886681096,NA,NA,FALSE,TRUE,TRUE,FALSE,No published exact two-year lag
+2014,Port Melbourne,"Electricity, Gas, Water and Waste Services",2,NA,NA,2016,2012,1.0986122886681098,NA,NA,FALSE,TRUE,TRUE,FALSE,No published exact two-year lag
 2014,Port Melbourne,Financial and Insurance Services,12,9,9,2016,2012,2.5649493574615367,3,-3,FALSE,FALSE,FALSE,TRUE,Included
 2014,Port Melbourne,Health Care and Social Assistance,5,1,5,2016,2012,1.791759469228055,4,0,FALSE,FALSE,FALSE,TRUE,Included
 2014,Port Melbourne,Information Media and Telecommunications,15,12,14,2016,2012,2.772588722239781,3,-1,FALSE,FALSE,FALSE,TRUE,Included
 2014,Port Melbourne,Manufacturing,82,69,81,2016,2012,4.418840607796598,13,-1,FALSE,FALSE,FALSE,TRUE,Included
 2014,Port Melbourne,Mining,NA,NA,NA,2016,2012,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2014,Port Melbourne,Other Services,13,10,16,2016,2012,2.639057329615259,3,3,FALSE,FALSE,FALSE,TRUE,Included
+2014,Port Melbourne,Other Services,13,10,16,2016,2012,2.6390573296152584,3,3,FALSE,FALSE,FALSE,TRUE,Included
 2014,Port Melbourne,"Professional, Scientific and Technical Services",70,73,81,2016,2012,4.2626798770413155,-3,11,FALSE,FALSE,FALSE,TRUE,Included
 2014,Port Melbourne,Public Administration and Safety,8,5,11,2016,2012,2.1972245773362196,3,3,FALSE,FALSE,FALSE,TRUE,Included
 2014,Port Melbourne,"Rental, Hiring and Real Estate Services",15,11,16,2016,2012,2.772588722239781,4,1,FALSE,FALSE,FALSE,TRUE,Included
 2014,Port Melbourne,Retail Trade,24,21,23,2016,2012,3.2188758248682006,3,-1,FALSE,FALSE,FALSE,TRUE,Included
 2014,Port Melbourne,"Transport, Postal and Warehousing",35,29,36,2016,2012,3.58351893845611,6,1,FALSE,FALSE,FALSE,TRUE,Included
 2014,Port Melbourne,Wholesale Trade,77,68,73,2016,2012,4.356708826689592,9,-4,FALSE,FALSE,FALSE,TRUE,Included
-2014,South Yarra,Accommodation and Food Services,13,16,12,2016,2012,2.639057329615259,-3,-1,FALSE,FALSE,FALSE,TRUE,Included
+2014,South Yarra,Accommodation and Food Services,13,16,12,2016,2012,2.6390573296152584,-3,-1,FALSE,FALSE,FALSE,TRUE,Included
 2014,South Yarra,Administrative and Support Services,1,1,1,2016,2012,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2014,South Yarra,"Agriculture, Forestry and Fishing",NA,NA,NA,2016,2012,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2014,South Yarra,Arts and Recreation Services,2,NA,1,2016,2012,1.0986122886681096,NA,-1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2014,South Yarra,Arts and Recreation Services,2,NA,1,2016,2012,1.0986122886681098,NA,-1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2014,South Yarra,Construction,NA,NA,NA,2016,2012,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2014,South Yarra,Education and Training,7,9,7,2016,2012,2.0794415416798357,-2,0,FALSE,FALSE,FALSE,TRUE,Included
 2014,South Yarra,"Electricity, Gas, Water and Waste Services",NA,NA,NA,2016,2012,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
@@ -1682,19 +1682,19 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2014,Southbank,Health Care and Social Assistance,23,23,28,2016,2012,3.1780538303479458,0,5,FALSE,FALSE,FALSE,TRUE,Included
 2014,Southbank,Information Media and Telecommunications,20,20,18,2016,2012,3.044522437723423,0,-2,FALSE,FALSE,FALSE,TRUE,Included
 2014,Southbank,Manufacturing,8,12,8,2016,2012,2.1972245773362196,-4,0,FALSE,FALSE,FALSE,TRUE,Included
-2014,Southbank,Mining,2,3,2,2016,2012,1.0986122886681096,-1,0,FALSE,FALSE,FALSE,TRUE,Included
+2014,Southbank,Mining,2,3,2,2016,2012,1.0986122886681098,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2014,Southbank,Other Services,27,33,20,2016,2012,3.332204510175204,-6,-7,FALSE,FALSE,FALSE,TRUE,Included
 2014,Southbank,"Professional, Scientific and Technical Services",128,135,130,2016,2012,4.859812404361672,-7,2,FALSE,FALSE,FALSE,TRUE,Included
 2014,Southbank,Public Administration and Safety,9,9,6,2016,2012,2.302585092994046,0,-3,FALSE,FALSE,FALSE,TRUE,Included
 2014,Southbank,"Rental, Hiring and Real Estate Services",32,28,31,2016,2012,3.4965075614664802,4,-1,FALSE,FALSE,FALSE,TRUE,Included
 2014,Southbank,Retail Trade,241,218,229,2016,2012,5.488937726156687,23,-12,FALSE,FALSE,FALSE,TRUE,Included
-2014,Southbank,"Transport, Postal and Warehousing",13,12,14,2016,2012,2.639057329615259,1,1,FALSE,FALSE,FALSE,TRUE,Included
+2014,Southbank,"Transport, Postal and Warehousing",13,12,14,2016,2012,2.6390573296152584,1,1,FALSE,FALSE,FALSE,TRUE,Included
 2014,Southbank,Wholesale Trade,21,17,19,2016,2012,3.091042453358316,4,-2,FALSE,FALSE,FALSE,TRUE,Included
 2014,West Melbourne (Industrial),Accommodation and Food Services,9,8,6,2016,2012,2.302585092994046,1,-3,FALSE,FALSE,FALSE,TRUE,Included
 2014,West Melbourne (Industrial),Administrative and Support Services,NA,NA,NA,2016,2012,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2014,West Melbourne (Industrial),"Agriculture, Forestry and Fishing",1,1,NA,2016,2012,0.6931471805599453,0,NA,FALSE,FALSE,TRUE,FALSE,No published target-year cell
 2014,West Melbourne (Industrial),Arts and Recreation Services,4,4,3,2016,2012,1.6094379124341003,0,-1,FALSE,FALSE,FALSE,TRUE,Included
-2014,West Melbourne (Industrial),Construction,2,4,3,2016,2012,1.0986122886681096,-2,1,FALSE,FALSE,FALSE,TRUE,Included
+2014,West Melbourne (Industrial),Construction,2,4,3,2016,2012,1.0986122886681098,-2,1,FALSE,FALSE,FALSE,TRUE,Included
 2014,West Melbourne (Industrial),Education and Training,NA,1,NA,2016,2012,NA,NA,NA,TRUE,FALSE,TRUE,FALSE,No published origin-year cell
 2014,West Melbourne (Industrial),"Electricity, Gas, Water and Waste Services",6,5,4,2016,2012,1.9459101490553132,1,-2,FALSE,FALSE,FALSE,TRUE,Included
 2014,West Melbourne (Industrial),Financial and Insurance Services,1,1,NA,2016,2012,0.6931471805599453,0,NA,FALSE,FALSE,TRUE,FALSE,No published target-year cell
@@ -1716,9 +1716,9 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2014,West Melbourne (Residential),Construction,9,12,12,2016,2012,2.302585092994046,-3,3,FALSE,FALSE,FALSE,TRUE,Included
 2014,West Melbourne (Residential),Education and Training,21,20,20,2016,2012,3.091042453358316,1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2014,West Melbourne (Residential),"Electricity, Gas, Water and Waste Services",NA,NA,NA,2016,2012,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2014,West Melbourne (Residential),Financial and Insurance Services,13,16,13,2016,2012,2.639057329615259,-3,0,FALSE,FALSE,FALSE,TRUE,Included
+2014,West Melbourne (Residential),Financial and Insurance Services,13,16,13,2016,2012,2.6390573296152584,-3,0,FALSE,FALSE,FALSE,TRUE,Included
 2014,West Melbourne (Residential),Health Care and Social Assistance,17,13,18,2016,2012,2.8903717578961645,4,1,FALSE,FALSE,FALSE,TRUE,Included
-2014,West Melbourne (Residential),Information Media and Telecommunications,13,12,10,2016,2012,2.639057329615259,1,-3,FALSE,FALSE,FALSE,TRUE,Included
+2014,West Melbourne (Residential),Information Media and Telecommunications,13,12,10,2016,2012,2.6390573296152584,1,-3,FALSE,FALSE,FALSE,TRUE,Included
 2014,West Melbourne (Residential),Manufacturing,16,19,13,2016,2012,2.833213344056216,-3,-3,FALSE,FALSE,FALSE,TRUE,Included
 2014,West Melbourne (Residential),Mining,1,NA,NA,2016,2012,0.6931471805599453,NA,NA,FALSE,TRUE,TRUE,FALSE,No published exact two-year lag
 2014,West Melbourne (Residential),Other Services,51,53,47,2016,2012,3.9512437185814275,-2,-4,FALSE,FALSE,FALSE,TRUE,Included
@@ -1753,11 +1753,11 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2016,Docklands,Arts and Recreation Services,30,29,36,2018,2014,3.4339872044851463,1,6,FALSE,FALSE,FALSE,TRUE,Included
 2016,Docklands,Construction,21,17,22,2018,2014,3.091042453358316,4,1,FALSE,FALSE,FALSE,TRUE,Included
 2016,Docklands,Education and Training,18,12,17,2018,2014,2.9444389791664403,6,-1,FALSE,FALSE,FALSE,TRUE,Included
-2016,Docklands,"Electricity, Gas, Water and Waste Services",2,NA,3,2018,2014,1.0986122886681096,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
+2016,Docklands,"Electricity, Gas, Water and Waste Services",2,NA,3,2018,2014,1.0986122886681098,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2016,Docklands,Financial and Insurance Services,39,24,46,2018,2014,3.6888794541139363,15,7,FALSE,FALSE,FALSE,TRUE,Included
 2016,Docklands,Health Care and Social Assistance,32,20,39,2018,2014,3.4965075614664802,12,7,FALSE,FALSE,FALSE,TRUE,Included
 2016,Docklands,Information Media and Telecommunications,18,12,18,2018,2014,2.9444389791664403,6,0,FALSE,FALSE,FALSE,TRUE,Included
-2016,Docklands,Manufacturing,13,17,16,2018,2014,2.639057329615259,-4,3,FALSE,FALSE,FALSE,TRUE,Included
+2016,Docklands,Manufacturing,13,17,16,2018,2014,2.6390573296152584,-4,3,FALSE,FALSE,FALSE,TRUE,Included
 2016,Docklands,Mining,1,1,NA,2018,2014,0.6931471805599453,0,NA,FALSE,FALSE,TRUE,FALSE,No published target-year cell
 2016,Docklands,Other Services,57,56,68,2018,2014,4.060443010546419,1,11,FALSE,FALSE,FALSE,TRUE,Included
 2016,Docklands,"Professional, Scientific and Technical Services",146,116,172,2018,2014,4.990432586778736,30,26,FALSE,FALSE,FALSE,TRUE,Included
@@ -1787,7 +1787,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2016,East Melbourne,Wholesale Trade,4,4,6,2018,2014,1.6094379124341003,0,2,FALSE,FALSE,FALSE,TRUE,Included
 2016,Kensington,Accommodation and Food Services,46,39,52,2018,2014,3.8501476017100584,7,6,FALSE,FALSE,FALSE,TRUE,Included
 2016,Kensington,Administrative and Support Services,10,5,10,2018,2014,2.3978952727983707,5,0,FALSE,FALSE,FALSE,TRUE,Included
-2016,Kensington,"Agriculture, Forestry and Fishing",2,3,2,2018,2014,1.0986122886681096,-1,0,FALSE,FALSE,FALSE,TRUE,Included
+2016,Kensington,"Agriculture, Forestry and Fishing",2,3,2,2018,2014,1.0986122886681098,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2016,Kensington,Arts and Recreation Services,36,27,34,2018,2014,3.6109179126442243,9,-2,FALSE,FALSE,FALSE,TRUE,Included
 2016,Kensington,Construction,22,22,26,2018,2014,3.1354942159291497,0,4,FALSE,FALSE,FALSE,TRUE,Included
 2016,Kensington,Education and Training,9,7,10,2018,2014,2.302585092994046,2,1,FALSE,FALSE,FALSE,TRUE,Included
@@ -1800,9 +1800,9 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2016,Kensington,Other Services,38,40,40,2018,2014,3.6635616461296463,-2,2,FALSE,FALSE,FALSE,TRUE,Included
 2016,Kensington,"Professional, Scientific and Technical Services",41,31,36,2018,2014,3.7376696182833684,10,-5,FALSE,FALSE,FALSE,TRUE,Included
 2016,Kensington,Public Administration and Safety,6,5,5,2018,2014,1.9459101490553132,1,-1,FALSE,FALSE,FALSE,TRUE,Included
-2016,Kensington,"Rental, Hiring and Real Estate Services",13,14,15,2018,2014,2.639057329615259,-1,2,FALSE,FALSE,FALSE,TRUE,Included
+2016,Kensington,"Rental, Hiring and Real Estate Services",13,14,15,2018,2014,2.6390573296152584,-1,2,FALSE,FALSE,FALSE,TRUE,Included
 2016,Kensington,Retail Trade,38,43,39,2018,2014,3.6635616461296463,-5,1,FALSE,FALSE,FALSE,TRUE,Included
-2016,Kensington,"Transport, Postal and Warehousing",13,12,11,2018,2014,2.639057329615259,1,-2,FALSE,FALSE,FALSE,TRUE,Included
+2016,Kensington,"Transport, Postal and Warehousing",13,12,11,2018,2014,2.6390573296152584,1,-2,FALSE,FALSE,FALSE,TRUE,Included
 2016,Kensington,Wholesale Trade,27,28,24,2018,2014,3.332204510175204,-1,-3,FALSE,FALSE,FALSE,TRUE,Included
 2016,Melbourne (CBD),Accommodation and Food Services,1724,1654,1784,2018,2014,7.45298232946546,70,60,FALSE,FALSE,FALSE,TRUE,Included
 2016,Melbourne (CBD),Administrative and Support Services,421,456,391,2018,2014,6.045005314036012,-35,-30,FALSE,FALSE,FALSE,TRUE,Included
@@ -1871,7 +1871,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2016,Parkville,Financial and Insurance Services,5,8,7,2018,2014,1.791759469228055,-3,2,FALSE,FALSE,FALSE,TRUE,Included
 2016,Parkville,Health Care and Social Assistance,83,70,86,2018,2014,4.430816798843313,13,3,FALSE,FALSE,FALSE,TRUE,Included
 2016,Parkville,Information Media and Telecommunications,1,1,1,2018,2014,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
-2016,Parkville,Manufacturing,2,1,2,2018,2014,1.0986122886681096,1,0,FALSE,FALSE,FALSE,TRUE,Included
+2016,Parkville,Manufacturing,2,1,2,2018,2014,1.0986122886681098,1,0,FALSE,FALSE,FALSE,TRUE,Included
 2016,Parkville,Mining,NA,NA,NA,2018,2014,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2016,Parkville,Other Services,21,17,19,2018,2014,3.091042453358316,4,-2,FALSE,FALSE,FALSE,TRUE,Included
 2016,Parkville,"Professional, Scientific and Technical Services",19,20,19,2018,2014,2.995732273553991,-1,0,FALSE,FALSE,FALSE,TRUE,Included
@@ -1898,7 +1898,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2016,Port Melbourne,"Rental, Hiring and Real Estate Services",16,15,22,2018,2014,2.833213344056216,1,6,FALSE,FALSE,FALSE,TRUE,Included
 2016,Port Melbourne,Retail Trade,23,24,24,2018,2014,3.1780538303479458,-1,1,FALSE,FALSE,FALSE,TRUE,Included
 2016,Port Melbourne,"Transport, Postal and Warehousing",36,35,40,2018,2014,3.6109179126442243,1,4,FALSE,FALSE,FALSE,TRUE,Included
-2016,Port Melbourne,Wholesale Trade,73,77,68,2018,2014,4.304065093204169,-4,-5,FALSE,FALSE,FALSE,TRUE,Included
+2016,Port Melbourne,Wholesale Trade,73,77,68,2018,2014,4.30406509320417,-4,-5,FALSE,FALSE,FALSE,TRUE,Included
 2016,South Yarra,Accommodation and Food Services,12,13,11,2018,2014,2.5649493574615367,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2016,South Yarra,Administrative and Support Services,1,1,1,2018,2014,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2016,South Yarra,"Agriculture, Forestry and Fishing",NA,NA,NA,2018,2014,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
@@ -1924,12 +1924,12 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2016,Southbank,Arts and Recreation Services,31,37,33,2018,2014,3.4657359027997265,-6,2,FALSE,FALSE,FALSE,TRUE,Included
 2016,Southbank,Construction,35,34,37,2018,2014,3.58351893845611,1,2,FALSE,FALSE,FALSE,TRUE,Included
 2016,Southbank,Education and Training,16,17,16,2018,2014,2.833213344056216,-1,0,FALSE,FALSE,FALSE,TRUE,Included
-2016,Southbank,"Electricity, Gas, Water and Waste Services",2,3,2,2018,2014,1.0986122886681096,-1,0,FALSE,FALSE,FALSE,TRUE,Included
+2016,Southbank,"Electricity, Gas, Water and Waste Services",2,3,2,2018,2014,1.0986122886681098,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2016,Southbank,Financial and Insurance Services,28,28,27,2018,2014,3.367295829986474,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2016,Southbank,Health Care and Social Assistance,28,23,31,2018,2014,3.367295829986474,5,3,FALSE,FALSE,FALSE,TRUE,Included
 2016,Southbank,Information Media and Telecommunications,18,20,19,2018,2014,2.9444389791664403,-2,1,FALSE,FALSE,FALSE,TRUE,Included
 2016,Southbank,Manufacturing,8,8,10,2018,2014,2.1972245773362196,0,2,FALSE,FALSE,FALSE,TRUE,Included
-2016,Southbank,Mining,2,2,4,2018,2014,1.0986122886681096,0,2,FALSE,FALSE,FALSE,TRUE,Included
+2016,Southbank,Mining,2,2,4,2018,2014,1.0986122886681098,0,2,FALSE,FALSE,FALSE,TRUE,Included
 2016,Southbank,Other Services,20,27,21,2018,2014,3.044522437723423,-7,1,FALSE,FALSE,FALSE,TRUE,Included
 2016,Southbank,"Professional, Scientific and Technical Services",130,128,114,2018,2014,4.875197323201151,2,-16,FALSE,FALSE,FALSE,TRUE,Included
 2016,Southbank,Public Administration and Safety,6,9,5,2018,2014,1.9459101490553132,-3,-1,FALSE,FALSE,FALSE,TRUE,Included
@@ -1951,8 +1951,8 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2016,West Melbourne (Industrial),Mining,NA,NA,NA,2018,2014,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2016,West Melbourne (Industrial),Other Services,6,7,5,2018,2014,1.9459101490553132,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2016,West Melbourne (Industrial),"Professional, Scientific and Technical Services",4,6,6,2018,2014,1.6094379124341003,-2,2,FALSE,FALSE,FALSE,TRUE,Included
-2016,West Melbourne (Industrial),Public Administration and Safety,2,3,1,2018,2014,1.0986122886681096,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
-2016,West Melbourne (Industrial),"Rental, Hiring and Real Estate Services",2,11,2,2018,2014,1.0986122886681096,-9,0,FALSE,FALSE,FALSE,TRUE,Included
+2016,West Melbourne (Industrial),Public Administration and Safety,2,3,1,2018,2014,1.0986122886681098,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
+2016,West Melbourne (Industrial),"Rental, Hiring and Real Estate Services",2,11,2,2018,2014,1.0986122886681098,-9,0,FALSE,FALSE,FALSE,TRUE,Included
 2016,West Melbourne (Industrial),Retail Trade,7,8,3,2018,2014,2.0794415416798357,-1,-4,FALSE,FALSE,FALSE,TRUE,Included
 2016,West Melbourne (Industrial),"Transport, Postal and Warehousing",39,43,43,2018,2014,3.6888794541139363,-4,4,FALSE,FALSE,FALSE,TRUE,Included
 2016,West Melbourne (Industrial),Wholesale Trade,32,200,31,2018,2014,3.4965075614664802,-168,-1,FALSE,FALSE,FALSE,TRUE,Included
@@ -1963,12 +1963,12 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2016,West Melbourne (Residential),Construction,12,9,13,2018,2014,2.5649493574615367,3,1,FALSE,FALSE,FALSE,TRUE,Included
 2016,West Melbourne (Residential),Education and Training,20,21,23,2018,2014,3.044522437723423,-1,3,FALSE,FALSE,FALSE,TRUE,Included
 2016,West Melbourne (Residential),"Electricity, Gas, Water and Waste Services",NA,NA,NA,2018,2014,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2016,West Melbourne (Residential),Financial and Insurance Services,13,13,11,2018,2014,2.639057329615259,0,-2,FALSE,FALSE,FALSE,TRUE,Included
+2016,West Melbourne (Residential),Financial and Insurance Services,13,13,11,2018,2014,2.6390573296152584,0,-2,FALSE,FALSE,FALSE,TRUE,Included
 2016,West Melbourne (Residential),Health Care and Social Assistance,18,17,25,2018,2014,2.9444389791664403,1,7,FALSE,FALSE,FALSE,TRUE,Included
 2016,West Melbourne (Residential),Information Media and Telecommunications,10,13,9,2018,2014,2.3978952727983707,-3,-1,FALSE,FALSE,FALSE,TRUE,Included
-2016,West Melbourne (Residential),Manufacturing,13,16,8,2018,2014,2.639057329615259,-3,-5,FALSE,FALSE,FALSE,TRUE,Included
+2016,West Melbourne (Residential),Manufacturing,13,16,8,2018,2014,2.6390573296152584,-3,-5,FALSE,FALSE,FALSE,TRUE,Included
 2016,West Melbourne (Residential),Mining,NA,1,NA,2018,2014,NA,NA,NA,TRUE,FALSE,TRUE,FALSE,No published origin-year cell
-2016,West Melbourne (Residential),Other Services,47,51,49,2018,2014,3.8712010109078907,-4,2,FALSE,FALSE,FALSE,TRUE,Included
+2016,West Melbourne (Residential),Other Services,47,51,49,2018,2014,3.871201010907891,-4,2,FALSE,FALSE,FALSE,TRUE,Included
 2016,West Melbourne (Residential),"Professional, Scientific and Technical Services",92,99,99,2018,2014,4.532599493153256,-7,7,FALSE,FALSE,FALSE,TRUE,Included
 2016,West Melbourne (Residential),Public Administration and Safety,4,4,3,2018,2014,1.6094379124341003,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2016,West Melbourne (Residential),"Rental, Hiring and Real Estate Services",11,7,8,2018,2014,2.4849066497880004,4,-3,FALSE,FALSE,FALSE,TRUE,Included
@@ -1980,7 +1980,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2018,Carlton,"Agriculture, Forestry and Fishing",NA,1,NA,2020,2016,NA,NA,NA,TRUE,FALSE,TRUE,FALSE,No published origin-year cell
 2018,Carlton,Arts and Recreation Services,24,22,24,2020,2016,3.2188758248682006,2,0,FALSE,FALSE,FALSE,TRUE,Included
 2018,Carlton,Construction,15,17,12,2020,2016,2.772588722239781,-2,-3,FALSE,FALSE,FALSE,TRUE,Included
-2018,Carlton,Education and Training,73,81,76,2020,2016,4.304065093204169,-8,3,FALSE,FALSE,FALSE,TRUE,Included
+2018,Carlton,Education and Training,73,81,76,2020,2016,4.30406509320417,-8,3,FALSE,FALSE,FALSE,TRUE,Included
 2018,Carlton,"Electricity, Gas, Water and Waste Services",NA,NA,NA,2020,2016,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2018,Carlton,Financial and Insurance Services,31,31,24,2020,2016,3.4657359027997265,0,-7,FALSE,FALSE,FALSE,TRUE,Included
 2018,Carlton,Health Care and Social Assistance,108,105,91,2020,2016,4.6913478822291435,3,-17,FALSE,FALSE,FALSE,TRUE,Included
@@ -1996,7 +1996,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2018,Carlton,Wholesale Trade,16,17,11,2020,2016,2.833213344056216,-1,-5,FALSE,FALSE,FALSE,TRUE,Included
 2018,Docklands,Accommodation and Food Services,275,261,303,2020,2016,5.62040086571715,14,28,FALSE,FALSE,FALSE,TRUE,Included
 2018,Docklands,Administrative and Support Services,39,36,31,2020,2016,3.6888794541139363,3,-8,FALSE,FALSE,FALSE,TRUE,Included
-2018,Docklands,"Agriculture, Forestry and Fishing",2,1,2,2020,2016,1.0986122886681096,1,0,FALSE,FALSE,FALSE,TRUE,Included
+2018,Docklands,"Agriculture, Forestry and Fishing",2,1,2,2020,2016,1.0986122886681098,1,0,FALSE,FALSE,FALSE,TRUE,Included
 2018,Docklands,Arts and Recreation Services,36,30,34,2020,2016,3.6109179126442243,6,-2,FALSE,FALSE,FALSE,TRUE,Included
 2018,Docklands,Construction,22,21,22,2020,2016,3.1354942159291497,1,0,FALSE,FALSE,FALSE,TRUE,Included
 2018,Docklands,Education and Training,17,18,23,2020,2016,2.8903717578961645,-1,6,FALSE,FALSE,FALSE,TRUE,Included
@@ -2027,14 +2027,14 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2018,East Melbourne,Mining,1,NA,1,2020,2016,0.6931471805599453,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2018,East Melbourne,Other Services,40,41,39,2020,2016,3.713572066704308,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2018,East Melbourne,"Professional, Scientific and Technical Services",75,72,58,2020,2016,4.330733340286331,3,-17,FALSE,FALSE,FALSE,TRUE,Included
-2018,East Melbourne,Public Administration and Safety,13,14,15,2020,2016,2.639057329615259,-1,2,FALSE,FALSE,FALSE,TRUE,Included
+2018,East Melbourne,Public Administration and Safety,13,14,15,2020,2016,2.6390573296152584,-1,2,FALSE,FALSE,FALSE,TRUE,Included
 2018,East Melbourne,"Rental, Hiring and Real Estate Services",7,9,7,2020,2016,2.0794415416798357,-2,0,FALSE,FALSE,FALSE,TRUE,Included
 2018,East Melbourne,Retail Trade,12,12,12,2020,2016,2.5649493574615367,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2018,East Melbourne,"Transport, Postal and Warehousing",3,1,3,2020,2016,1.3862943611198906,2,0,FALSE,FALSE,FALSE,TRUE,Included
 2018,East Melbourne,Wholesale Trade,6,4,4,2020,2016,1.9459101490553132,2,-2,FALSE,FALSE,FALSE,TRUE,Included
 2018,Kensington,Accommodation and Food Services,52,46,48,2020,2016,3.970291913552122,6,-4,FALSE,FALSE,FALSE,TRUE,Included
 2018,Kensington,Administrative and Support Services,10,10,10,2020,2016,2.3978952727983707,0,0,FALSE,FALSE,FALSE,TRUE,Included
-2018,Kensington,"Agriculture, Forestry and Fishing",2,2,2,2020,2016,1.0986122886681096,0,0,FALSE,FALSE,FALSE,TRUE,Included
+2018,Kensington,"Agriculture, Forestry and Fishing",2,2,2,2020,2016,1.0986122886681098,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2018,Kensington,Arts and Recreation Services,34,36,26,2020,2016,3.5553480614894135,-2,-8,FALSE,FALSE,FALSE,TRUE,Included
 2018,Kensington,Construction,26,22,22,2020,2016,3.295836866004329,4,-4,FALSE,FALSE,FALSE,TRUE,Included
 2018,Kensington,Education and Training,10,9,9,2020,2016,2.3978952727983707,1,-1,FALSE,FALSE,FALSE,TRUE,Included
@@ -2118,14 +2118,14 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2018,Parkville,Financial and Insurance Services,7,5,7,2020,2016,2.0794415416798357,2,0,FALSE,FALSE,FALSE,TRUE,Included
 2018,Parkville,Health Care and Social Assistance,86,83,78,2020,2016,4.465908118654584,3,-8,FALSE,FALSE,FALSE,TRUE,Included
 2018,Parkville,Information Media and Telecommunications,1,1,NA,2020,2016,0.6931471805599453,0,NA,FALSE,FALSE,TRUE,FALSE,No published target-year cell
-2018,Parkville,Manufacturing,2,2,1,2020,2016,1.0986122886681096,0,-1,FALSE,FALSE,FALSE,TRUE,Included
+2018,Parkville,Manufacturing,2,2,1,2020,2016,1.0986122886681098,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2018,Parkville,Mining,NA,NA,NA,2020,2016,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2018,Parkville,Other Services,19,21,15,2020,2016,2.995732273553991,-2,-4,FALSE,FALSE,FALSE,TRUE,Included
 2018,Parkville,"Professional, Scientific and Technical Services",19,19,17,2020,2016,2.995732273553991,0,-2,FALSE,FALSE,FALSE,TRUE,Included
-2018,Parkville,Public Administration and Safety,2,3,2,2020,2016,1.0986122886681096,-1,0,FALSE,FALSE,FALSE,TRUE,Included
+2018,Parkville,Public Administration and Safety,2,3,2,2020,2016,1.0986122886681098,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2018,Parkville,"Rental, Hiring and Real Estate Services",1,1,1,2020,2016,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2018,Parkville,Retail Trade,22,22,20,2020,2016,3.1354942159291497,0,-2,FALSE,FALSE,FALSE,TRUE,Included
-2018,Parkville,"Transport, Postal and Warehousing",2,3,2,2020,2016,1.0986122886681096,-1,0,FALSE,FALSE,FALSE,TRUE,Included
+2018,Parkville,"Transport, Postal and Warehousing",2,3,2,2020,2016,1.0986122886681098,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2018,Parkville,Wholesale Trade,1,1,1,2020,2016,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2018,Port Melbourne,Accommodation and Food Services,23,21,21,2020,2016,3.1780538303479458,2,-2,FALSE,FALSE,FALSE,TRUE,Included
 2018,Port Melbourne,Administrative and Support Services,27,21,25,2020,2016,3.332204510175204,6,-2,FALSE,FALSE,FALSE,TRUE,Included
@@ -2171,7 +2171,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2018,Southbank,Arts and Recreation Services,33,31,38,2020,2016,3.5263605246161616,2,5,FALSE,FALSE,FALSE,TRUE,Included
 2018,Southbank,Construction,37,35,29,2020,2016,3.6375861597263857,2,-8,FALSE,FALSE,FALSE,TRUE,Included
 2018,Southbank,Education and Training,16,16,14,2020,2016,2.833213344056216,0,-2,FALSE,FALSE,FALSE,TRUE,Included
-2018,Southbank,"Electricity, Gas, Water and Waste Services",2,2,4,2020,2016,1.0986122886681096,0,2,FALSE,FALSE,FALSE,TRUE,Included
+2018,Southbank,"Electricity, Gas, Water and Waste Services",2,2,4,2020,2016,1.0986122886681098,0,2,FALSE,FALSE,FALSE,TRUE,Included
 2018,Southbank,Financial and Insurance Services,27,28,32,2020,2016,3.332204510175204,-1,5,FALSE,FALSE,FALSE,TRUE,Included
 2018,Southbank,Health Care and Social Assistance,31,28,29,2020,2016,3.4657359027997265,3,-2,FALSE,FALSE,FALSE,TRUE,Included
 2018,Southbank,Information Media and Telecommunications,19,18,17,2020,2016,2.995732273553991,1,-2,FALSE,FALSE,FALSE,TRUE,Included
@@ -2199,7 +2199,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2018,West Melbourne (Industrial),Other Services,5,6,5,2020,2016,1.791759469228055,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2018,West Melbourne (Industrial),"Professional, Scientific and Technical Services",6,4,6,2020,2016,1.9459101490553132,2,0,FALSE,FALSE,FALSE,TRUE,Included
 2018,West Melbourne (Industrial),Public Administration and Safety,1,2,1,2020,2016,0.6931471805599453,-1,0,FALSE,FALSE,FALSE,TRUE,Included
-2018,West Melbourne (Industrial),"Rental, Hiring and Real Estate Services",2,2,2,2020,2016,1.0986122886681096,0,0,FALSE,FALSE,FALSE,TRUE,Included
+2018,West Melbourne (Industrial),"Rental, Hiring and Real Estate Services",2,2,2,2020,2016,1.0986122886681098,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2018,West Melbourne (Industrial),Retail Trade,3,7,3,2020,2016,1.3862943611198906,-4,0,FALSE,FALSE,FALSE,TRUE,Included
 2018,West Melbourne (Industrial),"Transport, Postal and Warehousing",43,39,33,2020,2016,3.784189633918261,4,-10,FALSE,FALSE,FALSE,TRUE,Included
 2018,West Melbourne (Industrial),Wholesale Trade,31,32,28,2020,2016,3.4657359027997265,-1,-3,FALSE,FALSE,FALSE,TRUE,Included
@@ -2207,7 +2207,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2018,West Melbourne (Residential),Administrative and Support Services,14,17,9,2020,2016,2.70805020110221,-3,-5,FALSE,FALSE,FALSE,TRUE,Included
 2018,West Melbourne (Residential),"Agriculture, Forestry and Fishing",NA,NA,NA,2020,2016,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2018,West Melbourne (Residential),Arts and Recreation Services,10,10,11,2020,2016,2.3978952727983707,0,1,FALSE,FALSE,FALSE,TRUE,Included
-2018,West Melbourne (Residential),Construction,13,12,9,2020,2016,2.639057329615259,1,-4,FALSE,FALSE,FALSE,TRUE,Included
+2018,West Melbourne (Residential),Construction,13,12,9,2020,2016,2.6390573296152584,1,-4,FALSE,FALSE,FALSE,TRUE,Included
 2018,West Melbourne (Residential),Education and Training,23,20,16,2020,2016,3.1780538303479458,3,-7,FALSE,FALSE,FALSE,TRUE,Included
 2018,West Melbourne (Residential),"Electricity, Gas, Water and Waste Services",NA,NA,NA,2020,2016,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2018,West Melbourne (Residential),Financial and Insurance Services,11,13,8,2020,2016,2.4849066497880004,-2,-3,FALSE,FALSE,FALSE,TRUE,Included
@@ -2243,7 +2243,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2020,Carlton,Wholesale Trade,11,16,11,2022,2018,2.4849066497880004,-5,0,FALSE,FALSE,FALSE,TRUE,Included
 2020,Docklands,Accommodation and Food Services,303,275,261,2022,2018,5.717027701406222,28,-42,FALSE,FALSE,FALSE,TRUE,Included
 2020,Docklands,Administrative and Support Services,31,39,20,2022,2018,3.4657359027997265,-8,-11,FALSE,FALSE,FALSE,TRUE,Included
-2020,Docklands,"Agriculture, Forestry and Fishing",2,2,2,2022,2018,1.0986122886681096,0,0,FALSE,FALSE,FALSE,TRUE,Included
+2020,Docklands,"Agriculture, Forestry and Fishing",2,2,2,2022,2018,1.0986122886681098,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2020,Docklands,Arts and Recreation Services,34,36,29,2022,2018,3.5553480614894135,-2,-5,FALSE,FALSE,FALSE,TRUE,Included
 2020,Docklands,Construction,22,22,14,2022,2018,3.1354942159291497,0,-8,FALSE,FALSE,FALSE,TRUE,Included
 2020,Docklands,Education and Training,23,17,22,2022,2018,3.1780538303479458,6,-1,FALSE,FALSE,FALSE,TRUE,Included
@@ -2281,12 +2281,12 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2020,East Melbourne,Wholesale Trade,4,6,2,2022,2018,1.6094379124341003,-2,-2,FALSE,FALSE,FALSE,TRUE,Included
 2020,Kensington,Accommodation and Food Services,48,52,52,2022,2018,3.8918202981106265,-4,4,FALSE,FALSE,FALSE,TRUE,Included
 2020,Kensington,Administrative and Support Services,10,10,6,2022,2018,2.3978952727983707,0,-4,FALSE,FALSE,FALSE,TRUE,Included
-2020,Kensington,"Agriculture, Forestry and Fishing",2,2,1,2022,2018,1.0986122886681096,0,-1,FALSE,FALSE,FALSE,TRUE,Included
+2020,Kensington,"Agriculture, Forestry and Fishing",2,2,1,2022,2018,1.0986122886681098,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2020,Kensington,Arts and Recreation Services,26,34,25,2022,2018,3.295836866004329,-8,-1,FALSE,FALSE,FALSE,TRUE,Included
 2020,Kensington,Construction,22,26,20,2022,2018,3.1354942159291497,-4,-2,FALSE,FALSE,FALSE,TRUE,Included
 2020,Kensington,Education and Training,9,10,10,2022,2018,2.302585092994046,-1,1,FALSE,FALSE,FALSE,TRUE,Included
 2020,Kensington,"Electricity, Gas, Water and Waste Services",NA,NA,NA,2022,2018,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2020,Kensington,Financial and Insurance Services,2,3,1,2022,2018,1.0986122886681096,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
+2020,Kensington,Financial and Insurance Services,2,3,1,2022,2018,1.0986122886681098,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2020,Kensington,Health Care and Social Assistance,25,23,25,2022,2018,3.258096538021482,2,0,FALSE,FALSE,FALSE,TRUE,Included
 2020,Kensington,Information Media and Telecommunications,6,6,4,2022,2018,1.9459101490553132,0,-2,FALSE,FALSE,FALSE,TRUE,Included
 2020,Kensington,Manufacturing,40,48,31,2022,2018,3.713572066704308,-8,-9,FALSE,FALSE,FALSE,TRUE,Included
@@ -2294,7 +2294,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2020,Kensington,Other Services,39,40,39,2022,2018,3.6888794541139363,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2020,Kensington,"Professional, Scientific and Technical Services",35,36,31,2022,2018,3.58351893845611,-1,-4,FALSE,FALSE,FALSE,TRUE,Included
 2020,Kensington,Public Administration and Safety,5,5,4,2022,2018,1.791759469228055,0,-1,FALSE,FALSE,FALSE,TRUE,Included
-2020,Kensington,"Rental, Hiring and Real Estate Services",13,15,13,2022,2018,2.639057329615259,-2,0,FALSE,FALSE,FALSE,TRUE,Included
+2020,Kensington,"Rental, Hiring and Real Estate Services",13,15,13,2022,2018,2.6390573296152584,-2,0,FALSE,FALSE,FALSE,TRUE,Included
 2020,Kensington,Retail Trade,29,39,28,2022,2018,3.4011973816621555,-10,-1,FALSE,FALSE,FALSE,TRUE,Included
 2020,Kensington,"Transport, Postal and Warehousing",11,11,6,2022,2018,2.4849066497880004,0,-5,FALSE,FALSE,FALSE,TRUE,Included
 2020,Kensington,Wholesale Trade,29,24,28,2022,2018,3.4011973816621555,5,-1,FALSE,FALSE,FALSE,TRUE,Included
@@ -2307,7 +2307,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2020,Melbourne (CBD),"Electricity, Gas, Water and Waste Services",19,17,29,2022,2018,2.995732273553991,2,10,FALSE,FALSE,FALSE,TRUE,Included
 2020,Melbourne (CBD),Financial and Insurance Services,614,720,554,2022,2018,6.421622267806518,-106,-60,FALSE,FALSE,FALSE,TRUE,Included
 2020,Melbourne (CBD),Health Care and Social Assistance,349,406,346,2022,2018,5.857933154483459,-57,-3,FALSE,FALSE,FALSE,TRUE,Included
-2020,Melbourne (CBD),Information Media and Telecommunications,73,102,72,2022,2018,4.304065093204169,-29,-1,FALSE,FALSE,FALSE,TRUE,Included
+2020,Melbourne (CBD),Information Media and Telecommunications,73,102,72,2022,2018,4.30406509320417,-29,-1,FALSE,FALSE,FALSE,TRUE,Included
 2020,Melbourne (CBD),Manufacturing,191,227,194,2022,2018,5.2574953720277815,-36,3,FALSE,FALSE,FALSE,TRUE,Included
 2020,Melbourne (CBD),Mining,25,32,24,2022,2018,3.258096538021482,-7,-1,FALSE,FALSE,FALSE,TRUE,Included
 2020,Melbourne (CBD),Other Services,825,923,736,2022,2018,6.716594773520978,-98,-89,FALSE,FALSE,FALSE,TRUE,Included
@@ -2329,7 +2329,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2020,Melbourne (Remainder),Information Media and Telecommunications,1,3,1,2022,2018,0.6931471805599453,-2,0,FALSE,FALSE,FALSE,TRUE,Included
 2020,Melbourne (Remainder),Manufacturing,4,7,4,2022,2018,1.6094379124341003,-3,0,FALSE,FALSE,FALSE,TRUE,Included
 2020,Melbourne (Remainder),Mining,NA,NA,NA,2022,2018,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2020,Melbourne (Remainder),Other Services,13,15,13,2022,2018,2.639057329615259,-2,0,FALSE,FALSE,FALSE,TRUE,Included
+2020,Melbourne (Remainder),Other Services,13,15,13,2022,2018,2.6390573296152584,-2,0,FALSE,FALSE,FALSE,TRUE,Included
 2020,Melbourne (Remainder),"Professional, Scientific and Technical Services",24,53,17,2022,2018,3.2188758248682006,-29,-7,FALSE,FALSE,FALSE,TRUE,Included
 2020,Melbourne (Remainder),Public Administration and Safety,4,7,4,2022,2018,1.6094379124341003,-3,0,FALSE,FALSE,FALSE,TRUE,Included
 2020,Melbourne (Remainder),"Rental, Hiring and Real Estate Services",11,9,7,2022,2018,2.4849066497880004,2,-4,FALSE,FALSE,FALSE,TRUE,Included
@@ -2343,7 +2343,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2020,North Melbourne,Construction,27,43,20,2022,2018,3.332204510175204,-16,-7,FALSE,FALSE,FALSE,TRUE,Included
 2020,North Melbourne,Education and Training,32,37,29,2022,2018,3.4965075614664802,-5,-3,FALSE,FALSE,FALSE,TRUE,Included
 2020,North Melbourne,"Electricity, Gas, Water and Waste Services",NA,NA,NA,2022,2018,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2020,North Melbourne,Financial and Insurance Services,13,23,10,2022,2018,2.639057329615259,-10,-3,FALSE,FALSE,FALSE,TRUE,Included
+2020,North Melbourne,Financial and Insurance Services,13,23,10,2022,2018,2.6390573296152584,-10,-3,FALSE,FALSE,FALSE,TRUE,Included
 2020,North Melbourne,Health Care and Social Assistance,86,103,80,2022,2018,4.465908118654584,-17,-6,FALSE,FALSE,FALSE,TRUE,Included
 2020,North Melbourne,Information Media and Telecommunications,15,16,12,2022,2018,2.772588722239781,-1,-3,FALSE,FALSE,FALSE,TRUE,Included
 2020,North Melbourne,Manufacturing,31,40,32,2022,2018,3.4657359027997265,-9,1,FALSE,FALSE,FALSE,TRUE,Included
@@ -2369,10 +2369,10 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2020,Parkville,Mining,NA,NA,NA,2022,2018,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2020,Parkville,Other Services,15,19,12,2022,2018,2.772588722239781,-4,-3,FALSE,FALSE,FALSE,TRUE,Included
 2020,Parkville,"Professional, Scientific and Technical Services",17,19,14,2022,2018,2.8903717578961645,-2,-3,FALSE,FALSE,FALSE,TRUE,Included
-2020,Parkville,Public Administration and Safety,2,2,2,2022,2018,1.0986122886681096,0,0,FALSE,FALSE,FALSE,TRUE,Included
+2020,Parkville,Public Administration and Safety,2,2,2,2022,2018,1.0986122886681098,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2020,Parkville,"Rental, Hiring and Real Estate Services",1,1,1,2022,2018,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2020,Parkville,Retail Trade,20,22,14,2022,2018,3.044522437723423,-2,-6,FALSE,FALSE,FALSE,TRUE,Included
-2020,Parkville,"Transport, Postal and Warehousing",2,2,2,2022,2018,1.0986122886681096,0,0,FALSE,FALSE,FALSE,TRUE,Included
+2020,Parkville,"Transport, Postal and Warehousing",2,2,2,2022,2018,1.0986122886681098,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2020,Parkville,Wholesale Trade,1,1,1,2022,2018,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2020,Port Melbourne,Accommodation and Food Services,21,23,17,2022,2018,3.091042453358316,-2,-4,FALSE,FALSE,FALSE,TRUE,Included
 2020,Port Melbourne,Administrative and Support Services,25,27,21,2022,2018,3.258096538021482,-2,-4,FALSE,FALSE,FALSE,TRUE,Included
@@ -2396,13 +2396,13 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2020,South Yarra,Accommodation and Food Services,10,11,11,2022,2018,2.3978952727983707,-1,1,FALSE,FALSE,FALSE,TRUE,Included
 2020,South Yarra,Administrative and Support Services,1,1,1,2022,2018,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2020,South Yarra,"Agriculture, Forestry and Fishing",NA,NA,NA,2022,2018,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2020,South Yarra,Arts and Recreation Services,2,1,1,2022,2018,1.0986122886681096,1,-1,FALSE,FALSE,FALSE,TRUE,Included
+2020,South Yarra,Arts and Recreation Services,2,1,1,2022,2018,1.0986122886681098,1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2020,South Yarra,Construction,NA,NA,NA,2022,2018,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2020,South Yarra,Education and Training,5,6,7,2022,2018,1.791759469228055,-1,2,FALSE,FALSE,FALSE,TRUE,Included
 2020,South Yarra,"Electricity, Gas, Water and Waste Services",NA,NA,NA,2022,2018,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2020,South Yarra,Financial and Insurance Services,NA,NA,NA,2022,2018,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2020,South Yarra,Health Care and Social Assistance,1,1,1,2022,2018,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
-2020,South Yarra,Information Media and Telecommunications,2,1,1,2022,2018,1.0986122886681096,1,-1,FALSE,FALSE,FALSE,TRUE,Included
+2020,South Yarra,Information Media and Telecommunications,2,1,1,2022,2018,1.0986122886681098,1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2020,South Yarra,Manufacturing,1,1,1,2022,2018,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2020,South Yarra,Mining,NA,NA,NA,2022,2018,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2020,South Yarra,Other Services,7,7,7,2022,2018,2.0794415416798357,0,0,FALSE,FALSE,FALSE,TRUE,Included
@@ -2434,7 +2434,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2020,West Melbourne (Industrial),Accommodation and Food Services,4,6,3,2022,2018,1.6094379124341003,-2,-1,FALSE,FALSE,FALSE,TRUE,Included
 2020,West Melbourne (Industrial),Administrative and Support Services,1,NA,2,2022,2018,0.6931471805599453,NA,1,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2020,West Melbourne (Industrial),"Agriculture, Forestry and Fishing",NA,NA,NA,2022,2018,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2020,West Melbourne (Industrial),Arts and Recreation Services,2,4,2,2022,2018,1.0986122886681096,-2,0,FALSE,FALSE,FALSE,TRUE,Included
+2020,West Melbourne (Industrial),Arts and Recreation Services,2,4,2,2022,2018,1.0986122886681098,-2,0,FALSE,FALSE,FALSE,TRUE,Included
 2020,West Melbourne (Industrial),Construction,6,6,8,2022,2018,1.9459101490553132,0,2,FALSE,FALSE,FALSE,TRUE,Included
 2020,West Melbourne (Industrial),Education and Training,NA,NA,NA,2022,2018,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2020,West Melbourne (Industrial),"Electricity, Gas, Water and Waste Services",3,3,3,2022,2018,1.3862943611198906,0,0,FALSE,FALSE,FALSE,TRUE,Included
@@ -2446,7 +2446,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2020,West Melbourne (Industrial),Other Services,5,5,5,2022,2018,1.791759469228055,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2020,West Melbourne (Industrial),"Professional, Scientific and Technical Services",6,6,4,2022,2018,1.9459101490553132,0,-2,FALSE,FALSE,FALSE,TRUE,Included
 2020,West Melbourne (Industrial),Public Administration and Safety,1,1,1,2022,2018,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
-2020,West Melbourne (Industrial),"Rental, Hiring and Real Estate Services",2,2,2,2022,2018,1.0986122886681096,0,0,FALSE,FALSE,FALSE,TRUE,Included
+2020,West Melbourne (Industrial),"Rental, Hiring and Real Estate Services",2,2,2,2022,2018,1.0986122886681098,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2020,West Melbourne (Industrial),Retail Trade,3,3,7,2022,2018,1.3862943611198906,0,4,FALSE,FALSE,FALSE,TRUE,Included
 2020,West Melbourne (Industrial),"Transport, Postal and Warehousing",33,43,27,2022,2018,3.5263605246161616,-10,-6,FALSE,FALSE,FALSE,TRUE,Included
 2020,West Melbourne (Industrial),Wholesale Trade,28,31,30,2022,2018,3.367295829986474,-3,2,FALSE,FALSE,FALSE,TRUE,Included
@@ -2470,7 +2470,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2020,West Melbourne (Residential),"Transport, Postal and Warehousing",12,15,7,2022,2018,2.5649493574615367,-3,-5,FALSE,FALSE,FALSE,TRUE,Included
 2020,West Melbourne (Residential),Wholesale Trade,21,23,14,2022,2018,3.091042453358316,-2,-7,FALSE,FALSE,FALSE,TRUE,Included
 2022,Carlton,Accommodation and Food Services,259,265,285,2024,2020,5.560681631015528,-6,26,FALSE,FALSE,FALSE,TRUE,Included
-2022,Carlton,Administrative and Support Services,13,17,9,2024,2020,2.639057329615259,-4,-4,FALSE,FALSE,FALSE,TRUE,Included
+2022,Carlton,Administrative and Support Services,13,17,9,2024,2020,2.6390573296152584,-4,-4,FALSE,FALSE,FALSE,TRUE,Included
 2022,Carlton,"Agriculture, Forestry and Fishing",NA,NA,NA,2024,2020,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2022,Carlton,Arts and Recreation Services,20,24,27,2024,2020,3.044522437723423,-4,7,FALSE,FALSE,FALSE,TRUE,Included
 2022,Carlton,Construction,10,12,10,2024,2020,2.3978952727983707,-2,0,FALSE,FALSE,FALSE,TRUE,Included
@@ -2486,15 +2486,15 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2022,Carlton,Public Administration and Safety,6,9,7,2024,2020,1.9459101490553132,-3,1,FALSE,FALSE,FALSE,TRUE,Included
 2022,Carlton,"Rental, Hiring and Real Estate Services",17,21,17,2024,2020,2.8903717578961645,-4,0,FALSE,FALSE,FALSE,TRUE,Included
 2022,Carlton,Retail Trade,97,105,103,2024,2020,4.584967478670572,-8,6,FALSE,FALSE,FALSE,TRUE,Included
-2022,Carlton,"Transport, Postal and Warehousing",2,4,3,2024,2020,1.0986122886681096,-2,1,FALSE,FALSE,FALSE,TRUE,Included
+2022,Carlton,"Transport, Postal and Warehousing",2,4,3,2024,2020,1.0986122886681098,-2,1,FALSE,FALSE,FALSE,TRUE,Included
 2022,Carlton,Wholesale Trade,11,11,10,2024,2020,2.4849066497880004,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2022,Docklands,Accommodation and Food Services,261,303,246,2024,2020,5.568344503761097,-42,-15,FALSE,FALSE,FALSE,TRUE,Included
 2022,Docklands,Administrative and Support Services,20,31,16,2024,2020,3.044522437723423,-11,-4,FALSE,FALSE,FALSE,TRUE,Included
-2022,Docklands,"Agriculture, Forestry and Fishing",2,2,2,2024,2020,1.0986122886681096,0,0,FALSE,FALSE,FALSE,TRUE,Included
+2022,Docklands,"Agriculture, Forestry and Fishing",2,2,2,2024,2020,1.0986122886681098,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2022,Docklands,Arts and Recreation Services,29,34,31,2024,2020,3.4011973816621555,-5,2,FALSE,FALSE,FALSE,TRUE,Included
 2022,Docklands,Construction,14,22,18,2024,2020,2.70805020110221,-8,4,FALSE,FALSE,FALSE,TRUE,Included
 2022,Docklands,Education and Training,22,23,27,2024,2020,3.1354942159291497,-1,5,FALSE,FALSE,FALSE,TRUE,Included
-2022,Docklands,"Electricity, Gas, Water and Waste Services",2,3,1,2024,2020,1.0986122886681096,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
+2022,Docklands,"Electricity, Gas, Water and Waste Services",2,3,1,2024,2020,1.0986122886681098,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2022,Docklands,Financial and Insurance Services,31,45,25,2024,2020,3.4657359027997265,-14,-6,FALSE,FALSE,FALSE,TRUE,Included
 2022,Docklands,Health Care and Social Assistance,36,43,40,2024,2020,3.6109179126442243,-7,4,FALSE,FALSE,FALSE,TRUE,Included
 2022,Docklands,Information Media and Telecommunications,21,24,23,2024,2020,3.091042453358316,-3,2,FALSE,FALSE,FALSE,TRUE,Included
@@ -2506,7 +2506,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2022,Docklands,"Rental, Hiring and Real Estate Services",55,66,67,2024,2020,4.02535169073515,-11,12,FALSE,FALSE,FALSE,TRUE,Included
 2022,Docklands,Retail Trade,145,180,160,2024,2020,4.983606621708336,-35,15,FALSE,FALSE,FALSE,TRUE,Included
 2022,Docklands,"Transport, Postal and Warehousing",22,27,23,2024,2020,3.1354942159291497,-5,1,FALSE,FALSE,FALSE,TRUE,Included
-2022,Docklands,Wholesale Trade,13,18,18,2024,2020,2.639057329615259,-5,5,FALSE,FALSE,FALSE,TRUE,Included
+2022,Docklands,Wholesale Trade,13,18,18,2024,2020,2.6390573296152584,-5,5,FALSE,FALSE,FALSE,TRUE,Included
 2022,East Melbourne,Accommodation and Food Services,50,53,48,2024,2020,3.9318256327243257,-3,-2,FALSE,FALSE,FALSE,TRUE,Included
 2022,East Melbourne,Administrative and Support Services,4,8,6,2024,2020,1.6094379124341003,-4,2,FALSE,FALSE,FALSE,TRUE,Included
 2022,East Melbourne,"Agriculture, Forestry and Fishing",NA,NA,NA,2024,2020,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
@@ -2514,7 +2514,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2022,East Melbourne,Construction,4,3,4,2024,2020,1.6094379124341003,1,0,FALSE,FALSE,FALSE,TRUE,Included
 2022,East Melbourne,Education and Training,7,10,3,2024,2020,2.0794415416798357,-3,-4,FALSE,FALSE,FALSE,TRUE,Included
 2022,East Melbourne,"Electricity, Gas, Water and Waste Services",NA,NA,1,2024,2020,NA,NA,NA,TRUE,TRUE,FALSE,FALSE,No published origin-year cell
-2022,East Melbourne,Financial and Insurance Services,13,12,9,2024,2020,2.639057329615259,1,-4,FALSE,FALSE,FALSE,TRUE,Included
+2022,East Melbourne,Financial and Insurance Services,13,12,9,2024,2020,2.6390573296152584,1,-4,FALSE,FALSE,FALSE,TRUE,Included
 2022,East Melbourne,Health Care and Social Assistance,205,211,213,2024,2020,5.327876168789581,-6,8,FALSE,FALSE,FALSE,TRUE,Included
 2022,East Melbourne,Information Media and Telecommunications,5,5,4,2024,2020,1.791759469228055,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2022,East Melbourne,Manufacturing,NA,1,NA,2024,2020,NA,NA,NA,TRUE,FALSE,TRUE,FALSE,No published origin-year cell
@@ -2525,7 +2525,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2022,East Melbourne,"Rental, Hiring and Real Estate Services",6,7,7,2024,2020,1.9459101490553132,-1,1,FALSE,FALSE,FALSE,TRUE,Included
 2022,East Melbourne,Retail Trade,11,12,13,2024,2020,2.4849066497880004,-1,2,FALSE,FALSE,FALSE,TRUE,Included
 2022,East Melbourne,"Transport, Postal and Warehousing",3,3,2,2024,2020,1.3862943611198906,0,-1,FALSE,FALSE,FALSE,TRUE,Included
-2022,East Melbourne,Wholesale Trade,2,4,2,2024,2020,1.0986122886681096,-2,0,FALSE,FALSE,FALSE,TRUE,Included
+2022,East Melbourne,Wholesale Trade,2,4,2,2024,2020,1.0986122886681098,-2,0,FALSE,FALSE,FALSE,TRUE,Included
 2022,Kensington,Accommodation and Food Services,52,48,54,2024,2020,3.970291913552122,4,2,FALSE,FALSE,FALSE,TRUE,Included
 2022,Kensington,Administrative and Support Services,6,10,7,2024,2020,1.9459101490553132,-4,1,FALSE,FALSE,FALSE,TRUE,Included
 2022,Kensington,"Agriculture, Forestry and Fishing",1,2,1,2024,2020,0.6931471805599453,-1,0,FALSE,FALSE,FALSE,TRUE,Included
@@ -2541,7 +2541,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2022,Kensington,Other Services,39,39,32,2024,2020,3.6888794541139363,0,-7,FALSE,FALSE,FALSE,TRUE,Included
 2022,Kensington,"Professional, Scientific and Technical Services",31,35,36,2024,2020,3.4657359027997265,-4,5,FALSE,FALSE,FALSE,TRUE,Included
 2022,Kensington,Public Administration and Safety,4,5,3,2024,2020,1.6094379124341003,-1,-1,FALSE,FALSE,FALSE,TRUE,Included
-2022,Kensington,"Rental, Hiring and Real Estate Services",13,13,12,2024,2020,2.639057329615259,0,-1,FALSE,FALSE,FALSE,TRUE,Included
+2022,Kensington,"Rental, Hiring and Real Estate Services",13,13,12,2024,2020,2.6390573296152584,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2022,Kensington,Retail Trade,28,29,35,2024,2020,3.367295829986474,-1,7,FALSE,FALSE,FALSE,TRUE,Included
 2022,Kensington,"Transport, Postal and Warehousing",6,11,5,2024,2020,1.9459101490553132,-5,-1,FALSE,FALSE,FALSE,TRUE,Included
 2022,Kensington,Wholesale Trade,28,29,24,2024,2020,3.367295829986474,-1,-4,FALSE,FALSE,FALSE,TRUE,Included
@@ -2576,7 +2576,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2022,Melbourne (Remainder),Information Media and Telecommunications,1,1,1,2024,2020,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2022,Melbourne (Remainder),Manufacturing,4,4,4,2024,2020,1.6094379124341003,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2022,Melbourne (Remainder),Mining,NA,NA,NA,2024,2020,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2022,Melbourne (Remainder),Other Services,13,13,10,2024,2020,2.639057329615259,0,-3,FALSE,FALSE,FALSE,TRUE,Included
+2022,Melbourne (Remainder),Other Services,13,13,10,2024,2020,2.6390573296152584,0,-3,FALSE,FALSE,FALSE,TRUE,Included
 2022,Melbourne (Remainder),"Professional, Scientific and Technical Services",17,24,16,2024,2020,2.8903717578961645,-7,-1,FALSE,FALSE,FALSE,TRUE,Included
 2022,Melbourne (Remainder),Public Administration and Safety,4,4,3,2024,2020,1.6094379124341003,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2022,Melbourne (Remainder),"Rental, Hiring and Real Estate Services",7,11,9,2024,2020,2.0794415416798357,-4,2,FALSE,FALSE,FALSE,TRUE,Included
@@ -2585,7 +2585,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2022,Melbourne (Remainder),Wholesale Trade,4,6,4,2024,2020,1.6094379124341003,-2,0,FALSE,FALSE,FALSE,TRUE,Included
 2022,North Melbourne,Accommodation and Food Services,125,124,133,2024,2020,4.836281906951478,1,8,FALSE,FALSE,FALSE,TRUE,Included
 2022,North Melbourne,Administrative and Support Services,29,32,25,2024,2020,3.4011973816621555,-3,-4,FALSE,FALSE,FALSE,TRUE,Included
-2022,North Melbourne,"Agriculture, Forestry and Fishing",2,1,1,2024,2020,1.0986122886681096,1,-1,FALSE,FALSE,FALSE,TRUE,Included
+2022,North Melbourne,"Agriculture, Forestry and Fishing",2,1,1,2024,2020,1.0986122886681098,1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2022,North Melbourne,Arts and Recreation Services,36,31,41,2024,2020,3.6109179126442243,5,5,FALSE,FALSE,FALSE,TRUE,Included
 2022,North Melbourne,Construction,20,27,30,2024,2020,3.044522437723423,-7,10,FALSE,FALSE,FALSE,TRUE,Included
 2022,North Melbourne,Education and Training,29,32,34,2024,2020,3.4011973816621555,-3,5,FALSE,FALSE,FALSE,TRUE,Included
@@ -2603,9 +2603,9 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2022,North Melbourne,"Transport, Postal and Warehousing",12,18,14,2024,2020,2.5649493574615367,-6,2,FALSE,FALSE,FALSE,TRUE,Included
 2022,North Melbourne,Wholesale Trade,35,41,38,2024,2020,3.58351893845611,-6,3,FALSE,FALSE,FALSE,TRUE,Included
 2022,Parkville,Accommodation and Food Services,65,75,74,2024,2020,4.189654742026425,-10,9,FALSE,FALSE,FALSE,TRUE,Included
-2022,Parkville,Administrative and Support Services,2,3,2,2024,2020,1.0986122886681096,-1,0,FALSE,FALSE,FALSE,TRUE,Included
+2022,Parkville,Administrative and Support Services,2,3,2,2024,2020,1.0986122886681098,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2022,Parkville,"Agriculture, Forestry and Fishing",NA,NA,NA,2024,2020,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2022,Parkville,Arts and Recreation Services,13,12,12,2024,2020,2.639057329615259,1,-1,FALSE,FALSE,FALSE,TRUE,Included
+2022,Parkville,Arts and Recreation Services,13,12,12,2024,2020,2.6390573296152584,1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2022,Parkville,Construction,NA,NA,1,2024,2020,NA,NA,NA,TRUE,TRUE,FALSE,FALSE,No published origin-year cell
 2022,Parkville,Education and Training,60,64,53,2024,2020,4.110873864173311,-4,-7,FALSE,FALSE,FALSE,TRUE,Included
 2022,Parkville,"Electricity, Gas, Water and Waste Services",NA,NA,NA,2024,2020,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
@@ -2616,10 +2616,10 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2022,Parkville,Mining,NA,NA,NA,2024,2020,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2022,Parkville,Other Services,12,15,10,2024,2020,2.5649493574615367,-3,-2,FALSE,FALSE,FALSE,TRUE,Included
 2022,Parkville,"Professional, Scientific and Technical Services",14,17,17,2024,2020,2.70805020110221,-3,3,FALSE,FALSE,FALSE,TRUE,Included
-2022,Parkville,Public Administration and Safety,2,2,1,2024,2020,1.0986122886681096,0,-1,FALSE,FALSE,FALSE,TRUE,Included
+2022,Parkville,Public Administration and Safety,2,2,1,2024,2020,1.0986122886681098,0,-1,FALSE,FALSE,FALSE,TRUE,Included
 2022,Parkville,"Rental, Hiring and Real Estate Services",1,1,1,2024,2020,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2022,Parkville,Retail Trade,14,20,14,2024,2020,2.70805020110221,-6,0,FALSE,FALSE,FALSE,TRUE,Included
-2022,Parkville,"Transport, Postal and Warehousing",2,2,2,2024,2020,1.0986122886681096,0,0,FALSE,FALSE,FALSE,TRUE,Included
+2022,Parkville,"Transport, Postal and Warehousing",2,2,2,2024,2020,1.0986122886681098,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2022,Parkville,Wholesale Trade,1,1,1,2024,2020,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2022,Port Melbourne,Accommodation and Food Services,17,21,19,2024,2020,2.8903717578961645,-4,2,FALSE,FALSE,FALSE,TRUE,Included
 2022,Port Melbourne,Administrative and Support Services,21,25,21,2024,2020,3.091042453358316,-4,0,FALSE,FALSE,FALSE,TRUE,Included
@@ -2661,7 +2661,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2022,South Yarra,Wholesale Trade,NA,NA,NA,2024,2020,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2022,Southbank,Accommodation and Food Services,212,229,202,2024,2020,5.3612921657094255,-17,-10,FALSE,FALSE,FALSE,TRUE,Included
 2022,Southbank,Administrative and Support Services,23,29,19,2024,2020,3.1780538303479458,-6,-4,FALSE,FALSE,FALSE,TRUE,Included
-2022,Southbank,"Agriculture, Forestry and Fishing",2,3,2,2024,2020,1.0986122886681096,-1,0,FALSE,FALSE,FALSE,TRUE,Included
+2022,Southbank,"Agriculture, Forestry and Fishing",2,3,2,2024,2020,1.0986122886681098,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2022,Southbank,Arts and Recreation Services,35,38,32,2024,2020,3.58351893845611,-3,-3,FALSE,FALSE,FALSE,TRUE,Included
 2022,Southbank,Construction,22,29,21,2024,2020,3.1354942159291497,-7,-1,FALSE,FALSE,FALSE,TRUE,Included
 2022,Southbank,Education and Training,14,14,13,2024,2020,2.70805020110221,0,-1,FALSE,FALSE,FALSE,TRUE,Included
@@ -2679,9 +2679,9 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2022,Southbank,"Transport, Postal and Warehousing",8,9,8,2024,2020,2.1972245773362196,-1,0,FALSE,FALSE,FALSE,TRUE,Included
 2022,Southbank,Wholesale Trade,12,15,11,2024,2020,2.5649493574615367,-3,-1,FALSE,FALSE,FALSE,TRUE,Included
 2022,West Melbourne (Industrial),Accommodation and Food Services,3,4,4,2024,2020,1.3862943611198906,-1,1,FALSE,FALSE,FALSE,TRUE,Included
-2022,West Melbourne (Industrial),Administrative and Support Services,2,1,1,2024,2020,1.0986122886681096,1,-1,FALSE,FALSE,FALSE,TRUE,Included
+2022,West Melbourne (Industrial),Administrative and Support Services,2,1,1,2024,2020,1.0986122886681098,1,-1,FALSE,FALSE,FALSE,TRUE,Included
 2022,West Melbourne (Industrial),"Agriculture, Forestry and Fishing",NA,NA,NA,2024,2020,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
-2022,West Melbourne (Industrial),Arts and Recreation Services,2,2,2,2024,2020,1.0986122886681096,0,0,FALSE,FALSE,FALSE,TRUE,Included
+2022,West Melbourne (Industrial),Arts and Recreation Services,2,2,2,2024,2020,1.0986122886681098,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2022,West Melbourne (Industrial),Construction,8,6,7,2024,2020,2.1972245773362196,2,-1,FALSE,FALSE,FALSE,TRUE,Included
 2022,West Melbourne (Industrial),Education and Training,NA,NA,NA,2024,2020,NA,NA,NA,TRUE,TRUE,TRUE,FALSE,No published origin-year cell
 2022,West Melbourne (Industrial),"Electricity, Gas, Water and Waste Services",3,3,4,2024,2020,1.3862943611198906,0,1,FALSE,FALSE,FALSE,TRUE,Included
@@ -2693,7 +2693,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2022,West Melbourne (Industrial),Other Services,5,5,6,2024,2020,1.791759469228055,0,1,FALSE,FALSE,FALSE,TRUE,Included
 2022,West Melbourne (Industrial),"Professional, Scientific and Technical Services",4,6,3,2024,2020,1.6094379124341003,-2,-1,FALSE,FALSE,FALSE,TRUE,Included
 2022,West Melbourne (Industrial),Public Administration and Safety,1,1,1,2024,2020,0.6931471805599453,0,0,FALSE,FALSE,FALSE,TRUE,Included
-2022,West Melbourne (Industrial),"Rental, Hiring and Real Estate Services",2,2,2,2024,2020,1.0986122886681096,0,0,FALSE,FALSE,FALSE,TRUE,Included
+2022,West Melbourne (Industrial),"Rental, Hiring and Real Estate Services",2,2,2,2024,2020,1.0986122886681098,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2022,West Melbourne (Industrial),Retail Trade,7,3,6,2024,2020,2.0794415416798357,4,-1,FALSE,FALSE,FALSE,TRUE,Included
 2022,West Melbourne (Industrial),"Transport, Postal and Warehousing",27,33,25,2024,2020,3.332204510175204,-6,-2,FALSE,FALSE,FALSE,TRUE,Included
 2022,West Melbourne (Industrial),Wholesale Trade,30,28,28,2024,2020,3.4339872044851463,2,-2,FALSE,FALSE,FALSE,TRUE,Included
@@ -2710,7 +2710,7 @@ origin_year,precinct,industry,current_count,previous_count,future_count,target_y
 2022,West Melbourne (Residential),Manufacturing,11,9,12,2024,2020,2.4849066497880004,2,1,FALSE,FALSE,FALSE,TRUE,Included
 2022,West Melbourne (Residential),Mining,1,NA,1,2024,2020,0.6931471805599453,NA,0,FALSE,TRUE,FALSE,FALSE,No published exact two-year lag
 2022,West Melbourne (Residential),Other Services,30,37,45,2024,2020,3.4339872044851463,-7,15,FALSE,FALSE,FALSE,TRUE,Included
-2022,West Melbourne (Residential),"Professional, Scientific and Technical Services",73,83,80,2024,2020,4.304065093204169,-10,7,FALSE,FALSE,FALSE,TRUE,Included
+2022,West Melbourne (Residential),"Professional, Scientific and Technical Services",73,83,80,2024,2020,4.30406509320417,-10,7,FALSE,FALSE,FALSE,TRUE,Included
 2022,West Melbourne (Residential),Public Administration and Safety,4,4,4,2024,2020,1.6094379124341003,0,0,FALSE,FALSE,FALSE,TRUE,Included
 2022,West Melbourne (Residential),"Rental, Hiring and Real Estate Services",5,6,8,2024,2020,1.791759469228055,-1,3,FALSE,FALSE,FALSE,TRUE,Included
 2022,West Melbourne (Residential),Retail Trade,31,33,39,2024,2020,3.4657359027997265,-2,8,FALSE,FALSE,FALSE,TRUE,Included

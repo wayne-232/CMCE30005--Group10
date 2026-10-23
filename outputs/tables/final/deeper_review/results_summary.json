@@ -1,0 +1,262 @@
+{
+  "source_file": "business-establishments-and-jobs-data-by-business-size-and-anzsic.csv",
+  "source_md5": "092490f73fa22c83c82d95d1ccd7e010",
+  "scope": "Small and Medium establishments, 1-199 jobs",
+  "selected_case_shortfall_2019": 876,
+  "selected_case_recent_change": -114,
+  "recent_cases_below_peers": 3,
+  "recent_comparisons": [
+    {
+      "label": "CBD professional services",
+      "n_start": 1383,
+      "n_end": 1338,
+      "local_growth_pct": -3.25379609544468,
+      "peer_growth_pct": 2.8023598820059,
+      "growth_gap_pp": -6.05615597745058,
+      "benchmark_end": 1421.75663716814,
+      "observed_minus_benchmark": -83.7566371681417,
+      "matched_peer_growth_pct": 2.8023598820059
+    },
+    {
+      "label": "CBD finance and insurance",
+      "n_start": 554,
+      "n_end": 534,
+      "local_growth_pct": -3.61010830324909,
+      "peer_growth_pct": -10.2941176470588,
+      "growth_gap_pp": 6.68400934380973,
+      "benchmark_end": 496.970588235294,
+      "observed_minus_benchmark": 37.0294117647059,
+      "matched_peer_growth_pct": -10.2941176470588
+    },
+    {
+      "label": "CBD administrative services",
+      "n_start": 243,
+      "n_end": 219,
+      "local_growth_pct": -9.87654320987654,
+      "peer_growth_pct": -13.3333333333333,
+      "growth_gap_pp": 3.45679012345679,
+      "benchmark_end": 210.6,
+      "observed_minus_benchmark": 8.40000000000001,
+      "matched_peer_growth_pct": -13.3333333333333
+    },
+    {
+      "label": "CBD construction",
+      "n_start": 111,
+      "n_end": 96,
+      "local_growth_pct": -13.5135135135135,
+      "peer_growth_pct": 13.8888888888889,
+      "growth_gap_pp": -27.4024024024024,
+      "benchmark_end": 126.416666666667,
+      "observed_minus_benchmark": -30.4166666666667,
+      "matched_peer_growth_pct": 13.3333333333333
+    },
+    {
+      "label": "Southbank hospitality",
+      "n_start": 212,
+      "n_end": 202,
+      "local_growth_pct": -4.71698113207547,
+      "peer_growth_pct": 8.98515844364221,
+      "growth_gap_pp": -13.7021395757177,
+      "benchmark_end": 231.048535900521,
+      "observed_minus_benchmark": -29.0485359005215,
+      "matched_peer_growth_pct": 8.98515844364221
+    }
+  ],
+  "threshold_stability": [
+    {
+      "baseline_year": 2018,
+      "threshold_pct": 0,
+      "selected_scale_cases": 4,
+      "original_scale_cases_retained": 3,
+      "same_scale_set_as_2019_two_percent": false
+    },
+    {
+      "baseline_year": 2018,
+      "threshold_pct": 1,
+      "selected_scale_cases": 4,
+      "original_scale_cases_retained": 3,
+      "same_scale_set_as_2019_two_percent": false
+    },
+    {
+      "baseline_year": 2018,
+      "threshold_pct": 2,
+      "selected_scale_cases": 4,
+      "original_scale_cases_retained": 3,
+      "same_scale_set_as_2019_two_percent": false
+    },
+    {
+      "baseline_year": 2018,
+      "threshold_pct": 3,
+      "selected_scale_cases": 4,
+      "original_scale_cases_retained": 3,
+      "same_scale_set_as_2019_two_percent": false
+    },
+    {
+      "baseline_year": 2018,
+      "threshold_pct": 5,
+      "selected_scale_cases": 4,
+      "original_scale_cases_retained": 2,
+      "same_scale_set_as_2019_two_percent": false
+    },
+    {
+      "baseline_year": 2019,
+      "threshold_pct": 0,
+      "selected_scale_cases": 4,
+      "original_scale_cases_retained": 3,
+      "same_scale_set_as_2019_two_percent": false
+    },
+    {
+      "baseline_year": 2019,
+      "threshold_pct": 1,
+      "selected_scale_cases": 4,
+      "original_scale_cases_retained": 4,
+      "same_scale_set_as_2019_two_percent": true
+    },
+    {
+      "baseline_year": 2019,
+      "threshold_pct": 2,
+      "selected_scale_cases": 4,
+      "original_scale_cases_retained": 4,
+      "same_scale_set_as_2019_two_percent": true
+    },
+    {
+      "baseline_year": 2019,
+      "threshold_pct": 3,
+      "selected_scale_cases": 4,
+      "original_scale_cases_retained": 4,
+      "same_scale_set_as_2019_two_percent": true
+    },
+    {
+      "baseline_year": 2019,
+      "threshold_pct": 5,
+      "selected_scale_cases": 4,
+      "original_scale_cases_retained": 2,
+      "same_scale_set_as_2019_two_percent": false
+    }
+  ],
+  "baseline_case_selection": [
+    {
+      "baseline_year": 2018,
+      "case_role": "Scale",
+      "case_rank": 1,
+      "precinct": "Melbourne (CBD)",
+      "industry": "Professional, Scientific and Technical Services"
+    },
+    {
+      "baseline_year": 2018,
+      "case_role": "Scale",
+      "case_rank": 2,
+      "precinct": "Melbourne (CBD)",
+      "industry": "Financial and Insurance Services"
+    },
+    {
+      "baseline_year": 2018,
+      "case_role": "Scale",
+      "case_rank": 3,
+      "precinct": "Melbourne (CBD)",
+      "industry": "Administrative and Support Services"
+    },
+    {
+      "baseline_year": 2018,
+      "case_role": "Scale",
+      "case_rank": 4,
+      "precinct": "North Melbourne",
+      "industry": "Professional, Scientific and Technical Services"
+    },
+    {
+      "baseline_year": 2018,
+      "case_role": "Contrast",
+      "case_rank": 5,
+      "precinct": "Docklands",
+      "industry": "Accommodation and Food Services"
+    },
+    {
+      "baseline_year": 2019,
+      "case_role": "Scale",
+      "case_rank": 1,
+      "precinct": "Melbourne (CBD)",
+      "industry": "Professional, Scientific and Technical Services"
+    },
+    {
+      "baseline_year": 2019,
+      "case_role": "Scale",
+      "case_rank": 2,
+      "precinct": "Melbourne (CBD)",
+      "industry": "Financial and Insurance Services"
+    },
+    {
+      "baseline_year": 2019,
+      "case_role": "Scale",
+      "case_rank": 3,
+      "precinct": "Melbourne (CBD)",
+      "industry": "Administrative and Support Services"
+    },
+    {
+      "baseline_year": 2019,
+      "case_role": "Scale",
+      "case_rank": 4,
+      "precinct": "Melbourne (CBD)",
+      "industry": "Construction"
+    },
+    {
+      "baseline_year": 2019,
+      "case_role": "Contrast",
+      "case_rank": 5,
+      "precinct": "Southbank",
+      "industry": "Accommodation and Food Services"
+    }
+  ],
+  "history_summary": [
+    {
+      "case_rank": 1,
+      "label": "CBD professional services",
+      "precinct": "Melbourne (CBD)",
+      "industry": "Professional, Scientific and Technical Services",
+      "pre_windows": 8,
+      "pre_windows_below_peers": 3,
+      "minimum_gap_pp": -8.13509310420786,
+      "maximum_gap_pp": 7.63787674313989
+    },
+    {
+      "case_rank": 2,
+      "label": "CBD finance and insurance",
+      "precinct": "Melbourne (CBD)",
+      "industry": "Financial and Insurance Services",
+      "pre_windows": 8,
+      "pre_windows_below_peers": 4,
+      "minimum_gap_pp": -15.3153153153153,
+      "maximum_gap_pp": 15.5531609195402
+    },
+    {
+      "case_rank": 3,
+      "label": "CBD administrative services",
+      "precinct": "Melbourne (CBD)",
+      "industry": "Administrative and Support Services",
+      "pre_windows": 8,
+      "pre_windows_below_peers": 6,
+      "minimum_gap_pp": -16.087962962963,
+      "maximum_gap_pp": 4.68794938165085
+    },
+    {
+      "case_rank": 4,
+      "label": "CBD construction",
+      "precinct": "Melbourne (CBD)",
+      "industry": "Construction",
+      "pre_windows": 8,
+      "pre_windows_below_peers": 4,
+      "minimum_gap_pp": -41.0178025534976,
+      "maximum_gap_pp": 27.8335881196768
+    },
+    {
+      "case_rank": 5,
+      "label": "Southbank hospitality",
+      "precinct": "Southbank",
+      "industry": "Accommodation and Food Services",
+      "pre_windows": 8,
+      "pre_windows_below_peers": 4,
+      "minimum_gap_pp": -3.59162769984414,
+      "maximum_gap_pp": 30.9623353042507
+    }
+  ],
+  "note": "Comparisons are descriptive. The reference is observed industry growth outside the selected precinct, not a causal counterfactual or future forecast."
+}

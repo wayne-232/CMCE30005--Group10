@@ -1,2 +1,2 @@
 model,config_id,validation_mean_fold_mae,validation_mean_fold_rmse,validation_mean_fold_bias,validation_folds,cp,minbucket,depth,trees,shrinkage,complexity_order
-No change,no_change,6.954957590835155,20.039950264747137,3.10592902534706,4,NA,NA,NA,NA,NA,1
+No change,no_change,6.954957590835151,20.03995026474714,3.1059290253470633,4,NA,NA,NA,NA,NA,1

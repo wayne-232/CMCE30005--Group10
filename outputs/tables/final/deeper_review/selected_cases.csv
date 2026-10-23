@@ -1,0 +1,6 @@
+baseline_year,threshold_pct,case_role,case_rank,precinct,industry,n_baseline,n_2022,n_2024,shortfall,recent_change,recent_pct
+2019,2,Scale,1,Melbourne (CBD),"Professional, Scientific and Technical Services",1788,1383,1338,450,-45,-3.253796095444683
+2019,2,Scale,2,Melbourne (CBD),Financial and Insurance Services,719,554,534,185,-20,-3.6101083032490933
+2019,2,Scale,3,Melbourne (CBD),Administrative and Support Services,381,243,219,162,-24,-9.876543209876543
+2019,2,Scale,4,Melbourne (CBD),Construction,141,111,96,45,-15,-13.513513513513509
+2019,2,Contrast,5,Southbank,Accommodation and Food Services,236,212,202,34,-10,-4.716981132075471

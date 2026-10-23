@@ -76,8 +76,13 @@ pre { overflow-x: auto; }
 
 # 1. The question and the answer
 
-**Research question:** Which precinct–industry groups show the greatest evidence
-of persistent SME weakness, and where should the City prioritise further support?
+**Research question:** Which precinct–industry groups in Melbourne show persistent
+SME establishment shortfalls, and how can their historical and recent recovery
+patterns inform priorities for further investigation and potential support?
+
+The [peer comparison supplement](03_peer_comparison_review.html) extends these
+results with same-industry comparisons outside each case's precinct, historical
+context, and sensitivity to the screening cutoff and baseline year.
 
 The Lord Mayor needs evidence to focus attention across a city with uneven
 business recovery. A rising city total can hide industries that continue to
@@ -101,7 +106,7 @@ Three findings matter:
   breakdowns of the same city total and should not be added together.
 - **Five groups make the remaining weakness concrete.** CBD professional
   services, finance, administrative support and construction have the largest
-  2019 shortfalls among groups still falling after 2022. Southbank hospitality
+  2019 shortfalls among groups that fell by at least 2% after 2022. Southbank hospitality
   shows that the hospitality recovery has not reached every precinct. Together,
   the five account for `r num(m$case_shortfall)` fewer establishments than in
   2019 and a further loss of `r num(m$case_recent_loss)` after 2022.

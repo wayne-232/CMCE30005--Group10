@@ -1,0 +1,11 @@
+case_rank,label,precinct,industry,baseline_year,n_baseline,n_2022,n_2024,shortfall,recent_change,recent_pct,persistent_decline,baseline_change_pct
+1,CBD professional services,Melbourne (CBD),"Professional, Scientific and Technical Services",2018,1822,1383,1338,484,-45,-3.253796095444683,TRUE,-26.564215148188808
+2,CBD finance and insurance,Melbourne (CBD),Financial and Insurance Services,2018,720,554,534,186,-20,-3.6101083032490933,TRUE,-25.83333333333333
+3,CBD administrative services,Melbourne (CBD),Administrative and Support Services,2018,391,243,219,172,-24,-9.876543209876543,TRUE,-43.98976982097187
+4,CBD construction,Melbourne (CBD),Construction,2018,126,111,96,30,-15,-13.513513513513509,TRUE,-23.809523809523814
+5,Southbank hospitality,Southbank,Accommodation and Food Services,2018,206,212,202,4,-10,-4.716981132075471,TRUE,-1.9417475728155331
+1,CBD professional services,Melbourne (CBD),"Professional, Scientific and Technical Services",2019,1788,1383,1338,450,-45,-3.253796095444683,TRUE,-25.16778523489933
+2,CBD finance and insurance,Melbourne (CBD),Financial and Insurance Services,2019,719,554,534,185,-20,-3.6101083032490933,TRUE,-25.73018080667594
+3,CBD administrative services,Melbourne (CBD),Administrative and Support Services,2019,381,243,219,162,-24,-9.876543209876543,TRUE,-42.51968503937008
+4,CBD construction,Melbourne (CBD),Construction,2019,141,111,96,45,-15,-13.513513513513509,TRUE,-31.914893617021278
+5,Southbank hospitality,Southbank,Accommodation and Food Services,2019,236,212,202,34,-10,-4.716981132075471,TRUE,-14.406779661016945

@@ -75,6 +75,9 @@ pre { overflow-x: auto; }
 This document contains the data checks and descriptive analysis.
 The [final analysis](02_final_analysis.html) adds the deeper industry comparisons,
 model evaluation and decision-support results.
+The [peer comparison supplement](03_peer_comparison_review.html) checks how the
+five cases compare with the same industries elsewhere and how case selection
+changes under alternative assumptions.
 
 **Research question:** How have small and medium-sized business establishment
 patterns evolved across Melbourne precincts and industries from 2002 to 2024?

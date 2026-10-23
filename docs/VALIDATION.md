@@ -1,5 +1,24 @@
 # Validation record
 
+## Final submission package — 23 October 2026
+
+The complete runner passed in the isolated local submission directory. It ran
+56 data checks, 71 final-analysis checks, 65 peer-comparison checks and 98
+visual checks: 290 in total. The model checks include refitting and temporal
+leakage tests. The run also completed the data-insight and pandemic-window
+diagnostics, rendered all three analytical reports to HTML and GitHub Markdown,
+and generated the six figures used by the report.
+
+Both supplied CSV files are byte-for-byte unchanged. Current run status,
+test logs, source checksums, package versions, implementation checksums and
+output checksums are in `outputs/tables/final/validation/`. The dependency
+installer includes `ragg`, and the complete runner now rebuilds and checks
+the final report figures as well as the analytical documents.
+
+This records local validation only. It does not mean the package has been
+pushed to GitHub, added to a shared document or submitted to LMS. Previous
+entries below describe earlier versions and their historical status.
+
 ## Final report update — 21 October 2026 (evening)
 
 `Rscript scripts/run_final_analysis.R` completed with 56 original checks and 71

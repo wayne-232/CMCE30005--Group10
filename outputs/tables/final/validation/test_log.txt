@@ -17,6 +17,9 @@ PASS: 56 checks; both SME definitions; raw files unchanged.
 COMMAND: tests/test_final_analysis.R
 PASS: 71 final-analysis checks; models fitted, temporal leakage tests passed.
 
+COMMAND: tests/test_peer_comparison_review.R
+PASS: 65 peer-comparison checks. Raw input unchanged.
+
 COMMAND: scripts/data_insights.R
 PASS: data insights written to outputs/tables/final/insights 
 
@@ -30,14 +33,20 @@ COMMAND: scripts/model_diagnostic_pandemic.R
 6 Excluding pandemic windows (2018-20, 2020-22)         No change        207
 7 Excluding pandemic windows (2018-20, 2020-22)               OLS        207
 8 Excluding pandemic windows (2018-20, 2020-22)       Pruned tree        207
-       mae       bias predicted_net_change actual_net_change
-1 5.848743 -4.0394920            -355.1748               481
-2 5.125604 -2.3236715               0.0000               481
-3 6.172734 -4.3426523            -417.9290               481
-4 5.766046 -3.2554281            -192.8736               481
-5 5.154378 -0.6684578             342.6292               481
-6 5.125604 -2.3236715               0.0000               481
-7 5.480544 -1.5517019             159.7977               481
-8 5.391685 -0.9000262             294.6946               481
+       mae     rmse       bias predicted_net_change actual_net_change
+1 5.848743 22.21659 -4.0394920            -355.1748               481
+2 5.125604 15.45150 -2.3236715               0.0000               481
+3 6.172734 20.22100 -4.3426523            -417.9290               481
+4 5.766046 20.90922 -3.2554281            -192.8736               481
+5 5.154378 15.64703 -0.6684578             342.6292               481
+6 5.125604 15.45150 -2.3236715               0.0000               481
+7 5.480544 14.70363 -1.5517019             159.7977               481
+8 5.391685 15.30227 -0.9000262             294.6946               481
 PASS: pandemic-window diagnostic written to outputs/tables/final/insights 
+
+COMMAND: scripts/08_visual_review.R
+PASS: six visual-review figures and their source tables exported.
+
+COMMAND: tests/test_visual_review.R
+PASS: 98 visual-review checks.
 

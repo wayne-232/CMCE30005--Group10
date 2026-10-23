@@ -9,7 +9,7 @@ if (dir.exists(".r-library")) {
   # Test scripts run in clean child R sessions using the same local dependencies.
   Sys.setenv(R_LIBS_USER = paste(c(local_library, Sys.getenv("R_LIBS_USER")), collapse = .Platform$path.sep))
 }
-required <- c("tidyverse", "scales", "knitr", "rmarkdown", "jsonlite", "rpart", "gbm")
+required <- c("tidyverse", "scales", "knitr", "rmarkdown", "jsonlite", "rpart", "gbm", "ragg")
 missing <- required[!vapply(required, requireNamespace, logical(1), quietly = TRUE)]
 if (length(missing)) stop("Run scripts/install_dependencies.R first. Missing: ", paste(missing, collapse = ", "))
 if (!rmarkdown::pandoc_available()) stop("Pandoc is required; RStudio includes it.")
@@ -24,7 +24,8 @@ writeLines(c(paste("Started:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z")),
   "In progress. Completion is recorded only after tests, rendering and checksums succeed."),
   file.path(audit_dir, "run_status.txt"))
 log <- character()
-for (test in c("tests/test_analysis.R", "tests/test_final_analysis.R")) {
+for (test in c("tests/test_analysis.R", "tests/test_final_analysis.R",
+               "tests/test_peer_comparison_review.R")) {
   cat("Running", test, "\n")
   result <- system2(file.path(R.home("bin"), "Rscript"), shQuote(test), stdout = TRUE, stderr = TRUE)
   status <- attr(result, "status")
@@ -33,7 +34,8 @@ for (test in c("tests/test_analysis.R", "tests/test_final_analysis.R")) {
   if (!is.null(status) && status != 0L) stop("Tests failed. See ", audit_dir, "/test_log.txt")
   cat(grep("^PASS:", result, value = TRUE), "\n")
 }
-for (report in c("01_descriptive_analytics", "02_final_analysis")) {
+for (report in c("01_descriptive_analytics", "02_final_analysis",
+                 "03_peer_comparison_review")) {
   for (format in c("html_document", "github_document")) {
     cat("Rendering", report, format, "\n")
     rmarkdown::render(file.path("analysis", paste0(report, ".Rmd")),
@@ -42,7 +44,8 @@ for (report in c("01_descriptive_analytics", "02_final_analysis")) {
 }
 # Final-report figures and tables that sit outside the R Markdown reports.
 # The diagnostic reads the predictive outputs written while rendering above.
-for (script in c("scripts/data_insights.R", "scripts/model_diagnostic_pandemic.R")) {
+for (script in c("scripts/data_insights.R", "scripts/model_diagnostic_pandemic.R",
+                 "scripts/08_visual_review.R", "tests/test_visual_review.R")) {
   cat("Running", script, "\n")
   result <- system2(file.path(R.home("bin"), "Rscript"), shQuote(script), stdout = TRUE, stderr = TRUE)
   status <- attr(result, "status")
@@ -74,4 +77,4 @@ writeLines(c(paste("Completed:", format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z")),
   "Tests passed; HTML and Markdown reports rendered with warnings treated as errors.",
   "Both raw CSV checksums unchanged.", "No Git commit, push or upload performed."),
   file.path(audit_dir, "run_status.txt"))
-cat("Complete. Open analysis/02_final_analysis.html for review. No GitHub upload performed.\n")
+cat("Complete. Open analysis/02_final_analysis.html and analysis/03_peer_comparison_review.html for review. No GitHub upload performed.\n")

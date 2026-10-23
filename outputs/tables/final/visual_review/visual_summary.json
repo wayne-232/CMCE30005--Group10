@@ -1,0 +1,15 @@
+{
+  "source_md5": "092490f73fa22c83c82d95d1ccd7e010",
+  "priority_groups": 64,
+  "highlighted_cases": 5,
+  "heatmap_cells": 247,
+  "heatmap_status": {
+    "Percentage displayed": 91,
+    "Starting count below 20": 117,
+    "Unknown in at least one year": 39
+  },
+  "peer_comparisons_with_unmatched_cells": 6,
+  "coverage_sensitive_comparisons": 1,
+  "max_absolute_matched_peer_gap_difference_pp": 50,
+  "figure_note": "The bubble area represents 2024 count. Peer gap is descriptive, not a causal effect."
+}

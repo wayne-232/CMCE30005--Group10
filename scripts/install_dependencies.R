@@ -4,7 +4,7 @@
 if (!file.exists("scripts/analysis_helpers.R")) stop("Run from the repository root.")
 dir.create(".r-library", showWarnings = FALSE)
 .libPaths(c(normalizePath(".r-library"), .libPaths()))
-packages <- c("tidyverse", "scales", "knitr", "rmarkdown", "jsonlite", "rpart", "gbm")
+packages <- c("tidyverse", "scales", "knitr", "rmarkdown", "jsonlite", "rpart", "gbm", "ragg")
 missing <- packages[!vapply(packages, requireNamespace, logical(1), quietly = TRUE)]
 if (length(missing)) {
   install.packages(missing, lib = ".r-library", repos = "https://cloud.r-project.org")

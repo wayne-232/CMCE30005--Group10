@@ -1,0 +1,100 @@
+{
+  "status": "Prepared locally; not uploaded, pushed or submitted",
+  "pages": 10,
+  "pdf_words_including_tables_references_appendix_and_footers": 2341,
+  "embedded_chart_words": 632,
+  "combined_word_count": 2973,
+  "counting_method": "Conservative mechanical total, NOT the main-body word count or an officially prescribed counting method. Regex includes numbers, references, appendices, repeated chart labels and footers and splits some formatted numbers. Standalone symbols are omitted.",
+  "course_word_limit": "Approximately 2,000 words in total; maximum 3,000. The assignment does not specify exclusions.",
+  "component_counts": {
+    "frontmatter_headings": {
+      "whitespace": 5,
+      "regex": 5
+    },
+    "frontmatter_prose": {
+      "whitespace": 24,
+      "regex": 19
+    },
+    "main_headings": {
+      "whitespace": 91,
+      "regex": 102
+    },
+    "main_prose": {
+      "whitespace": 1597,
+      "regex": 1641
+    },
+    "main_tables": {
+      "whitespace": 126,
+      "regex": 146
+    },
+    "main_captions": {
+      "whitespace": 62,
+      "regex": 62
+    },
+    "references_repository_headings": {
+      "whitespace": 7,
+      "regex": 7
+    },
+    "references_repository_prose": {
+      "whitespace": 123,
+      "regex": 128
+    },
+    "appendices_headings": {
+      "whitespace": 20,
+      "regex": 20
+    },
+    "appendices_captions": {
+      "whitespace": 42,
+      "regex": 42
+    },
+    "appendices_tables": {
+      "whitespace": 89,
+      "regex": 95
+    },
+    "ai_declaration_headings": {
+      "whitespace": 2,
+      "regex": 2
+    },
+    "ai_declaration_prose": {
+      "whitespace": 31,
+      "regex": 31
+    },
+    "main_total": {
+      "whitespace": 1876,
+      "regex": 1951
+    },
+    "references_repository_total": {
+      "whitespace": 130,
+      "regex": 135
+    },
+    "appendices_total": {
+      "whitespace": 151,
+      "regex": 157
+    },
+    "frontmatter_total": {
+      "whitespace": 29,
+      "regex": 24
+    },
+    "ai_declaration_total": {
+      "whitespace": 33,
+      "regex": 33
+    },
+    "all_document_text": {
+      "whitespace": 2219,
+      "regex": 2300
+    }
+  },
+  "images": 6,
+  "tables": 4,
+  "all_ten_pages_visually_checked": true,
+  "cjk_characters": 0,
+  "readme_local_links_checked": 14,
+  "tests_passed": 290,
+  "source_citation_verified": "City of Melbourne, Economic Development Strategy2031, 30June2021, pp12\u201314and18\u201321",
+  "docx_sha256": "52b91498ed68dec29e9492955c4f67971c354dbc274a98845166b5f6146c1981",
+  "pdf_sha256": "376bac4f77a426a4966b96ab64e4f02fda1ef1c92ede51e2c29e83c0caa7ca40",
+  "ai_declaration": "Included at the end of the report; detailed record retained in docs/AI_ASSISTANCE.md. No separate attachment is needed.",
+  "active_github_hyperlink_pages": [
+    7
+  ]
+}
